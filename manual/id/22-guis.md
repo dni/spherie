@@ -20,11 +20,11 @@ Obsidian gratis untuk semua tujuan, termasuk penggunaan pribadi, komersial, dan 
 
 Obsidian juga menawarkan [add-on komersial untuk sinkronisasi](https://obsidian.md/sync) dengan aplikasi seluler di iOS dan Android. (https://obsidian.md/pricing).
 
-Anda memulai Obsidian dengan `Super + Shift + O`. Untuk menggunakan sinkronisasi tema, Anda harus memilih tema `Omarchy` di bawah pengaturan.
+Anda memulai Obsidian dengan `Super + Shift + O`. Untuk menggunakan sinkronisasi tema, Anda harus memilih tema `Spherie` di bawah pengaturan.
 
 ## Omawrite
 
-[Omawrite](https://github.com/omacom-io/omawrite) adalah aplikasi menulis Markdown Omarchy sendiri yang sangat sederhana. Tidak ada vault, tidak ada plugin, hanya Anda dan kata-kata.
+[Omawrite](https://github.com/omacom-io/omawrite) adalah aplikasi menulis Markdown Spherie sendiri yang sangat sederhana. Tidak ada vault, tidak ada plugin, hanya Anda dan kata-kata.
 
 Anda memulai Omawrite dengan `Super + Shift + W`.
 
@@ -44,7 +44,7 @@ Anda memulai Aether melalui peluncur aplikasi (`Super + Space`).
 
 [LocalSend](https://localsend.org/) memungkinkan Anda mengirim file ke perangkat lain di jaringan yang sama yang menjalankan aplikasi ini, seperti AirDrop dari Apple. Namun ini lintas platform, jadi Anda dapat mengirim file ke dan dari Windows, macOS, Android, iOS, dan tentu saja Linux.
 
-Anda dapat membuka menu Share pada `Super + Ctrl + S` atau di bawah _Trigger > Share_ di menu Omarchy. Ini memberi Anda empat opsi:
+Anda dapat membuka menu Share pada `Super + Ctrl + S` atau di bawah _Trigger > Share_ di menu Spherie. Ini memberi Anda empat opsi:
 
 - **Clipboard** mengirim apa pun yang telah Anda salin sebagai file teks. Bagus untuk mengirim tautan atau cuplikan ke ponsel Anda tanpa harus mengirim email ke diri sendiri.
 - **File** membuka pemilih file tempat Anda dapat memilih beberapa sekaligus.
@@ -55,7 +55,7 @@ Hal yang sama bekerja dari terminal dengan `omarchy share clipboard`, `omarchy s
 
 Anda juga dapat mengirim langsung dari pengelola file: klik kanan pilihan apa pun di Nautilus dan pilih _Send via LocalSend_.
 
-Firewall Omarchy tertutup secara default kecuali untuk port LocalSend, jadi ini bekerja langsung pada instalasi baru. Lihat [keamanan](48-security.md).
+Firewall Spherie tertutup secara default kecuali untuk port LocalSend, jadi ini bekerja langsung pada instalasi baru. Lihat [keamanan](48-security.md).
 
 ## LibreOffice
 
@@ -65,19 +65,19 @@ Anda memulai LibreOffice melalui peluncur aplikasi (`Super + Space`).
 
 ## Hype
 
-[Hype](https://github.com/omacom/hype) adalah aplikasi presentasi Omarchy sendiri yang sangat sederhana. Deck Anda adalah satu file Markdown dengan gambar dan videonya di sampingnya: tulis setiap slide di bawah pratinjau langsung, seret slide untuk mengurutkannya, lalu presentasikan dalam layar penuh atau ekspor ke PDF dan PowerPoint. Ia bahkan mengikuti tema Omarchy Anda.
+[Hype](https://github.com/omacom/hype) adalah aplikasi presentasi Spherie sendiri yang sangat sederhana. Deck Anda adalah satu file Markdown dengan gambar dan videonya di sampingnya: tulis setiap slide di bawah pratinjau langsung, seret slide untuk mengurutkannya, lalu presentasikan dalam layar penuh atau ekspor ke PDF dan PowerPoint. Ia bahkan mengikuti tema Spherie Anda.
 
 Anda memulai Hype melalui peluncur aplikasi (`Super + Space`). Tekan `?` di dalamnya untuk melihat setiap pintasan.
 
 ## Signed
 
-[Signed](https://github.com/omacom/signed) adalah cara Omarchy sendiri yang sangat sederhana untuk menandatangani PDF dan mengisinya. Letakkan tanda tangan tersimpan Anda, teks, dan tanggal hari ini di mana saja pada sebuah halaman, lalu simpan salinan yang telah ditandatangani di samping aslinya. Lihat [Mengisi PDF](27-filling-out-pdfs.md) untuk caranya.
+[Signed](https://github.com/omacom/signed) adalah cara Spherie sendiri yang sangat sederhana untuk menandatangani PDF dan mengisinya. Letakkan tanda tangan tersimpan Anda, teks, dan tanggal hari ini di mana saja pada sebuah halaman, lalu simpan salinan yang telah ditandatangani di samping aslinya. Lihat [Mengisi PDF](27-filling-out-pdfs.md) untuk caranya.
 
 Anda memulai Signed melalui peluncur aplikasi (`Super + Space`), atau membuka PDF dengannya dari pengelola file.
 
 ## Omacalc
 
-[Omacalc](https://github.com/omacom-io/omacalc) adalah kalkulator Omarchy sendiri yang sangat sederhana, yang terbuka dalam jendela melayang.
+[Omacalc](https://github.com/omacom-io/omacalc) adalah kalkulator Spherie sendiri yang sangat sederhana, yang terbuka dalam jendela melayang.
 
 Anda memulai Omacalc dengan `Super + Shift + Q` (atau tombol kalkulator, jika keyboard Anda memilikinya).
 
@@ -85,11 +85,11 @@ Anda memulai Omacalc dengan `Super + Shift + Q` (atau tombol kalkulator, jika ke
 
 [Signal](https://signal.org/) adalah pelopor perpesanan terenkripsi E2E, dan opsi komunikasi yang bagus bagi siapa pun yang lebih memilih untuk tidak melalui salah satu konglomerat teknologi besar.
 
-Anda memulai Signal dengan `Super + Shift + G`. Ini bukan bagian dari instalasi dasar, jadi pertama kali Anda menekannya, Omarchy akan menawarkan untuk menginstalnya untuk Anda (ini juga tersedia di bawah _Install > Service_ di menu Omarchy).
+Anda memulai Signal dengan `Super + Shift + G`. Ini bukan bagian dari instalasi dasar, jadi pertama kali Anda menekannya, Spherie akan menawarkan untuk menginstalnya untuk Anda (ini juga tersedia di bawah _Install > Service_ di menu Spherie).
 
 ## Omaview
 
-[Omaview](https://github.com/omacom/omaview) adalah penampil gambar dan pemutar media Omarchy sendiri yang sangat sederhana: satu jendela untuk foto, video, dan musik Anda. Buka sebuah foto dan tombol panah melangkah melalui sisa foldernya, `N` dan `P` melakukannya untuk apa pun, dan `Ctrl + M` menampilkan seluruh folder sebagai grid. Ini juga menampilkan foto HEIC, AVIF, dan JPEG XL, dan melanjutkan dari tempat Anda berhenti pada apa pun yang panjang.
+[Omaview](https://github.com/omacom/omaview) adalah penampil gambar dan pemutar media Spherie sendiri yang sangat sederhana: satu jendela untuk foto, video, dan musik Anda. Buka sebuah foto dan tombol panah melangkah melalui sisa foldernya, `N` dan `P` melakukannya untuk apa pun, dan `Ctrl + M` menampilkan seluruh folder sebagai grid. Ini juga menampilkan foto HEIC, AVIF, dan JPEG XL, dan melanjutkan dari tempat Anda berhenti pada apa pun yang panjang.
 
 Tekan `F` untuk layar penuh, `E` untuk mengedit gambar di Omasnap atau memotong video di Omacut, `Ctrl + P` untuk mencetak gambar, dan `Delete` untuk memindahkan file ke Trash (`Ctrl + Z` mengembalikannya). Tekan `?` di dalamnya untuk melihat setiap pintasan.
 
@@ -97,13 +97,13 @@ Anda memulai Omaview sebagai _Media Viewer_ melalui peluncur aplikasi (`Super + 
 
 ## Omacut
 
-[Omacut](https://github.com/omacom-io/omacut) adalah pemotong video Omarchy sendiri yang sangat sederhana. Ketika yang Anda butuhkan hanyalah memotong bagian awal dan akhir sebuah klip, ini lebih baik daripada repot-repot membuka editor video lengkap.
+[Omacut](https://github.com/omacom-io/omacut) adalah pemotong video Spherie sendiri yang sangat sederhana. Ketika yang Anda butuhkan hanyalah memotong bagian awal dan akhir sebuah klip, ini lebih baik daripada repot-repot membuka editor video lengkap.
 
 Anda memulai Omacut melalui peluncur aplikasi (`Super + Space`).
 
 ## Monologue
 
-[Monologue](https://github.com/omacom/monologue) adalah perekam webcam Omarchy sendiri yang sangat sederhana. Pilih kamera dan mikrofon Anda sekali, lalu tekan `Space` untuk merekam, dan lagi untuk menjeda dan melanjutkan pengambilan yang sama. Ini selalu merekam pada resolusi tertinggi kamera Anda, dengan meteran mikrofon langsung agar Anda dapat memeriksa level Anda sebelum memulai.
+[Monologue](https://github.com/omacom/monologue) adalah perekam webcam Spherie sendiri yang sangat sederhana. Pilih kamera dan mikrofon Anda sekali, lalu tekan `Space` untuk merekam, dan lagi untuk menjeda dan melanjutkan pengambilan yang sama. Ini selalu merekam pada resolusi tertinggi kamera Anda, dengan meteran mikrofon langsung agar Anda dapat memeriksa level Anda sebelum memulai.
 
 Hentikan pengambilan dan itu akan langsung terbuka di editor bawaan. Klik ganda sebuah klip untuk membaginya, seret handle untuk memotong setiap bagian, dan hapus bagian yang tidak Anda inginkan. Lalu simpan sebagai MP4. Rekaman asli Anda disimpan sampai Anda membuangnya, jadi Anda selalu dapat kembali dan memotongnya dengan cara yang berbeda.
 

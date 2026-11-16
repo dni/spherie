@@ -1,8 +1,8 @@
 # Instalasi Tanpa Pengawasan
 
-ISO Omarchy dapat menginstal dirinya sendiri tanpa ada siapa pun di depan keyboard. Jika installer menemukan drive kedua berlabel `cidata` yang membawa berkas-berkas konfigurasinya, ia menyalin berkas-berkas itu, melewati wizard penyiapan sepenuhnya, dan me-reboot ke sistem yang sudah jadi dengan sendirinya. Tidak perlu build ISO khusus, tidak ada entri menu boot tambahan — tanpa drive semacam itu terpasang, tidak ada yang berubah dan Anda mendapatkan wizard normal.
+ISO Spherie dapat menginstal dirinya sendiri tanpa ada siapa pun di depan keyboard. Jika installer menemukan drive kedua berlabel `cidata` yang membawa berkas-berkas konfigurasinya, ia menyalin berkas-berkas itu, melewati wizard penyiapan sepenuhnya, dan me-reboot ke sistem yang sudah jadi dengan sendirinya. Tidak perlu build ISO khusus, tidak ada entri menu boot tambahan — tanpa drive semacam itu terpasang, tidak ada yang berubah dan Anda mendapatkan wizard normal.
 
-Ini membuat Omarchy bagus sebagai image dasar untuk lingkungan dev sekali pakai: buat VM di Proxmox atau dengan Packer, boot, tinggalkan, lalu masuk lewat SSH. `cidata` adalah label cloud-init `NoCloud`, jadi semua perangkat virtualisasi yang umum sudah tahu cara memasang drive semacam itu.
+Ini membuat Spherie bagus sebagai image dasar untuk lingkungan dev sekali pakai: buat VM di Proxmox atau dengan Packer, boot, tinggalkan, lalu masuk lewat SSH. `cidata` adalah label cloud-init `NoCloud`, jadi semua perangkat virtualisasi yang umum sudah tahu cara memasang drive semacam itu.
 
 ## Berkas-berkas konfigurasi
 
@@ -24,7 +24,7 @@ Anda juga dapat menaruh berkas kosong bernama `defer-provisioning` sebagai pengg
 
 ## Akses SSH
 
-Ketika `authorized_keys` ada, instalasi menetapkan kunci-kunci tersebut sebagai `~/.ssh/authorized_keys` milik pengguna, mengaktifkan `sshd`, dan membuka firewall untuknya. (Instalasi Omarchy standar disertai openssh dengan layanan dinonaktifkan dan port tertutup, jadi mesin tanpa pengawasan sebaliknya tidak akan dapat dijangkau.) Instalasi hanya menambahkan kunci Anda — ia tidak melonggarkan pengaturan autentikasi lain apa pun dari daemon SSH.
+Ketika `authorized_keys` ada, instalasi menetapkan kunci-kunci tersebut sebagai `~/.ssh/authorized_keys` milik pengguna, mengaktifkan `sshd`, dan membuka firewall untuknya. (Instalasi Spherie standar disertai openssh dengan layanan dinonaktifkan dan port tertutup, jadi mesin tanpa pengawasan sebaliknya tidak akan dapat dijangkau.) Instalasi hanya menambahkan kunci Anda — ia tidak melonggarkan pengaturan autentikasi lain apa pun dari daemon SSH.
 
 Ketika `tailscale_authkey` ada, mesin justru bergabung ke tailnet Anda saat boot pertama: Tailscale diinstal dari paket-paket bawaan ISO, firewall mengizinkan antarmuka tailnet, dan sebuah job latar belakang menjalankan proses bergabung segera setelah mesin benar-benar memiliki jaringan, mencobanya lagi hingga berhasil. Gunakan kunci yang dapat digunakan kembali dan telah diotorisasi sebelumnya agar satu image drive dapat melayani banyak mesin.
 
@@ -38,7 +38,7 @@ cp user_configuration.json user_credentials.json authorized_keys cidata/
 genisoimage -output cidata.iso -volid cidata -joliet -rock cidata/
 ```
 
-Lalu pasang ISO itu ke VM di samping ISO Omarchy. Berikut contoh lengkap Proxmox:
+Lalu pasang ISO itu ke VM di samping ISO Spherie. Berikut contoh lengkap Proxmox:
 
 ```bash
 qm create 101 --name my-omarchy \

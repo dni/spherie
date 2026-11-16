@@ -1,8 +1,8 @@
 # Installations sans surveillance
 
-L'ISO d'Omarchy peut s'installer toute seule, sans personne au clavier. Si le programme d'installation trouve un second lecteur étiqueté `cidata` contenant ses fichiers de configuration, il les copie, saute entièrement l'assistant de configuration et redémarre de lui-même dans le système terminé. Aucune ISO spéciale à construire, aucune entrée supplémentaire dans le menu de démarrage — sans un tel lecteur connecté, rien ne change et vous obtenez l'assistant normal.
+L'ISO d'Spherie peut s'installer toute seule, sans personne au clavier. Si le programme d'installation trouve un second lecteur étiqueté `cidata` contenant ses fichiers de configuration, il les copie, saute entièrement l'assistant de configuration et redémarre de lui-même dans le système terminé. Aucune ISO spéciale à construire, aucune entrée supplémentaire dans le menu de démarrage — sans un tel lecteur connecté, rien ne change et vous obtenez l'assistant normal.
 
-Cela fait d'Omarchy une excellente image de base pour les environnements de développement jetables : créez une VM dans Proxmox ou avec Packer, démarrez-la, partez, connectez-vous en SSH. `cidata` est l'étiquette `NoCloud` de cloud-init, donc tous les outils de virtualisation courants savent déjà comment connecter un tel lecteur.
+Cela fait d'Spherie une excellente image de base pour les environnements de développement jetables : créez une VM dans Proxmox ou avec Packer, démarrez-la, partez, connectez-vous en SSH. `cidata` est l'étiquette `NoCloud` de cloud-init, donc tous les outils de virtualisation courants savent déjà comment connecter un tel lecteur.
 
 ## Les fichiers de configuration
 
@@ -24,7 +24,7 @@ Vous pouvez aussi déposer un fichier vide nommé `defer-provisioning` à la pla
 
 ## Accès SSH
 
-Lorsque `authorized_keys` est présent, l'installation configure les clés comme `~/.ssh/authorized_keys` de l'utilisateur, active `sshd` et ouvre le pare-feu pour lui. (Une installation Omarchy standard est livrée avec openssh, le service désactivé et le port fermé, donc une machine sans surveillance serait sinon inaccessible.) L'installation ajoute uniquement vos clés — elle n'assouplit aucun des autres paramètres d'authentification du démon SSH.
+Lorsque `authorized_keys` est présent, l'installation configure les clés comme `~/.ssh/authorized_keys` de l'utilisateur, active `sshd` et ouvre le pare-feu pour lui. (Une installation Spherie standard est livrée avec openssh, le service désactivé et le port fermé, donc une machine sans surveillance serait sinon inaccessible.) L'installation ajoute uniquement vos clés — elle n'assouplit aucun des autres paramètres d'authentification du démon SSH.
 
 Lorsque `tailscale_authkey` est présent, la machine rejoint plutôt votre tailnet au premier démarrage : Tailscale est installé à partir des paquets fournis avec l'ISO, le pare-feu autorise l'interface du tailnet, et une tâche en arrière-plan effectue la jonction dès que la machine dispose réellement du réseau, en réessayant jusqu'à ce qu'elle réussisse. Utilisez une clé réutilisable et pré-autorisée pour qu'une seule image de lecteur puisse servir à de nombreuses machines.
 
@@ -38,7 +38,7 @@ cp user_configuration.json user_credentials.json authorized_keys cidata/
 genisoimage -output cidata.iso -volid cidata -joliet -rock cidata/
 ```
 
-Connectez-la ensuite à la VM à côté de l'ISO d'Omarchy. Voici un exemple Proxmox complet :
+Connectez-la ensuite à la VM à côté de l'ISO d'Spherie. Voici un exemple Proxmox complet :
 
 ```bash
 qm create 101 --name my-omarchy \

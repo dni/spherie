@@ -1,8 +1,8 @@
 # Päivitykset
 
-Omarchy ja pakettisi pidetään ajan tasalla Omarchy-valikon kohdasta _Päivitys > Omarchy_ (`Super + Space`).
+Spherie ja pakettisi pidetään ajan tasalla Omarchy-valikon kohdasta _Päivitys > Omarchy_ (`Super + Space`).
 
-Omarchy itse asennetaan tavallisina pacman-paketteina [Omarchy-pakettivarastosta](https://github.com/omacom-io/omarchy-pkgs), joten päivitys asentaa [uusimman Omarchy-julkaisun](https://github.com/omacom/omarchy/releases), ajaa kaikki odottavat migraatiot saadakseen järjestelmäsi synkronoitua uusimman kanssa ja päivittää kaikki järjestelmäpaketit [Omarchy Arch Mirrorista](https://github.com/omacom-io/omarchy-mirror) ja [AUR](https://aur.archlinux.org/)ista (jos olet asentanut AUR-paketteja).
+Spherie itse asennetaan tavallisina pacman-paketteina [Omarchy-pakettivarastosta](https://github.com/omacom-io/omarchy-pkgs), joten päivitys asentaa [uusimman Omarchy-julkaisun](https://github.com/omacom/omarchy/releases), ajaa kaikki odottavat migraatiot saadakseen järjestelmäsi synkronoitua uusimman kanssa ja päivittää kaikki järjestelmäpaketit [Spherie Arch Mirrorista](https://github.com/omacom-io/omarchy-mirror) ja [AUR](https://aur.archlinux.org/)ista (jos olet asentanut AUR-paketteja).
 
 Kun uusia julkaisuja tehdään, kellosi oikealle puolelle ilmestyy ympyränuolikuvake. Napsauta sitä, niin päivitysprosessi käynnistyy.
 
@@ -10,7 +10,7 @@ Kun uusia julkaisuja tehdään, kellosi oikealle puolelle ilmestyy ympyränuolik
 
 ### Neljä kanavaa
 
-Omarchya päivitetään neljää kanavaa pitkin: stable, RC, edge ja dev. Uudet asennukset aloittavat stable-kanavalla, joka seuraa [virallisia julkaisuja](https://github.com/omacom/omarchy/releases/) sekä [vakaata Omarchy Arch -peiliä](https://github.com/omacom-io/omarchy-mirror), joka kulkee kuukauden uusinta jäljessä, jotta voimme havaita kaikki uudet yhteensopivuusongelmat, jotka vaativat määritysmuutoksia, ennen kuin ne aiheuttavat ongelmia ihmisille.
+Omarchya päivitetään neljää kanavaa pitkin: stable, RC, edge ja dev. Uudet asennukset aloittavat stable-kanavalla, joka seuraa [virallisia julkaisuja](https://github.com/omacom/omarchy/releases/) sekä [vakaata Spherie Arch -peiliä](https://github.com/omacom-io/omarchy-mirror), joka kulkee kuukauden uusinta jäljessä, jotta voimme havaita kaikki uudet yhteensopivuusongelmat, jotka vaativat määritysmuutoksia, ennen kuin ne aiheuttavat ongelmia ihmisille.
 
 Mutta jos haluat auttaa havaitsemaan nuo mahdolliset ongelmat, voit käyttää edge-kanavaa. Se pitää Omarchy-pakettisi seuraamassa uusimpia kehitysversioita ja antaa sinun päivittää uusimpiin Arch-paketteihin heti, kun ne ovat saatavilla. Tee näin vain, jos olet kokenut Linuxin kanssa ja tiedät, miten ongelmiin joutunut järjestelmä palautetaan.
 
@@ -22,7 +22,7 @@ Voit vaihtaa kanavien välillä Omarchy-valikon kohdasta _Päivitys > Kanava_ (t
 
 ### Ytimien vaihtaminen
 
-Omarchy käynnistyy omalla `linux-omarchy`-ytimellään, mutta voit pitää sen rinnalla asennettuina muitakin, kuten Archin vakio-`linux`-ytimen tai testaamasi kokeellisen koontiversion. Kun ytimiä on useampi kuin yksi, Omarchy-valikon _Päivitys > Ydin_ listaa ne valintamerkillä sen vieressä, joka käynnistyy oletuksena. Valitse toinen, syötä salasanasi kerran, niin se käynnistyy seuraavan uudelleenkäynnistyksen jälkeen. Muut ytimet pysyvät käynnistysvalikossa, joten voit silti valita sellaisen käsin, jos uudesta oletuksesta on harmia. Päätteessä nykyisen oletuksen näet komennolla `omarchy-kernel`, asennetut komennolla `omarchy-kernel list` ja vaihtaminen onnistuu komennolla `omarchy-kernel set <kernel>`.
+Spherie käynnistyy omalla `linux-omarchy`-ytimellään, mutta voit pitää sen rinnalla asennettuina muitakin, kuten Archin vakio-`linux`-ytimen tai testaamasi kokeellisen koontiversion. Kun ytimiä on useampi kuin yksi, Omarchy-valikon _Päivitys > Ydin_ listaa ne valintamerkillä sen vieressä, joka käynnistyy oletuksena. Valitse toinen, syötä salasanasi kerran, niin se käynnistyy seuraavan uudelleenkäynnistyksen jälkeen. Muut ytimet pysyvät käynnistysvalikossa, joten voit silti valita sellaisen käsin, jos uudesta oletuksesta on harmia. Päätteessä nykyisen oletuksen näet komennolla `omarchy-kernel`, asennetut komennolla `omarchy-kernel list` ja vaihtaminen onnistuu komennolla `omarchy-kernel set <kernel>`.
 
 ### Laiteohjelmistopäivitykset
 
@@ -32,7 +32,7 @@ Kun sinun tarvitsee muuttaa asetusta itse BIOSissa, pidä `Alt` pohjassa järjes
 
 ### Varoitus suorista pacman/yay-päivityksistä
 
-Jos Arch on sinulle jo tuttu, saatat tuntea houkutusta ajaa itse vain `pacman -Syu` tai `yay -Syu`, mutta jos teet niin, ohitat tilannekuvan, migraatiot ja määrityspäivitykset, jotka Omarchy ajaa yhdessä uusien pakettien kanssa. Siksi Omarchy itse asiassa pysäyttää suoran järjestelmäpäivityksen ja ohjaa sinut sen sijaan käyttämään komentoa `omarchy update`. (Jos todella tiedät, mitä teet, suojaus kertoo, miten sen voi ohittaa yksittäisen transaktion ajaksi.)
+Jos Arch on sinulle jo tuttu, saatat tuntea houkutusta ajaa itse vain `pacman -Syu` tai `yay -Syu`, mutta jos teet niin, ohitat tilannekuvan, migraatiot ja määrityspäivitykset, jotka Spherie ajaa yhdessä uusien pakettien kanssa. Siksi Spherie itse asiassa pysäyttää suoran järjestelmäpäivityksen ja ohjaa sinut sen sijaan käyttämään komentoa `omarchy update`. (Jos todella tiedät, mitä teet, suojaus kertoo, miten sen voi ohittaa yksittäisen transaktion ajaksi.)
 
 ### Huonojen päivitysten palauttaminen
 

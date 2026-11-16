@@ -18,7 +18,7 @@ _대부분의 에이전트 하네스는 이미지 붙여넣기에 `Ctrl + V`를 
 
 ### 클립보드 기록
 
-클립보드 기록은 Omarchy 셸에서 제공하며 텍스트와 이미지 모두에서 작동한다. `Super + Ctrl + V`로 실행하고, Return으로 항목을 선택하면 클립보드에 올려져 `Super + V`로 붙여넣을 준비가 된다.
+클립보드 기록은 Spherie 셸에서 제공하며 텍스트와 이미지 모두에서 작동한다. `Super + Ctrl + V`로 실행하고, Return으로 항목을 선택하면 클립보드에 올려져 `Super + V`로 붙여넣을 준비가 된다.
 
  ![clipboard-history](images/clipboard-history.webp)
 

@@ -1,6 +1,6 @@
 # Síťové připojení
 
-Síťové připojení v Omarchy spravuje NetworkManager a ovládáte ho z ikony sítě v [horní liště](05-the-top-bar.md) nebo pomocí `Super + Ctrl + N`.
+Síťové připojení v Spherie spravuje NetworkManager a ovládáte ho z ikony sítě v [horní liště](05-the-top-bar.md) nebo pomocí `Super + Ctrl + N`.
 
 Tento panel vyhledává Wi-Fi sítě, ukazuje sílu signálu a připojuje se k nim. Ethernet nepotřebuje vůbec nic — zapojíte ho a funguje. Pokud raději zůstanete v terminálu, `nmtui` vám nabídne stejné ovládací prvky a existuje také skupina příkazů `omarchy network`.
 
@@ -12,7 +12,7 @@ Pokud skutečně potřebujete samotné heslo, příkaz `omarchy network password
 
 ## DNS
 
-Omarchy používá DNS, které vaše síť předává přes DHCP. Pro celý počítač to můžete změnit v _Setup > Network > DNS_, kde jsou Cloudflare a Google na jedno kliknutí. Zvolte _Custom_, pokud chcete zadat vlastní servery.
+Spherie používá DNS, které vaše síť předává přes DHCP. Pro celý počítač to můžete změnit v _Setup > Network > DNS_, kde jsou Cloudflare a Google na jedno kliknutí. Zvolte _Custom_, pokud chcete zadat vlastní servery.
 
 Z terminálu příkaz `omarchy dns` vytiskne aktuálního poskytovatele a `omarchy dns Cloudflare` jednoho nastaví.
 
@@ -24,7 +24,7 @@ Tímto připnete pásmo, nikoli konkrétní přístupový bod, takže se dál no
 
 ## Jak rychlé to je?
 
-_Trigger > Speed Test > Network Speed Test_ měří vaši skutečnou rychlost stahování a odesílání pomocí dvojice ukazatelů. Z terminálu je to `omarchy network speedtest down` nebo `up`. Měření probíhá proti vlastní službě Omarchy a započítává pouze její testovací přenosy. Ostatní stahování mohou soupeřit o šířku pásma, ale do výsledku testu rychlosti se nepřičítají. (V tomto menu vedle něj najdete test rychlosti disku, pokud chcete změřit druhé úzké hrdlo.)
+_Trigger > Speed Test > Network Speed Test_ měří vaši skutečnou rychlost stahování a odesílání pomocí dvojice ukazatelů. Z terminálu je to `omarchy network speedtest down` nebo `up`. Měření probíhá proti vlastní službě Spherie a započítává pouze její testovací přenosy. Ostatní stahování mohou soupeřit o šířku pásma, ale do výsledku testu rychlosti se nepřičítají. (V tomto menu vedle něj najdete test rychlosti disku, pokud chcete změřit druhé úzké hrdlo.)
 
 ## Firewall
 

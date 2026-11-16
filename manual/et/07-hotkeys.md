@@ -8,7 +8,7 @@ Iga kiirklahv asub ühel tasandil, mille määravad selle modifikaatorid, ja iga
 
 | Tasand | Mis seal asub | Näited |
 | --- | --- | --- |
-| `Super + key` | Süsteem: aknad, tööruumid, paigutused ja põhimenuüd | `Super + Space` Omarchy menüü, `Super + W` akna sulgemine, `Super + F` täisekraan |
+| `Super + key` | Süsteem: aknad, tööruumid, paigutused ja põhimenuüd | `Super + Space` Spherie menüü, `Super + W` akna sulgemine, `Super + F` täisekraan |
 | `Super + Shift + key` | Rakendused | `Super + Shift + B` brauser, `Super + Shift + E` e-post, `Super + Shift + N` redaktor |
 | `Super + Ctrl + key` | Paneelid ja süsteemimenüüd | `Super + Ctrl + A` heli, `Super + Ctrl + N` võrk, `Super + Ctrl + C` jäädvustamise menüü |
 | `Super + Ctrl + Alt + key` | Kiirtoimingud ja teated | `Super + Ctrl + Alt + T` kellaaja näitamine, `Super + Ctrl + Alt + B` aku, `Super + Ctrl + Alt + C` ekraanipilt |
@@ -34,7 +34,7 @@ Kui vaikesäte sulle ei sobi (ütleme, et tahad ekraanipiltide jaoks klahve `Sup
 
 | Kiirklahv                  | Funktsioon              |
 | ----------------------- | --------------------- |
-| `Super + Space`           | Omarchy menüü (rakendused ja kõik muu)    |
+| `Super + Space`           | Spherie menüü (rakendused ja kõik muu)    |
 | `Super + Alt + Space` | Rakenduste ruudustik |
 | `Super + Escape` | Süsteemimenüü (peatamine, taaskäivitamine jne)  |
 | `Super + Ctrl + L` | Arvuti lukustamine |
@@ -172,7 +172,7 @@ Muuda/lisa seoseid failis `~/.config/hypr/bindings.lua`.
 | `Super + V`           | Kleebi    |
 | `Super + Ctrl + V`           | Lõikelaua haldur    |
 
-Tavaliselt vajad Linuxis terminalis kopeerimiseks ja kleepimiseks klahve `Ctrl + Shift + C/V` ja kõikjal mujal klahve `Ctrl + C/V`. Need Omarchy ühendatud lõikelaua kiirklahvid töötavad kõikjal.
+Tavaliselt vajad Linuxis terminalis kopeerimiseks ja kleepimiseks klahve `Ctrl + Shift + C/V` ja kõikjal mujal klahve `Ctrl + C/V`. Need Spherie ühendatud lõikelaua kiirklahvid töötavad kõikjal.
 
 ## Jäädvustamine
 
@@ -193,7 +193,7 @@ Tavaliselt vajad Linuxis terminalis kopeerimiseks ja kleepimiseks klahve `Ctrl +
 
 Ekraanisalvestuste puhul küsib kiirklahv esmalt, millist heli soovid, seejärel alustab salvestamist. Peatamiseks vajuta seda uuesti. Üksikasju vaata jaotisest [ekraanipildid ja salvestamine](12-screenshots-recording.md).
 
-Kõik jäädvustamisvalikud on saadaval ka Omarchy menüü jaotises _Trigger > Capture_ (`Super + Space`).
+Kõik jäädvustamisvalikud on saadaval ka Spherie menüü jaotises _Trigger > Capture_ (`Super + Space`).
 
 ## Teavitused
 
@@ -215,9 +215,9 @@ Kõik jäädvustamisvalikud on saadaval ka Omarchy menüü jaotises _Trigger > C
 | `Super + Backspace` | Lülita akna läbipaistvus ümber |
 | `Super + Ctrl + Backspace` | Lülita ühe akna ruudukujuline kuvasuhe ümber |
 
-Täiendavad taustapildid asuvad kaustas `~/.config/omarchy/backgrounds/<theme name>`. Saadaval ka Omarchy menüü jaotise _Install > Style > Background_ kaudu.
+Täiendavad taustapildid asuvad kaustas `~/.config/omarchy/backgrounds/<theme name>`. Saadaval ka Spherie menüü jaotise _Install > Style > Background_ kaudu.
 
-Kõik stiilivalikud on saadaval ka Omarchy menüü jaotises _Style_ (`Super + Space`).
+Kõik stiilivalikud on saadaval ka Spherie menüü jaotises _Style_ (`Super + Space`).
 
 ## Lülitid
 
@@ -318,7 +318,7 @@ Neid funktsioone tuleb käivitada Tmuxi seansi sees.
 
 ## Ghostty terminal
 
-Ghostty terminal installitakse Omarchy menüü jaotise _Install > Terminal_ kaudu.
+Ghostty terminal installitakse Spherie menüü jaotise _Install > Terminal_ kaudu.
 
 | Kiirklahv                  | Funktsioon              |
 | ----------------------- | --------------------- |

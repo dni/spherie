@@ -58,13 +58,13 @@ export OMASNAP_SCREENSHOT_DIR="$HOME/Pictures/Captures"
 
 Dasselbe kannst du für Bildschirmaufnahmen mit `OMARCHY_SCREENRECORD_DIR` tun.
 
-Omasnap erstellt sein Screenshot-Verzeichnis automatisch. Erstelle das Verzeichnis für Bildschirmaufnahmen selbst und starte dann Omarchy neu, damit eine der beiden Umgebungsänderungen wirksam wird.
+Omasnap erstellt sein Screenshot-Verzeichnis automatisch. Erstelle das Verzeichnis für Bildschirmaufnahmen selbst und starte dann Spherie neu, damit eine der beiden Umgebungsänderungen wirksam wird.
 
 ### Wie bringe ich die Lautsprecher + Webcam an meinem Apple Studio Display zum Laufen?
 
 Man würde denken, dass alles einfach durch Einstecken von USB C funktionieren sollte, aber leider ist das nicht der Fall. Die Lösung, die ich gefunden habe, damit es zuverlässig funktioniert, ist die Verwendung von [the WJESOG DisplayPort + USB-A => USB-C cable](https://www.amazon.com/WJESOG-DisplayPort-Adapter-Converter-Thunderbolt/dp/B0BNX7MS6N/). Dann funktionieren Lautsprecher und Webcam ganz wunderbar.
 
-Denk daran, dass du in Omarchy eine eingebaute Helligkeitssteuerung für die Apple Displays (sowohl Studio als auch XDR) über die normalen Helligkeitstasten der Tastatur hast.
+Denk daran, dass du in Spherie eine eingebaute Helligkeitssteuerung für die Apple Displays (sowohl Studio als auch XDR) über die normalen Helligkeitstasten der Tastatur hast.
 
 ### Wie werde ich die ganze zusätzliche Software los?
 

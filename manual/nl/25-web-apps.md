@@ -12,17 +12,17 @@ Alle sneltoetsen voor deze webapps kun je wijzigen in `~/.config/hypr/bindings.l
 
 Als je in een webapp zit, kun je de huidige URL met `Shift + Alt + L` naar het klembord kopiëren.
 
-Standaard wordt Omarchy al geleverd met een assortiment standaardapps:
+Standaard wordt Spherie al geleverd met een assortiment standaardapps:
 
 ## HEY
 
-[HEY](https://www.hey.com/) is een e-mail- en agendadienst die een geweldig alternatief vormt voor mensen die Gmail, Outlook of Apple Mail zat zijn. Het is gemaakt door [37signals](https://37signals.com/), waar Omarchy is ontstaan.
+[HEY](https://www.hey.com/) is een e-mail- en agendadienst die een geweldig alternatief vormt voor mensen die Gmail, Outlook of Apple Mail zat zijn. Het is gemaakt door [37signals](https://37signals.com/), waar Spherie is ontstaan.
 
 Je kunt HEY Email starten met `Super + Shift + E`, direct naar het opstellen van een nieuwe e-mail gaan met `Super + Shift + Alt + E` en HEY Calendar starten met `Super + Shift + C`.
 
 ## Basecamp
 
-[Basecamp](https://basecamp.com/) is een dienst voor projectbeheer die kleine teams helpt sneller te werken en meer vooruitgang te boeken. In plaats van een ratjetoe van Trello, Slack, Asana, Notion of wat dan ook aan elkaar te plakken, heb je met Basecamp alles op één plek. Het is gemaakt door [37signals](https://37signals.com/), waar Omarchy is ontstaan.
+[Basecamp](https://basecamp.com/) is een dienst voor projectbeheer die kleine teams helpt sneller te werken en meer vooruitgang te boeken. In plaats van een ratjetoe van Trello, Slack, Asana, Notion of wat dan ook aan elkaar te plakken, heb je met Basecamp alles op één plek. Het is gemaakt door [37signals](https://37signals.com/), waar Spherie is ontstaan.
 
 Je kunt Basecamp starten via de application launcher (`Super + Space`)
 
@@ -64,19 +64,19 @@ Je kunt YouTube starten met `Super + Shift + Y`.
 
 ## Zoom
 
-[Zoom](https://zoom.us/) is het populairste videochatsysteem dat in de VS wordt gebruikt. Geweldige verbindingen over de hele wereld. En vergaderingen van 40 minuten kunnen worden gehouden zonder betalend account. Omarchy wikkelt de webclient van Zoom in, en Zoom-vergaderlinks openen er direct in.
+[Zoom](https://zoom.us/) is het populairste videochatsysteem dat in de VS wordt gebruikt. Geweldige verbindingen over de hele wereld. En vergaderingen van 40 minuten kunnen worden gehouden zonder betalend account. Spherie wikkelt de webclient van Zoom in, en Zoom-vergaderlinks openen er direct in.
 
 Je start Zoom via de application launcher (`Super + Space`).
 
 ## Discord
 
-[Discord](https://discord.com/) is waar de meeste gaming- en open source-communities rondhangen, waaronder [die van Omarchy zelf](https://discord.gg/tXFUdasqhY).
+[Discord](https://discord.com/) is waar de meeste gaming- en open source-communities rondhangen, waaronder [die van Spherie zelf](https://discord.gg/tXFUdasqhY).
 
 Je start Discord via de application launcher (`Super + Space`).
 
 ## Microsoft-apps
 
-Selecteer _Install > Service > Microsoft_ om Outlook, Word, Excel, PowerPoint, Teams en OneDrive als webapps toe te voegen. Elke app heeft zijn eigen launcher en opent direct, met de commerciële Microsoft 365-URL's en je bestaande browserprofiel. Ze openen in dezelfde browserapp-vensters als de andere webapps van Omarchy; ze installeren niet de aparte Teams for Linux-client.
+Selecteer _Install > Service > Microsoft_ om Outlook, Word, Excel, PowerPoint, Teams en OneDrive als webapps toe te voegen. Elke app heeft zijn eigen launcher en opent direct, met de commerciële Microsoft 365-URL's en je bestaande browserprofiel. Ze openen in dezelfde browserapp-vensters als de andere webapps van Spherie; ze installeren niet de aparte Teams for Linux-client.
 
 Verwijder de bundel met _Remove > Service > Microsoft_, of verwijder afzonderlijke apps met _Remove > Web App_. Je kunt via _Install > Web App_ ook alleen de apps installeren die je wilt.
 
@@ -88,4 +88,4 @@ Om inlogsessies voor werk gescheiden te houden, voeg je aan de `Exec=`-regel van
 Exec=omarchy-launch-webapp "https://teams.cloud.microsoft/" --user-data-dir=/absolute/path/to/work-browser-profile
 ```
 
-Vervang de voorbeeldmap door een absoluut pad naar keuze en gebruik hetzelfde pad voor alle zes launchers om inlogsessies voor werk tussen hen te delen. De webapps gebruiken de door Omarchy geselecteerde ondersteunde browser, en vallen terug op Chrome wanneer de standaardbrowser niet wordt ondersteund.
+Vervang de voorbeeldmap door een absoluut pad naar keuze en gebruik hetzelfde pad voor alle zes launchers om inlogsessies voor werk tussen hen te delen. De webapps gebruiken de door Spherie geselecteerde ondersteunde browser, en vallen terug op Chrome wanneer de standaardbrowser niet wordt ondersteund.

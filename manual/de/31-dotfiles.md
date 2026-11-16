@@ -1,6 +1,6 @@
 # Dotfiles
 
-Omarchy wird in erster Linie über die sogenannten Dotfiles konfiguriert, die in `~/.config` liegen. Sie gelten als deine Dateien für deine Änderungen. Die Dateien in `/usr/share/omarchy` gehören zu Omarchy selbst, und an denen solltest du nicht herumfummeln. Wenn du etwas in `/usr/share/omarchy` ändern musst, solltest du stattdessen den Wert in `~/.config` überschreiben.
+Spherie wird in erster Linie über die sogenannten Dotfiles konfiguriert, die in `~/.config` liegen. Sie gelten als deine Dateien für deine Änderungen. Die Dateien in `/usr/share/omarchy` gehören zu Spherie selbst, und an denen solltest du nicht herumfummeln. Wenn du etwas in `/usr/share/omarchy` ändern musst, solltest du stattdessen den Wert in `~/.config` überschreiben.
 
 Die wichtigsten Konfigurationen lassen sich direkt über das Omarchy-Menü (`Super + Space`) bearbeiten, etwa _Setup > Keyboard > Keybindings_, _Setup > Input_ und _Setup > Config > [file]_. Wenn du es auf diese Weise machst, wird jeder Prozess, der nach Änderungen an der Konfiguration neu gestartet werden muss, automatisch neu gestartet, sobald du den Editor beendest (standardmäßig Neovim — `:wq`, nicht vergessen! —, aber das kannst du über _Setup > Defaults > Editor_ ändern).
 
@@ -32,7 +32,7 @@ Dadurch wird der Befehl als Teil der Sitzung gestartet, sodass er ordentlich ber
 
 ### Skripte bei Systemereignissen ausführen
 
-Omarchy löst Hooks zu einer Handvoll Zeitpunkten aus, und du kannst deine eigenen Skripte daran hängen. Sie liegen in `~/.config/omarchy/hooks/<event>.d/`, ein Verzeichnis pro Ereignis, und jede ausführbare Datei darin wird ausgeführt, wenn das Ereignis eintritt:
+Spherie löst Hooks zu einer Handvoll Zeitpunkten aus, und du kannst deine eigenen Skripte daran hängen. Sie liegen in `~/.config/omarchy/hooks/<event>.d/`, ein Verzeichnis pro Ereignis, und jede ausführbare Datei darin wird ausgeführt, wenn das Ereignis eintritt:
 
 | Event | When it runs |
 | ----- | ------------ |
@@ -43,7 +43,7 @@ Omarchy löst Hooks zu einer Handvoll Zeitpunkten aus, und du kannst deine eigen
 | `font-set` | Nach einem Schriftartwechsel (Schriftartname in `$1`) |
 | `battery-low` | Wenn der Akku schwach wird (Prozentsatz in `$1`) |
 
-Der `pre-refresh-pacman`-Hook ist der Ort, an den benutzerdefinierte Repositories oder `IgnorePkg`-Zeilen gehören, da er vor der Pakettransaktion ausgeführt wird. Beide updatebezogenen Hooks werden als dein Benutzer ausgeführt, nachdem Omarchy seine zwischengespeicherte sudo-Autorisierung gelöscht hat, sodass ein Hook, der `sudo` verwendet, seine eigene Autorisierung benötigt und dich möglicherweise nach deinem Passwort fragt.
+Der `pre-refresh-pacman`-Hook ist der Ort, an den benutzerdefinierte Repositories oder `IgnorePkg`-Zeilen gehören, da er vor der Pakettransaktion ausgeführt wird. Beide updatebezogenen Hooks werden als dein Benutzer ausgeführt, nachdem Spherie seine zwischengespeicherte sudo-Autorisierung gelöscht hat, sodass ein Hook, der `sudo` verwendet, seine eigene Autorisierung benötigt und dich möglicherweise nach deinem Passwort fragt.
 
 Jedes dieser Verzeichnisse enthält bereits eine `.sample`-Datei, die die Form eines Hooks zeigt — entferne das `.sample` aus dem Namen, um ihn in Betrieb zu nehmen. Um ein Skript zu installieren, das du anderswo geschrieben hast, verwende `omarchy hook install post-boot ~/my-hook`, wodurch es hineinkopiert und ausführbar gemacht wird.
 
@@ -60,7 +60,7 @@ Wenn du eine vorhandene ID wiederverwendest, überschreibst du diese Zeile, anst
 
 ### Eigene Shell-Exporte, Funktionen und Aliase hinzufügen
 
-Omarchy wird mit einer Menge ergonomischer Aliase und hilfreicher Funktionen ausgeliefert, aber es ist sehr üblich, eigene hinzufügen zu wollen. Sowohl Aliase als auch Funktionen und Exporte solltest du in `~/.bashrc` hinzufügen. Diese Datei wird bei Updates nicht überschrieben. Wenn du einen der Omarchy-Standardwerte ändern möchtest, kannst du sie auch sicher hier hinzufügen.
+Spherie wird mit einer Menge ergonomischer Aliase und hilfreicher Funktionen ausgeliefert, aber es ist sehr üblich, eigene hinzufügen zu wollen. Sowohl Aliase als auch Funktionen und Exporte solltest du in `~/.bashrc` hinzufügen. Diese Datei wird bei Updates nicht überschrieben. Wenn du einen der Omarchy-Standardwerte ändern möchtest, kannst du sie auch sicher hier hinzufügen.
 
 ### Umgebungsvariablen für den Desktop setzen
 
@@ -78,7 +78,7 @@ o.rebind("SUPER + SHIFT + O", "Joplin", "joplin-desktop")
 
 `o.rebind` entfernt die vorhandene Bindung, bevor es seinen Ersatz hinzufügt. Es nimmt dieselben Argumente wie `o.bind`, einschließlich Starthelfern und Bindungsoptionen. Verwende `o.bind`, um eine Bindung hinzuzufügen, oder `hl.unbind`, um eine zu entfernen, ohne sie zu ersetzen.
 
-Wenn du darauf bestehst, an den internen Omarchy-Dateien herumzuhacken, wechsle über _Update > Channel > Dev_ zum Dev-Kanal. Dadurch wird Omarchy mit einem Git-Checkout des Quellcodes in `~/omarchy` verknüpft, den du nach Herzenslust ändern kannst. Hier wird dir niemand sagen, was du zu tun hast!
+Wenn du darauf bestehst, an den internen Omarchy-Dateien herumzuhacken, wechsle über _Update > Channel > Dev_ zum Dev-Kanal. Dadurch wird Spherie mit einem Git-Checkout des Quellcodes in `~/omarchy` verknüpft, den du nach Herzenslust ändern kannst. Hier wird dir niemand sagen, was du zu tun hast!
 
 ### Alle Änderungen zurücksetzen
 

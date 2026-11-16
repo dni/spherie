@@ -1,6 +1,6 @@
 # Terminal
 
-[Foot](https://codeberg.org/dnkl/foot) er sjálfgefinn terminal fyrir Omarchy. Hann er hraður, léttur og samhæfur jafnvel gömlum tölvum. Hann styður hins vegar ekki innfædda flipa eða skiptingar.
+[Foot](https://codeberg.org/dnkl/foot) er sjálfgefinn terminal fyrir Spherie. Hann er hraður, léttur og samhæfur jafnvel gömlum tölvum. Hann styður hins vegar ekki innfædda flipa eða skiptingar.
 
 Ef þú notar Tmux skiptir það þig kannski ekki máli, en ef ekki styðjum við fullkomlega _Alacritty_, _Ghostty_ og _Kitty_ sem valkosti líka. Veldu þitt val undir _Setja upp > Terminal_ í Omarchy-valmyndinni.
 
@@ -12,11 +12,11 @@ Tmux veitir samræmt, forritanlegt viðmót fyrir rúður, glugga (þ.e. flipa) 
 
 Þú byrjar nýja Tmux-lotu í ferskum terminal með `Super + Alt + Return`, og þar sem Tmux er viðvarandi ferli geturðu haldið áfram lotunni þinni jafnvel þó þú lokir þeim terminal. Ýttu bara á `Ctrl + Space` (kallaður forskeytislykillinn) og síðan `s` til að sjá allar virkar loturnar þínar.
 
-Omarchy kemur með vinnuvistfræðilega hagrædda Tmux-stillingu, sem hefur margar lyklatengingar að læra, svo hafðu [svindlblaðið við höndina](07-hotkeys.md#tmux).
+Spherie kemur með vinnuvistfræðilega hagrædda Tmux-stillingu, sem hefur margar lyklatengingar að læra, svo hafðu [svindlblaðið við höndina](07-hotkeys.md#tmux).
 
 ## Tmux-skipulagsföll
 
-Þar sem Tmux er forritanlegt getum við notað föll til að búa til skipulag. Omarchy kemur með fjögur mismunandi föll fyrir algeng þróunarskipulag.
+Þar sem Tmux er forritanlegt getum við notað föll til að búa til skipulag. Spherie kemur með fjögur mismunandi föll fyrir algeng þróunarskipulag.
 
 `tdl [agent]` byrjar þrískipt IDE-líkt viðmót með `$EDITOR` vinstra megin, valnum gervigreindar-agent þínum hægra megin (eins og `c` fyrir opencode eða `cx` fyrir Claude eða `codex` fyrir OpenAI), og síðan terminal neðst.
 

@@ -1,8 +1,8 @@
 # Valvomattomat asennukset
 
-Omarchy ISO osaa asentaa itsensä ilman ketään näppäimistön ääressä. Jos asennusohjelma löytää toisen aseman, jonka nimi on `cidata` ja jolla on sen määritystiedostot, se kopioi ne talteen, ohittaa ohjatun asennuksen kokonaan ja käynnistyy itsestään uudelleen valmiiseen järjestelmään. Ei tarvita erikoista ISO-koontia eikä ylimääräistä käynnistysvalikon kohtaa — jos sellaista asemaa ei ole liitetty, mikään ei muutu ja saat normaalin ohjatun asennuksen.
+Spherie ISO osaa asentaa itsensä ilman ketään näppäimistön ääressä. Jos asennusohjelma löytää toisen aseman, jonka nimi on `cidata` ja jolla on sen määritystiedostot, se kopioi ne talteen, ohittaa ohjatun asennuksen kokonaan ja käynnistyy itsestään uudelleen valmiiseen järjestelmään. Ei tarvita erikoista ISO-koontia eikä ylimääräistä käynnistysvalikon kohtaa — jos sellaista asemaa ei ole liitetty, mikään ei muutu ja saat normaalin ohjatun asennuksen.
 
-Tämän ansiosta Omarchy sopii erinomaisesti kertakäyttöisten kehitysympäristöjen pohjalevykuvaksi: luo VM Proxmoxissa tai Packerilla, käynnistä se, kävele pois ja ota yhteys SSH:lla. `cidata` on cloud-init `NoCloud` -nimiö, joten kaikki yleiset virtualisointityökalut osaavat jo liittää sellaisen aseman.
+Tämän ansiosta Spherie sopii erinomaisesti kertakäyttöisten kehitysympäristöjen pohjalevykuvaksi: luo VM Proxmoxissa tai Packerilla, käynnistä se, kävele pois ja ota yhteys SSH:lla. `cidata` on cloud-init `NoCloud` -nimiö, joten kaikki yleiset virtualisointityökalut osaavat jo liittää sellaisen aseman.
 
 ## Määritystiedostot
 
@@ -38,7 +38,7 @@ cp user_configuration.json user_credentials.json authorized_keys cidata/
 genisoimage -output cidata.iso -volid cidata -joliet -rock cidata/
 ```
 
-Liitä se sitten VM:ään Omarchy ISO:n rinnalle. Tässä on täysi Proxmox-esimerkki:
+Liitä se sitten VM:ään Spherie ISO:n rinnalle. Tässä on täysi Proxmox-esimerkki:
 
 ```bash
 qm create 101 --name my-omarchy \

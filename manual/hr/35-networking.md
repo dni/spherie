@@ -12,7 +12,7 @@ Ako vam zapravo treba sama lozinka, ispisuje je `omarchy network password <inter
 
 ## DNS
 
-Omarchy koristi onaj DNS koji vam mreža dodijeli putem DHCP-a. To možete zaobići za cijelo računalo pod _Setup > Network > DNS_, gdje su Cloudflare i Google udaljeni jednim klikom. Odaberite _Custom_ da biste upisali vlastite poslužitelje.
+Spherie koristi onaj DNS koji vam mreža dodijeli putem DHCP-a. To možete zaobići za cijelo računalo pod _Setup > Network > DNS_, gdje su Cloudflare i Google udaljeni jednim klikom. Odaberite _Custom_ da biste upisali vlastite poslužitelje.
 
 Iz terminala `omarchy dns` ispisuje trenutačnog pružatelja, a `omarchy dns Cloudflare` postavlja ga.
 

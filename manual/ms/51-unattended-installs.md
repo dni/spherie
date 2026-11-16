@@ -1,8 +1,8 @@
 # Pemasangan Tanpa Pengawasan
 
-ISO Omarchy boleh memasang dirinya sendiri tanpa sesiapa di papan kekunci. Jika pemasang menemui pemacu kedua berlabel `cidata` yang membawa fail konfigurasinya, ia menyalin fail tersebut keluar, melangkau wizard persediaan sepenuhnya, dan but semula ke dalam sistem yang siap dengan sendirinya. Tiada binaan ISO khas, tiada entri menu but tambahan — tanpa pemacu sedemikian dipasang, tiada apa-apa berubah dan anda mendapat wizard biasa.
+ISO Spherie boleh memasang dirinya sendiri tanpa sesiapa di papan kekunci. Jika pemasang menemui pemacu kedua berlabel `cidata` yang membawa fail konfigurasinya, ia menyalin fail tersebut keluar, melangkau wizard persediaan sepenuhnya, dan but semula ke dalam sistem yang siap dengan sendirinya. Tiada binaan ISO khas, tiada entri menu but tambahan — tanpa pemacu sedemikian dipasang, tiada apa-apa berubah dan anda mendapat wizard biasa.
 
-Ini menjadikan Omarchy hebat sebagai imej asas untuk persekitaran pembangunan pakai buang: cipta VM dalam Proxmox atau dengan Packer, butkannya, tinggalkan, dan SSH masuk. `cidata` ialah label cloud-init `NoCloud`, jadi semua alat virtualisasi yang biasa sudah tahu cara memasang pemacu sedemikian.
+Ini menjadikan Spherie hebat sebagai imej asas untuk persekitaran pembangunan pakai buang: cipta VM dalam Proxmox atau dengan Packer, butkannya, tinggalkan, dan SSH masuk. `cidata` ialah label cloud-init `NoCloud`, jadi semua alat virtualisasi yang biasa sudah tahu cara memasang pemacu sedemikian.
 
 ## Fail konfigurasi
 
@@ -24,7 +24,7 @@ Anda juga boleh meletakkan fail kosong bernama `defer-provisioning` sebagai gant
 
 ## Akses SSH
 
-Apabila `authorized_keys` wujud, pemasangan menyediakan kunci tersebut sebagai `~/.ssh/authorized_keys` milik pengguna, mendayakan `sshd`, dan membuka tembok api untuknya. (Pemasangan Omarchy stok disertakan dengan openssh dengan perkhidmatan dinyahdayakan dan port ditutup, jadi mesin tanpa pengawasan sebaliknya tidak dapat dicapai.) Pemasangan hanya menambah kunci anda — ia tidak melonggarkan mana-mana tetapan pengesahan daemon SSH yang lain.
+Apabila `authorized_keys` wujud, pemasangan menyediakan kunci tersebut sebagai `~/.ssh/authorized_keys` milik pengguna, mendayakan `sshd`, dan membuka tembok api untuknya. (Pemasangan Spherie stok disertakan dengan openssh dengan perkhidmatan dinyahdayakan dan port ditutup, jadi mesin tanpa pengawasan sebaliknya tidak dapat dicapai.) Pemasangan hanya menambah kunci anda — ia tidak melonggarkan mana-mana tetapan pengesahan daemon SSH yang lain.
 
 Apabila `tailscale_authkey` wujud, mesin sebaliknya menyertai tailnet anda pada but pertama: Tailscale dipasang daripada pakej terhimpun ISO, tembok api membenarkan antara muka tailnet, dan kerja latar belakang menjalankan penyertaan sebaik sahaja mesin benar-benar mempunyai rangkaian, mencuba semula sehingga berjaya. Gunakan kunci boleh guna semula yang telah diprabenarkan supaya satu imej pemacu boleh digunakan untuk banyak mesin.
 
@@ -38,7 +38,7 @@ cp user_configuration.json user_credentials.json authorized_keys cidata/
 genisoimage -output cidata.iso -volid cidata -joliet -rock cidata/
 ```
 
-Kemudian pasangkannya pada VM bersama ISO Omarchy. Berikut ialah contoh Proxmox yang lengkap:
+Kemudian pasangkannya pada VM bersama ISO Spherie. Berikut ialah contoh Proxmox yang lengkap:
 
 ```bash
 qm create 101 --name my-omarchy \

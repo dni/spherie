@@ -1,6 +1,6 @@
 # Xarxes
 
-Les xarxes a Omarchy les gestiona NetworkManager, i les controleu des de la icona de xarxa de la [barra superior](05-the-top-bar.md) o amb `Super + Ctrl + N`.
+Les xarxes a Spherie les gestiona NetworkManager, i les controleu des de la icona de xarxa de la [barra superior](05-the-top-bar.md) o amb `Super + Ctrl + N`.
 
 Aquest tauler cerca xarxes Wi-Fi, mostra la força del senyal i s'hi connecta. Ethernet no necessita res de res: connecteu-lo i funciona. Si preferiu quedar-vos al terminal, `nmtui` us ofereix els mateixos controls, i també hi ha un grup d'ordres `omarchy network`.
 
@@ -12,7 +12,7 @@ Si realment necessiteu la contrasenya en si, `omarchy network password <interfac
 
 ## DNS
 
-Omarchy utilitza el DNS que la vostra xarxa li proporciona per DHCP. Podeu canviar-ho per a tota la màquina a _Configuració > Xarxa > DNS_, on Cloudflare i Google són a un clic de distància. Trieu _Personalitzat_ per introduir els vostres propis servidors.
+Spherie utilitza el DNS que la vostra xarxa li proporciona per DHCP. Podeu canviar-ho per a tota la màquina a _Configuració > Xarxa > DNS_, on Cloudflare i Google són a un clic de distància. Trieu _Personalitzat_ per introduir els vostres propis servidors.
 
 Des del terminal, `omarchy dns` mostra el proveïdor actual i `omarchy dns Cloudflare` en defineix un.
 
@@ -24,7 +24,7 @@ Això fixa la banda, no un punt d'accés concret, de manera que continueu itiner
 
 ## A quina velocitat va?
 
-_Activador > Prova de velocitat > Prova de velocitat de la xarxa_ mesura la vostra velocitat real de pujada i baixada amb un parell d'indicadors. Des del terminal és `omarchy network speedtest down` o `up`. Mesura respecte al servei propi d'Omarchy i només compta les seves transferències de prova. Altres descàrregues poden competir per l'amplada de banda, però no s'afegeixen al resultat de la prova de velocitat. (Hi ha una prova de velocitat de disc just al costat en aquest menú, si voleu mesurar l'altre coll d'ampolla.)
+_Activador > Prova de velocitat > Prova de velocitat de la xarxa_ mesura la vostra velocitat real de pujada i baixada amb un parell d'indicadors. Des del terminal és `omarchy network speedtest down` o `up`. Mesura respecte al servei propi d'Spherie i només compta les seves transferències de prova. Altres descàrregues poden competir per l'amplada de banda, però no s'afegeixen al resultat de la prova de velocitat. (Hi ha una prova de velocitat de disc just al costat en aquest menú, si voleu mesurar l'altre coll d'ampolla.)
 
 ## El tallafoc
 

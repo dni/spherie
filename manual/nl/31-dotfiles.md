@@ -1,6 +1,6 @@
 # Dotfiles
 
-Omarchy wordt voornamelijk geconfigureerd via de zogenoemde dotfiles die in `~/.config` staan. Die worden beschouwd als jouw bestanden voor jouw wijzigingen. De bestanden die in `/usr/share/omarchy` staan, behoren tot Omarchy zelf, en daar moet je niet mee rommelen. Als je iets in `/usr/share/omarchy` moet wijzigen, moet je in plaats daarvan de waarde in `~/.config` overschrijven.
+Spherie wordt voornamelijk geconfigureerd via de zogenoemde dotfiles die in `~/.config` staan. Die worden beschouwd als jouw bestanden voor jouw wijzigingen. De bestanden die in `/usr/share/omarchy` staan, behoren tot Spherie zelf, en daar moet je niet mee rommelen. Als je iets in `/usr/share/omarchy` moet wijzigen, moet je in plaats daarvan de waarde in `~/.config` overschrijven.
 
 De belangrijkste configuraties kun je rechtstreeks bewerken vanuit het Omarchy-menu (`Super + Space`), zoals _Setup > Keyboard > Keybindings_, _Setup > Input_ en _Setup > Config > [file]_. Als je het op deze manier doet, wordt elk proces dat na configuratiewijzigingen opnieuw moet worden gestart automatisch opnieuw gestart nadat je de editor afsluit (standaard Neovim — `:wq`, vergeet het niet! — maar dat kun je wijzigen via _Setup > Defaults > Editor_).
 
@@ -32,7 +32,7 @@ Dat start het commando als onderdeel van de sessie, zodat het netjes wordt opger
 
 ### Scripts uitvoeren bij systeemgebeurtenissen
 
-Omarchy activeert hooks op een handvol momenten, en je kunt er je eigen scripts aan koppelen. Ze staan in `~/.config/omarchy/hooks/<event>.d/`, één map per gebeurtenis, en elk uitvoerbaar bestand daarin wordt uitgevoerd wanneer de gebeurtenis plaatsvindt:
+Spherie activeert hooks op een handvol momenten, en je kunt er je eigen scripts aan koppelen. Ze staan in `~/.config/omarchy/hooks/<event>.d/`, één map per gebeurtenis, en elk uitvoerbaar bestand daarin wordt uitgevoerd wanneer de gebeurtenis plaatsvindt:
 
 | Gebeurtenis | Wanneer deze wordt uitgevoerd |
 | ----- | ------------ |
@@ -43,7 +43,7 @@ Omarchy activeert hooks op een handvol momenten, en je kunt er je eigen scripts 
 | `font-set` | Na een lettertypewijziging (lettertypenaam in `$1`) |
 | `battery-low` | Wanneer de accu bijna leeg is (percentage in `$1`) |
 
-De `pre-refresh-pacman`-hook is de plek waar aangepaste repositories of `IgnorePkg`-regels thuishoren, aangezien deze wordt uitgevoerd vóór de pakkettransactie. Beide update-gerelateerde hooks worden uitgevoerd als jouw gebruiker nadat Omarchy zijn gecachte sudo-autorisatie heeft gewist, dus een hook die `sudo` gebruikt heeft zijn eigen autorisatie nodig en kan om je wachtwoord vragen.
+De `pre-refresh-pacman`-hook is de plek waar aangepaste repositories of `IgnorePkg`-regels thuishoren, aangezien deze wordt uitgevoerd vóór de pakkettransactie. Beide update-gerelateerde hooks worden uitgevoerd als jouw gebruiker nadat Spherie zijn gecachte sudo-autorisatie heeft gewist, dus een hook die `sudo` gebruikt heeft zijn eigen autorisatie nodig en kan om je wachtwoord vragen.
 
 Elke van die mappen bevat al een `.sample`-bestand dat de vorm van een hook laat zien — verwijder `.sample` uit de naam om hem in gebruik te nemen. Om een script te installeren dat je elders hebt geschreven, gebruik je `omarchy hook install post-boot ~/my-hook`, waarmee het wordt ingekopieerd en uitvoerbaar wordt gemaakt.
 
@@ -60,7 +60,7 @@ Hergebruik je een bestaande id, dan overschrijf je die rij in plaats van een nie
 
 ### Je eigen shell-exports, functies en aliassen toevoegen
 
-Omarchy wordt geleverd met een heleboel ergonomische aliassen en handige functies, maar het is heel gebruikelijk dat je je eigen wilt toevoegen. Je moet zowel aliassen, functies als exports toevoegen in `~/.bashrc`. Dit bestand wordt bij updates niet overschreven. Als je een van de Omarchy-standaardwaarden wilt wijzigen, kun je die hier ook veilig toevoegen.
+Spherie wordt geleverd met een heleboel ergonomische aliassen en handige functies, maar het is heel gebruikelijk dat je je eigen wilt toevoegen. Je moet zowel aliassen, functies als exports toevoegen in `~/.bashrc`. Dit bestand wordt bij updates niet overschreven. Als je een van de Omarchy-standaardwaarden wilt wijzigen, kun je die hier ook veilig toevoegen.
 
 ### Omgevingsvariabelen voor het bureaublad instellen
 
@@ -78,7 +78,7 @@ o.rebind("SUPER + SHIFT + O", "Joplin", "joplin-desktop")
 
 `o.rebind` verwijdert de bestaande binding voordat de vervanging wordt toegevoegd. Het neemt dezelfde argumenten als `o.bind`, inclusief launch-helpers en bindingopties. Gebruik `o.bind` om een binding toe te voegen, of `hl.unbind` om er een te verwijderen zonder deze te vervangen.
 
-Als je erop staat om aan de interne Omarchy-bestanden te sleutelen, schakel dan over naar het dev-kanaal via _Update > Channel > Dev_. Dat koppelt Omarchy aan een git-checkout van de broncode in `~/omarchy`, die je naar hartenlust kunt wijzigen. Er is hier niemand die je vertelt wat je moet doen!
+Als je erop staat om aan de interne Omarchy-bestanden te sleutelen, schakel dan over naar het dev-kanaal via _Update > Channel > Dev_. Dat koppelt Spherie aan een git-checkout van de broncode in `~/omarchy`, die je naar hartenlust kunt wijzigen. Er is hier niemand die je vertelt wat je moet doen!
 
 ### Alle wijzigingen resetten
 

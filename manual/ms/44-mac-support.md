@@ -1,16 +1,16 @@
 # Sokongan Mac
 
-Omarchy mempunyai sokongan terbina dalam untuk **Intel Macs**. Terdapat beberapa batasan yang diketahui buat masa ini, tetapi selagi anda sedar dan OK dengannya; anda boleh memberi nafas baharu kepada Mac lama anda dengan memasang Omarchy.
+Spherie mempunyai sokongan terbina dalam untuk **Intel Macs**. Terdapat beberapa batasan yang diketahui buat masa ini, tetapi selagi anda sedar dan OK dengannya; anda boleh memberi nafas baharu kepada Mac lama anda dengan memasang Spherie.
 
 Sila ambil perhatian bahawa pemasangan pada Mac siri M tidak disokong secara langsung pada masa ini. Anda boleh mengetahui lebih lanjut tentang statusnya dalam #omarchy-on-other di [Discord](https://discord.gg/tXFUdasqhY) kami.
 
-Dalam satu ujian ringkas, kami berjaya mencapai peningkatan prestasi sebanyak 36% pada MacBook Pro 2019 hanya dengan memasang Omarchy.
+Dalam satu ujian ringkas, kami berjaya mencapai peningkatan prestasi sebanyak 36% pada MacBook Pro 2019 hanya dengan memasang Spherie.
 
  ![macbook-omarchy](images/macbook-omarchy.webp)
 
-### Memasang Omarchy pada Mac
+### Memasang Spherie pada Mac
 
-Omarchy hanya menyokong menjadi **satu-satunya** OS yang dipasang buat masa ini. Semasa pemasangan, pemacu akan dipadamkan sepenuhnya dan MacOS tidak lagi boleh dibut.
+Spherie hanya menyokong menjadi **satu-satunya** OS yang dipasang buat masa ini. Semasa pemasangan, pemacu akan dipadamkan sepenuhnya dan MacOS tidak lagi boleh dibut.
 
 Anda masih boleh memulihkannya kemudian melalui Internet Recovery jika anda mahu.
 

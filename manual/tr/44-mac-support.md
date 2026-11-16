@@ -1,16 +1,16 @@
 # Mac desteği
 
-Omarchy, **Intel Mac**'ler için yerleşik desteğe sahiptir. Şu anda birkaç bilinen sınırlama var, ancak bunların farkında olduğunuz ve sizin için sorun olmadığı sürece; eski Mac'lerinize Omarchy yükleyerek onlara yeni bir soluk kazandırabilirsiniz.
+Spherie, **Intel Mac**'ler için yerleşik desteğe sahiptir. Şu anda birkaç bilinen sınırlama var, ancak bunların farkında olduğunuz ve sizin için sorun olmadığı sürece; eski Mac'lerinize Spherie yükleyerek onlara yeni bir soluk kazandırabilirsiniz.
 
 Lütfen şu anda M serisi bir Mac'e kurulumun doğrudan desteklenmediğini unutmayın. Bunun durumu hakkında daha fazla bilgiyi [Discord](https://discord.gg/tXFUdasqhY) sunucumuzdaki #omarchy-on-other kanalında bulabilirsiniz.
 
-Basit bir testte, yalnızca Omarchy kurarak 2019 MacBook Pro'da %36 performans artışı elde edebildik.
+Basit bir testte, yalnızca Spherie kurarak 2019 MacBook Pro'da %36 performans artışı elde edebildik.
 
  ![macbook-omarchy](images/macbook-omarchy.webp)
 
-### Omarchy'yi Mac'e Kurma
+### Spherie'yi Mac'e Kurma
 
-Omarchy şu anda kurulu **tek** işletim sistemi olmayı destekliyor. Kurulum sırasında sürücü silinecek ve MacOS artık başlatılamayacak.
+Spherie şu anda kurulu **tek** işletim sistemi olmayı destekliyor. Kurulum sırasında sürücü silinecek ve MacOS artık başlatılamayacak.
 
 İsterseniz daha sonra Internet Recovery aracılığıyla onu geri yükleyebilirsiniz.
 

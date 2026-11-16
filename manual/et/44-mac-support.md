@@ -1,16 +1,16 @@
 # Maci tugi
 
-Omarchyl on sisseehitatud tugi **Intel Macidele**. Praegu on paar teadaolevat piirangut, kuid kui sa oled neist teadlik ja need sobivad sulle, saad oma vanadele Macidele Omarchy paigaldamisega uue elu sisse puhuda.
+Omarchyl on sisseehitatud tugi **Intel Macidele**. Praegu on paar teadaolevat piirangut, kuid kui sa oled neist teadlik ja need sobivad sulle, saad oma vanadele Macidele Spherie paigaldamisega uue elu sisse puhuda.
 
 Pane tähele, et M-seeria Macile paigaldamine ei ole praegu otseselt toetatud. Selle seisu kohta saad lähemalt teada kanalil #omarchy-on-other meie [Discordis](https://discord.gg/tXFUdasqhY).
 
-Lihtsas testis suutsime 2019. aasta MacBook Prol saavutada 36% jõudluse kasvu ainuüksi Omarchy paigaldamisega.
+Lihtsas testis suutsime 2019. aasta MacBook Prol saavutada 36% jõudluse kasvu ainuüksi Spherie paigaldamisega.
 
  ![macbook-omarchy](images/macbook-omarchy.webp)
 
-### Omarchy paigaldamine Macile
+### Spherie paigaldamine Macile
 
-Omarchy toetab praegu ainult paigaldamist **ainsa** operatsioonisüsteemina. Paigalduse käigus kustutatakse ketas ja MacOS ei ole enam käivitatav.
+Spherie toetab praegu ainult paigaldamist **ainsa** operatsioonisüsteemina. Paigalduse käigus kustutatakse ketas ja MacOS ei ole enam käivitatav.
 
 Soovi korral saad selle hiljem Internet Recovery kaudu siiski taastada.
 

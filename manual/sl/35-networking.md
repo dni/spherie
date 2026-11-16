@@ -12,7 +12,7 @@ Namesto da dolgo geslo berete na glas, med povezavo Wi-Fi zaženite _Nastavitev 
 
 ## DNS
 
-Omarchy uporablja kateri koli DNS, ki mu ga vaše omrežje ponudi prek DHCP. To lahko za celoten računalnik preglasite pod _Nastavitev > Omrežje > DNS_, kjer sta Cloudflare in Google oddaljena le en klik. Izberite _Po meri_, če želite vpisati lastne strežnike.
+Spherie uporablja kateri koli DNS, ki mu ga vaše omrežje ponudi prek DHCP. To lahko za celoten računalnik preglasite pod _Nastavitev > Omrežje > DNS_, kjer sta Cloudflare in Google oddaljena le en klik. Izberite _Po meri_, če želite vpisati lastne strežnike.
 
 Iz terminala `omarchy dns` izpiše trenutnega ponudnika, `omarchy dns Cloudflare` pa enega nastavi.
 

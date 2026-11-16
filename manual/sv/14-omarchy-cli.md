@@ -1,6 +1,6 @@
-# Omarchy CLI
+# Spherie CLI
 
-Omarchy styrs vanligtvis via snabbtangenterna och Omarchy-menyn (`Super + Space`). Men du kan också styra det via `omarchy` CLI. Det är särskilt hjälpsamt när du låter en AI-agent arbeta tillsammans med dig med anpassning eller konfiguration.
+Spherie styrs vanligtvis via snabbtangenterna och Omarchy-menyn (`Super + Space`). Men du kan också styra det via `omarchy` CLI. Det är särskilt hjälpsamt när du låter en AI-agent arbeta tillsammans med dig med anpassning eller konfiguration.
 
 CLI:t har tillgång till alla interna verktyg som används både via menyn och på andra sätt. Du kan se allt som finns tillgängligt genom att köra `omarchy` i terminalen.
 
@@ -8,7 +8,7 @@ Det ser ut ungefär så här:
 
 ```
 ~ ❯ omarchy
-Omarchy command center
+Spherie command center
 
 Usage:
   omarchy <command> [args...]
@@ -17,7 +17,7 @@ Usage:
   omarchy <group> <command> --help
 
 Common commands:
-  omarchy update              Update Omarchy and system packages
+  omarchy update              Update Spherie and system packages
   omarchy theme list          List available themes
   omarchy theme set <name>    Apply a theme
   omarchy font list           List available fonts
@@ -27,14 +27,14 @@ Common commands:
 Groups:
   agent          AI coding agents, their usage, and subscription accounts
   audio          Audio input and output controls
-  bar            Omarchy shell bar layout and settings
+  bar            Spherie shell bar layout and settings
   battery        Battery status helpers
   bluetooth      Bluetooth device controls
-  branch         Omarchy git branch management
+  branch         Spherie git branch management
   branding       About and screensaver branding
   brightness     Display and keyboard brightness
   capture        Screenshots and screen recording
-  channel        Omarchy release channel management
+  channel        Spherie release channel management
   clipboard      Clipboard helpers
   cmd            Command and shortcut helpers
   config         System configuration helpers

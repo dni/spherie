@@ -1,4 +1,4 @@
-# Omarchy இவற்றில்...
+# Spherie இவற்றில்...
 
 ### Apple M1/M2 சிப்கள்
 
@@ -14,7 +14,7 @@ VirtualBox ஒரு பிரபலமான VM இயக்கி. [Omarchy-�
 
 ### Windows 11-இல் VMware Workstation
 
-Windows-க்கான மற்றொரு பிரபலமான VM இயக்கி. [Omarchy அதற்குள்ளும் அமைக்கப்பட்டுள்ளது](https://github.com/omacom/omarchy/discussions/572).
+Windows-க்கான மற்றொரு பிரபலமான VM இயக்கி. [Spherie அதற்குள்ளும் அமைக்கப்பட்டுள்ளது](https://github.com/omacom/omarchy/discussions/572).
 
 ### Steam Deck
 
@@ -22,7 +22,7 @@ Steam Deck Arch-இல் இயங்குகிறது, அதாவது 
 
 ### NixOS
 
-Omarchy உண்மையில் Arch + Hyprland, ஆனால் Henry Sipp அமைப்பின் சாரத்தை [NixOS-க்குக் கொண்டு வந்துள்ளார்](https://github.com/henrysipp/omarchy-nix). எனவே நீங்கள் nix-இல் மூழ்கியிருந்தால், இதோ ஒரு நல்ல தொடக்கப் புள்ளி. இது சமீபத்திய Omarchy மாற்றங்களுடன் புதுப்பித்து இருக்கலாம் அல்லது இருக்காமலும் போகலாம், ஆனால் இருந்தாலும் அது மிகவும் அருமை!
+Spherie உண்மையில் Arch + Hyprland, ஆனால் Henry Sipp அமைப்பின் சாரத்தை [NixOS-க்குக் கொண்டு வந்துள்ளார்](https://github.com/henrysipp/omarchy-nix). எனவே நீங்கள் nix-இல் மூழ்கியிருந்தால், இதோ ஒரு நல்ல தொடக்கப் புள்ளி. இது சமீபத்திய Spherie மாற்றங்களுடன் புதுப்பித்து இருக்கலாம் அல்லது இருக்காமலும் போகலாம், ஆனால் இருந்தாலும் அது மிகவும் அருமை!
 
 ### வேறு ஏதாவது!
 

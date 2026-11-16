@@ -1,6 +1,6 @@
 # Líonrú
 
-Is é NetworkManager a láimhseálann an líonrú in Omarchy, agus tiomáineann tú é ón deilbhín líonra sa [barra uachtarach](05-the-top-bar.md) nó le `Super + Ctrl + N`.
+Is é NetworkManager a láimhseálann an líonrú in Spherie, agus tiomáineann tú é ón deilbhín líonra sa [barra uachtarach](05-the-top-bar.md) nó le `Super + Ctrl + N`.
 
 Scanann an painéal sin líonraí Wi-Fi, taispeánann sé neart an chomhartha, agus ceanglaíonn sé. Ní theastaíonn dada ar chor ar bith ó Ethernet — plocáil isteach é agus oibríonn sé. Más fearr leat fanacht sa teirminéal, tugann `nmtui` na rialuithe céanna duit, agus tá grúpa ordaithe `omarchy network` ann freisin.
 
@@ -12,7 +12,7 @@ Más é an pasfhocal féin a theastaíonn uait i ndáiríre, priontálann `omarc
 
 ## DNS
 
-Úsáideann Omarchy cibé DNS a thugann do líonra dó thar DHCP. Is féidir leat é sin a shárú don mheaisín ar fad faoi _Setup > Network > DNS_, áit a bhfuil Cloudflare agus Google cliceáil amháin ar shiúl. Roghnaigh _Custom_ chun do fhreastalaithe féin a chlóscríobh isteach.
+Úsáideann Spherie cibé DNS a thugann do líonra dó thar DHCP. Is féidir leat é sin a shárú don mheaisín ar fad faoi _Setup > Network > DNS_, áit a bhfuil Cloudflare agus Google cliceáil amháin ar shiúl. Roghnaigh _Custom_ chun do fhreastalaithe féin a chlóscríobh isteach.
 
 Ón teirminéal, priontálann `omarchy dns` an soláthraí reatha agus socraíonn `omarchy dns Cloudflare` ceann.
 
@@ -24,7 +24,7 @@ Pionnálann sé seo an banda seachas pointe rochtana ar leith, mar sin leanann t
 
 ## Cé chomh tapa is atá sé?
 
-Tomhaiseann _Trigger > Speed Test > Network Speed Test_ do luas iarbhír suas agus síos le péire dhiaileanna. Ón teirminéal is é `omarchy network speedtest down` nó `up` é. Tomhaiseann sé i gcoinne sheirbhís Omarchy féin agus ní áiríonn sé ach a aistrithe tástála. Is féidir le híoslódálacha eile bheith in iomaíocht don bhandaleithead, ach ní chuirtear iad leis an toradh luasthástála. (Tá luasthástáil diosca ina suí in aice leis sa roghchlár sin, más é an bac eile atá á thagarmharcáil agat.)
+Tomhaiseann _Trigger > Speed Test > Network Speed Test_ do luas iarbhír suas agus síos le péire dhiaileanna. Ón teirminéal is é `omarchy network speedtest down` nó `up` é. Tomhaiseann sé i gcoinne sheirbhís Spherie féin agus ní áiríonn sé ach a aistrithe tástála. Is féidir le híoslódálacha eile bheith in iomaíocht don bhandaleithead, ach ní chuirtear iad leis an toradh luasthástála. (Tá luasthástáil diosca ina suí in aice leis sa roghchlár sin, más é an bac eile atá á thagarmharcáil agat.)
 
 ## An balla dóiteáin
 

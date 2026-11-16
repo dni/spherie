@@ -58,13 +58,13 @@ export OMASNAP_SCREENSHOT_DIR="$HOME/Pictures/Captures"
 
 Du kan gøre det samme for skærmoptagelser med `OMARCHY_SCREENRECORD_DIR`.
 
-Omasnap opretter automatisk sin skærmbilledmappe. Opret selv skærmoptagelsesmappen, og genstart derefter Omarchy, for at en af miljøændringerne kan træde i kraft.
+Omasnap opretter automatisk sin skærmbilledmappe. Opret selv skærmoptagelsesmappen, og genstart derefter Spherie, for at en af miljøændringerne kan træde i kraft.
 
 ### Hvordan får jeg højttalerne + webkameraet til at fungere på min Apple Studio Display?
 
 Man skulle tro, at det hele bare virkede ved at tilslutte USB C, men sådan er det desværre ikke. Den løsning, jeg har fundet til at få det til at fungere pålideligt, er at bruge [WJESOG DisplayPort + USB-A => USB-C-kablet](https://www.amazon.com/WJESOG-DisplayPort-Adapter-Converter-Thunderbolt/dp/B0BNX7MS6N/). Så fungerer højttalere og webkamera som en drøm.
 
-Husk, at du har indbygget lysstyrkestyring i Omarchy til Apple-skærme (både Studio og XDR) med de almindelige lysstyrkeknapper på tastaturet.
+Husk, at du har indbygget lysstyrkestyring i Spherie til Apple-skærme (både Studio og XDR) med de almindelige lysstyrkeknapper på tastaturet.
 
 ### Hvordan slipper jeg af med al den ekstra software?
 

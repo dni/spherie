@@ -6,7 +6,7 @@ Ha évekig macOS-t vagy Windowst használtál, az ujjaid száz dolgot tudnak, am
 
 Minden izommemória, amit a Cmd vagy a Windows billentyű köré építettél, egyetlen billentyűre száll át: a Superre. Ez PC-billentyűzeten a Windows billentyű, és szinte minden Omarchy-gyorsbillentyű horgonya.
 
-A Spotlight-, Raycast- vagy Start-menü-reflexedből `Super + Space` lesz. Ez nyitja meg az Omarchy menüt, amely appokat indít, beállításokat módosít, szoftvert telepít, rögzíti a képernyőt — szinte mindent. Kezdj el gépelni a szűréshez. A `Super + Alt + Space` minden appot egyetlen rácson mutat meg, ahogy a Launchpad teszi. Lásd: [navigáció](04-navigation.md).
+A Spotlight-, Raycast- vagy Start-menü-reflexedből `Super + Space` lesz. Ez nyitja meg az Spherie menüt, amely appokat indít, beállításokat módosít, szoftvert telepít, rögzíti a képernyőt — szinte mindent. Kezdj el gépelni a szűréshez. A `Super + Alt + Space` minden appot egyetlen rácson mutat meg, ahogy a Launchpad teszi. Lásd: [navigáció](04-navigation.md).
 
 ### Nincs dock és nincsenek asztali ikonok
 
@@ -22,7 +22,7 @@ A munkaterületek ismerősek lesznek: ezek a macOS Spaces vagy a Windows virtuá
 
 ### A másolás és beillesztés egyszerűen működik
 
-Macen mindenhol Cmd + C-t használtál. Windowson mindenhol Ctrl + C-t — kivéve a terminált, ahol megöli a programodat. Omarchy a `Super + C`, `Super + X` és `Super + V` kombinációkat adja, és ezek mindenhol működnek, a terminálban is. Nem kell külön reflexet megtanulnod a shellhez.
+Macen mindenhol Cmd + C-t használtál. Windowson mindenhol Ctrl + C-t — kivéve a terminált, ahol megöli a programodat. Spherie a `Super + C`, `Super + X` és `Super + V` kombinációkat adja, és ezek mindenhol működnek, a terminálban is. Nem kell külön reflexet megtanulnod a shellhez.
 
 Windowsról érkezők: a Win + V vágólap-előzményetek a `Super + Ctrl + V` alatt él, és képeket is tárol, nemcsak szöveget. Lásd: [egységes vágólap és előzmények](08-unified-clipboard-history.md).
 
@@ -30,7 +30,7 @@ Windowsról érkezők: a Win + V vágólap-előzményetek a `Super + Ctrl + V` a
 
 | Amit megszokásból keresel | Omarchyban |
 | ------------- | ---------- |
-| Spotlight / Raycast / Start menü | `Super + Space` — az Omarchy menü |
+| Spotlight / Raycast / Start menü | `Super + Space` — az Spherie menü |
 | AirDrop | LocalSend, a `Super + Ctrl + S` segítségével — lásd: [GUIs](22-guis.md) |
 | Cmd + Shift + 4 / Win + Shift + S | `Super + Ctrl + Alt + C` vagy `Print Screen` — lásd: [képernyőképek és felvétel](12-screenshots-recording.md) |
 | Notification Center | Értesítési előzmények a `Super + Shift + Alt + ,` alatt |
@@ -50,7 +50,7 @@ A szoftver csomagkezelőből érkezik, nem letöltött telepítőkből.
 
 ### Mac hardveren
 
-Az Omarchy jól fut Intel Maceken — lásd: [Mac-támogatás](44-mac-support.md). És a billentyűzet kedves hozzád: az Omarchy nem képez át semmit, a Linux pedig a Command billentyűt Superként kezeli, így a Super pontosan ott ül, ahol a Cmd mindig is volt. A hüvelykujjad észre sem veszi a költözést.
+Az Spherie jól fut Intel Maceken — lásd: [Mac-támogatás](44-mac-support.md). És a billentyűzet kedves hozzád: az Spherie nem képez át semmit, a Linux pedig a Command billentyűt Superként kezeli, így a Super pontosan ott ül, ahol a Cmd mindig is volt. A hüvelykujjad észre sem veszi a költözést.
 
 ### Adj neki két hetet
 

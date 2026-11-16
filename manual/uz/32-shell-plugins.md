@@ -1,10 +1,10 @@
 # Shell plaginlari
 
-Omarchy ish stoli `omarchy-shell` deb ataluvchi bitta uzoq yashovchi Quickshell jarayoni sifatida ishlaydi va ekranda koʻrgan deyarli hamma narsa uning ichidagi plagindir. Panel plagindir. Undan tushadigan panellar, emoji tanlagich va almashish buferi boshqaruvchisi kabi toʻliq ekran ustqoplamalari, Omarchy menyusining oʻzi, qulflash ekrani, polkit dialogi va batareyangizni kuzatuvchi hamda kechasi ekraningizni isituvchi boshsiz xizmatlar ham shunday.
+Spherie ish stoli `omarchy-shell` deb ataluvchi bitta uzoq yashovchi Quickshell jarayoni sifatida ishlaydi va ekranda koʻrgan deyarli hamma narsa uning ichidagi plagindir. Panel plagindir. Undan tushadigan panellar, emoji tanlagich va almashish buferi boshqaruvchisi kabi toʻliq ekran ustqoplamalari, Spherie menyusining oʻzi, qulflash ekrani, polkit dialogi va batareyangizni kuzatuvchi hamda kechasi ekraningizni isituvchi boshsiz xizmatlar ham shunday.
 
-Bu shunchaki amalga oshirish tafsiloti emas. Bu siz ish stolining qismlarini oʻchirishingiz, ularni almashtirishingiz yoki Omarchy manbasining bir qatoriga tegmasdan oʻzingiznikini yozishingiz mumkinligini anglatadi.
+Bu shunchaki amalga oshirish tafsiloti emas. Bu siz ish stolining qismlarini oʻchirishingiz, ularni almashtirishingiz yoki Spherie manbasining bir qatoriga tegmasdan oʻzingiznikini yozishingiz mumkinligini anglatadi.
 
-Birinchi tomon plaginlari Omarchy bilan keladi va `$OMARCHY_PATH/shell/plugins/` da yashaydi. Oʻzingiz qoʻshgan har qanday narsa — oʻz tajribalaringiz yoki GitHub da topgan biror narsangiz — `~/.config/omarchy/plugins/` da yashaydi. Ikkalasi ham boshlangʻichda bir xil tarzda topiladi, lekin oʻrnatilganlar ishonchli shell interfeyslarini oladi, uchinchi tomon plaginlari esa oʻz xizmati va hayot aylanishi bilan cheklangan interfeys oladi. Oʻrnatilganlarning klonlari faqat asl xulq-atvor uchun kerak boʻlgan manbaga xos konfiguratsiya va UI chaqiruvlarini saqlaydi.
+Birinchi tomon plaginlari Spherie bilan keladi va `$OMARCHY_PATH/shell/plugins/` da yashaydi. Oʻzingiz qoʻshgan har qanday narsa — oʻz tajribalaringiz yoki GitHub da topgan biror narsangiz — `~/.config/omarchy/plugins/` da yashaydi. Ikkalasi ham boshlangʻichda bir xil tarzda topiladi, lekin oʻrnatilganlar ishonchli shell interfeyslarini oladi, uchinchi tomon plaginlari esa oʻz xizmati va hayot aylanishi bilan cheklangan interfeys oladi. Oʻrnatilganlarning klonlari faqat asl xulq-atvor uchun kerak boʻlgan manbaga xos konfiguratsiya va UI chaqiruvlarini saqlaydi.
 
 ## Sizda nima borligini koʻrish
 
@@ -101,4 +101,4 @@ Plagin dasturlash uchun [shell maʼlumotnoma](https://github.com/omacom/omarchy/
 
 Oʻzingizga yoqqan narsani yasaganingizdan soʻng, uni ommaviy git reporiga qoʻying. Bu butun tarqatish mexanizmidir — har kim keyin URL ingizga qarshi `omarchy plugin add` ni ishga tushirib, uni soniyalar ichida ishlatishi mumkin.
 
-Odamlar uni haqiqatan ham topishiga yordam berish uchun uni [plugins.omarchy.org](https://plugins.omarchy.org) da roʻyxat qiling. Bu Omarchy shell plaginlari uchun bozor va siz yozmoqchi boʻlgan vidjetni kimdir allaqachon yasagan-yasamagani haqida hayron boʻlganingizda qarash kerak boʻlgan birinchi joy. Boshlashdan oldin uni koʻrib chiqing!
+Odamlar uni haqiqatan ham topishiga yordam berish uchun uni [plugins.omarchy.org](https://plugins.omarchy.org) da roʻyxat qiling. Bu Spherie shell plaginlari uchun bozor va siz yozmoqchi boʻlgan vidjetni kimdir allaqachon yasagan-yasamagani haqida hayron boʻlganingizda qarash kerak boʻlgan birinchi joy. Boshlashdan oldin uni koʻrib chiqing!

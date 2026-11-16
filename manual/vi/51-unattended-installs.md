@@ -1,8 +1,8 @@
 # Cài đặt không cần can thiệp
 
-ISO Omarchy có thể tự cài đặt mà không cần ai ngồi trước bàn phím. Nếu trình cài đặt tìm thấy một ổ đĩa thứ hai có nhãn `cidata` chứa các tập tin cấu hình của nó, nó sẽ sao chép chúng ra, bỏ qua hoàn toàn trình hướng dẫn thiết lập, và tự khởi động lại vào hệ thống đã hoàn thiện. Không cần bản dựng ISO đặc biệt, không cần thêm mục nào trong menu khởi động — khi không gắn ổ đĩa như vậy, mọi thứ không thay đổi và bạn sẽ thấy trình hướng dẫn bình thường.
+ISO Spherie có thể tự cài đặt mà không cần ai ngồi trước bàn phím. Nếu trình cài đặt tìm thấy một ổ đĩa thứ hai có nhãn `cidata` chứa các tập tin cấu hình của nó, nó sẽ sao chép chúng ra, bỏ qua hoàn toàn trình hướng dẫn thiết lập, và tự khởi động lại vào hệ thống đã hoàn thiện. Không cần bản dựng ISO đặc biệt, không cần thêm mục nào trong menu khởi động — khi không gắn ổ đĩa như vậy, mọi thứ không thay đổi và bạn sẽ thấy trình hướng dẫn bình thường.
 
-Điều này khiến Omarchy trở thành một image nền tuyệt vời cho các môi trường phát triển dùng một lần: tạo một VM trong Proxmox hoặc bằng Packer, khởi động nó, bỏ đi chỗ khác, rồi SSH vào. `cidata` là nhãn `NoCloud` của cloud-init, vì vậy mọi công cụ ảo hóa phổ biến đều đã biết cách gắn một ổ đĩa như vậy.
+Điều này khiến Spherie trở thành một image nền tuyệt vời cho các môi trường phát triển dùng một lần: tạo một VM trong Proxmox hoặc bằng Packer, khởi động nó, bỏ đi chỗ khác, rồi SSH vào. `cidata` là nhãn `NoCloud` của cloud-init, vì vậy mọi công cụ ảo hóa phổ biến đều đã biết cách gắn một ổ đĩa như vậy.
 
 ## Các tập tin cấu hình
 
@@ -24,7 +24,7 @@ Bạn cũng có thể đặt một tập tin trống có tên `defer-provisionin
 
 ## Truy cập SSH
 
-Khi có `authorized_keys`, quá trình cài đặt sẽ thiết lập các khóa này thành `~/.ssh/authorized_keys` của người dùng, bật `sshd`, và mở tường lửa cho nó. (Một bản cài đặt Omarchy nguyên bản đi kèm openssh với dịch vụ bị tắt và cổng bị đóng, vì vậy một máy không có người giám sát sẽ không thể truy cập được nếu không có điều này.) Quá trình cài đặt chỉ thêm các khóa của bạn — nó không nới lỏng bất kỳ cài đặt xác thực nào khác của SSH daemon.
+Khi có `authorized_keys`, quá trình cài đặt sẽ thiết lập các khóa này thành `~/.ssh/authorized_keys` của người dùng, bật `sshd`, và mở tường lửa cho nó. (Một bản cài đặt Spherie nguyên bản đi kèm openssh với dịch vụ bị tắt và cổng bị đóng, vì vậy một máy không có người giám sát sẽ không thể truy cập được nếu không có điều này.) Quá trình cài đặt chỉ thêm các khóa của bạn — nó không nới lỏng bất kỳ cài đặt xác thực nào khác của SSH daemon.
 
 Khi có `tailscale_authkey`, máy sẽ tham gia tailnet của bạn trong lần khởi động đầu tiên thay vào đó: Tailscale được cài đặt từ các gói đi kèm trong ISO, tường lửa cho phép giao diện tailnet, và một tác vụ nền sẽ thực hiện việc tham gia ngay khi máy thực sự có mạng, thử lại cho đến khi thành công. Hãy dùng một khóa có thể tái sử dụng và đã được cấp quyền trước để một image ổ đĩa có thể phục vụ nhiều máy.
 
@@ -38,7 +38,7 @@ cp user_configuration.json user_credentials.json authorized_keys cidata/
 genisoimage -output cidata.iso -volid cidata -joliet -rock cidata/
 ```
 
-Sau đó gắn nó vào VM cùng với ISO Omarchy. Dưới đây là một ví dụ đầy đủ trên Proxmox:
+Sau đó gắn nó vào VM cùng với ISO Spherie. Dưới đây là một ví dụ đầy đủ trên Proxmox:
 
 ```bash
 qm create 101 --name my-omarchy \

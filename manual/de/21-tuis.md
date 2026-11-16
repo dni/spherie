@@ -12,19 +12,19 @@ Du wechselst mit `Tab` zwischen den verschiedenen Bereichen. Im Files-Bereich w�
 
 [Btop](https://github.com/aristocratos/btop) ist ein wunderschöner Ressourcenmanager, der Speicher-, CPU-, Festplatten- und Netzwerkauslastung anzeigt. Er listet auch alle aktiven Prozesse auf und ermöglicht es dir, sie zu verwalten.
 
-Omarchy nennt ihn Activity Monitor, und du startest ihn über den App-Launcher oder mit `Super + Shift + T`. Er öffnet sich als schwebendes Fenster, das du mit `Super + T` kacheln kannst.
+Spherie nennt ihn Activity Monitor, und du startest ihn über den App-Launcher oder mit `Super + Shift + T`. Er öffnet sich als schwebendes Fenster, das du mit `Super + T` kacheln kannst.
 
 ## Herdr
 
 [Herdr](https://github.com/omacom-io/herdr) ist ein Terminal-Workspace-Manager, der dir Workspaces, Tabs und Bereiche gibt und sie alle in einer persistenten Session am Laufen hält, von der du dich trennen und zu der du später zurückkehren kannst.
 
-Du startest ihn (oder verbindest dich erneut mit deiner bestehenden Session) über den App-Launcher oder mit `Super + Ctrl + Return`. Omarchy liefert eine Herdr-Konfiguration aus, die seine Tmux-Konfiguration widerspiegelt, sodass die Präfix-Taste auch hier `Ctrl + Space` lautet. Du kannst alle Tastenkombinationen mit `Super + Ctrl + K` durchsehen.
+Du startest ihn (oder verbindest dich erneut mit deiner bestehenden Session) über den App-Launcher oder mit `Super + Ctrl + Return`. Spherie liefert eine Herdr-Konfiguration aus, die seine Tmux-Konfiguration widerspiegelt, sodass die Präfix-Taste auch hier `Ctrl + Space` lautet. Du kannst alle Tastenkombinationen mit `Super + Ctrl + K` durchsehen.
 
 ## Fastfetch
 
 [Fastfetch](https://github.com/fastfetch-cli/fastfetch) zeigt Systeminformationen wie Kernel-Version, Uptime, Theme, CPU, Speicher und mehr. Es ist ein Nachfolger des beliebten neofetch-Tools.
 
-Omarchy hat dies als _About_ im Omarchy-Menü (`Super + Space`) verpackt.
+Spherie hat dies als _About_ im Omarchy-Menü (`Super + Space`) verpackt.
 
 ## Cliamp
 

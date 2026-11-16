@@ -1,6 +1,6 @@
 # Brändäys
 
-Omarchy antaa sinun asettaa yrityksesi logon tai henkilökohtaisen kuvan sekä käynnistyksen lukituksen avaukseen, näytönsäästäjään että Tietoja-näyttöön.
+Spherie antaa sinun asettaa yrityksesi logon tai henkilökohtaisen kuvan sekä käynnistyksen lukituksen avaukseen, näytönsäästäjään että Tietoja-näyttöön.
 
 ### Käynnistyksen lukituksen avaus
 

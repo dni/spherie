@@ -2,7 +2,7 @@
 
 ### Fingeraftryksgodkendelse
 
-Mange bærbare computere leveres med en fingeraftrykssensor til godkendelse. Du kan bruge den med Omarchy ved at køre _Opsætning > Sikkerhed > Fingeraftryk_ i Omarchy-menuen (`Super + Space`).
+Mange bærbare computere leveres med en fingeraftrykssensor til godkendelse. Du kan bruge den med Spherie ved at køre _Opsætning > Sikkerhed > Fingeraftryk_ i Omarchy-menuen (`Super + Space`).
 
 Det installerer fingeraftrykspakken, indlæser dit aftryk, verificerer det, og så er du klar til at bruge dit fingeraftryk til at låse op fra låseskærmen (som du kan aktivere med `Super + Ctrl + L`), komme i sudo-tilstand og godkende systemprompter.
 

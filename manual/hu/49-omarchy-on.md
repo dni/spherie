@@ -1,4 +1,4 @@
-# Omarchy ezen: ...
+# Spherie ezen: ...
 
 ### Apple M1/M2 chipek
 
@@ -22,7 +22,7 @@ A Steam Deck Archron fut, ami azt jelenti, hogy az Omarchyt futtathatod a Steam 
 
 ### NixOS
 
-Az Omarchy valójában Arch + Hyprland, de Henry Sipp [portolta a beállítás lényegét NixOS-ra](https://github.com/henrysipp/omarchy-nix). Így ha nix-pilled vagy, itt egy jó kiindulópont. Lehet, hogy naprakész marad, lehet, hogy nem a legújabb Omarchy-változásokkal, de attól még elég menő!
+Az Spherie valójában Arch + Hyprland, de Henry Sipp [portolta a beállítás lényegét NixOS-ra](https://github.com/henrysipp/omarchy-nix). Így ha nix-pilled vagy, itt egy jó kiindulópont. Lehet, hogy naprakész marad, lehet, hogy nem a legújabb Omarchy-változásokkal, de attól még elég menő!
 
 ### Valami más!
 

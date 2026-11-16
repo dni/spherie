@@ -1,8 +1,8 @@
 # Suiteálacha Gan Duine i Láthair
 
-Is féidir le ISO Omarchy é féin a shuiteáil gan aon duine ag an méarchlár. Má aimsíonn an suiteálaí an dara tiomántán leis an lipéad `cidata` a iompraíonn a chomhaid chumraíochta, cóipeálann sé uaidh iad, scipeálann sé an treoraí socraithe ar fad, agus atosaíonn sé isteach sa chóras críochnaithe leis féin. Ní theastaíonn aon ISO speisialta, aon iontráil bhreise sa roghchlár tosaithe — gan tiomántán den sórt sin ceangailte, ní athraíonn aon rud agus faigheann tú an gnáththreoraí.
+Is féidir le ISO Spherie é féin a shuiteáil gan aon duine ag an méarchlár. Má aimsíonn an suiteálaí an dara tiomántán leis an lipéad `cidata` a iompraíonn a chomhaid chumraíochta, cóipeálann sé uaidh iad, scipeálann sé an treoraí socraithe ar fad, agus atosaíonn sé isteach sa chóras críochnaithe leis féin. Ní theastaíonn aon ISO speisialta, aon iontráil bhreise sa roghchlár tosaithe — gan tiomántán den sórt sin ceangailte, ní athraíonn aon rud agus faigheann tú an gnáththreoraí.
 
-Fágann sé sin go bhfuil Omarchy ar fheabhas mar bhuníomhá le haghaidh timpeallachtaí forbartha indiúscartha: cruthaigh VM in Proxmox nó le Packer, tosnaigh é, siúl uait, téigh isteach le SSH. Is é `cidata` lipéad `NoCloud` cloud-init, mar sin tá a fhios ag an uirlisiú fíorúlaithe coitianta ar fad cheana conas tiomántán den sórt sin a cheangal.
+Fágann sé sin go bhfuil Spherie ar fheabhas mar bhuníomhá le haghaidh timpeallachtaí forbartha indiúscartha: cruthaigh VM in Proxmox nó le Packer, tosnaigh é, siúl uait, téigh isteach le SSH. Is é `cidata` lipéad `NoCloud` cloud-init, mar sin tá a fhios ag an uirlisiú fíorúlaithe coitianta ar fad cheana conas tiomántán den sórt sin a cheangal.
 
 ## Na comhaid chumraíochta
 
@@ -24,7 +24,7 @@ Is féidir leat comhad folamh darb ainm `defer-provisioning` a chur isteach in �
 
 ## Rochtain SSH
 
-Nuair atá `authorized_keys` ann, socraíonn an tsuiteáil na heochracha mar `~/.ssh/authorized_keys` an úsáideora, cumasaíonn sí `sshd`, agus osclaíonn sí an balla dóiteáin dó. (Tagann openssh le gnáthshuiteáil Omarchy leis an tseirbhís díchumasaithe agus an port dúnta, mar sin bheadh meaisín gan duine i láthair dorochtana murach sin.) Ní chuireann an tsuiteáil ach do chuid eochracha leis — ní scaoileann sí aon cheann de shocruithe fíordheimhnithe eile dheamhan SSH.
+Nuair atá `authorized_keys` ann, socraíonn an tsuiteáil na heochracha mar `~/.ssh/authorized_keys` an úsáideora, cumasaíonn sí `sshd`, agus osclaíonn sí an balla dóiteáin dó. (Tagann openssh le gnáthshuiteáil Spherie leis an tseirbhís díchumasaithe agus an port dúnta, mar sin bheadh meaisín gan duine i láthair dorochtana murach sin.) Ní chuireann an tsuiteáil ach do chuid eochracha leis — ní scaoileann sí aon cheann de shocruithe fíordheimhnithe eile dheamhan SSH.
 
 Nuair atá `tailscale_authkey` ann, téann an meaisín isteach i do tailnet ar an gcéad tosú ina ionad sin: suiteáiltear Tailscale ó phacáistí cuachta an ISO, ceadaíonn an balla dóiteáin an comhéadan tailnet, agus ritheann jab cúlra an teacht isteach a luaithe a bhíonn líonra ag an meaisín i ndáiríre, ag athiarraidh go dtí go n-éiríonn leis. Bain úsáid as eochair in-athúsáidte, réamhúdaraithe ionas gur féidir le híomhá tiomántáin amháin freastal ar go leor meaisíní.
 
@@ -38,7 +38,7 @@ cp user_configuration.json user_credentials.json authorized_keys cidata/
 genisoimage -output cidata.iso -volid cidata -joliet -rock cidata/
 ```
 
-Ansin ceangail leis an VM é in éineacht le ISO Omarchy. Seo sampla iomlán Proxmox:
+Ansin ceangail leis an VM é in éineacht le ISO Spherie. Seo sampla iomlán Proxmox:
 
 ```bash
 qm create 101 --name my-omarchy \

@@ -8,7 +8,7 @@
 
 | 平面 | 放在這裡的內容 | 範例 |
 | --- | --- | --- |
-| `Super + key` | 系統：視窗、工作區、版面配置與核心選單 | `Super + Space` Omarchy 選單、`Super + W` 關閉視窗、`Super + F` 全螢幕 |
+| `Super + key` | 系統：視窗、工作區、版面配置與核心選單 | `Super + Space` Spherie 選單、`Super + W` 關閉視窗、`Super + F` 全螢幕 |
 | `Super + Shift + key` | 應用程式 | `Super + Shift + B` 瀏覽器、`Super + Shift + E` 電子郵件、`Super + Shift + N` 編輯器 |
 | `Super + Ctrl + key` | 面板與系統選單 | `Super + Ctrl + A` 音訊、`Super + Ctrl + N` 網路、`Super + Ctrl + C` 擷取選單 |
 | `Super + Ctrl + Alt + key` | 快速動作與通知 | `Super + Ctrl + Alt + T` 顯示時間、`Super + Ctrl + Alt + B` 電池、`Super + Ctrl + Alt + C` 螢幕截圖 |
@@ -34,7 +34,7 @@
 
 | 快捷鍵 | 功能 |
 | --- | --- |
-| `Super + Space` | Omarchy 選單（應用程式與其他所有內容） |
+| `Super + Space` | Spherie 選單（應用程式與其他所有內容） |
 | `Super + Alt + Space` | 應用程式格狀清單 |
 | `Super + Escape` | 系統選單（暫停、重新啟動等） |
 | `Super + Ctrl + L` | 鎖定電腦 |
@@ -172,7 +172,7 @@
 | `Super + V` | 貼上 |
 | `Super + Ctrl + V` | 剪貼簿管理器 |
 
-在 Linux 上，你通常需要在終端機中用 `Ctrl + Shift + C/V` 複製貼上，在其他地方則用 `Ctrl + C/V`。這些 Omarchy 統一剪貼簿快捷鍵到處都能用。
+在 Linux 上，你通常需要在終端機中用 `Ctrl + Shift + C/V` 複製貼上，在其他地方則用 `Ctrl + C/V`。這些 Spherie 統一剪貼簿快捷鍵到處都能用。
 
 ## 擷取
 
@@ -193,7 +193,7 @@
 
 進行螢幕錄影時，這個快捷鍵會先詢問你要哪種音訊，然後開始錄影。再按一次即可停止。詳情請參閱[螢幕截圖與錄影](12-screenshots-recording.md)。
 
-所有擷取選項也可透過 Omarchy 選單（`Super + Space`）中的 _觸發 > 擷取_ 存取。
+所有擷取選項也可透過 Spherie 選單（`Super + Space`）中的 _觸發 > 擷取_ 存取。
 
 ## 通知
 
@@ -215,9 +215,9 @@
 | `Super + Backspace` | 切換視窗透明度 |
 | `Super + Ctrl + Backspace` | 切換單一視窗正方形比例 |
 
-其他背景圖片位於 `~/.config/omarchy/backgrounds/<theme name>`。也可透過 Omarchy 選單中的 _安裝 > 樣式 > 背景_ 取得。
+其他背景圖片位於 `~/.config/omarchy/backgrounds/<theme name>`。也可透過 Spherie 選單中的 _安裝 > 樣式 > 背景_ 取得。
 
-所有樣式選項也可透過 Omarchy 選單（`Super + Space`）中的 _樣式_ 存取。
+所有樣式選項也可透過 Spherie 選單（`Super + Space`）中的 _樣式_ 存取。
 
 ## 切換開關
 
@@ -318,7 +318,7 @@
 
 ## Ghostty 終端機
 
-Ghostty 終端機是透過 Omarchy 選單中的 _安裝 > 終端機_ 安裝的。
+Ghostty 終端機是透過 Spherie 選單中的 _安裝 > 終端機_ 安裝的。
 
 | 快捷鍵 | 功能 |
 | --- | --- |

@@ -1,10 +1,10 @@
 # Preklopnici, mirovanje i čuvar zaslona
 
-Mnogo toga što mijenjaš iz dana u dan zapravo nije postavka. To je način rada koji uključiš na sat vremena pa ga opet isključiš: noćno svjetlo dok radiš do kasno, ne ometaj dok prezentiraš, ostani budan dok nešto gledaš. Omarchy ih zove preklopnicima i svi rade na isti način — prečac, stavka u izborniku i naredba, svi pogađaju isti prekidač.
+Mnogo toga što mijenjaš iz dana u dan zapravo nije postavka. To je način rada koji uključiš na sat vremena pa ga opet isključiš: noćno svjetlo dok radiš do kasno, ne ometaj dok prezentiraš, ostani budan dok nešto gledaš. Spherie ih zove preklopnicima i svi rade na isti način — prečac, stavka u izborniku i naredba, svi pogađaju isti prekidač.
 
 ### Izbornik preklopnika
 
-`Super + Ctrl + O` otvara izravno _Trigger > Toggle_, ili tamo možeš doći iz Omarchy izbornika (`Super + Space`). Sve na tom popisu je prekidač koji možeš prebaciti bez razmišljanja o tome gdje stanje živi. Prekidači za izgled radne površine sjede pokraj njega, pod _Appearance_.
+`Super + Ctrl + O` otvara izravno _Trigger > Toggle_, ili tamo možeš doći iz Spherie izbornika (`Super + Space`). Sve na tom popisu je prekidač koji možeš prebaciti bez razmišljanja o tome gdje stanje živi. Prekidači za izgled radne površine sjede pokraj njega, pod _Appearance_.
 
 Iz terminala, isti prekidači su `omarchy toggle <thing>`. Pokreni samo `omarchy toggle` da vidiš cijelu skupinu.
 
@@ -26,7 +26,7 @@ Preklopnici za dodirnu pločicu, dodirni zaslon i hibridni GPU nalaze se pod _Tr
 
 _Appearance_ sadrži traku izbornika i animacije, plus nekoliko stvari koje nisu naredbe `omarchy toggle`, ali se ponašaju isto: postotak baterije u traci, zadani raspored radnog prostora i, pod _Windows_, razmake među prozorima (`Super + Shift + Backspace`) i kvadratni omjer za 1 prozor (`Super + Ctrl + Backspace`).
 
-Kad Hyprland nema GPU za crtanje i umjesto toga renderira na CPU-u (llvmpipe), kao na Macovima čiji GPU još nije podržan, u većini virtualnih strojeva ili kad se grafički upravljački program ne uspije učitati, Omarchy za tu sesiju isključuje animacije, zamućenje i sjene i kaže ti to jednom obaviješću. _Appearance > Animations On_ ih vraća, a Omarchy to pamti i za kasnije sesije.
+Kad Hyprland nema GPU za crtanje i umjesto toga renderira na CPU-u (llvmpipe), kao na Macovima čiji GPU još nije podržan, u većini virtualnih strojeva ili kad se grafički upravljački program ne uspije učitati, Spherie za tu sesiju isključuje animacije, zamućenje i sjene i kaže ti to jednom obaviješću. _Appearance > Animations On_ ih vraća, a Spherie to pamti i za kasnije sesije.
 
 Većina ih je samo datoteka zastavice pod `~/.local/state/omarchy/toggles/`. Ako u skripti želiš granati prema jednoj od njih, `omarchy-toggle-enabled` daje ti izlazni kod umjesto da moraš ići tražiti:
 
@@ -67,7 +67,7 @@ Dvije vrste poruka i dalje prolaze: Omarchyjeve vlastite potvrdne tost-obavijest
 
 ### Mirovanje
 
-Omarchy ljuska vlasnik je ponašanja u mirovanju, a vremena su blok `idle` na najvišoj razini u `~/.config/omarchy/shell.json`:
+Spherie ljuska vlasnik je ponašanja u mirovanju, a vremena su blok `idle` na najvišoj razini u `~/.config/omarchy/shell.json`:
 
 ```json
 {
@@ -95,10 +95,10 @@ Možeš ga pokrenuti na zahtjev iz _System > Screensaver_ (`Super + Esc`), što 
 
 `omarchy toggle screensaver` je ono što isključuje onaj u mirovanju, ako radije ideš ravno s posla na zaključano. Bilo koja tipka, klik, pomicanje kotačića ili pokret miša zatvara ga.
 
-Logotip koji crta tvoj je da ga promijeniš, pod _Appearance > Branding > Screensaver_. Prenesi png ili svg i Omarchy će ga pretvoriti u ASCII. Vidi [brendiranje](41-branding.md).
+Logotip koji crta tvoj je da ga promijeniš, pod _Appearance > Branding > Screensaver_. Prenesi png ili svg i Spherie će ga pretvoriti u ASCII. Vidi [brendiranje](41-branding.md).
 
 ### Zaključani zaslon
 
-`Super + Ctrl + L` zaključava računalo. To pokreće zaključani zaslon iz Omarchy ljuske, zatamnjuje zaslon, vraća raspored tipkovnice na prvi kako ne bi tipkao lozinku u pogrešnoj abecedi i — ako ti radi — zaključava 1Password na izlazu.
+`Super + Ctrl + L` zaključava računalo. To pokreće zaključani zaslon iz Spherie ljuske, zatamnjuje zaslon, vraća raspored tipkovnice na prvi kako ne bi tipkao lozinku u pogrešnoj abecedi i — ako ti radi — zaključava 1Password na izlazu.
 
 Zaključani zaslon prima lozinku, a primit će i otisak prsta kad ga postaviš. To, i drugi načini autentifikacije, obrađeni su u [hardverskoj autentifikaciji](37-hardware-authentication.md).

@@ -20,11 +20,11 @@ Az Obsidian minden célra ingyenes, beleértve a személyes, kereskedelmi és no
 
 Az Obsidian [kereskedelmi szinkronizálási kiegészítőt](https://obsidian.md/sync) is kínál iOS és Android mobilalkalmazásokhoz. (https://obsidian.md/pricing).
 
-Az Obsidian a `Super + Shift + O` kombinációval indul. A témaszinkronizálás használatához a beállításokban ki kell választanod az `Omarchy` témát.
+Az Obsidian a `Super + Shift + O` kombinációval indul. A témaszinkronizálás használatához a beállításokban ki kell választanod az `Spherie` témát.
 
 ## Omawrite
 
-Az [Omawrite](https://github.com/omacom-io/omawrite) az Omarchy saját, pofonegyszerű Markdown-író alkalmazása. Nincsenek vaultok, nincsenek bővítmények, csak te és a szavak.
+Az [Omawrite](https://github.com/omacom-io/omawrite) az Spherie saját, pofonegyszerű Markdown-író alkalmazása. Nincsenek vaultok, nincsenek bővítmények, csak te és a szavak.
 
 Az Omawrite a `Super + Shift + W` kombinációval indul.
 
@@ -44,7 +44,7 @@ Az Aethert az alkalmazásindítón keresztül indítod (`Super + Space`).
 
 A [LocalSend](https://localsend.org/) segítségével fájlokat küldhetsz ugyanazon a hálózaton lévő, az alkalmazást futtató más eszközökre, mint az Apple AirDropja. Csakhogy ez platformfüggetlen, így fájlokat küldhetsz Windows, macOS, Android, iOS és persze Linux rendszerekre és rendszerekről is.
 
-A Share menüt a `Super + Ctrl + S` kombinációval, vagy az Omarchy menüben a _Trigger > Share_ alatt nyithatod meg. Négy lehetőséget kínál:
+A Share menüt a `Super + Ctrl + S` kombinációval, vagy az Spherie menüben a _Trigger > Share_ alatt nyithatod meg. Négy lehetőséget kínál:
 
 - **Clipboard** szövegfájlként küldi el, bármit is másoltál. Kiváló arra, hogy egy linket vagy egy részletet a telefonodra juttass anélkül, hogy e-mailt küldenél magadnak.
 - **File** megnyit egy fájlválasztót, ahol egyszerre többet is kiválaszthatsz.
@@ -55,7 +55,7 @@ Ugyanez működik terminálból is a `omarchy share clipboard`, az `omarchy shar
 
 Közvetlenül a fájlkezelőből is küldhetsz: kattints jobb gombbal bármilyen kijelölésre a Nautilusban, és válaszd a _Send via LocalSend_ lehetőséget.
 
-Az Omarchy tűzfala alapértelmezetten zárva van, a LocalSend portját kivéve, így ez egy friss telepítésen azonnal működik. Lásd a [biztonság](48-security.md) részt.
+Az Spherie tűzfala alapértelmezetten zárva van, a LocalSend portját kivéve, így ez egy friss telepítésen azonnal működik. Lásd a [biztonság](48-security.md) részt.
 
 ## LibreOffice
 
@@ -65,19 +65,19 @@ A LibreOffice-t az alkalmazásindítón keresztül indítod (`Super + Space`).
 
 ## Hype
 
-A [Hype](https://github.com/omacom/hype) az Omarchy saját, pofonegyszerű prezentációs alkalmazása. A prezentációd egyetlen Markdown-fájl, mellette a képeivel és videóival: minden diát egy élő előnézet alatt írj meg, húzd a diákat a helyükre, majd mutasd be teljes képernyőn, vagy exportáld PDF és PowerPoint formátumba. Még az Omarchy-témádat is átveszi.
+A [Hype](https://github.com/omacom/hype) az Spherie saját, pofonegyszerű prezentációs alkalmazása. A prezentációd egyetlen Markdown-fájl, mellette a képeivel és videóival: minden diát egy élő előnézet alatt írj meg, húzd a diákat a helyükre, majd mutasd be teljes képernyőn, vagy exportáld PDF és PowerPoint formátumba. Még az Omarchy-témádat is átveszi.
 
 A Hype-ot az alkalmazásindítón keresztül indítod (`Super + Space`). Nyomd meg benne a `?` billentyűt az összes billentyűparancs megtekintéséhez.
 
 ## Signed
 
-A [Signed](https://github.com/omacom/signed) az Omarchy saját, pofonegyszerű megoldása PDF-ek aláírására és kitöltésére. Helyezd el a mentett aláírásodat, szöveget és a mai dátumot bárhová egy oldalon, majd ments egy aláírt másolatot az eredeti mellé. A módját lásd a [PDF-ek kitöltése](27-filling-out-pdfs.md) részben.
+A [Signed](https://github.com/omacom/signed) az Spherie saját, pofonegyszerű megoldása PDF-ek aláírására és kitöltésére. Helyezd el a mentett aláírásodat, szöveget és a mai dátumot bárhová egy oldalon, majd ments egy aláírt másolatot az eredeti mellé. A módját lásd a [PDF-ek kitöltése](27-filling-out-pdfs.md) részben.
 
 A Signed alkalmazást az alkalmazásindítón keresztül indítod (`Super + Space`), vagy nyiss meg vele egy PDF-et a fájlkezelőből.
 
 ## Omacalc
 
-Az [Omacalc](https://github.com/omacom-io/omacalc) az Omarchy saját, pofonegyszerű számológépe, amely lebegő ablakban nyílik meg.
+Az [Omacalc](https://github.com/omacom-io/omacalc) az Spherie saját, pofonegyszerű számológépe, amely lebegő ablakban nyílik meg.
 
 Az Omacalc a `Super + Shift + Q` kombinációval indul (vagy a számológép billentyűvel, ha a billentyűzeteden van ilyen).
 
@@ -85,11 +85,11 @@ Az Omacalc a `Super + Shift + Q` kombinációval indul (vagy a számológép bil
 
 A [Signal](https://signal.org/) az E2E titkosított üzenetküldés úttörője, és kiváló kommunikációs lehetőség mindenkinek, aki inkább nem valamelyik nagy technológiai konglomerátumon keresztül szeretne kommunikálni.
 
-A Signal a `Super + Shift + G` kombinációval indul. Nem része az alaptelepítésnek, így amikor először lenyomod ezt, az Omarchy felajánlja, hogy telepíti neked (az Omarchy menüben az _Install > Service_ alatt is megtalálod).
+A Signal a `Super + Shift + G` kombinációval indul. Nem része az alaptelepítésnek, így amikor először lenyomod ezt, az Spherie felajánlja, hogy telepíti neked (az Spherie menüben az _Install > Service_ alatt is megtalálod).
 
 ## Omaview
 
-Az [Omaview](https://github.com/omacom/omaview) az Omarchy saját, pofonegyszerű képmegjelenítője és médialejátszója: egy ablak a fotóidhoz, videóidhoz és zenéidhez. Nyiss meg egy fotót, és a nyílbillentyűk végiglépkednek a mappája többi elemén, az `N` és a `P` ugyanezt teszi bármivel, a `Ctrl + M` pedig az egész mappát rácsként mutatja. HEIC, AVIF és JPEG XL fotókat is megjelenít, és minden hosszabb tartalomban ott folytatja, ahol abbahagytad.
+Az [Omaview](https://github.com/omacom/omaview) az Spherie saját, pofonegyszerű képmegjelenítője és médialejátszója: egy ablak a fotóidhoz, videóidhoz és zenéidhez. Nyiss meg egy fotót, és a nyílbillentyűk végiglépkednek a mappája többi elemén, az `N` és a `P` ugyanezt teszi bármivel, a `Ctrl + M` pedig az egész mappát rácsként mutatja. HEIC, AVIF és JPEG XL fotókat is megjelenít, és minden hosszabb tartalomban ott folytatja, ahol abbahagytad.
 
 Nyomd meg az `F` billentyűt a teljes képernyőhöz, az `E` billentyűt egy kép szerkesztéséhez az Omasnap alkalmazásban vagy egy videó vágásához az Omacut alkalmazásban, a `Ctrl + P` kombinációt egy kép nyomtatásához, a `Delete` billentyűt pedig egy fájl Kukába helyezéséhez (a `Ctrl + Z` visszahozza). Nyomd meg benne a `?` billentyűt az összes billentyűparancs megtekintéséhez.
 
@@ -97,13 +97,13 @@ Az Omaview alkalmazást _Media Viewer_ néven indítod az alkalmazásindítón k
 
 ## Omacut
 
-Az [Omacut](https://github.com/omacom-io/omacut) az Omarchy saját, pofonegyszerű videóvágója. Amikor csak egy klip elejét és végét kell levágnod, sokkal jobb, mint elindítani egy teljes videószerkesztőt.
+Az [Omacut](https://github.com/omacom-io/omacut) az Spherie saját, pofonegyszerű videóvágója. Amikor csak egy klip elejét és végét kell levágnod, sokkal jobb, mint elindítani egy teljes videószerkesztőt.
 
 Az Omacutot az alkalmazásindítón keresztül indítod (`Super + Space`).
 
 ## Monologue
 
-A [Monologue](https://github.com/omacom/monologue) az Omarchy saját, pofonegyszerű webkamerás felvevője. Válaszd ki egyszer a kamerádat és a mikrofonodat, majd nyomd meg a `Space` billentyűt a felvételhez, és újra ugyanannak a felvételnek a szüneteltetéséhez és folytatásához. Mindig a kamerád legmagasabb felbontásában rögzít, élő mikrofonszint-jelzővel, hogy indulás előtt ellenőrizhesd a szinteket.
+A [Monologue](https://github.com/omacom/monologue) az Spherie saját, pofonegyszerű webkamerás felvevője. Válaszd ki egyszer a kamerádat és a mikrofonodat, majd nyomd meg a `Space` billentyűt a felvételhez, és újra ugyanannak a felvételnek a szüneteltetéséhez és folytatásához. Mindig a kamerád legmagasabb felbontásában rögzít, élő mikrofonszint-jelzővel, hogy indulás előtt ellenőrizhesd a szinteket.
 
 Állítsd le a felvételt, és azonnal megnyílik egy beépített szerkesztőben. Kattints duplán egy klipre a felosztásához, húzd a fogantyúkat az egyes darabok vágásához, és távolítsd el azokat a részeket, amelyeket nem akarsz. Ezután mentsd el MP4 formátumban. Az eredeti felvételed megmarad, amíg el nem veted, így bármikor visszatérhetsz, és másképp vághatod meg.
 

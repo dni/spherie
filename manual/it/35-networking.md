@@ -1,6 +1,6 @@
 # Rete
 
-La rete in Omarchy è gestita da NetworkManager e la controlli dall'icona della rete nella [barra superiore](05-the-top-bar.md) o con `Super + Ctrl + N`.
+La rete in Spherie è gestita da NetworkManager e la controlli dall'icona della rete nella [barra superiore](05-the-top-bar.md) o con `Super + Ctrl + N`.
 
 Quel pannello cerca le reti Wi-Fi, mostra la potenza del segnale e si connette. Per Ethernet non serve assolutamente nulla: colleghi il cavo e funziona. Se preferisci restare nel terminale, `nmtui` ti offre gli stessi controlli e c'è anche un gruppo di comandi `omarchy network`.
 
@@ -12,7 +12,7 @@ Se ti serve proprio la password stessa, `omarchy network password <interface>` l
 
 ## DNS
 
-Omarchy usa qualsiasi DNS la tua rete fornisca tramite DHCP. Puoi sostituirlo per l'intera macchina in _Configurazione > Rete > DNS_, dove Cloudflare e Google sono a un clic di distanza. Scegli _Personalizzato_ per inserire i tuoi server.
+Spherie usa qualsiasi DNS la tua rete fornisca tramite DHCP. Puoi sostituirlo per l'intera macchina in _Configurazione > Rete > DNS_, dove Cloudflare e Google sono a un clic di distanza. Scegli _Personalizzato_ per inserire i tuoi server.
 
 Dal terminale, `omarchy dns` stampa il provider attuale e `omarchy dns Cloudflare` ne imposta uno.
 
@@ -24,7 +24,7 @@ Questo fissa la banda anziché uno specifico punto di accesso, quindi continui a
 
 ## Quanto è veloce?
 
-_Attivazione > Test di velocità > Test di velocità della rete_ misura la tua effettiva velocità in download e upload con una coppia di quadranti. Dal terminale è `omarchy network speedtest down` oppure `up`. Misura rispetto al servizio di Omarchy e conteggia solo i suoi trasferimenti di test. Altri download possono competere per la larghezza di banda, ma non vengono aggiunti al risultato del test di velocità. (Accanto, in quel menu, c'è un test di velocità del disco, se stai misurando l'altro collo di bottiglia.)
+_Attivazione > Test di velocità > Test di velocità della rete_ misura la tua effettiva velocità in download e upload con una coppia di quadranti. Dal terminale è `omarchy network speedtest down` oppure `up`. Misura rispetto al servizio di Spherie e conteggia solo i suoi trasferimenti di test. Altri download possono competere per la larghezza di banda, ma non vengono aggiunti al risultato del test di velocità. (Accanto, in quel menu, c'è un test di velocità del disco, se stai misurando l'altro collo di bottiglia.)
 
 ## Il firewall
 

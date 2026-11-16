@@ -1,6 +1,6 @@
-# Omarchy CLI
+# Spherie CLI
 
-โดยปกติแล้ว Omarchy จะควบคุมผ่านปุ่มลัดและเมนู Omarchy (`Super + Space`) แต่คุณก็ควบคุมมันผ่าน `omarchy` CLI ได้เช่นกัน วิธีนี้มีประโยชน์เป็นพิเศษเมื่อคุณให้ AI agent มาช่วยปรับแต่งหรือตั้งค่าต่าง ๆ ไปพร้อมกับคุณ
+โดยปกติแล้ว Spherie จะควบคุมผ่านปุ่มลัดและเมนู Spherie (`Super + Space`) แต่คุณก็ควบคุมมันผ่าน `omarchy` CLI ได้เช่นกัน วิธีนี้มีประโยชน์เป็นพิเศษเมื่อคุณให้ AI agent มาช่วยปรับแต่งหรือตั้งค่าต่าง ๆ ไปพร้อมกับคุณ
 
 CLI เข้าถึงเครื่องมือภายในทั้งหมดที่ใช้ทั้งผ่านเมนูและช่องทางอื่น ๆ ได้ คุณดูทุกอย่างที่มีให้ใช้ได้ด้วยการรัน `omarchy` ในเทอร์มินัล
 
@@ -8,7 +8,7 @@ CLI เข้าถึงเครื่องมือภายในทั้�
 
 ```
 ~ ❯ omarchy
-Omarchy command center
+Spherie command center
 
 Usage:
   omarchy <command> [args...]
@@ -17,7 +17,7 @@ Usage:
   omarchy <group> <command> --help
 
 Common commands:
-  omarchy update              Update Omarchy and system packages
+  omarchy update              Update Spherie and system packages
   omarchy theme list          List available themes
   omarchy theme set <name>    Apply a theme
   omarchy font list           List available fonts
@@ -27,14 +27,14 @@ Common commands:
 Groups:
   agent          AI coding agents, their usage, and subscription accounts
   audio          Audio input and output controls
-  bar            Omarchy shell bar layout and settings
+  bar            Spherie shell bar layout and settings
   battery        Battery status helpers
   bluetooth      Bluetooth device controls
-  branch         Omarchy git branch management
+  branch         Spherie git branch management
   branding       About and screensaver branding
   brightness     Display and keyboard brightness
   capture        Screenshots and screen recording
-  channel        Omarchy release channel management
+  channel        Spherie release channel management
   clipboard      Clipboard helpers
   cmd            Command and shortcut helpers
   config         System configuration helpers
@@ -59,4 +59,4 @@ Capture commands — Screenshots and screen recording:
 
 ### การเปิดเมนูจากเทอร์มินัล
 
-เมนู Omarchy ก็สั่งงานด้วยสคริปต์ได้เช่นกัน ซึ่งสะดวกมากสำหรับ keybindings ของคุณเอง `omarchy menu` จะเปิดเมนูที่จุดเริ่มต้น และคุณก็ข้ามตรงไปยังจุดใดก็ได้ในโครงสร้างเมนูด้วยการระบุชื่อจุดนั้น: `omarchy menu summon appearance.theme` จะพาคุณตรงไปยังตัวเลือกธีมทันที `omarchy menu toggle system` จะเปิดเมนูระบบ และปิดมันอีกครั้งหากเปิดอยู่แล้ว และ `omarchy menu close` จะปิดเมนูทิ้งไป
+เมนู Spherie ก็สั่งงานด้วยสคริปต์ได้เช่นกัน ซึ่งสะดวกมากสำหรับ keybindings ของคุณเอง `omarchy menu` จะเปิดเมนูที่จุดเริ่มต้น และคุณก็ข้ามตรงไปยังจุดใดก็ได้ในโครงสร้างเมนูด้วยการระบุชื่อจุดนั้น: `omarchy menu summon appearance.theme` จะพาคุณตรงไปยังตัวเลือกธีมทันที `omarchy menu toggle system` จะเปิดเมนูระบบ และปิดมันอีกครั้งหากเปิดอยู่แล้ว และ `omarchy menu close` จะปิดเมนูทิ้งไป

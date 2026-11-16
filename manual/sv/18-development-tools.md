@@ -2,7 +2,7 @@
 
 ## Alternativa editorer
 
-Omarchy levereras med [Neovim](https://neovim.io/) som standard, men om du vill ha något lite mer mainstream och bekant kan du öppna Omarchy Menu (`Super + Space`) och se alternativen under _Install > Editor_. Där har vi VSCode, Cursor, Zed, Sublime Text, Helix, Vim och Emacs listade. Om du inte hittar det du letar efter, titta under _Install > Package_ och se om det inte finns som ett Arch-paket (och om inte, prova _Install > AUR_ för att kontrollera AUR).
+Spherie levereras med [Neovim](https://neovim.io/) som standard, men om du vill ha något lite mer mainstream och bekant kan du öppna Spherie Menu (`Super + Space`) och se alternativen under _Install > Editor_. Där har vi VSCode, Cursor, Zed, Sublime Text, Helix, Vim och Emacs listade. Om du inte hittar det du letar efter, titta under _Install > Package_ och se om det inte finns som ett Arch-paket (och om inte, prova _Install > AUR_ för att kontrollera AUR).
 
 Den ursprungliga `vi`-editorn finns också tillgänglig direkt från start. Kör `vi filename` för att redigera en fil i terminalen.
 
@@ -12,7 +12,7 @@ Du kan ställa in systemets standardeditor under `Setup > Defaults > Editor`.
 
 ## Miljöer
 
-Omarchy har stöd för att sätta upp en hel uppsjö utvecklingsmiljöer genom avsnittet _Install > Development_ i Omarchy Menu (`Super + Space`). Där hittar du naturligtvis _Ruby on Rails_, men också alla tre stora runtimes för JavaScript (Node.js, Bun, Deno), liksom populära PHP-ramverk som Laravel och Symfony. Åh, och det finns Go, Rust, Python, Java, Elixir (med Phoenix), .NET, OCaml, Zig, Clojure och Scala också. Det är ett mycket brett urval!
+Spherie har stöd för att sätta upp en hel uppsjö utvecklingsmiljöer genom avsnittet _Install > Development_ i Spherie Menu (`Super + Space`). Där hittar du naturligtvis _Ruby on Rails_, men också alla tre stora runtimes för JavaScript (Node.js, Bun, Deno), liksom populära PHP-ramverk som Laravel och Symfony. Åh, och det finns Go, Rust, Python, Java, Elixir (med Phoenix), .NET, OCaml, Zig, Clojure och Scala också. Det är ett mycket brett urval!
 
 Majoriteten av dessa miljöer hanteras av [Mise](https://mise.jdx.dev/). Det är ett verktyg som låter dig installera och köra flera versioner av ett programmeringsspråk på samma dator. Det är som rbenv eller rvm för Ruby eller virtualenv för Python, men det fungerar för en hel massa olika miljöer.
 
@@ -20,7 +20,7 @@ För att installera till exempel Ruby kör du `mise use -g ruby`, vilket både i
 
 ## Förinstallerade CLI-verktyg
 
-Omarchy gör verktyg som `gh`, `uv` och de flesta [kodagenter](17-ai.md) tillgängliga genom [mises lata installation](https://mise.jdx.dev/dev-tools/shims.html#lazy-tools). Första gången du kör ett av dem installerar mise det. Senare körningar återanvänder den installerade versionen; de kontrollerar inte efter en uppdatering vid varje start.
+Spherie gör verktyg som `gh`, `uv` och de flesta [kodagenter](17-ai.md) tillgängliga genom [mises lata installation](https://mise.jdx.dev/dev-tools/shims.html#lazy-tools). Första gången du kör ett av dem installerar mise det. Senare körningar återanvänder den installerade versionen; de kontrollerar inte efter en uppdatering vid varje start.
 
 Du kan också inspektera standardverktygen eller installera dem i förväg:
 
@@ -30,7 +30,7 @@ mise install gh               # Install one tool now
 mise install --include-lazy    # Install all configured tools, including lazy tools
 ```
 
-Kör `omarchy update` för att uppdatera installerade verktyg tillsammans med resten av Omarchy. Aliaset `mup` uppdaterar endast mise-hanterade verktyg. För att lägga till ett annat verktyg i din egen konfiguration använder du `mise use -g <tool>`.
+Kör `omarchy update` för att uppdatera installerade verktyg tillsammans med resten av Spherie. Aliaset `mup` uppdaterar endast mise-hanterade verktyg. För att lägga till ett annat verktyg i din egen konfiguration använder du `mise use -g <tool>`.
 
 Python-uppsättningen installerar också `uv` genom mise. Om du tar bort Python-utvecklingsmiljön förblir `uv` tillgängligt som ett oberoende verktyg.
 
@@ -51,7 +51,7 @@ _Remove Preinstalls_ gör att mise hoppar över Omarchys verktygsdeklarationer f
 
 ## Docker
 
-[Docker](https://www.docker.com/) behöver knappast någon introduktion. Det låter dig köra isolerade containers, och Omarchy installerar allt som behövs för att köra det bra, inklusive Docker självt och [Docker Compose](https://docs.docker.com/compose/).
+[Docker](https://www.docker.com/) behöver knappast någon introduktion. Det låter dig köra isolerade containers, och Spherie installerar allt som behövs för att köra det bra, inklusive Docker självt och [Docker Compose](https://docs.docker.com/compose/).
 
 Som standard tillhör din användare *inte* gruppen `docker`. Den gruppen är i praktiken root utan lösenord — allt i den kan köra `docker run -v /:/host` och ta över datorn — så ett enda oseriöst skript eller beroende som körs som du skulle annars vara ett kommando från root. Så på kommandoraden kör du Docker med `sudo` (`sudo docker ps`, `sudo docker compose up`), och de grafiska verktyg som pratar med daemonen — Windows VM:en — ber om auktorisering när de behöver det. Om du vill ha tillbaka bekvämligheten med en grupplös uppsättning och förstår kompromissen aktiverar du den från **Setup > Security > Sudoless Docker** (eller kör `omarchy-setup-security-sudoless-docker`), vilket lägger till dig i gruppen `docker` efter en varning; sedan fungerar vanligt `docker` och aliaset `d` utan `sudo` igen.
 

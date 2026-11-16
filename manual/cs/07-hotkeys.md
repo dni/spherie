@@ -8,7 +8,7 @@ Každá klávesová zkratka sedí na jedné rovině, dané jejími modifikátory
 
 | Rovina | Co tam žije | Příklady |
 | --- | --- | --- |
-| `Super + key` | Systém: okna, pracovní plochy, rozložení a základní nabídky | `Super + Space` nabídka Omarchy, `Super + W` zavřít okno, `Super + F` celá obrazovka |
+| `Super + key` | Systém: okna, pracovní plochy, rozložení a základní nabídky | `Super + Space` nabídka Spherie, `Super + W` zavřít okno, `Super + F` celá obrazovka |
 | `Super + Shift + key` | Aplikace | `Super + Shift + B` prohlížeč, `Super + Shift + E` e-mail, `Super + Shift + N` editor |
 | `Super + Ctrl + key` | Panely a systémové nabídky | `Super + Ctrl + A` zvuk, `Super + Ctrl + N` síť, `Super + Ctrl + C` nabídka snímání |
 | `Super + Ctrl + Alt + key` | Rychlé akce a upozornění | `Super + Ctrl + Alt + T` zobrazit čas, `Super + Ctrl + Alt + B` baterie, `Super + Ctrl + Alt + C` snímek obrazovky |
@@ -34,7 +34,7 @@ Pokud vám výchozí nastavení nevyhovuje (řekněme, že chcete `Super + Shift
 
 | Klávesová zkratka | Funkce |
 | ----------------------- | --------------------- |
-| `Super + Space` | Nabídka Omarchy (aplikace a všechno ostatní) |
+| `Super + Space` | Nabídka Spherie (aplikace a všechno ostatní) |
 | `Super + Alt + Space` | Mřížka aplikací |
 | `Super + Escape` | Systémová nabídka (uspání, restart atd.) |
 | `Super + Ctrl + L` | Zamknout počítač |
@@ -172,7 +172,7 @@ Změňte/přidejte vazby v `~/.config/hypr/bindings.lua`.
 | `Super + V` | Vložit |
 | `Super + Ctrl + V` | Správce schránky |
 
-Obvykle na Linuxu potřebujete `Ctrl + Shift + C/V` ke kopírování a vkládání v terminálu a `Ctrl + C/V` všude jinde. Tyto jednotné klávesové zkratky schránky v Omarchy fungují všude.
+Obvykle na Linuxu potřebujete `Ctrl + Shift + C/V` ke kopírování a vkládání v terminálu a `Ctrl + C/V` všude jinde. Tyto jednotné klávesové zkratky schránky v Spherie fungují všude.
 
 ## Snímání
 
@@ -193,7 +193,7 @@ Obvykle na Linuxu potřebujete `Ctrl + Shift + C/V` ke kopírování a vkládán
 
 U nahrávání obrazovky se zkratka nejprve zeptá, který zvuk chcete, a pak spustí nahrávání. Dalším stisknutím ho zastavíte. Podrobnosti najdete v [snímky obrazovky a nahrávání](12-screenshots-recording.md).
 
-Všechny možnosti snímání jsou dostupné také pod _Trigger > Capture_ v nabídce Omarchy (`Super + Space`).
+Všechny možnosti snímání jsou dostupné také pod _Trigger > Capture_ v nabídce Spherie (`Super + Space`).
 
 ## Oznámení
 
@@ -215,9 +215,9 @@ Všechny možnosti snímání jsou dostupné také pod _Trigger > Capture_ v nab
 | `Super + Backspace` | Přepnout průhlednost okna |
 | `Super + Ctrl + Backspace` | Přepnout čtvercový poměr stran jednoho okna |
 
-Další obrázky pozadí se nacházejí v `~/.config/omarchy/backgrounds/<theme name>`. Dostupné také přes _Install > Style > Background_ v nabídce Omarchy.
+Další obrázky pozadí se nacházejí v `~/.config/omarchy/backgrounds/<theme name>`. Dostupné také přes _Install > Style > Background_ v nabídce Spherie.
 
-Všechny možnosti stylu jsou dostupné také pod _Style_ v nabídce Omarchy (`Super + Space`).
+Všechny možnosti stylu jsou dostupné také pod _Style_ v nabídce Spherie (`Super + Space`).
 
 ## Přepínače
 
@@ -318,7 +318,7 @@ Tyto funkce musíte spouštět uvnitř relace Tmux.
 
 ## Terminál Ghostty
 
-Terminál Ghostty se instaluje pomocí _Install > Terminal_ přes nabídku Omarchy.
+Terminál Ghostty se instaluje pomocí _Install > Terminal_ přes nabídku Spherie.
 
 | Klávesová zkratka | Funkce |
 | ----------------------- | --------------------- |

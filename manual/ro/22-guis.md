@@ -20,11 +20,11 @@ Obsidian este gratuit pentru toate scopurile, inclusiv pentru uz personal, comer
 
 Obsidian oferă și un [supliment comercial pentru sincronizare](https://obsidian.md/sync) cu aplicațiile mobile pe iOS și Android. (https://obsidian.md/pricing).
 
-Pornești Obsidian cu `Super + Shift + O`. Pentru a folosi sincronizarea temei, trebuie să selectezi tema `Omarchy` în setări.
+Pornești Obsidian cu `Super + Shift + O`. Pentru a folosi sincronizarea temei, trebuie să selectezi tema `Spherie` în setări.
 
 ## Omawrite
 
-[Omawrite](https://github.com/omacom-io/omawrite) este aplicația proprie a Omarchy, extrem de simplă, pentru scris în Markdown. Fără vault-uri, fără plugin-uri, doar tu și cuvintele.
+[Omawrite](https://github.com/omacom-io/omawrite) este aplicația proprie a Spherie, extrem de simplă, pentru scris în Markdown. Fără vault-uri, fără plugin-uri, doar tu și cuvintele.
 
 Pornești Omawrite cu `Super + Shift + W`.
 
@@ -44,7 +44,7 @@ Pornești Aether prin lansatorul de aplicații (`Super + Space`).
 
 [LocalSend](https://localsend.org/) îți permite să trimiți fișiere către alte dispozitive din aceeași rețea care rulează aplicația, ca AirDrop de la Apple. Totuși, este multiplatformă, așa că poți trimite fișiere către și de la Windows, macOS, Android, iOS și, desigur, Linux.
 
-Poți deschide meniul Share cu `Super + Ctrl + S` sau din _Trigger > Share_ în meniul Omarchy. Îți oferă patru opțiuni:
+Poți deschide meniul Share cu `Super + Ctrl + S` sau din _Trigger > Share_ în meniul Spherie. Îți oferă patru opțiuni:
 
 - **Clipboard** trimite tot ce ai copiat ca fișier text. Excelent pentru a trimite un link sau un fragment pe telefon fără să-ți trimiți e-mail.
 - **File** deschide un selector de fișiere în care poți selecta mai multe deodată.
@@ -55,7 +55,7 @@ Același lucru funcționează din terminal cu `omarchy share clipboard`, `omarch
 
 Poți trimite și direct din managerul de fișiere: fă clic dreapta pe orice selecție în Nautilus și alege _Send via LocalSend_.
 
-Firewall-ul Omarchy este închis implicit, cu excepția portului LocalSend, așa că acest lucru funcționează din prima pe o instalare nouă. Vezi [securitate](48-security.md).
+Firewall-ul Spherie este închis implicit, cu excepția portului LocalSend, așa că acest lucru funcționează din prima pe o instalare nouă. Vezi [securitate](48-security.md).
 
 ## LibreOffice
 
@@ -65,19 +65,19 @@ Pornești LibreOffice prin lansatorul de aplicații (`Super + Space`).
 
 ## Hype
 
-[Hype](https://github.com/omacom/hype) este aplicația proprie a Omarchy, extrem de simplă, pentru prezentări. Deck-ul tău este un singur fișier Markdown, cu imaginile și videoclipurile lui alături: scrie fiecare slide sub o previzualizare live, trage slide-urile în ordine, apoi prezintă pe tot ecranul sau exportă în PDF și PowerPoint. Îți preia chiar și tema Omarchy.
+[Hype](https://github.com/omacom/hype) este aplicația proprie a Spherie, extrem de simplă, pentru prezentări. Deck-ul tău este un singur fișier Markdown, cu imaginile și videoclipurile lui alături: scrie fiecare slide sub o previzualizare live, trage slide-urile în ordine, apoi prezintă pe tot ecranul sau exportă în PDF și PowerPoint. Îți preia chiar și tema Spherie.
 
 Pornești Hype prin lansatorul de aplicații (`Super + Space`). Apasă `?` în interior pentru a vedea toate scurtăturile.
 
 ## Signed
 
-[Signed](https://github.com/omacom/signed) este modul propriu al Omarchy, extrem de simplu, de a semna PDF-uri și de a le completa. Pune semnătura salvată, text și data de azi oriunde pe o pagină, apoi salvează o copie semnată alături de original. Vezi [Completarea PDF-urilor](27-filling-out-pdfs.md) pentru a afla cum.
+[Signed](https://github.com/omacom/signed) este modul propriu al Spherie, extrem de simplu, de a semna PDF-uri și de a le completa. Pune semnătura salvată, text și data de azi oriunde pe o pagină, apoi salvează o copie semnată alături de original. Vezi [Completarea PDF-urilor](27-filling-out-pdfs.md) pentru a afla cum.
 
 Pornești Signed prin lansatorul de aplicații (`Super + Space`) sau deschide un PDF cu el din managerul de fișiere.
 
 ## Omacalc
 
-[Omacalc](https://github.com/omacom-io/omacalc) este calculatorul propriu al Omarchy, extrem de simplu, care se deschide într-o fereastră plutitoare.
+[Omacalc](https://github.com/omacom-io/omacalc) este calculatorul propriu al Spherie, extrem de simplu, care se deschide într-o fereastră plutitoare.
 
 Pornești Omacalc cu `Super + Shift + Q` (sau cu tasta de calculator, dacă tastatura ta are una).
 
@@ -85,11 +85,11 @@ Pornești Omacalc cu `Super + Shift + Q` (sau cu tasta de calculator, dacă tast
 
 [Signal](https://signal.org/) este pionierul mesageriei criptate E2E și o opțiune excelentă de comunicare pentru oricine preferă să nu treacă printr-unul dintre marile conglomerate tech.
 
-Pornești Signal cu `Super + Shift + G`. Nu face parte din instalarea de bază, așa că prima dată când apeși combinația aceea, Omarchy îți va propune să-l instaleze pentru tine (se află și în _Install > Service_ în meniul Omarchy).
+Pornești Signal cu `Super + Shift + G`. Nu face parte din instalarea de bază, așa că prima dată când apeși combinația aceea, Spherie îți va propune să-l instaleze pentru tine (se află și în _Install > Service_ în meniul Spherie).
 
 ## Omaview
 
-[Omaview](https://github.com/omacom/omaview) este vizualizatorul de imagini și playerul media propriu al Omarchy, extrem de simplu: o singură fereastră pentru fotografiile, videoclipurile și muzica ta. Deschide o fotografie și tastele săgeată trec prin restul folderului ei, `N` și `P` fac asta pentru orice, iar `Ctrl + M` arată întregul folder ca grilă. Afișează și fotografii HEIC, AVIF și JPEG XL și continuă de unde ai rămas în orice lucru lung.
+[Omaview](https://github.com/omacom/omaview) este vizualizatorul de imagini și playerul media propriu al Spherie, extrem de simplu: o singură fereastră pentru fotografiile, videoclipurile și muzica ta. Deschide o fotografie și tastele săgeată trec prin restul folderului ei, `N` și `P` fac asta pentru orice, iar `Ctrl + M` arată întregul folder ca grilă. Afișează și fotografii HEIC, AVIF și JPEG XL și continuă de unde ai rămas în orice lucru lung.
 
 Apasă `F` pentru ecran complet, `E` pentru a edita o imagine în Omasnap sau a tăia un videoclip în Omacut, `Ctrl + P` pentru a imprima o imagine și `Delete` pentru a muta un fișier în Trash (`Ctrl + Z` îl aduce înapoi). Apasă `?` în interior pentru a vedea toate scurtăturile.
 
@@ -97,13 +97,13 @@ Pornești Omaview ca _Media Viewer_ prin lansatorul de aplicații (`Super + Spac
 
 ## Omacut
 
-[Omacut](https://github.com/omacom-io/omacut) este instrumentul propriu al Omarchy, extrem de simplu, pentru tăiat videoclipuri. Când tot ce ai nevoie este să tai începutul și sfârșitul unui clip, bate pornirea unui editor video complet.
+[Omacut](https://github.com/omacom-io/omacut) este instrumentul propriu al Spherie, extrem de simplu, pentru tăiat videoclipuri. Când tot ce ai nevoie este să tai începutul și sfârșitul unui clip, bate pornirea unui editor video complet.
 
 Pornești Omacut prin lansatorul de aplicații (`Super + Space`).
 
 ## Monologue
 
-[Monologue](https://github.com/omacom/monologue) este recorderul webcam propriu al Omarchy, extrem de simplu. Alege camera și microfonul o singură dată, apoi apasă `Space` pentru a înregistra și din nou pentru a pune pauză și a relua aceeași înregistrare. Înregistrează întotdeauna la cea mai mare rezoluție a camerei tale, cu un indicator live al microfonului, ca să-ți poți verifica nivelurile înainte să începi.
+[Monologue](https://github.com/omacom/monologue) este recorderul webcam propriu al Spherie, extrem de simplu. Alege camera și microfonul o singură dată, apoi apasă `Space` pentru a înregistra și din nou pentru a pune pauză și a relua aceeași înregistrare. Înregistrează întotdeauna la cea mai mare rezoluție a camerei tale, cu un indicator live al microfonului, ca să-ți poți verifica nivelurile înainte să începi.
 
 Oprește înregistrarea și se deschide imediat într-un editor integrat. Fă dublu clic pe un clip pentru a-l împărți, trage de mânere pentru a tăia fiecare bucată și elimină părțile pe care nu le vrei. Apoi salveaz-o ca MP4. Înregistrarea originală este păstrată până când o arunci, așa că poți oricând să revii și să o tai altfel.
 

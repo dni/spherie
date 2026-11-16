@@ -1,0 +1,7 @@
+[Unit]
+Description=Spherie waypipe client for sphere %i
+PartOf=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/omarchy-sphere-gui %i
+Restart=on-failure

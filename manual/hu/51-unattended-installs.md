@@ -1,8 +1,8 @@
 # Felügyelet nélküli telepítések
 
-Az Omarchy ISO képes önmagát telepíteni úgy, hogy senki sem ül a billentyűzetnél. Ha a telepítő talál egy második, `cidata` címkéjű meghajtót, amely a konfigurációs fájljait hordozza, lemásolja azokat, teljesen kihagyja a beállítási varázslót, és magától újraindul az elkészült rendszerbe. Nem kell hozzá külön ISO-build, sem extra rendszerindító menüpont — ha nincs ilyen meghajtó csatlakoztatva, semmi sem változik, és a szokásos varázslót kapod.
+Az Spherie ISO képes önmagát telepíteni úgy, hogy senki sem ül a billentyűzetnél. Ha a telepítő talál egy második, `cidata` címkéjű meghajtót, amely a konfigurációs fájljait hordozza, lemásolja azokat, teljesen kihagyja a beállítási varázslót, és magától újraindul az elkészült rendszerbe. Nem kell hozzá külön ISO-build, sem extra rendszerindító menüpont — ha nincs ilyen meghajtó csatlakoztatva, semmi sem változik, és a szokásos varázslót kapod.
 
-Ezzel az Omarchy remek alapképfájl eldobható fejlesztői környezetekhez: hozz létre egy VM-et Proxmoxban vagy Packerrel, indítsd el, sétálj el, majd lépj be SSH-val. A `cidata` a cloud-init `NoCloud` címkéje, így az összes elterjedt virtualizációs eszköz már tudja, hogyan kell ilyen meghajtót csatlakoztatni.
+Ezzel az Spherie remek alapképfájl eldobható fejlesztői környezetekhez: hozz létre egy VM-et Proxmoxban vagy Packerrel, indítsd el, sétálj el, majd lépj be SSH-val. A `cidata` a cloud-init `NoCloud` címkéje, így az összes elterjedt virtualizációs eszköz már tudja, hogyan kell ilyen meghajtót csatlakoztatni.
 
 ## A konfigurációs fájlok
 
@@ -38,7 +38,7 @@ cp user_configuration.json user_credentials.json authorized_keys cidata/
 genisoimage -output cidata.iso -volid cidata -joliet -rock cidata/
 ```
 
-Ezután csatold a VM-hez az Omarchy ISO mellé. Íme egy teljes Proxmox-példa:
+Ezután csatold a VM-hez az Spherie ISO mellé. Íme egy teljes Proxmox-példa:
 
 ```bash
 qm create 101 --name my-omarchy \

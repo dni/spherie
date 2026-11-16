@@ -1,6 +1,6 @@
 # Gaming
 
-Omarchy ist nicht nur für _pRoDUcTiVItY_ da, sondern auch für Spaß, und was macht mehr Spaß als Gaming? Omarchy liefert eine ganze Suite an Gaming-Optionen mit — Steam und RetroArch für natives Spielen und Retro-Spiele, Battle.net, Lutris und Heroic für Stores außerhalb von Steam, Moonlight für PC-Streaming, Xbox Cloud Gaming + NVIDIA GeForce NOW für die Cloud, plus den Dauerbrenner Minecraft.
+Spherie ist nicht nur für _pRoDUcTiVItY_ da, sondern auch für Spaß, und was macht mehr Spaß als Gaming? Spherie liefert eine ganze Suite an Gaming-Optionen mit — Steam und RetroArch für natives Spielen und Retro-Spiele, Battle.net, Lutris und Heroic für Stores außerhalb von Steam, Moonlight für PC-Streaming, Xbox Cloud Gaming + NVIDIA GeForce NOW für die Cloud, plus den Dauerbrenner Minecraft.
 
 Dank Valves unglaublicher Arbeit an [der Proton-Kompatibilitätsschicht](https://en.wikipedia.org/wiki/Proton_(software)) gibt es inzwischen Zehntausende spielbarer moderner Spiele unter Linux. Oh, und wusstest du, dass auf dem [Steam Deck](https://store.steampowered.com/steamdeck/) tatsächlich Arch läuft!
 

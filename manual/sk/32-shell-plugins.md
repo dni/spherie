@@ -1,10 +1,10 @@
 # Pluginy shellu
 
-Pracovná plocha Omarchy beží ako jeden dlho žijúci proces Quickshell s názvom `omarchy-shell` a takmer všetko, čo vidíš na obrazovke, je plugin vnútri neho. Lišta je plugin. Rovnako panely, ktoré z nej padajú, celoobrazovkové prekrytia ako výber emoji a správca schránky, samotné menu Omarchy, zamykacia obrazovka, dialóg polkit a bezhlavé služby, ktoré sledujú tvoju batériu a v noci zohrievajú tvoju obrazovku.
+Pracovná plocha Spherie beží ako jeden dlho žijúci proces Quickshell s názvom `omarchy-shell` a takmer všetko, čo vidíš na obrazovke, je plugin vnútri neho. Lišta je plugin. Rovnako panely, ktoré z nej padajú, celoobrazovkové prekrytia ako výber emoji a správca schránky, samotné menu Spherie, zamykacia obrazovka, dialóg polkit a bezhlavé služby, ktoré sledujú tvoju batériu a v noci zohrievajú tvoju obrazovku.
 
-To nie je len detail implementácie. To znamená, že môžeš vypnúť časti pracovnej plochy, vymeniť ich alebo napísať vlastné bez toho, aby si sa dotkol jediného riadka zdrojového kódu Omarchy.
+To nie je len detail implementácie. To znamená, že môžeš vypnúť časti pracovnej plochy, vymeniť ich alebo napísať vlastné bez toho, aby si sa dotkol jediného riadka zdrojového kódu Spherie.
 
-Pluginy prvej strany sa dodávajú s Omarchy a žijú v `$OMARCHY_PATH/shell/plugins/`. Všetko, čo pridáš sám — vlastné experimenty alebo niečo, čo si našiel na GitHube — žije v `~/.config/omarchy/plugins/`. Oba sa zisťujú rovnakým spôsobom pri spustení, ale zabudované získavajú dôveryhodné rozhrania shellu, zatiaľ čo pluginy tretích strán získavajú obmedzené rozhranie obmedzené na ich vlastnú službu a životný cyklus. Klony zabudovaných si zachovávajú len konfiguráciu špecifickú pre zdroj a volania používateľského rozhrania potrebné pre pôvodné správanie.
+Pluginy prvej strany sa dodávajú s Spherie a žijú v `$OMARCHY_PATH/shell/plugins/`. Všetko, čo pridáš sám — vlastné experimenty alebo niečo, čo si našiel na GitHube — žije v `~/.config/omarchy/plugins/`. Oba sa zisťujú rovnakým spôsobom pri spustení, ale zabudované získavajú dôveryhodné rozhrania shellu, zatiaľ čo pluginy tretích strán získavajú obmedzené rozhranie obmedzené na ich vlastnú službu a životný cyklus. Klony zabudovaných si zachovávajú len konfiguráciu špecifickú pre zdroj a volania používateľského rozhrania potrebné pre pôvodné správanie.
 
 ## Zobrazenie toho, čo máš
 
@@ -101,4 +101,4 @@ Informácie o vývoji pluginov nájdeš v [referencii shellu](https://github.com
 
 Keď vytvoríš niečo, čo sa ti páči, umiestni to do verejného git repozitára. To je celý distribučný mechanizmus — ktokoľvek potom môže spustiť `omarchy plugin add` na tvoju URL a mať to spustené za pár sekúnd.
 
-Aby ľudia tvoj plugin skutočne našli, uveď ho na [plugins.omarchy.org](https://plugins.omarchy.org). To je trh s pluginmi shellu Omarchy a prvé miesto, kam sa pozrieť, keď rozmýšľaš, či už niekto vytvoril widget, ktorý sa chystáš napísať. Skôr než začneš, prezri si to!
+Aby ľudia tvoj plugin skutočne našli, uveď ho na [plugins.omarchy.org](https://plugins.omarchy.org). To je trh s pluginmi shellu Spherie a prvé miesto, kam sa pozrieť, keď rozmýšľaš, či už niekto vytvoril widget, ktorý sa chystáš napísať. Skôr než začneš, prezri si to!

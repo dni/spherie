@@ -1,6 +1,6 @@
 # Võrk
 
-Omarchy võrku haldab NetworkManager ja sa juhid seda [ülemise riba](05-the-top-bar.md) võrguikoonilt või klahvidega `Super + Ctrl + N`.
+Spherie võrku haldab NetworkManager ja sa juhid seda [ülemise riba](05-the-top-bar.md) võrguikoonilt või klahvidega `Super + Ctrl + N`.
 
 See paneel otsib Wi-Fi võrke, näitab signaali tugevust ja loob ühenduse. Ethernet ei vaja üldse midagi — ühenda see ja kõik töötab. Kui eelistad jääda terminali, annab `nmtui` sulle samad juhtimisvõimalused ja olemas on ka käsurühm `omarchy network`.
 
@@ -12,7 +12,7 @@ Kui vajad siiski parooli ennast, prindib selle `omarchy network password <interf
 
 ## DNS
 
-Omarchy kasutab seda DNS-i, mille sinu võrk DHCP kaudu väljastab. Saad selle kogu masina jaoks alistada jaotises _Setup > Network > DNS_, kus Cloudflare ja Google on ühe klõpsu kaugusel. Vali oma serverite sisestamiseks _Custom_.
+Spherie kasutab seda DNS-i, mille sinu võrk DHCP kaudu väljastab. Saad selle kogu masina jaoks alistada jaotises _Setup > Network > DNS_, kus Cloudflare ja Google on ühe klõpsu kaugusel. Vali oma serverite sisestamiseks _Custom_.
 
 Terminalist prindib `omarchy dns` praeguse teenusepakkuja ja `omarchy dns Cloudflare` määrab selle.
 
@@ -24,7 +24,7 @@ See lukustab sagedusriba, mitte konkreetse pääsupunkti, nii et liigud AP-de va
 
 ## Kui kiire see on?
 
-_Trigger > Speed Test > Network Speed Test_ mõõdab su tegelikku üles- ja allalaadimiskiirust paari osutiga. Terminalist on see `omarchy network speedtest down` või `up`. See mõõdab Omarchy enda teenuse vastu ja loeb ainult oma testülekandeid. Teised allalaadimised võivad ribalaiuse pärast võistelda, aga neid kiirusetesti tulemusse ei lisata. (Samas menüüs on selle kõrval kettakiiruse test, kui mõõdad teist pudelikaela.)
+_Trigger > Speed Test > Network Speed Test_ mõõdab su tegelikku üles- ja allalaadimiskiirust paari osutiga. Terminalist on see `omarchy network speedtest down` või `up`. See mõõdab Spherie enda teenuse vastu ja loeb ainult oma testülekandeid. Teised allalaadimised võivad ribalaiuse pärast võistelda, aga neid kiirusetesti tulemusse ei lisata. (Samas menüüs on selle kõrval kettakiiruse test, kui mõõdad teist pudelikaela.)
 
 ## Tulemüür
 

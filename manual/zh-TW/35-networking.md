@@ -1,6 +1,6 @@
 # 網路
 
-Omarchy 的網路由 NetworkManager 處理，你可以從[頂部列](05-the-top-bar.md)中的網路圖示操作，或是按下 `Super + Ctrl + N`。
+Spherie 的網路由 NetworkManager 處理，你可以從[頂部列](05-the-top-bar.md)中的網路圖示操作，或是按下 `Super + Ctrl + N`。
 
 該面板會掃描 Wi-Fi 網路、顯示訊號強度，並進行連線。乙太網路完全不需要任何設定 — 插上線就能用。如果你比較想待在終端機裡，`nmtui` 提供相同的控制功能，另外也有 `omarchy network` 指令群組。
 
@@ -12,7 +12,7 @@ Omarchy 的網路由 NetworkManager 處理，你可以從[頂部列](05-the-top-
 
 ## DNS
 
-Omarchy 會使用你的網路透過 DHCP 發放的 DNS。你可以在 _Setup > Network > DNS_ 為整台機器覆寫這個設定，Cloudflare 和 Google 都只要點一下就能選用。選 _Custom_ 則可輸入你自己的伺服器。
+Spherie 會使用你的網路透過 DHCP 發放的 DNS。你可以在 _Setup > Network > DNS_ 為整台機器覆寫這個設定，Cloudflare 和 Google 都只要點一下就能選用。選 _Custom_ 則可輸入你自己的伺服器。
 
 在終端機中，`omarchy dns` 會列印目前的供應商，而 `omarchy dns Cloudflare` 則可設定一個。
 
@@ -24,7 +24,7 @@ Omarchy 會使用你的網路透過 DHCP 發放的 DNS。你可以在 _Setup > N
 
 ## 到底有多快？
 
-_Trigger > Speed Test > Network Speed Test_ 會用一對錶盤測量你實際的上傳與下載速度。在終端機中則是 `omarchy network speedtest down` 或 `up`。它測量的是連往 Omarchy 自家服務的速度，而且只計算它自己的測試傳輸。其他的下載可能會搶頻寬，但不會被計入測速結果。（如果你想測的是另一個瓶頸，那個選單裡它旁邊還有一個磁碟速度測試。）
+_Trigger > Speed Test > Network Speed Test_ 會用一對錶盤測量你實際的上傳與下載速度。在終端機中則是 `omarchy network speedtest down` 或 `up`。它測量的是連往 Spherie 自家服務的速度，而且只計算它自己的測試傳輸。其他的下載可能會搶頻寬，但不會被計入測速結果。（如果你想測的是另一個瓶頸，那個選單裡它旁邊還有一個磁碟速度測試。）
 
 ## 防火牆
 

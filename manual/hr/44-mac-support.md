@@ -1,6 +1,6 @@
 # Podrška za Mac
 
-Omarchy ima ugrađenu podršku za **Intel Macove**. Trenutačno postoji nekoliko poznatih ograničenja, ali sve dok ste ih svjesni i slažete se s njima; možete udahnuti novi život svojim starim Macovima instaliranjem Omarchyja.
+Spherie ima ugrađenu podršku za **Intel Macove**. Trenutačno postoji nekoliko poznatih ograničenja, ali sve dok ste ih svjesni i slažete se s njima; možete udahnuti novi život svojim starim Macovima instaliranjem Omarchyja.
 
 Imajte na umu da instalacija na Mac s M-serijom trenutačno nije izravno podržana. Više o stanju toga možete saznati u #omarchy-on-other na našem [Discordu](https://discord.gg/tXFUdasqhY).
 
@@ -10,7 +10,7 @@ U jednostavnom testu uspjeli smo postići 36% poboljšanja performansi na MacBoo
 
 ### Instalacija Omarchyja na Mac
 
-Omarchy trenutačno podržava samo da bude **jedini** instalirani OS. Tijekom instalacije pogon će biti obrisan i MacOS se više neće moći pokrenuti.
+Spherie trenutačno podržava samo da bude **jedini** instalirani OS. Tijekom instalacije pogon će biti obrisan i MacOS se više neće moći pokrenuti.
 
 Kasnije ga i dalje možete vratiti putem Internet Recoveryja ako to želite.
 

@@ -1,6 +1,6 @@
 # Jaringan
 
-Jaringan di Omarchy ditangani oleh NetworkManager, dan Anda mengendalikannya dari ikon jaringan di [bilah atas](05-the-top-bar.md) atau dengan `Super + Ctrl + N`.
+Jaringan di Spherie ditangani oleh NetworkManager, dan Anda mengendalikannya dari ikon jaringan di [bilah atas](05-the-top-bar.md) atau dengan `Super + Ctrl + N`.
 
 Panel tersebut memindai jaringan Wi-Fi, menampilkan kekuatan sinyal, dan menghubungkan. Ethernet tidak memerlukan apa pun sama sekali — colokkan saja dan langsung berfungsi. Jika Anda lebih suka tetap di terminal, `nmtui` memberi Anda kontrol yang sama, dan ada juga grup perintah `omarchy network`.
 
@@ -12,7 +12,7 @@ Jika Anda benar-benar memerlukan kata sandinya sendiri, `omarchy network passwor
 
 ## DNS
 
-Omarchy menggunakan DNS apa pun yang diberikan jaringan Anda melalui DHCP. Anda dapat menggantinya untuk seluruh mesin di _Setup > Network > DNS_, tempat Cloudflare dan Google hanya berjarak satu klik. Pilih _Custom_ untuk mengetikkan server Anda sendiri.
+Spherie menggunakan DNS apa pun yang diberikan jaringan Anda melalui DHCP. Anda dapat menggantinya untuk seluruh mesin di _Setup > Network > DNS_, tempat Cloudflare dan Google hanya berjarak satu klik. Pilih _Custom_ untuk mengetikkan server Anda sendiri.
 
 Dari terminal, `omarchy dns` menampilkan penyedia saat ini dan `omarchy dns Cloudflare` menetapkan salah satunya.
 
@@ -24,7 +24,7 @@ Ini mengunci pita, bukan titik akses tertentu, jadi Anda tetap dapat berpindah a
 
 ## Seberapa cepat?
 
-_Trigger > Speed Test > Network Speed Test_ mengukur kecepatan unduh dan unggah Anda yang sebenarnya dengan sepasang penunjuk. Dari terminal, perintahnya adalah `omarchy network speedtest down` atau `up`. Pengukuran dilakukan terhadap layanan milik Omarchy sendiri dan hanya menghitung transfer ujinya. Unduhan lain dapat bersaing memperebutkan bandwidth, tetapi tidak ditambahkan ke hasil tes kecepatan. (Ada tes kecepatan disk yang berada di sebelahnya dalam menu tersebut, jika Anda sedang mengukur bottleneck yang lainnya.)
+_Trigger > Speed Test > Network Speed Test_ mengukur kecepatan unduh dan unggah Anda yang sebenarnya dengan sepasang penunjuk. Dari terminal, perintahnya adalah `omarchy network speedtest down` atau `up`. Pengukuran dilakukan terhadap layanan milik Spherie sendiri dan hanya menghitung transfer ujinya. Unduhan lain dapat bersaing memperebutkan bandwidth, tetapi tidak ditambahkan ke hasil tes kecepatan. (Ada tes kecepatan disk yang berada di sebelahnya dalam menu tersebut, jika Anda sedang mengukur bottleneck yang lainnya.)
 
 ## Firewall
 

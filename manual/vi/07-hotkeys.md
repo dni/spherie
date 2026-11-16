@@ -8,7 +8,7 @@ Mỗi phím tắt nằm trên một mặt phẳng, được xác định bởi c
 
 | Mặt phẳng | Những gì nằm ở đó | Ví dụ |
 | --- | --- | --- |
-| `Super + key` | Hệ thống: cửa sổ, workspace, bố cục và các menu cốt lõi | `Super + Space` menu Omarchy, `Super + W` đóng cửa sổ, `Super + F` toàn màn hình |
+| `Super + key` | Hệ thống: cửa sổ, workspace, bố cục và các menu cốt lõi | `Super + Space` menu Spherie, `Super + W` đóng cửa sổ, `Super + F` toàn màn hình |
 | `Super + Shift + key` | Ứng dụng | `Super + Shift + B` trình duyệt, `Super + Shift + E` email, `Super + Shift + N` trình soạn thảo |
 | `Super + Ctrl + key` | Các bảng và menu hệ thống | `Super + Ctrl + A` âm thanh, `Super + Ctrl + N` mạng, `Super + Ctrl + C` menu chụp/quay |
 | `Super + Ctrl + Alt + key` | Thao tác nhanh và thông báo | `Super + Ctrl + Alt + T` hiển thị giờ, `Super + Ctrl + Alt + B` pin, `Super + Ctrl + Alt + C` ảnh chụp màn hình |
@@ -34,7 +34,7 @@ Nếu một mặc định không phù hợp với bạn (chẳng hạn bạn mu�
 
 | Phím tắt                  | Chức năng              |
 | ----------------------- | --------------------- |
-| `Super + Space`           | Menu Omarchy (ứng dụng và mọi thứ khác)    |
+| `Super + Space`           | Menu Spherie (ứng dụng và mọi thứ khác)    |
 | `Super + Alt + Space` | Lưới ứng dụng |
 | `Super + Escape` | Menu hệ thống (tạm dừng, khởi động lại, v.v.)  |
 | `Super + Ctrl + L` | Khóa máy tính |
@@ -172,7 +172,7 @@ Thay đổi/thêm các ràng buộc trong `~/.config/hypr/bindings.lua`.
 | `Super + V`           | Dán    |
 | `Super + Ctrl + V`           | Trình quản lý clipboard    |
 
-Thường trên Linux, bạn cần `Ctrl + Shift + C/V` để copy'n'paste trong terminal và `Ctrl + C/V` để làm điều đó ở mọi nơi khác. Các phím tắt clipboard hợp nhất này của Omarchy hoạt động ở mọi nơi.
+Thường trên Linux, bạn cần `Ctrl + Shift + C/V` để copy'n'paste trong terminal và `Ctrl + C/V` để làm điều đó ở mọi nơi khác. Các phím tắt clipboard hợp nhất này của Spherie hoạt động ở mọi nơi.
 
 ## Chụp/quay
 
@@ -193,7 +193,7 @@ Thường trên Linux, bạn cần `Ctrl + Shift + C/V` để copy'n'paste trong
 
 Với quay màn hình, phím tắt trước tiên hỏi bạn muốn âm thanh nào, rồi bắt đầu quay. Nhấn lại để dừng. Xem [ảnh chụp màn hình và quay màn hình](12-screenshots-recording.md) để biết chi tiết.
 
-Tất cả các tùy chọn chụp/quay cũng có thể truy cập dưới _Trigger > Capture_ trong menu Omarchy (`Super + Space`).
+Tất cả các tùy chọn chụp/quay cũng có thể truy cập dưới _Trigger > Capture_ trong menu Spherie (`Super + Space`).
 
 ## Thông báo
 
@@ -215,9 +215,9 @@ Tất cả các tùy chọn chụp/quay cũng có thể truy cập dưới _Trig
 | `Super + Backspace` | Bật/tắt độ trong suốt trên một cửa sổ |
 | `Super + Ctrl + Backspace` | Bật/tắt tỷ lệ vuông cho một cửa sổ |
 
-Hình nền bổ sung nằm trong `~/.config/omarchy/backgrounds/<theme name>`. Cũng có sẵn qua _Install > Style > Background_ trong menu Omarchy.
+Hình nền bổ sung nằm trong `~/.config/omarchy/backgrounds/<theme name>`. Cũng có sẵn qua _Install > Style > Background_ trong menu Spherie.
 
-Tất cả các tùy chọn phong cách cũng có thể truy cập dưới _Style_ trong menu Omarchy (`Super + Space`).
+Tất cả các tùy chọn phong cách cũng có thể truy cập dưới _Style_ trong menu Spherie (`Super + Space`).
 
 ## Bật/tắt
 
@@ -318,7 +318,7 @@ Các hàm này phải được chạy bên trong một phiên Tmux.
 
 ## Ghostty Terminal
 
-Ghostty terminal được cài đặt bằng _Install > Terminal_ qua menu Omarchy.
+Ghostty terminal được cài đặt bằng _Install > Terminal_ qua menu Spherie.
 
 | Phím tắt                  | Chức năng              |
 | ----------------------- | --------------------- |

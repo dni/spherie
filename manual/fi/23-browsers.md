@@ -1,8 +1,8 @@
 # Selaimet
 
-Omarchy toimitetaan [Google Chrome](https://www.google.com/chrome/) oletusselaimena. Se on teemoitettu vastaamaan muuta järjestelmääsi, ja juuri se aukeaa näppäinyhdistelmällä `Super + Shift + Return` ja sen sisällä toimii jokainen [verkkosovellus](25-web-apps.md). Se avautuu suoraan selainikkunaan: ei tervetulonäkymää eikä kirjautumiskehotetta, käyttötilastoja ja kaatumisraportteja ei lähetetä Googlelle, ja mainosten yksityisyyskehotteet on kytketty pois päältä. Voit silti kirjautua Google-tilillesi profiilipainikkeesta milloin tahansa, kun haluat synkronoinnin.
+Spherie toimitetaan [Google Chrome](https://www.google.com/chrome/) oletusselaimena. Se on teemoitettu vastaamaan muuta järjestelmääsi, ja juuri se aukeaa näppäinyhdistelmällä `Super + Shift + Return` ja sen sisällä toimii jokainen [verkkosovellus](25-web-apps.md). Se avautuu suoraan selainikkunaan: ei tervetulonäkymää eikä kirjautumiskehotetta, käyttötilastoja ja kaatumisraportteja ei lähetetä Googlelle, ja mainosten yksityisyyskehotteet on kytketty pois päältä. Voit silti kirjautua Google-tilillesi profiilipainikkeesta milloin tahansa, kun haluat synkronoinnin.
 
-Jos Chrome ei ole mieleesi, et ole jumissa sen kanssa. Omarchy-valikon kohdasta _Install > Browser_ löydät [Chromium](https://www.chromium.org/) (pelkän avoimen lähdekoodin version, josta Chrome on tehty), Edge, Brave, Brave Origin, Firefox ja [Zen](https://zen-browser.app/). Valitse yksi, niin Omarchy asentaa sen, määrittää sen käytäntöhakemiston ja ottaa nykyisen teemasi käyttöön siinä.
+Jos Chrome ei ole mieleesi, et ole jumissa sen kanssa. Omarchy-valikon kohdasta _Install > Browser_ löydät [Chromium](https://www.chromium.org/) (pelkän avoimen lähdekoodin version, josta Chrome on tehty), Edge, Brave, Brave Origin, Firefox ja [Zen](https://zen-browser.app/). Valitse yksi, niin Spherie asentaa sen, määrittää sen käytäntöhakemiston ja ottaa nykyisen teemasi käyttöön siinä.
 
 ## Tee yhdestä oletus
 
@@ -30,9 +30,9 @@ Nämä ovat vain Chromium-perheelle. Firefox ja Zen eivät niitä saa.
 
 ## Firefox ja Zen
 
-Firefox ja Zen ovat eri perhettä, joten niitä kohdellaan eri tavalla: Omarchy asentaa käytäntötiedoston järkeville oletuksille ja kytkee ne natiiviin Wayland-tilaan, jonka haluat murtoskaalausta ja sujuvaa kosketuslevyllä vieritystä varten.
+Firefox ja Zen ovat eri perhettä, joten niitä kohdellaan eri tavalla: Spherie asentaa käytäntötiedoston järkeville oletuksille ja kytkee ne natiiviin Wayland-tilaan, jonka haluat murtoskaalausta ja sujuvaa kosketuslevyllä vieritystä varten.
 
-Ne eivät saa edellä mainittuja Chromium-laajennuksia, eikä Omarchy teemoita niitä, joten nuo kokemuksen osat jäävät sinun määritettäviksesi.
+Ne eivät saa edellä mainittuja Chromium-laajennuksia, eikä Spherie teemoita niitä, joten nuo kokemuksen osat jäävät sinun määritettäviksesi.
 
 ## Selaimen poistaminen
 

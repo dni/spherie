@@ -8,7 +8,7 @@
 
 | 平面 | 存放什么 | 示例 |
 | --- | --- | --- |
-| `Super + key` | 系统：窗口、工作区、布局和核心菜单 | `Super + Space` Omarchy 菜单，`Super + W` 关闭窗口，`Super + F` 全屏 |
+| `Super + key` | 系统：窗口、工作区、布局和核心菜单 | `Super + Space` Spherie 菜单，`Super + W` 关闭窗口，`Super + F` 全屏 |
 | `Super + Shift + key` | 应用程序 | `Super + Shift + B` 浏览器，`Super + Shift + E` 电子邮件，`Super + Shift + N` 编辑器 |
 | `Super + Ctrl + key` | 面板和系统菜单 | `Super + Ctrl + A` 音频，`Super + Ctrl + N` 网络，`Super + Ctrl + C` 捕获菜单 |
 | `Super + Ctrl + Alt + key` | 快捷操作和提示 | `Super + Ctrl + Alt + T` 显示时间，`Super + Ctrl + Alt + B` 电池，`Super + Ctrl + Alt + C` 截图 |
@@ -34,7 +34,7 @@
 
 | 快捷键                  | 功能              |
 | ----------------------- | --------------------- |
-| `Super + Space`           | Omarchy 菜单（应用程序和所有其他内容）    |
+| `Super + Space`           | Spherie 菜单（应用程序和所有其他内容）    |
 | `Super + Alt + Space` | 应用程序网格 |
 | `Super + Escape` | 系统菜单（挂起、重启等）  |
 | `Super + Ctrl + L` | 锁定计算机 |
@@ -172,7 +172,7 @@
 | `Super + V`           | 粘贴    |
 | `Super + Ctrl + V`           | 剪贴板管理器    |
 
-在 Linux 上，通常你需要在终端中使用 `Ctrl + Shift + C/V` 来复制粘贴，在其他所有地方则使用 `Ctrl + C/V`。这些 Omarchy 统一剪贴板快捷键在任何地方都能工作。
+在 Linux 上，通常你需要在终端中使用 `Ctrl + Shift + C/V` 来复制粘贴，在其他所有地方则使用 `Ctrl + C/V`。这些 Spherie 统一剪贴板快捷键在任何地方都能工作。
 
 ## 捕获
 
@@ -193,7 +193,7 @@
 
 录屏时，该快捷键会先询问你要哪种音频，然后开始录制。再次按下即可停止。详情请参阅[截图和录制](12-screenshots-recording.md)。
 
-所有捕获选项也可以通过 Omarchy 菜单（`Super + Space`）下的 _触发 > 捕获_ 访问。
+所有捕获选项也可以通过 Spherie 菜单（`Super + Space`）下的 _触发 > 捕获_ 访问。
 
 ## 通知
 
@@ -215,9 +215,9 @@
 | `Super + Backspace` | 切换窗口的透明度 |
 | `Super + Ctrl + Backspace` | 切换单窗口方形比例 |
 
-额外的背景图片位于 `~/.config/omarchy/backgrounds/<theme name>`。也可以通过 Omarchy 菜单中的 _安装 > 样式 > 背景_ 获得。
+额外的背景图片位于 `~/.config/omarchy/backgrounds/<theme name>`。也可以通过 Spherie 菜单中的 _安装 > 样式 > 背景_ 获得。
 
-所有样式选项也可以通过 Omarchy 菜单（`Super + Space`）下的 _样式_ 访问。
+所有样式选项也可以通过 Spherie 菜单（`Super + Space`）下的 _样式_ 访问。
 
 ## 开关
 
@@ -318,7 +318,7 @@
 
 ## Ghostty 终端
 
-Ghostty 终端通过 Omarchy 菜单使用 _安装 > 终端_ 安装。
+Ghostty 终端通过 Spherie 菜单使用 _安装 > 终端_ 安装。
 
 | 快捷键                  | 功能              |
 | ----------------------- | --------------------- |

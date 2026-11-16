@@ -8,7 +8,7 @@ Kiekvienas spartusis klavišas yra plokštumoje, kurią nustato jo modifikatoria
 
 | Plokštuma | Kas joje yra | Pavyzdžiai |
 | --- | --- | --- |
-| `Super + key` | Sistema: langai, darbo sritys, išdėstymai ir pagrindiniai meniu | `Super + Space` Omarchy meniu, `Super + W` uždaryti langą, `Super + F` visas ekranas |
+| `Super + key` | Sistema: langai, darbo sritys, išdėstymai ir pagrindiniai meniu | `Super + Space` Spherie meniu, `Super + W` uždaryti langą, `Super + F` visas ekranas |
 | `Super + Shift + key` | Programos | `Super + Shift + B` naršyklė, `Super + Shift + E` el. paštas, `Super + Shift + N` redaktorius |
 | `Super + Ctrl + key` | Skydeliai ir sistemos meniu | `Super + Ctrl + A` garsas, `Super + Ctrl + N` tinklas, `Super + Ctrl + C` fiksavimo meniu |
 | `Super + Ctrl + Alt + key` | Greiti veiksmai ir pranešimai | `Super + Ctrl + Alt + T` rodyti laiką, `Super + Ctrl + Alt + B` akumuliatorius, `Super + Ctrl + Alt + C` ekrano nuotrauka |
@@ -34,7 +34,7 @@ Jei numatytasis jums netinka (tarkime, norite `Super + Shift + S` ekrano nuotrau
 
 | Spartusis klavišas                  | Funkcija              |
 | ----------------------- | --------------------- |
-| `Super + Space`           | Omarchy meniu (programos ir visa kita)    |
+| `Super + Space`           | Spherie meniu (programos ir visa kita)    |
 | `Super + Alt + Space` | Programų tinklelis |
 | `Super + Escape` | Sistemos meniu (pristabdyti, paleisti iš naujo ir kt.)  |
 | `Super + Ctrl + L` | Užrakinti kompiuterį |
@@ -172,7 +172,7 @@ Keiskite / pridėkite kombinacijas faile `~/.config/hypr/bindings.lua`.
 | `Super + V`           | Įklijuoti    |
 | `Super + Ctrl + V`           | Iškarpinės tvarkyklė    |
 
-Paprastai Linux sistemoje terminale kopijuoti ir įklijuoti reikia `Ctrl + Shift + C/V`, o visur kitur — `Ctrl + C/V`. Šie Omarchy suvienodinti iškarpinės spartieji klavišai veikia visur.
+Paprastai Linux sistemoje terminale kopijuoti ir įklijuoti reikia `Ctrl + Shift + C/V`, o visur kitur — `Ctrl + C/V`. Šie Spherie suvienodinti iškarpinės spartieji klavišai veikia visur.
 
 ## Fiksavimas
 
@@ -193,7 +193,7 @@ Paprastai Linux sistemoje terminale kopijuoti ir įklijuoti reikia `Ctrl + Shift
 
 Įrašant ekraną, spartusis klavišas pirmiausia paklausia, kokio garso norite, tada pradeda įrašyti. Paspauskite jį dar kartą, kad sustabdytumėte. Išsamesnės informacijos žr. [ekrano nuotraukos ir įrašymas](12-screenshots-recording.md).
 
-Visos fiksavimo parinktys taip pat pasiekiamos Omarchy meniu (`Super + Space`) skiltyje _Trigger > Capture_.
+Visos fiksavimo parinktys taip pat pasiekiamos Spherie meniu (`Super + Space`) skiltyje _Trigger > Capture_.
 
 ## Pranešimai
 
@@ -215,9 +215,9 @@ Visos fiksavimo parinktys taip pat pasiekiamos Omarchy meniu (`Super + Space`) s
 | `Super + Backspace` | Perjungti lango skaidrumą |
 | `Super + Ctrl + Backspace` | Perjungti vieno lango kvadratinį kraštinių santykį |
 
-Papildomi fono paveikslėliai yra `~/.config/omarchy/backgrounds/<theme name>`. Taip pat pasiekiama Omarchy meniu skiltyje _Install > Style > Background_.
+Papildomi fono paveikslėliai yra `~/.config/omarchy/backgrounds/<theme name>`. Taip pat pasiekiama Spherie meniu skiltyje _Install > Style > Background_.
 
-Visos stiliaus parinktys taip pat pasiekiamos Omarchy meniu (`Super + Space`) skiltyje _Style_.
+Visos stiliaus parinktys taip pat pasiekiamos Spherie meniu (`Super + Space`) skiltyje _Style_.
 
 ## Perjungimai
 
@@ -318,7 +318,7 @@ Prefikso klavišas yra `Ctrl + Space` (taip pat veikia `Ctrl + B`). Šias kombin
 
 ## Ghostty Terminal
 
-Ghostty terminalas įdiegiamas Omarchy meniu naudojant _Install > Terminal_.
+Ghostty terminalas įdiegiamas Spherie meniu naudojant _Install > Terminal_.
 
 | Spartusis klavišas                  | Funkcija              |
 | ----------------------- | --------------------- |

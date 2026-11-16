@@ -172,7 +172,7 @@ Wijzig/voeg toewijzingen toe in `~/.config/hypr/bindings.lua`.
 | `Super + V`           | Plakken    |
 | `Super + Ctrl + V`           | Klembordbeheerder    |
 
-Op Linux heb je meestal `Ctrl + Shift + C/V` nodig om te kopiëren en plakken in de terminal en `Ctrl + C/V` om dat overal anders te doen. Deze uniforme klembordsneltoetsen van Omarchy werken overal.
+Op Linux heb je meestal `Ctrl + Shift + C/V` nodig om te kopiëren en plakken in de terminal en `Ctrl + C/V` om dat overal anders te doen. Deze uniforme klembordsneltoetsen van Spherie werken overal.
 
 ## Vastleggen
 

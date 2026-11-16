@@ -6,7 +6,7 @@ Yritä ensin [palauttaa järjestelmäsi](47-system-snapshots.md) viimeisintä p�
 
 ### Miksi jotkin sovellukset ovat niin suuria näytölläni?
 
-Omarchy olettaa, että käytössä on korkean tarkkuuden 2x-näyttö, joten se asettaa `GDK_SCALE`-arvon 2:ksi, kunnes valitset skaalauksen näyttöpaneelissa. Jos käytät 1x-näyttöä ja GTK- tai X11-sovellukset näkyvät ylisuurina, valitse sille 1x näyttöpaneelissa tai lisää `hl.env("GDK_SCALE", "1")` tiedostoon `~/.config/hypr/monitors.lua` (ja käynnistä sitten uudelleen kaikki ylisuuret sovellukset). Katso [näyttöjä käsittelevä opas](33-monitors.md).
+Spherie olettaa, että käytössä on korkean tarkkuuden 2x-näyttö, joten se asettaa `GDK_SCALE`-arvon 2:ksi, kunnes valitset skaalauksen näyttöpaneelissa. Jos käytät 1x-näyttöä ja GTK- tai X11-sovellukset näkyvät ylisuurina, valitse sille 1x näyttöpaneelissa tai lisää `hl.env("GDK_SCALE", "1")` tiedostoon `~/.config/hypr/monitors.lua` (ja käynnistä sitten uudelleen kaikki ylisuuret sovellukset). Katso [näyttöjä käsittelevä opas](33-monitors.md).
 
 Spotifyssa voit pienentää käyttöliittymää painamalla `Ctrl + Minus` (ja suurentaa sitä painamalla `Ctrl + Plus`).
 
@@ -26,7 +26,7 @@ Todennäköisesti siksi, ettei niitä ole asetettu ensisijaiseksi äänilähdök
 
 ### Kannettavani kaiuttimet kuulostavat oudoilta
 
-Joissakin kannettavissa Omarchy ottaa automaattisesti käyttöön kaiutinsäätöjä, jotka korjaavat sisäänrakennettujen kaiuttimien taajuusvastetta. `omarchy audio tuning status` kertoo, onko tällainen säätö käytössä koneessasi, ja `omarchy audio tuning off` poistaa sen käytöstä, jos haluat mieluummin kuulla kaiuttimet sellaisinaan.
+Joissakin kannettavissa Spherie ottaa automaattisesti käyttöön kaiutinsäätöjä, jotka korjaavat sisäänrakennettujen kaiuttimien taajuusvastetta. `omarchy audio tuning status` kertoo, onko tällainen säätö käytössä koneessasi, ja `omarchy audio tuning off` poistaa sen käytöstä, jos haluat mieluummin kuulla kaiuttimet sellaisinaan.
 
 ### Miksi en voi kirjautua sisään tai käyttää sudoa salasanallani?
 

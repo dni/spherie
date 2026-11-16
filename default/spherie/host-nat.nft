@@ -1,0 +1,10 @@
+# Dev fallback only (net sphere without VFIO): NAT net's uplink tap out of
+# whatever interface the host uses. Real installs pass the NIC to net instead.
+table ip spherie_nat
+delete table ip spherie_nat
+table ip spherie_nat {
+  chain postrouting {
+    type nat hook postrouting priority 100;
+    ip saddr 10.136.0.0/30 oifname != "sphnet0" masquerade
+  }
+}

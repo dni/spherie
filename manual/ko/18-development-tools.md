@@ -2,7 +2,7 @@
 
 ## 대체 편집기
 
-Omarchy는 기본적으로 [Neovim](https://neovim.io/)와 함께 제공되지만, 좀 더 대중적이고 익숙한 무언가를 원한다면 Omarchy Menu(`Super + Space`)를 실행하고 _Install > Editor_ 아래의 옵션을 확인하면 된다. 거기에는 VSCode, Cursor, Zed, Sublime Text, Helix, Vim, Emacs가 나열되어 있다. 찾는 것이 없다면 _Install > Package_를 확인하고 Arch 패키지에 있는지 살펴보라(없다면 _Install > AUR_을 시도해 AUR을 확인해 보라).
+Omarchy는 기본적으로 [Neovim](https://neovim.io/)와 함께 제공되지만, 좀 더 대중적이고 익숙한 무언가를 원한다면 Spherie Menu(`Super + Space`)를 실행하고 _Install > Editor_ 아래의 옵션을 확인하면 된다. 거기에는 VSCode, Cursor, Zed, Sublime Text, Helix, Vim, Emacs가 나열되어 있다. 찾는 것이 없다면 _Install > Package_를 확인하고 Arch 패키지에 있는지 살펴보라(없다면 _Install > AUR_을 시도해 AUR을 확인해 보라).
 
 원본 `vi` 편집기도 기본으로 사용할 수 있다. `vi filename`을 실행하면 터미널에서 파일을 편집할 수 있다.
 
@@ -12,7 +12,7 @@ Omarchy는 기본적으로 [Neovim](https://neovim.io/)와 함께 제공되지�
 
 ## 환경
 
-Omarchy는 Omarchy Menu(`Super + Space`)의 _Install > Development_ 섹션을 통해 온갖 개발 환경을 설정할 수 있도록 지원한다. 물론 _Ruby on Rails_도 있지만, JavaScript용 주요 런타임 3종(Node.js, Bun, Deno)은 물론 Laravel, Symfony 같은 인기 PHP 프레임워크도 있다. 아, Go, Rust, Python, Java, Elixir(Phoenix 포함), .NET, OCaml, Zig, Clojure, Scala도 있다. 정말 폭넓은 선택지다!
+Omarchy는 Spherie Menu(`Super + Space`)의 _Install > Development_ 섹션을 통해 온갖 개발 환경을 설정할 수 있도록 지원한다. 물론 _Ruby on Rails_도 있지만, JavaScript용 주요 런타임 3종(Node.js, Bun, Deno)은 물론 Laravel, Symfony 같은 인기 PHP 프레임워크도 있다. 아, Go, Rust, Python, Java, Elixir(Phoenix 포함), .NET, OCaml, Zig, Clojure, Scala도 있다. 정말 폭넓은 선택지다!
 
 이러한 환경 대부분은 [Mise](https://mise.jdx.dev/)로 관리된다. 같은 컴퓨터에 프로그래밍 언어의 여러 버전을 설치하고 실행할 수 있게 해주는 도구다. Ruby용 rbenv나 rvm, Python용 virtualenv와 같지만, 다양한 환경에서 작동한다.
 
@@ -30,7 +30,7 @@ mise install gh               # Install one tool now
 mise install --include-lazy    # Install all configured tools, including lazy tools
 ```
 
-`omarchy update`를 실행하면 Omarchy 전체와 함께 설치된 도구도 업데이트된다. `mup` 별칭은 mise가 관리하는 도구만 업데이트한다. 자신의 구성에 다른 도구를 추가하려면 `mise use -g <tool>`을 사용하라.
+`omarchy update`를 실행하면 Spherie 전체와 함께 설치된 도구도 업데이트된다. `mup` 별칭은 mise가 관리하는 도구만 업데이트한다. 자신의 구성에 다른 도구를 추가하려면 `mise use -g <tool>`을 사용하라.
 
 Python을 설정하면 mise를 통해 `uv`도 설치된다. Python 개발 환경을 제거해도 `uv`는 독립적인 도구로 계속 사용할 수 있다.
 
@@ -55,7 +55,7 @@ _Remove Preinstalls_는 `~/.config/mise/miserc.toml`의 `ignored_config_paths`�
 
 기본적으로 사용자는 `docker` 그룹에 *속하지 않는다*. 이 그룹은 사실상 비밀번호 없는 root나 마찬가지다 — 이 그룹에 속한 것은 무엇이든 `docker run -v /:/host`를 실행해 컴퓨터를 장악할 수 있다 — 따라서 악성 스크립트나 의존성 하나가 사용자로 실행되기만 해도 root까지 한 명령만 남게 된다. 그래서 명령줄에서는 `sudo`와 함께 Docker를 실행하고(`sudo docker ps`, `sudo docker compose up`), 데몬과 통신하는 그래픽 도구 — Windows VM — 는 필요할 때 권한을 요청한다. 그룹 없는 설정의 편리함을 되찾고 싶고 그 대가를 이해한다면 **Setup > Security > Sudoless Docker**에서 활성화하라(또는 `omarchy-setup-security-sudoless-docker` 실행). 경고 후 `docker` 그룹에 추가된다; 그러면 일반 `docker`와 `d` 별칭이 다시 `sudo` 없이 작동한다.
 
-Omarchy 메뉴의 _Install > Development > Docker DB_를 사용해 Docker에서 로컬 개발용 일반 데이터베이스를 설정할 수 있다.
+Spherie 메뉴의 _Install > Development > Docker DB_를 사용해 Docker에서 로컬 개발용 일반 데이터베이스를 설정할 수 있다.
 
 ## GitHub CLI
 

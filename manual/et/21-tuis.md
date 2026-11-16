@@ -12,7 +12,7 @@ Erinevate paanide vahel liigud klahviga `Tab`. Files paanis valid failid etteval
 
 [Btop](https://github.com/aristocratos/btop) on ilus ressursihaldur, mis näitab mälu, CPU, ketta ja võrgu kasutust. See loetleb ka kõik aktiivsed protsessid ja võimaldab sul neid hallata.
 
-Omarchy kutsub seda nimega Activity Monitor ja selle saad käivitada rakenduste käivitajast või vajutades `Super + Shift + T`. See avaneb hõljuva aknana, mille saad paanida klahvikombinatsiooniga `Super + T`.
+Spherie kutsub seda nimega Activity Monitor ja selle saad käivitada rakenduste käivitajast või vajutades `Super + Shift + T`. See avaneb hõljuva aknana, mille saad paanida klahvikombinatsiooniga `Super + T`.
 
 ## Herdr
 
@@ -24,16 +24,16 @@ Selle käivitad (või olemasoleva seansiga taasühendud) rakenduste käivitajast
 
 [Fastfetch](https://github.com/fastfetch-cli/fastfetch) näitab süsteemiteavet, nagu kerneli versioon, tööaeg, teema, CPU, mälu ja palju muud. See on populaarse neofetch tööriista järeltulija.
 
-Omarchy on pakendanud selle Omarchy menüüs nime alla _About_ (`Super + Space`).
+Spherie on pakendanud selle Spherie menüüs nime alla _About_ (`Super + Space`).
 
 ## Cliamp
 
-[Cliamp](https://www.cliamp.stream/) on retro terminali muusikapleier, mis on inspireeritud Winamp 2.x-ist, koos sisseehitatud raadiojaamadega lo-fi biitide jaoks. Käivita see klahvikombinatsiooniga `Super + Shift + Alt + M` või Omarchy menüüst jaotise _Apps_ alt. Täieliku klahvisidumiste loendi nägemiseks vajuta `?`.
+[Cliamp](https://www.cliamp.stream/) on retro terminali muusikapleier, mis on inspireeritud Winamp 2.x-ist, koos sisseehitatud raadiojaamadega lo-fi biitide jaoks. Käivita see klahvikombinatsiooniga `Super + Shift + Alt + M` või Spherie menüüst jaotise _Apps_ alt. Täieliku klahvisidumiste loendi nägemiseks vajuta `?`.
 
 ## Aga Wi-Fi ja Bluetooth?
 
-Wi-Fi ja Bluetoothi jaoks sa TUIsid ei leia — need tööd kuuluvad Omarchy kesta juurde. Võrkude nägemiseks ja ühenduse loomiseks klõpsa ülemisel ribal Wi-Fi ikooni (või vajuta `Super + Ctrl + N`) ning seadmete sidumiseks ja ühendamiseks klõpsa Bluetoothi ikooni (või vajuta `Super + Ctrl + B`). Täieliku loo leiad jaotisest [võrgundus](35-networking.md).
+Wi-Fi ja Bluetoothi jaoks sa TUIsid ei leia — need tööd kuuluvad Spherie kesta juurde. Võrkude nägemiseks ja ühenduse loomiseks klõpsa ülemisel ribal Wi-Fi ikooni (või vajuta `Super + Ctrl + N`) ning seadmete sidumiseks ja ühendamiseks klõpsa Bluetoothi ikooni (või vajuta `Super + Ctrl + B`). Täieliku loo leiad jaotisest [võrgundus](35-networking.md).
 
 ## Enda lisamine
 
-Iga terminaliprogramm võib saada täieliku rakenduse kohtlemise. Mine Omarchy menüüs (`Super + Space`) jaotisse _Install > TUI_, anna sellele nimi, käivituskäsk, akna stiil ja ikoon ning see ilmub rakenduste käivitajasse nagu iga teine rakendus. Saad selle uuesti eemaldada jaotise _Remove > TUI_ alt.
+Iga terminaliprogramm võib saada täieliku rakenduse kohtlemise. Mine Spherie menüüs (`Super + Space`) jaotisse _Install > TUI_, anna sellele nimi, käivituskäsk, akna stiil ja ikoon ning see ilmub rakenduste käivitajasse nagu iga teine rakendus. Saad selle uuesti eemaldada jaotise _Remove > TUI_ alt.

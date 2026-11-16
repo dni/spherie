@@ -22,7 +22,7 @@ Työtilat tuntuvat tutuilta: ne ovat macOS:n Spaces tai Windowsin virtuaalityöp
 
 ### Kopiointi ja liittäminen vain toimivat
 
-Macilla sinulla oli Cmd + C kaikkialla. Windowsilla sinulla oli Ctrl + C kaikkialla — paitsi terminaalissa, jossa se tappaa ohjelmasi. Omarchy antaa sinulle `Super + C`, `Super + X` ja `Super + V`, ja ne toimivat kaikkialla, myös terminaalissa. Ei erillistä refleksiä opittavaksi komentotulkille.
+Macilla sinulla oli Cmd + C kaikkialla. Windowsilla sinulla oli Ctrl + C kaikkialla — paitsi terminaalissa, jossa se tappaa ohjelmasi. Spherie antaa sinulle `Super + C`, `Super + X` ja `Super + V`, ja ne toimivat kaikkialla, myös terminaalissa. Ei erillistä refleksiä opittavaksi komentotulkille.
 
 Windows-väki: Win + V -leikepöytähistoriasi on kohdassa `Super + Ctrl + V`, ja se säilyttää kuvien lisäksi myös tekstiä. Katso [yhtenäinen leikepöytä ja historia](08-unified-clipboard-history.md).
 
@@ -50,7 +50,7 @@ Ja kun suljet ikkunan, sovellus todella sulkeutuu. Ei ole macOS-limboaa, jossa o
 
 ### Mac-laitteistolla
 
-Omarchy toimii hyvin Intel-Maceilla — katso [Mac-tuki](44-mac-support.md). Ja näppäimistö on sinulle ystävällinen: Omarchy ei määritä mitään uudelleen, ja Linux käsittelee Command-näppäintä Superina, joten Super on juuri siellä, missä Cmd aina oli. Peukalosi ei huomaa siirtoa.
+Spherie toimii hyvin Intel-Maceilla — katso [Mac-tuki](44-mac-support.md). Ja näppäimistö on sinulle ystävällinen: Spherie ei määritä mitään uudelleen, ja Linux käsittelee Command-näppäintä Superina, joten Super on juuri siellä, missä Cmd aina oli. Peukalosi ei huomaa siirtoa.
 
 ### Anna sille kaksi viikkoa
 

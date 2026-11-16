@@ -2,7 +2,7 @@
 
 Vanligtvis på Linux behöver du `Ctrl + Shift + C/V` för att kopiera och klistra in i terminalen och `Ctrl + C/V` för att göra det överallt annars. Det är svårt att vänja sig vid för alla som inte är födda och uppvuxna med Linux! Det är också bytet från super till ctrl, om du kommer från Mac.
 
-Omarchy löser båda problemen med enhetliga snabbkommandon för urklipp som fungerar (nästan) överallt. De är:
+Spherie löser båda problemen med enhetliga snabbkommandon för urklipp som fungerar (nästan) överallt. De är:
 
 | Snabbkommando | Kommando |
 | ------- | ----------- |

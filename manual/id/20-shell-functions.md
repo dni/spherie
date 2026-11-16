@@ -1,6 +1,6 @@
 # Fungsi Shell
 
-Omarchy dilengkapi dengan sekumpulan fungsi shell untuk menyederhanakan tugas umum dan mengenkapsulasi panggilan parameter yang berbelit-belit.
+Spherie dilengkapi dengan sekumpulan fungsi shell untuk menyederhanakan tugas umum dan mengenkapsulasi panggilan parameter yang berbelit-belit.
 
 ## Kompresi
 

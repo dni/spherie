@@ -1,6 +1,6 @@
 # Branding
 
-Omarchy låter dig ställa in din företagslogotyp eller personliga bild för både upplåsningen vid start, skärmsläckaren och Om-skärmen.
+Spherie låter dig ställa in din företagslogotyp eller personliga bild för både upplåsningen vid start, skärmsläckaren och Om-skärmen.
 
 ### Upplåsning vid start
 

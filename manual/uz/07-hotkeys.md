@@ -8,7 +8,7 @@ Har bir tezkor tugma o‘z modifikatorlari belgilaydigan tekislikda joylashadi v
 
 | Tekislik | U yerda nimalar joylashadi | Misollar |
 | --- | --- | --- |
-| `Super + key` | Tizim: oynalar, ish maydonlari, tartiblar va asosiy menyular | `Super + Space` Omarchy menyusi, `Super + W` oynani yopish, `Super + F` to‘liq ekran |
+| `Super + key` | Tizim: oynalar, ish maydonlari, tartiblar va asosiy menyular | `Super + Space` Spherie menyusi, `Super + W` oynani yopish, `Super + F` to‘liq ekran |
 | `Super + Shift + key` | Ilovalar | `Super + Shift + B` brauzer, `Super + Shift + E` elektron pochta, `Super + Shift + N` muharrir |
 | `Super + Ctrl + key` | Panellar va tizim menyulari | `Super + Ctrl + A` audio, `Super + Ctrl + N` tarmoq, `Super + Ctrl + C` suratga olish menyusi |
 | `Super + Ctrl + Alt + key` | Tezkor amallar va xabarnomalar | `Super + Ctrl + Alt + T` vaqtni ko‘rsatish, `Super + Ctrl + Alt + B` batareya, `Super + Ctrl + Alt + C` skrinshot |
@@ -34,7 +34,7 @@ Agar standart variant sizga mos kelmasa (aytaylik, Windows dagi kabi skrinshotla
 
 | Tezkor tugma | Vazifasi |
 | ----------------------- | --------------------- |
-| `Super + Space` | Omarchy menyusi (ilovalar va qolgan hamma narsa) |
+| `Super + Space` | Spherie menyusi (ilovalar va qolgan hamma narsa) |
 | `Super + Alt + Space` | Ilovalar panjarasi |
 | `Super + Escape` | Tizim menyusi (kutish, qayta ishga tushirish va h.k.) |
 | `Super + Ctrl + L` | Kompyuterni qulflash |
@@ -172,7 +172,7 @@ Bog‘lanishlarni `~/.config/hypr/bindings.lua` da o‘zgartiring/qo‘shing.
 | `Super + V` | Joylashtirish |
 | `Super + Ctrl + V` | Almashuv buferi menejeri |
 
-Odatda Linux da terminalda copy'n'paste qilish uchun `Ctrl + Shift + C/V`, boshqa hamma joyda buni qilish uchun esa `Ctrl + C/V` kerak bo‘ladi. Omarchy ning bu birlashtirilgan almashuv buferi tezkor tugmalari hamma joyda ishlaydi.
+Odatda Linux da terminalda copy'n'paste qilish uchun `Ctrl + Shift + C/V`, boshqa hamma joyda buni qilish uchun esa `Ctrl + C/V` kerak bo‘ladi. Spherie ning bu birlashtirilgan almashuv buferi tezkor tugmalari hamma joyda ishlaydi.
 
 ## Suratga olish
 
@@ -193,7 +193,7 @@ Odatda Linux da terminalda copy'n'paste qilish uchun `Ctrl + Shift + C/V`, boshq
 
 Ekran yozuvlarida tezkor tugma avval qaysi audioni xohlashingizni so‘raydi, keyin yozib olishni boshlaydi. To‘xtatish uchun uni yana bosing. Tafsilotlar uchun [skrinshotlar va yozib olish](12-screenshots-recording.md) ga qarang.
 
-Suratga olishning barcha variantlari Omarchy menyusida (`Super + Space`) _Trigger > Capture_ ostida ham mavjud.
+Suratga olishning barcha variantlari Spherie menyusida (`Super + Space`) _Trigger > Capture_ ostida ham mavjud.
 
 ## Bildirishnomalar
 
@@ -215,9 +215,9 @@ Suratga olishning barcha variantlari Omarchy menyusida (`Super + Space`) _Trigge
 | `Super + Backspace` | Oynada shaffoflikni yoqish/o‘chirish |
 | `Super + Ctrl + Backspace` | Bitta oyna uchun kvadrat nisbatni yoqish/o‘chirish |
 
-Qo‘shimcha fon rasmlari `~/.config/omarchy/backgrounds/<theme name>` da joylashgan. Omarchy menyusida _Install > Style > Background_ orqali ham mavjud.
+Qo‘shimcha fon rasmlari `~/.config/omarchy/backgrounds/<theme name>` da joylashgan. Spherie menyusida _Install > Style > Background_ orqali ham mavjud.
 
-Uslubning barcha variantlari Omarchy menyusida (`Super + Space`) _Style_ ostida ham mavjud.
+Uslubning barcha variantlari Spherie menyusida (`Super + Space`) _Style_ ostida ham mavjud.
 
 ## Yoqish/o‘chirish
 
@@ -318,7 +318,7 @@ Bu funksiyalarni Tmux sessiyasi ichida ishga tushirish kerak.
 
 ## Ghostty Terminal
 
-Ghostty terminali Omarchy menyusi orqali _Install > Terminal_ yordamida o‘rnatiladi.
+Ghostty terminali Spherie menyusi orqali _Install > Terminal_ yordamida o‘rnatiladi.
 
 | Tezkor tugma | Vazifasi |
 | ----------------------- | --------------------- |

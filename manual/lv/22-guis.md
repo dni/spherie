@@ -20,11 +20,11 @@ Obsidian ir bez maksas visiem nolūkiem, ieskaitot personisku, komerciālu un be
 
 Obsidian piedāvā arī [komerciālu sinhronizēšanas papildinājumu](https://obsidian.md/sync) ar mobilajām lietotnēm iOS un Android ierīcēs. (https://obsidian.md/pricing).
 
-Obsidian palaižat ar `Super + Shift + O`. Lai izmantotu tēmu sinhronizēšanu, iestatījumos jāizvēlas `Omarchy` tēma.
+Obsidian palaižat ar `Super + Shift + O`. Lai izmantotu tēmu sinhronizēšanu, iestatījumos jāizvēlas `Spherie` tēma.
 
 ## Omawrite
 
-[Omawrite](https://github.com/omacom-io/omawrite) ir Omarchy paša pavisam vienkāršā Markdown rakstīšanas lietotne. Nekādu krātuvju, nekādu spraudņu, tikai jūs un vārdi.
+[Omawrite](https://github.com/omacom-io/omawrite) ir Spherie paša pavisam vienkāršā Markdown rakstīšanas lietotne. Nekādu krātuvju, nekādu spraudņu, tikai jūs un vārdi.
 
 Omawrite palaižat ar `Super + Shift + W`.
 
@@ -44,7 +44,7 @@ Aether palaižat, izmantojot lietotņu palaišanas programmu (`Super + Space`).
 
 [LocalSend](https://localsend.org/) ļauj sūtīt failus uz citām ierīcēm tajā pašā tīklā, kurās darbojas šī lietotne, līdzīgi kā Apple AirDrop. Tomēr tā darbojas vairākās platformās, tāpēc varat sūtīt failus uz un no Windows, macOS, Android, iOS un, protams, Linux.
 
-Kopīgošanas izvēlni varat atvērt ar `Super + Ctrl + S` vai Omarchy izvēlnē sadaļā _Trigger > Share_. Tā piedāvā četras iespējas:
+Kopīgošanas izvēlni varat atvērt ar `Super + Ctrl + S` vai Spherie izvēlnē sadaļā _Trigger > Share_. Tā piedāvā četras iespējas:
 
 - **Clipboard** nosūta visu, ko esat nokopējis, kā teksta failu. Lieliski piemērots, lai saiti vai fragmentu nogādātu tālrunī, nesūtot sev e-pastu.
 - **File** atver failu atlasītāju, kurā varat atlasīt vairākus vienlaikus.
@@ -55,7 +55,7 @@ Tas pats darbojas no termināļa ar `omarchy share clipboard`, `omarchy share fi
 
 Failus varat sūtīt arī tieši no failu pārvaldnieka: ar labo pogu noklikšķiniet uz jebkuras atlases programmā Nautilus un izvēlieties _Send via LocalSend_.
 
-Omarchy ugunsmūris pēc noklusējuma ir slēgts, izņemot LocalSend portu, tāpēc jaunā instalācijā tas darbojas uzreiz, bez papildu iestatījumiem. Skatiet [drošību](48-security.md).
+Spherie ugunsmūris pēc noklusējuma ir slēgts, izņemot LocalSend portu, tāpēc jaunā instalācijā tas darbojas uzreiz, bez papildu iestatījumiem. Skatiet [drošību](48-security.md).
 
 ## LibreOffice
 
@@ -65,19 +65,19 @@ LibreOffice palaižat, izmantojot lietotņu palaišanas programmu (`Super + Spac
 
 ## Hype
 
-[Hype](https://github.com/omacom/hype) ir Omarchy paša pavisam vienkāršā prezentāciju lietotne. Jūsu prezentācija ir viens Markdown fails, kuram blakus atrodas tā attēli un videoklipi: rakstiet katru slaidu zem tiešā priekšskatījuma, velkot sakārtojiet slaidus vēlamajā secībā, pēc tam prezentējiet pilnekrāna režīmā vai eksportējiet uz PDF un PowerPoint. Tā pat pārņem jūsu Omarchy tēmu.
+[Hype](https://github.com/omacom/hype) ir Spherie paša pavisam vienkāršā prezentāciju lietotne. Jūsu prezentācija ir viens Markdown fails, kuram blakus atrodas tā attēli un videoklipi: rakstiet katru slaidu zem tiešā priekšskatījuma, velkot sakārtojiet slaidus vēlamajā secībā, pēc tam prezentējiet pilnekrāna režīmā vai eksportējiet uz PDF un PowerPoint. Tā pat pārņem jūsu Spherie tēmu.
 
 Hype palaižat, izmantojot lietotņu palaišanas programmu (`Super + Space`). Nospiediet `?` tajā, lai redzētu visus īsinājumtaustiņus.
 
 ## Signed
 
-[Signed](https://github.com/omacom/signed) ir Omarchy paša pavisam vienkāršais veids, kā parakstīt PDF failus un tos aizpildīt. Novietojiet savu saglabāto parakstu, tekstu un šodienas datumu jebkurā vietā lapā, pēc tam saglabājiet parakstītu kopiju blakus oriģinālam. Kā to izdarīt, skatiet [PDF aizpildīšanu](27-filling-out-pdfs.md).
+[Signed](https://github.com/omacom/signed) ir Spherie paša pavisam vienkāršais veids, kā parakstīt PDF failus un tos aizpildīt. Novietojiet savu saglabāto parakstu, tekstu un šodienas datumu jebkurā vietā lapā, pēc tam saglabājiet parakstītu kopiju blakus oriģinālam. Kā to izdarīt, skatiet [PDF aizpildīšanu](27-filling-out-pdfs.md).
 
 Signed palaižat, izmantojot lietotņu palaišanas programmu (`Super + Space`), vai atveriet PDF ar to no failu pārvaldnieka.
 
 ## Omacalc
 
-[Omacalc](https://github.com/omacom-io/omacalc) ir Omarchy paša pavisam vienkāršais kalkulators, kas atveras peldošā logā.
+[Omacalc](https://github.com/omacom-io/omacalc) ir Spherie paša pavisam vienkāršais kalkulators, kas atveras peldošā logā.
 
 Omacalc palaižat ar `Super + Shift + Q` (vai kalkulatora taustiņu, ja jūsu tastatūrai tāds ir).
 
@@ -85,11 +85,11 @@ Omacalc palaižat ar `Super + Shift + Q` (vai kalkulatora taustiņu, ja jūsu ta
 
 [Signal](https://signal.org/) ir E2E šifrētās ziņojumapmaiņas pionieris un lieliska saziņas iespēja ikvienam, kurš nevēlas iet caur kādu no lielajiem tehnoloģiju konglomerātiem.
 
-Signal palaižat ar `Super + Shift + G`. Tas nav pamata instalācijas daļa, tāpēc pirmo reizi, kad nospiedīsit šo kombināciju, Omarchy piedāvās to instalēt jūsu vietā (tas ir arī Omarchy izvēlnes sadaļā _Install > Service_).
+Signal palaižat ar `Super + Shift + G`. Tas nav pamata instalācijas daļa, tāpēc pirmo reizi, kad nospiedīsit šo kombināciju, Spherie piedāvās to instalēt jūsu vietā (tas ir arī Spherie izvēlnes sadaļā _Install > Service_).
 
 ## Omaview
 
-[Omaview](https://github.com/omacom/omaview) ir Omarchy paša pavisam vienkāršais attēlu skatītājs un multivides atskaņotājs: viens logs jūsu fotoattēliem, videoklipiem un mūzikai. Atveriet fotoattēlu, un bulttaustiņi pāriet cauri pārējai tā mapei, `N` un `P` to dara jebkam, bet `Ctrl + M` parāda visu mapi kā režģi. Tas rāda arī HEIC, AVIF un JPEG XL fotoattēlus un garā saturā turpina no tās vietas, kurā apstājāties.
+[Omaview](https://github.com/omacom/omaview) ir Spherie paša pavisam vienkāršais attēlu skatītājs un multivides atskaņotājs: viens logs jūsu fotoattēliem, videoklipiem un mūzikai. Atveriet fotoattēlu, un bulttaustiņi pāriet cauri pārējai tā mapei, `N` un `P` to dara jebkam, bet `Ctrl + M` parāda visu mapi kā režģi. Tas rāda arī HEIC, AVIF un JPEG XL fotoattēlus un garā saturā turpina no tās vietas, kurā apstājāties.
 
 Nospiediet `F`, lai ieslēgtu pilnekrāna režīmu, `E`, lai rediģētu attēlu programmā Omasnap vai apgrieztu videoklipu programmā Omacut, `Ctrl + P`, lai izdrukātu attēlu, un `Delete`, lai pārvietotu failu uz atkritni (`Ctrl + Z` to atgriež atpakaļ). Nospiediet `?` tajā, lai redzētu visus īsinājumtaustiņus.
 
@@ -97,13 +97,13 @@ Omaview palaižat kā _Media Viewer_, izmantojot lietotņu palaišanas programmu
 
 ## Omacut
 
-[Omacut](https://github.com/omacom-io/omacut) ir Omarchy paša pavisam vienkāršais videoklipu apgriešanas rīks. Kad jums tikai jānogriež klipa sākums un beigas, tas pārspēj pilna video redaktora palaišanu.
+[Omacut](https://github.com/omacom-io/omacut) ir Spherie paša pavisam vienkāršais videoklipu apgriešanas rīks. Kad jums tikai jānogriež klipa sākums un beigas, tas pārspēj pilna video redaktora palaišanu.
 
 Omacut palaižat, izmantojot lietotņu palaišanas programmu (`Super + Space`).
 
 ## Monologue
 
-[Monologue](https://github.com/omacom/monologue) ir Omarchy paša pavisam vienkāršais tīmekļa kameras ierakstītājs. Vienreiz izvēlieties kameru un mikrofonu, pēc tam nospiediet `Space`, lai ierakstītu, un vēlreiz, lai pauzētu un atsāktu to pašu ierakstu. Tas vienmēr ieraksta jūsu kameras augstākajā izšķirtspējā, ar reāllaika mikrofona līmeņa mērītāju, lai pirms sākšanas varētu pārbaudīt līmeņus.
+[Monologue](https://github.com/omacom/monologue) ir Spherie paša pavisam vienkāršais tīmekļa kameras ierakstītājs. Vienreiz izvēlieties kameru un mikrofonu, pēc tam nospiediet `Space`, lai ierakstītu, un vēlreiz, lai pauzētu un atsāktu to pašu ierakstu. Tas vienmēr ieraksta jūsu kameras augstākajā izšķirtspējā, ar reāllaika mikrofona līmeņa mērītāju, lai pirms sākšanas varētu pārbaudīt līmeņus.
 
 Apturiet ierakstu, un tas uzreiz atveras iebūvētajā redaktorā. Veiciet dubultklikšķi uz klipa, lai to sadalītu, velciet rokturus, lai apgrieztu katru daļu, un noņemiet daļas, kuras nevēlaties. Pēc tam saglabājiet to kā MP4. Jūsu oriģinālais ieraksts tiek saglabāts, līdz to izmetat, tāpēc vienmēr varat atgriezties un sagriezt to citādi.
 

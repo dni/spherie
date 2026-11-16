@@ -1,0 +1,15 @@
+[Unit]
+Description=Spherie agent (host -> sphere command channel over vsock)
+After=user@1000.service spherie-gui-bridge.service
+Wants=user@1000.service
+
+[Service]
+User=user
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+Environment=DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+# Only the host (CID 2) can reach a guest's vsock port; other spheres can't.
+ExecStart=/usr/bin/socat VSOCK-LISTEN:7001,fork,reuseaddr EXEC:/usr/local/bin/spherie-agent
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

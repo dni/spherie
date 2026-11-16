@@ -1,6 +1,6 @@
 # Windows VM
 
-Omarchy는 Docker VM을 통해 Windows를 실행하는 쉬운 방법을 제공합니다. Omarchy 메뉴(`Super + Space`)의 _설치 > Windows_를 사용해 설치할 수 있습니다.
+Omarchy는 Docker VM을 통해 Windows를 실행하는 쉬운 방법을 제공합니다. Spherie 메뉴(`Super + Space`)의 _설치 > Windows_를 사용해 설치할 수 있습니다.
 
 컴퓨터에 KVM 가상화가 필요합니다. 대부분의 컴퓨터가 지원하지만 — 때로 BIOS에서 꺼져 있으며, 그런 경우 설치 프로그램이 알려줍니다. 디스크 공간도 필요합니다. Windows에 줄 공간에 이미지 자체를 위해 약 10GB를 더한 만큼입니다.
 
@@ -46,4 +46,4 @@ VM의 포트는 localhost에만 바인딩되므로, 네트워크의 어떤 것�
 
 나중에 `omarchy-windows-vm install`을 다시 실행해 리소스 할당을 변경할 수 있습니다. VM의 구성이 답변을 바탕으로 다시 작성됩니다. compose 파일 자체는 이제 `/var/lib/omarchy/windows/docker-compose.yml`에 살며 root가 소유합니다 — 이는 의도적인 것입니다. 사용자로 실행 중인 프로세스가 해당 파일을 다시 쓰고 권한 있는 브링업이 전체 디스크를 컨테이너에 마운트하게 하는 것을 방지하기 위함입니다. 직접 편집해야 한다면(예: USB 장치를 마운트하기 위해), `sudo`로 편집하고 [Dockur Windows 프로젝트](https://github.com/dockur/windows)의 모든 옵션을 참고하세요.
 
-전체 구성을 제거하려면 Omarchy 메뉴의 _제거 > Windows_를 사용하세요. VM의 디스크와 모든 데이터가 삭제되므로, 먼저 소중한 것을 `~/Windows`에서 꺼내 두었는지 확인하세요.
+전체 구성을 제거하려면 Spherie 메뉴의 _제거 > Windows_를 사용하세요. VM의 디스크와 모든 데이터가 삭제되므로, 먼저 소중한 것을 `~/Windows`에서 꺼내 두었는지 확인하세요.

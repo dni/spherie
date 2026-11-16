@@ -2,7 +2,7 @@
 
 Normalt på Linux skal du bruge `Ctrl + Shift + C/V` til at kopiere og indsætte i terminalen og `Ctrl + C/V` til at gøre det alle andre steder. Det er svært at vænne sig til for alle, der ikke er født og opvokset med Linux! Det samme gælder skiftet fra super til ctrl, hvis du kommer fra Mac.
 
-Omarchy løser begge problemer med ensartede genvejstaster til udklipsholderen, der virker (næsten) overalt. De er:
+Spherie løser begge problemer med ensartede genvejstaster til udklipsholderen, der virker (næsten) overalt. De er:
 
 | Genvejstast | Kommando |
 | ------- | ----------- |

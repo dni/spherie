@@ -1,16 +1,16 @@
 # Prise en charge des Mac
 
-Omarchy prend en charge nativement les **Mac Intel**. Il existe pour le moment quelques limitations connues, mais tant que vous en êtes conscient et que cela vous convient ; vous pouvez redonner un nouveau souffle à vos vieux Mac en y installant Omarchy.
+Spherie prend en charge nativement les **Mac Intel**. Il existe pour le moment quelques limitations connues, mais tant que vous en êtes conscient et que cela vous convient ; vous pouvez redonner un nouveau souffle à vos vieux Mac en y installant Spherie.
 
 Veuillez noter que l'installation sur un Mac de série M n'est pas directement prise en charge pour le moment. Vous pouvez en savoir plus sur l'état des choses dans #omarchy-on-other sur notre [Discord](https://discord.gg/tXFUdasqhY).
 
-Lors d'un simple test, nous avons obtenu des gains de performance de 36% simplement en installant Omarchy sur un MacBook Pro de 2019.
+Lors d'un simple test, nous avons obtenu des gains de performance de 36% simplement en installant Spherie sur un MacBook Pro de 2019.
 
  ![macbook-omarchy](images/macbook-omarchy.webp)
 
-### Installer Omarchy sur Mac
+### Installer Spherie sur Mac
 
-Omarchy ne prend en charge pour le moment que le cas où il est le **seul** OS installé. Pendant l'installation, le disque sera effacé et MacOS ne pourra plus démarrer.
+Spherie ne prend en charge pour le moment que le cas où il est le **seul** OS installé. Pendant l'installation, le disque sera effacé et MacOS ne pourra plus démarrer.
 
 Vous pourrez toujours le restaurer plus tard via Internet Recovery si vous le souhaitez.
 

@@ -8,7 +8,7 @@ Sie ist auch das einzige Stück des Desktops, das immer auf dem Bildschirm ist, 
 
 Die Leiste hat drei Bereiche. Links sitzen das Omarchy-Logo (der Menü-Launcher) und die Workspace-Anzeigen. In der Mitte bekommst du die Statusanzeigen, die Uhr, Elsewhen (eine Weltuhr), das Wetter und ein Omarchy-Update-Badge. Rechts: der System-Tray, das Tastaturlayout (wenn mehr als eines konfiguriert ist), Agents, Bluetooth, Netzwerk, Audio, Display und Power.
 
-Einige davon tauchen nur auf, wenn sie etwas zu sagen haben. Das Tastaturlayout erscheint nur, wenn du mehr als ein Layout konfiguriert hast. Das Update-Badge erscheint nur, wenn ein Omarchy-Update wartet. Und das Agents-Symbol erscheint, sobald Omarchy zum ersten Mal KI-Coding-Nutzung auf dem Rechner findet (siehe [KI](17-ai.md)).
+Einige davon tauchen nur auf, wenn sie etwas zu sagen haben. Das Tastaturlayout erscheint nur, wenn du mehr als ein Layout konfiguriert hast. Das Update-Badge erscheint nur, wenn ein Omarchy-Update wartet. Und das Agents-Symbol erscheint, sobald Spherie zum ersten Mal KI-Coding-Nutzung auf dem Rechner findet (siehe [KI](17-ai.md)).
 
 ## Herumklicken
 

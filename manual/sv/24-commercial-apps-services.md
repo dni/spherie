@@ -1,6 +1,6 @@
 # Kommersiella appar/tjänster
 
-Omarchy är främst inriktat på att tillhandahålla fri programvara med öppen källkod, men det är inte religiöst på den punkten. Ibland är den bästa lösningen ett kommersiellt erbjudande, och det är helt okej. Här är några av de alternativ som vi erbjuder enkel installation för.
+Spherie är främst inriktat på att tillhandahålla fri programvara med öppen källkod, men det är inte religiöst på den punkten. Ibland är den bästa lösningen ett kommersiellt erbjudande, och det är helt okej. Här är några av de alternativ som vi erbjuder enkel installation för.
 
 ## 1Password
 
@@ -14,7 +14,7 @@ Du startar 1Password med `Super + Shift + /`. Om det inte är installerat än st
 
 ## Spotify
 
-[Spotify](https://spotify.com/) är världens mest populära tjänst för strömmande musik. Omarchy levererar den som en webbapp, vilket ger dig den fullständiga spelaren, mediaknappar och Spotify Connect, men inte nedladdningar offline. Starta den med `Super + Shift + M`.
+[Spotify](https://spotify.com/) är världens mest populära tjänst för strömmande musik. Spherie levererar den som en webbapp, vilket ger dig den fullständiga spelaren, mediaknappar och Spotify Connect, men inte nedladdningar offline. Starta den med `Super + Shift + M`.
 
 ## Slack
 

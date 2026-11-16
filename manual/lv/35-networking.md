@@ -1,6 +1,6 @@
 # Tīkls
 
-Omarchy tīklu pārvalda NetworkManager, un tu to vadi no tīkla ikonas [augšējā joslā](05-the-top-bar.md) vai ar `Super + Ctrl + N`.
+Spherie tīklu pārvalda NetworkManager, un tu to vadi no tīkla ikonas [augšējā joslā](05-the-top-bar.md) vai ar `Super + Ctrl + N`.
 
 Šis panelis meklē Wi-Fi tīklus, rāda signāla stiprumu un savienojas. Ethernet nevajag neko — vienkārši pieslēdz to, un viss darbojas. Ja labprātāk paliec terminālī, `nmtui` sniedz tās pašas vadīklas, un ir arī `omarchy network` komandu grupa.
 
@@ -12,7 +12,7 @@ Ja tev patiešām vajag pašu paroli, `omarchy network password <interface>` to 
 
 ## DNS
 
-Omarchy izmanto jebkuru DNS, ko tavs tīkls piešķir ar DHCP. Tu vari to mainīt visai iekārtai sadaļā _Setup > Network > DNS_, kur Cloudflare un Google ir viena klikšķa attālumā. Izvēlies _Custom_, lai ierakstītu savus serverus.
+Spherie izmanto jebkuru DNS, ko tavs tīkls piešķir ar DHCP. Tu vari to mainīt visai iekārtai sadaļā _Setup > Network > DNS_, kur Cloudflare un Google ir viena klikšķa attālumā. Izvēlies _Custom_, lai ierakstītu savus serverus.
 
 No termināļa `omarchy dns` izdrukā pašreizējo pakalpojumu sniedzēju, un `omarchy dns Cloudflare` iestata kādu no tiem.
 
@@ -24,7 +24,7 @@ Tas piesaista joslu, nevis konkrētu piekļuves punktu, tāpēc tu turpini kā p
 
 ## Cik ātrs tas ir?
 
-_Trigger > Speed Test > Network Speed Test_ mēra tavu faktisko augšupielādes un lejupielādes ātrumu ar diviem rādītājiem. No termināļa tas ir `omarchy network speedtest down` vai `up`. Tas mēra pret paša Omarchy pakalpojumu un skaita tikai savas testa pārsūtīšanas. Citas lejupielādes var sacensties par joslas platumu, bet tās netiek pieskaitītas ātruma testa rezultātam. (Blakus tam šajā izvēlnē atrodas diska ātruma tests, ja tu nosaki otru sašaurinājumu.)
+_Trigger > Speed Test > Network Speed Test_ mēra tavu faktisko augšupielādes un lejupielādes ātrumu ar diviem rādītājiem. No termināļa tas ir `omarchy network speedtest down` vai `up`. Tas mēra pret paša Spherie pakalpojumu un skaita tikai savas testa pārsūtīšanas. Citas lejupielādes var sacensties par joslas platumu, bet tās netiek pieskaitītas ātruma testa rezultātam. (Blakus tam šajā izvēlnē atrodas diska ātruma tests, ja tu nosaki otru sašaurinājumu.)
 
 ## Ugunsmūris
 

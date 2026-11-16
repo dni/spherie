@@ -12,17 +12,17 @@ Alle Tastaturkürzel für diese Web-Apps kannst du in `~/.config/hypr/bindings.l
 
 Wenn du in einer Web-App bist, kannst du die aktuelle URL mit `Shift + Alt + L` in die Zwischenablage kopieren.
 
-Standardmäßig liefert Omarchy bereits eine Auswahl an Standard-Apps mit:
+Standardmäßig liefert Spherie bereits eine Auswahl an Standard-Apps mit:
 
 ## HEY
 
-[HEY](https://www.hey.com/) ist ein E-Mail- und Kalenderdienst, der eine großartige Alternative für alle ist, die Gmail, Outlook oder Apple Mail satt haben. Er wird von [37signals](https://37signals.com/) entwickelt, wo Omarchy seinen Ursprung hat.
+[HEY](https://www.hey.com/) ist ein E-Mail- und Kalenderdienst, der eine großartige Alternative für alle ist, die Gmail, Outlook oder Apple Mail satt haben. Er wird von [37signals](https://37signals.com/) entwickelt, wo Spherie seinen Ursprung hat.
 
 Du kannst HEY Email mit `Super + Shift + E` starten, mit `Super + Shift + Alt + E` direkt zum Verfassen einer neuen E-Mail springen und HEY Calendar mit `Super + Shift + C` starten.
 
 ## Basecamp
 
-[Basecamp](https://basecamp.com/) ist ein Projektmanagementdienst, der kleinen Teams hilft, schneller voranzukommen und mehr zu erreichen. Statt ein Sammelsurium aus Trello, Slack, Asana, Notion oder was auch immer zusammenzuflicken, hast du mit Basecamp alles an einem Ort. Er wird von [37signals](https://37signals.com/) entwickelt, wo Omarchy seinen Ursprung hat.
+[Basecamp](https://basecamp.com/) ist ein Projektmanagementdienst, der kleinen Teams hilft, schneller voranzukommen und mehr zu erreichen. Statt ein Sammelsurium aus Trello, Slack, Asana, Notion oder was auch immer zusammenzuflicken, hast du mit Basecamp alles an einem Ort. Er wird von [37signals](https://37signals.com/) entwickelt, wo Spherie seinen Ursprung hat.
 
 Du kannst Basecamp über den App-Launcher starten (`Super + Space`)
 
@@ -64,7 +64,7 @@ Du kannst YouTube mit `Super + Shift + Y` starten.
 
 ## Zoom
 
-[Zoom](https://zoom.us/) ist das beliebteste Videochat-System in den USA. Großartige Verbindungen auf der ganzen Welt. Und 40-minütige Meetings können ohne kostenpflichtiges Konto abgehalten werden. Omarchy verpackt den Web-Client von Zoom, und Zoom-Meeting-Links öffnen sich direkt darin.
+[Zoom](https://zoom.us/) ist das beliebteste Videochat-System in den USA. Großartige Verbindungen auf der ganzen Welt. Und 40-minütige Meetings können ohne kostenpflichtiges Konto abgehalten werden. Spherie verpackt den Web-Client von Zoom, und Zoom-Meeting-Links öffnen sich direkt darin.
 
 Du startest Zoom über den App-Launcher (`Super + Space`).
 
@@ -76,7 +76,7 @@ Du startest Discord über den App-Launcher (`Super + Space`).
 
 ## Microsoft-Apps
 
-Wähle _Installieren > Dienst > Microsoft_, um Outlook, Word, Excel, PowerPoint, Teams und OneDrive als Web-Apps hinzuzufügen. Jede App hat ihren eigenen Launcher und öffnet sich direkt, unter Verwendung der kommerziellen Microsoft 365-URLs und deines vorhandenen Browserprofils. Sie öffnen sich in denselben Browser-App-Fenstern wie die anderen Web-Apps von Omarchy; sie installieren nicht den separaten Teams for Linux-Client.
+Wähle _Installieren > Dienst > Microsoft_, um Outlook, Word, Excel, PowerPoint, Teams und OneDrive als Web-Apps hinzuzufügen. Jede App hat ihren eigenen Launcher und öffnet sich direkt, unter Verwendung der kommerziellen Microsoft 365-URLs und deines vorhandenen Browserprofils. Sie öffnen sich in denselben Browser-App-Fenstern wie die anderen Web-Apps von Spherie; sie installieren nicht den separaten Teams for Linux-Client.
 
 Entferne das Paket mit _Entfernen > Dienst > Microsoft_ oder entferne einzelne Apps mit _Entfernen > Web-App_. Du kannst auch nur die gewünschten Apps über _Installieren > Web-App_ installieren.
 
@@ -88,4 +88,4 @@ Um Arbeitsanmeldungen getrennt zu halten, hänge an die `Exec=`-Zeile jedes Laun
 Exec=omarchy-launch-webapp "https://teams.cloud.microsoft/" --user-data-dir=/absolute/path/to/work-browser-profile
 ```
 
-Ersetze das Beispielverzeichnis durch einen absoluten Pfad deiner Wahl und verwende denselben Pfad für alle sechs Launcher, um Arbeitsanmeldungen zwischen ihnen zu teilen. Die Web-Apps verwenden den von Omarchy ausgewählten unterstützten Browser und weichen auf Chrome aus, wenn der Standardbrowser nicht unterstützt wird.
+Ersetze das Beispielverzeichnis durch einen absoluten Pfad deiner Wahl und verwende denselben Pfad für alle sechs Launcher, um Arbeitsanmeldungen zwischen ihnen zu teilen. Die Web-Apps verwenden den von Spherie ausgewählten unterstützten Browser und weichen auf Chrome aus, wenn der Standardbrowser nicht unterstützt wird.

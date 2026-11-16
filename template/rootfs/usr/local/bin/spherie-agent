@@ -1,0 +1,46 @@
+#!/bin/bash
+
+# Runs once per host connection on stdin/stdout. Protocol: one header line,
+#   run <command> [args...]       start an app, its windows go to the host
+#   file-send <path>              write a file to stdout
+#   file-recv <from> <name>       store stdin in ~/Incoming/<from>/<name>
+#   update                        pacman -Syu (used on the template)
+#   ping
+# Only the host can connect, so this is a host -> sphere channel.
+
+set -euo pipefail
+
+safe_word='^[A-Za-z0-9._+-]+$'
+
+read -r verb rest || exit 1
+
+case "$verb" in
+  run)
+    read -r -a argv <<<"$rest"
+    [[ ${argv[0]:-} =~ $safe_word ]] || exit 1
+    mkdir -p "$HOME/.cache"
+    setsid -f waypipe --no-gpu -s /run/spherie/gui.sock server -- "${argv[@]}" \
+      </dev/null >>"$HOME/.cache/spherie-apps.log" 2>&1
+    echo ok
+    ;;
+  file-send)
+    cat -- "$rest"
+    ;;
+  file-recv)
+    read -r from name <<<"$rest"
+    [[ $from =~ $safe_word && $name =~ $safe_word && $name != .* ]] || exit 1
+    dir="$HOME/Incoming/$from"
+    mkdir -p "$dir"
+    cat >"$dir/$name.part"
+    mv -f "$dir/$name.part" "$dir/$name"
+    ;;
+  update)
+    sudo pacman -Syu --noconfirm
+    ;;
+  ping)
+    echo pong
+    ;;
+  *)
+    exit 1
+    ;;
+esac

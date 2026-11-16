@@ -1,6 +1,6 @@
-# Omarchy CLI
+# Spherie CLI
 
-Omarchy 通常通过热键和 Omarchy 菜单（`Super + Space`）来控制。但你也可以通过 `omarchy` CLI 来控制它。当你让一个 AI agent 陪你一起做定制或配置时，这一点特别有用。
+Spherie 通常通过热键和 Spherie 菜单（`Super + Space`）来控制。但你也可以通过 `omarchy` CLI 来控制它。当你让一个 AI agent 陪你一起做定制或配置时，这一点特别有用。
 
 该 CLI 可以访问菜单以及其他地方所用的全部内部工具。你可以在终端里运行 `omarchy`，查看所有可用内容。
 
@@ -8,7 +8,7 @@ Omarchy 通常通过热键和 Omarchy 菜单（`Super + Space`）来控制。但
 
 ```
 ~ ❯ omarchy
-Omarchy command center
+Spherie command center
 
 Usage:
   omarchy <command> [args...]
@@ -17,7 +17,7 @@ Usage:
   omarchy <group> <command> --help
 
 Common commands:
-  omarchy update              Update Omarchy and system packages
+  omarchy update              Update Spherie and system packages
   omarchy theme list          List available themes
   omarchy theme set <name>    Apply a theme
   omarchy font list           List available fonts
@@ -27,14 +27,14 @@ Common commands:
 Groups:
   agent          AI coding agents, their usage, and subscription accounts
   audio          Audio input and output controls
-  bar            Omarchy shell bar layout and settings
+  bar            Spherie shell bar layout and settings
   battery        Battery status helpers
   bluetooth      Bluetooth device controls
-  branch         Omarchy git branch management
+  branch         Spherie git branch management
   branding       About and screensaver branding
   brightness     Display and keyboard brightness
   capture        Screenshots and screen recording
-  channel        Omarchy release channel management
+  channel        Spherie release channel management
   clipboard      Clipboard helpers
   cmd            Command and shortcut helpers
   config         System configuration helpers
@@ -59,4 +59,4 @@ Capture commands — Screenshots and screen recording:
 
 ### 从终端打开菜单
 
-Omarchy 菜单同样可以脚本化，这对你自己的键位绑定很方便。`omarchy menu` 会在根层级打开它，你也可以直接跳到树中的任意位置，只要点名即可：`omarchy menu summon appearance.theme` 会直接进入主题选择器，`omarchy menu toggle system` 会打开系统菜单，如果它已经打开则再次将其关闭，而 `omarchy menu close` 会把它收起来。
+Spherie 菜单同样可以脚本化，这对你自己的键位绑定很方便。`omarchy menu` 会在根层级打开它，你也可以直接跳到树中的任意位置，只要点名即可：`omarchy menu summon appearance.theme` 会直接进入主题选择器，`omarchy menu toggle system` 会打开系统菜单，如果它已经打开则再次将其关闭，而 `omarchy menu close` 会把它收起来。

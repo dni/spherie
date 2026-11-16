@@ -1,6 +1,6 @@
 # Växlar, inaktivitet & skärmsläckaren
 
-Mycket av det du ändrar till vardags är egentligen ingen inställning. Det är ett läge du slår på i en timme och sedan slår av igen: nattljus när du jobbar sent, stör ej när du presenterar, håll dig vaken när du tittar på något. Omarchy kallar dem växlar, och de fungerar alla på samma sätt — en snabbtangent, ett menyval och ett kommando som alla träffar samma omkopplare.
+Mycket av det du ändrar till vardags är egentligen ingen inställning. Det är ett läge du slår på i en timme och sedan slår av igen: nattljus när du jobbar sent, stör ej när du presenterar, håll dig vaken när du tittar på något. Spherie kallar dem växlar, och de fungerar alla på samma sätt — en snabbtangent, ett menyval och ett kommando som alla träffar samma omkopplare.
 
 ### Växelmenyn
 
@@ -26,7 +26,7 @@ Omkopplarna för styrplatta, pekskärm och hybrid-GPU finns under _Utlösare > H
 
 _Utseende_ innehåller menyraden och animationer, plus några saker som inte är `omarchy toggle`-kommandon men beter sig likadant: batteriprocent i raden, standardlayouten för arbetsytor och, under _Fönster_, mellanrum mellan fönster (`Super + Shift + Backspace`) och det kvadratiska bildförhållandet för 1 fönster (`Super + Ctrl + Backspace`).
 
-När Hyprland inte har någon GPU att rita med och renderar på CPU:n i stället (llvmpipe), som på Mac-datorer vars GPU ännu inte stöds, i de flesta virtuella maskiner eller när en grafikdrivrutin inte laddas, stänger Omarchy av animationer, oskärpa och skuggor för den sessionen och meddelar dig det en gång med en avisering. _Utseende > Animationer på_ tar tillbaka dem, och Omarchy kommer ihåg det även för senare sessioner.
+När Hyprland inte har någon GPU att rita med och renderar på CPU:n i stället (llvmpipe), som på Mac-datorer vars GPU ännu inte stöds, i de flesta virtuella maskiner eller när en grafikdrivrutin inte laddas, stänger Spherie av animationer, oskärpa och skuggor för den sessionen och meddelar dig det en gång med en avisering. _Utseende > Animationer på_ tar tillbaka dem, och Spherie kommer ihåg det även för senare sessioner.
 
 De flesta av dessa är bara en flaggfil under `~/.local/state/omarchy/toggles/`. Om du vill grena på en av dem i ett skript ger `omarchy-toggle-enabled` dig en exitkod i stället för att tvinga dig att leta:
 
@@ -95,7 +95,7 @@ Du kan starta den på begäran från _System > Skärmsläckare_ (`Super + Esc`),
 
 `omarchy toggle screensaver` är det som stänger av den vid inaktivitet, om du hellre går direkt från arbete till låst. Vilken tangent, klick, rullning eller musrörelse som helst stänger den.
 
-Logotypen den ritar är din att ändra, under _Utseende > Varumärkesprofil > Skärmsläckare_. Ladda upp en png eller svg så konverterar Omarchy den till ASCII. Se [varumärkesprofil](41-branding.md).
+Logotypen den ritar är din att ändra, under _Utseende > Varumärkesprofil > Skärmsläckare_. Ladda upp en png eller svg så konverterar Spherie den till ASCII. Se [varumärkesprofil](41-branding.md).
 
 ### Låsskärmen
 

@@ -4,7 +4,7 @@ Omarchy-skrivebordet kører som en enkelt langlivet Quickshell-proces ved navn `
 
 Det er ikke bare en implementeringsdetalje. Det betyder, at du kan slukke for dele af skrivebordet, bytte dem ud eller skrive dine egne uden at røre en linje af Omarchys kildekode.
 
-De førsteparts-plugins leveres med Omarchy og lever i `$OMARCHY_PATH/shell/plugins/`. Alt, hvad du selv tilføjer — dine egne eksperimenter eller noget, du fandt på GitHub — lever i `~/.config/omarchy/plugins/`. Begge opdages på samme måde ved opstart, men de indbyggede modtager betroede shell-grænseflader, mens tredjeparts-plugins modtager en begrænset grænseflade afgrænset til deres egen tjeneste og livscyklus. Kloner af indbyggede beholder kun den kilde-specifikke konfiguration og de UI-kald, der er nødvendige for den oprindelige adfærd.
+De førsteparts-plugins leveres med Spherie og lever i `$OMARCHY_PATH/shell/plugins/`. Alt, hvad du selv tilføjer — dine egne eksperimenter eller noget, du fandt på GitHub — lever i `~/.config/omarchy/plugins/`. Begge opdages på samme måde ved opstart, men de indbyggede modtager betroede shell-grænseflader, mens tredjeparts-plugins modtager en begrænset grænseflade afgrænset til deres egen tjeneste og livscyklus. Kloner af indbyggede beholder kun den kilde-specifikke konfiguration og de UI-kald, der er nødvendige for den oprindelige adfærd.
 
 ## Se, hvad du har
 
@@ -101,4 +101,4 @@ Til plugin-udvikling, se [shell-referencen](https://github.com/omacom/omarchy/bl
 
 Når du har lavet noget, du kan lide, så læg det i et offentligt git-repo. Det er hele distributionsmekanismen — enhver kan derefter køre `omarchy plugin add` mod din URL og have det kørende på sekunder.
 
-For at hjælpe folk med faktisk at finde det, så list det på [plugins.omarchy.org](https://plugins.omarchy.org). Det er markedspladsen for Omarchy shell-plugins, og det er det første sted at kigge, når du spekulerer på, om nogen allerede har bygget den widget, du er ved at skrive. Gennemse den, før du starter!
+For at hjælpe folk med faktisk at finde det, så list det på [plugins.omarchy.org](https://plugins.omarchy.org). Det er markedspladsen for Spherie shell-plugins, og det er det første sted at kigge, når du spekulerer på, om nogen allerede har bygget den widget, du er ved at skrive. Gennemse den, før du starter!

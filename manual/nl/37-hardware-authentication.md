@@ -2,7 +2,7 @@
 
 ### Vingerafdrukauthenticatie
 
-Veel laptops hebben een vingerafdruksensor voor authenticatie. Je kunt die met Omarchy gebruiken door _Instellen > Beveiliging > Vingerafdruk_ uit te voeren in het Omarchy-menu (`Super + Space`).
+Veel laptops hebben een vingerafdruksensor voor authenticatie. Je kunt die met Spherie gebruiken door _Instellen > Beveiliging > Vingerafdruk_ uit te voeren in het Omarchy-menu (`Super + Space`).
 
 Daarmee wordt het vingerafdrukpakket geïnstalleerd, je afdruk vastgelegd en geverifieerd, en dan kun je aan de slag: gebruik je vingerafdruk om te ontgrendelen vanaf het vergrendelscherm (dat je kunt activeren met `Super + Ctrl + L`), om sudo-modus in te gaan en om systeemprompts goed te keuren.
 

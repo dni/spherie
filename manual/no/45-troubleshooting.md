@@ -6,7 +6,7 @@ Prøv først å [rulle tilbake systemet ditt](47-system-snapshots.md) til versjo
 
 ### Hvorfor er noen apper så store på skjermen min?
 
-Omarchy antar at du har en høyoppløselig 2x-skjerm, så den setter `GDK_SCALE` til 2 til du velger en skala i skjermpanelet. Hvis du har en 1x-skjerm og GTK- eller X11-apper blir for store, velg 1x for den i skjermpanelet, eller legg til `hl.env("GDK_SCALE", "1")` i `~/.config/hypr/monitors.lua` (og start deretter alle apper som er for store på nytt). Se [håndboken om skjermer](33-monitors.md).
+Spherie antar at du har en høyoppløselig 2x-skjerm, så den setter `GDK_SCALE` til 2 til du velger en skala i skjermpanelet. Hvis du har en 1x-skjerm og GTK- eller X11-apper blir for store, velg 1x for den i skjermpanelet, eller legg til `hl.env("GDK_SCALE", "1")` i `~/.config/hypr/monitors.lua` (og start deretter alle apper som er for store på nytt). Se [håndboken om skjermer](33-monitors.md).
 
 For Spotify kan du bruke `Ctrl + Minus` til å krympe grensesnittet (og `Ctrl + Plus` til å gjøre det større).
 
@@ -26,7 +26,7 @@ Sannsynligvis fordi de ikke er satt som primærutgang. Klikk på høyttalerikone
 
 ### Høyttalerne på den bærbare PC-en min høres feil ut
 
-På noen bærbare PC-er bruker Omarchy automatisk en høyttalerjustering som korrigerer frekvensresponsen til de innebygde høyttalerne. `omarchy audio tuning status` forteller deg om en er aktiv på maskinen din, og `omarchy audio tuning off` slår den av hvis du heller vil høre høyttalerne rå.
+På noen bærbare PC-er bruker Spherie automatisk en høyttalerjustering som korrigerer frekvensresponsen til de innebygde høyttalerne. `omarchy audio tuning status` forteller deg om en er aktiv på maskinen din, og `omarchy audio tuning off` slår den av hvis du heller vil høre høyttalerne rå.
 
 ### Hvorfor kan jeg ikke logge inn eller bruke sudo med passordet mitt?
 

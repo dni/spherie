@@ -1,6 +1,6 @@
 # Lettertypen
 
-Omarchy gebruikt standaard JetBrainsMono Nerd Font als zowel het terminal- als het systeemlettertype.
+Spherie gebruikt standaard JetBrainsMono Nerd Font als zowel het terminal- als het systeemlettertype.
 
  ![fonts-jetbrainsmono](images/fonts-jetbrainsmono.webp)
 

@@ -1,6 +1,6 @@
 # Navigasjon
 
-Alt i Omarchy skjer via tastaturet — _ALT!_ Når systemet starter for første gang, kan du bokstavelig talt ikke gjøre noe som helst med bare musen. Men du kan trykke på `Super + Space` for å vise Omarchy-menyen, og herfra kan du gjøre nesten alt.
+Alt i Spherie skjer via tastaturet — _ALT!_ Når systemet starter for første gang, kan du bokstavelig talt ikke gjøre noe som helst med bare musen. Men du kan trykke på `Super + Space` for å vise Omarchy-menyen, og herfra kan du gjøre nesten alt.
 
 Men Omarchy-menyen er ikke engang ment å være den viktigste måten å betjene systemet på mesteparten av tiden. Vi kan gjøre det raskere enn det! Alle de viktigste applikasjonene er bundet direkte til egne hurtigtaster. Du starter terminalen med `Super + Return` og en nettleser med `Super + Shift + Return`. Prøv å gjøre det ene etter det andre, så ser du magien med Hyprlands flislegging i aksjon:
 
@@ -30,7 +30,7 @@ Du kan også gå til fullskjerm med `Super + F`, eller bare til full bredde (og 
 
 ### Dwindle mot rullende oppsett
 
-Standardoppsettet i Omarchy heter dwindle. Det holder alle vinduene du åpner på ett arbeidsområde, synlige til enhver tid, selv om det må krympe dem.
+Standardoppsettet i Spherie heter dwindle. Det holder alle vinduene du åpner på ett arbeidsområde, synlige til enhver tid, selv om det må krympe dem.
 
  ![navigation-dwindle-layout](images/navigation-dwindle-layout.webp)
 

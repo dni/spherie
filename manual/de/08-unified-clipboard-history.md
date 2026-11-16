@@ -2,7 +2,7 @@
 
 Normalerweise brauchst du unter Linux `Ctrl + Shift + C/V` zum Kopieren und Einfügen im Terminal und `Ctrl + C/V`, um es überall sonst zu tun. Daran muss sich erst einmal gewöhnen, wer nicht mit Linux geboren und aufgewachsen ist! Ebenso an den Wechsel von Super zu Ctrl, wenn du vom Mac kommst.
 
-Omarchy löst beide Probleme mit einheitlichen Tastenkürzeln für die Zwischenablage, die (fast) überall funktionieren. Sie lauten:
+Spherie löst beide Probleme mit einheitlichen Tastenkürzeln für die Zwischenablage, die (fast) überall funktionieren. Sie lauten:
 
 | Hotkey | Command |
 | ------- | ----------- |

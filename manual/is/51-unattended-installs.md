@@ -1,8 +1,8 @@
 # Ómönnuð uppsetning
 
-Omarchy ISO-ið getur sett sig upp án þess að nokkur sé við lyklaborðið. Ef uppsetningarforritið finnur annað drif merkt `cidata` með stillingarskrám þess afritar það þær þaðan, sleppir uppsetningarhjálpinni alfarið og endurræsir sjálft inn í fullbúið kerfið. Engin sérstök ISO-smíði, enginn auka valkostur í ræsivalmyndinni — án slíks drifs breytist ekkert og þú færð venjulegu uppsetningarhjálpina.
+Spherie ISO-ið getur sett sig upp án þess að nokkur sé við lyklaborðið. Ef uppsetningarforritið finnur annað drif merkt `cidata` með stillingarskrám þess afritar það þær þaðan, sleppir uppsetningarhjálpinni alfarið og endurræsir sjálft inn í fullbúið kerfið. Engin sérstök ISO-smíði, enginn auka valkostur í ræsivalmyndinni — án slíks drifs breytist ekkert og þú færð venjulegu uppsetningarhjálpina.
 
-Þetta gerir Omarchy að frábærum grunnmyndum fyrir einnota þróunarumhverfi: búðu til VM í Proxmox eða með Packer, ræstu hana, farðu í burtu og tengstu inn með SSH. `cidata` er `NoCloud`-merkið frá cloud-init, svo öll algeng sýndarvæðingartól vita nú þegar hvernig á að tengja slíkt drif.
+Þetta gerir Spherie að frábærum grunnmyndum fyrir einnota þróunarumhverfi: búðu til VM í Proxmox eða með Packer, ræstu hana, farðu í burtu og tengstu inn með SSH. `cidata` er `NoCloud`-merkið frá cloud-init, svo öll algeng sýndarvæðingartól vita nú þegar hvernig á að tengja slíkt drif.
 
 ## Stillingarskrárnar
 
@@ -38,7 +38,7 @@ cp user_configuration.json user_credentials.json authorized_keys cidata/
 genisoimage -output cidata.iso -volid cidata -joliet -rock cidata/
 ```
 
-Tengdu það síðan við VM-ina ásamt Omarchy ISO-inu. Hér er fullt Proxmox-dæmi:
+Tengdu það síðan við VM-ina ásamt Spherie ISO-inu. Hér er fullt Proxmox-dæmi:
 
 ```bash
 qm create 101 --name my-omarchy \

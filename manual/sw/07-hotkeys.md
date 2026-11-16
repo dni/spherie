@@ -8,7 +8,7 @@ Kila kifunguo cha haraka kiko kwenye tabaka moja, lililowekwa na virekebishaji v
 
 | Tabaka | Kinachoishi huko | Mifano |
 | --- | --- | --- |
-| `Super + key` | Mfumo: madirisha, nafasi za kazi, mipangilio, na menyu za msingi | `Super + Space` menyu ya Omarchy, `Super + W` funga dirisha, `Super + F` skrini nzima |
+| `Super + key` | Mfumo: madirisha, nafasi za kazi, mipangilio, na menyu za msingi | `Super + Space` menyu ya Spherie, `Super + W` funga dirisha, `Super + F` skrini nzima |
 | `Super + Shift + key` | Programu | `Super + Shift + B` kivinjari, `Super + Shift + E` barua pepe, `Super + Shift + N` kihariri |
 | `Super + Ctrl + key` | Paneli na menyu za mfumo | `Super + Ctrl + A` sauti, `Super + Ctrl + N` mtandao, `Super + Ctrl + C` menyu ya kunasa |
 | `Super + Ctrl + Alt + key` | Vitendo vya haraka na taarifa | `Super + Ctrl + Alt + T` onyesha saa, `Super + Ctrl + Alt + B` betri, `Super + Ctrl + Alt + C` picha ya skrini |
@@ -34,7 +34,7 @@ Ikiwa chaguo-msingi halikufai (tuseme unataka `Super + Shift + S` kwa picha za s
 
 | Kifunguo cha Haraka | Kazi |
 | ----------------------- | --------------------- |
-| `Super + Space` | Menyu ya Omarchy (programu na kila kitu kingine) |
+| `Super + Space` | Menyu ya Spherie (programu na kila kitu kingine) |
 | `Super + Alt + Space` | Gridi ya programu |
 | `Super + Escape` | Menyu ya mfumo (simamisha, anzisha upya, n.k.) |
 | `Super + Ctrl + L` | Funga kompyuta |
@@ -172,7 +172,7 @@ Badilisha/ongeza vifunguo katika `~/.config/hypr/bindings.lua`.
 | `Super + V` | Bandika |
 | `Super + Ctrl + V` | Kidhibiti cha ubao wa kunakili |
 
-Kwa kawaida kwenye Linux, unahitaji `Ctrl + Shift + C/V` ili kunakili na kubandika katika terminal na `Ctrl + C/V` kufanya hivyo kwingineko. Vifunguo hivi vya haraka vya ubao wa kunakili vilivyounganishwa vya Omarchy hufanya kazi kila mahali.
+Kwa kawaida kwenye Linux, unahitaji `Ctrl + Shift + C/V` ili kunakili na kubandika katika terminal na `Ctrl + C/V` kufanya hivyo kwingineko. Vifunguo hivi vya haraka vya ubao wa kunakili vilivyounganishwa vya Spherie hufanya kazi kila mahali.
 
 ## Kunasa
 
@@ -193,7 +193,7 @@ Kwa kawaida kwenye Linux, unahitaji `Ctrl + Shift + C/V` ili kunakili na kubandi
 
 Ukiwa na rekodi za skrini, kifunguo cha haraka kwanza huuliza ni sauti gani unayotaka, kisha huanza kurekodi. Kibonyeze tena ili kusimamisha. Tazama [picha za skrini na kurekodi](12-screenshots-recording.md) kwa maelezo.
 
-Chaguo zote za kunasa pia zinapatikana chini ya _Trigger > Capture_ katika menyu ya Omarchy (`Super + Space`).
+Chaguo zote za kunasa pia zinapatikana chini ya _Trigger > Capture_ katika menyu ya Spherie (`Super + Space`).
 
 ## Arifa
 
@@ -215,9 +215,9 @@ Chaguo zote za kunasa pia zinapatikana chini ya _Trigger > Capture_ katika menyu
 | `Super + Backspace` | Geuza uwazi kwenye dirisha |
 | `Super + Ctrl + Backspace` | Geuza uwiano wa mraba wa dirisha moja |
 
-Picha za ziada za usuli ziko katika `~/.config/omarchy/backgrounds/<theme name>`. Pia zinapatikana kupitia _Install > Style > Background_ katika menyu ya Omarchy.
+Picha za ziada za usuli ziko katika `~/.config/omarchy/backgrounds/<theme name>`. Pia zinapatikana kupitia _Install > Style > Background_ katika menyu ya Spherie.
 
-Chaguo zote za mtindo pia zinapatikana chini ya _Style_ katika menyu ya Omarchy (`Super + Space`).
+Chaguo zote za mtindo pia zinapatikana chini ya _Style_ katika menyu ya Spherie (`Super + Space`).
 
 ## Vigeuzaji
 
@@ -318,7 +318,7 @@ Vitendaji hivi lazima viendeshwe ndani ya kipindi cha Tmux.
 
 ## Terminal ya Ghostty
 
-Terminal ya Ghostty husakinishwa kwa kutumia _Install > Terminal_ kupitia menyu ya Omarchy.
+Terminal ya Ghostty husakinishwa kwa kutumia _Install > Terminal_ kupitia menyu ya Spherie.
 
 | Kifunguo cha Haraka | Kazi |
 | ----------------------- | --------------------- |

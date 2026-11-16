@@ -1,8 +1,8 @@
 # Nenadzorovane namestitve
 
-ISO Omarchy se lahko namesti sam, brez nikogar za tipkovnico. Če namestitveni program najde drugi pogon z oznako `cidata`, na katerem so njegove konfiguracijske datoteke, jih prekopira, v celoti preskoči čarovnika za nastavitev in se sam znova zažene v dokončani sistem. Brez posebne gradnje ISO, brez dodatnega vnosa v zagonskem meniju — če tak pogon ni priključen, se nič ne spremeni in dobite običajnega čarovnika.
+ISO Spherie se lahko namesti sam, brez nikogar za tipkovnico. Če namestitveni program najde drugi pogon z oznako `cidata`, na katerem so njegove konfiguracijske datoteke, jih prekopira, v celoti preskoči čarovnika za nastavitev in se sam znova zažene v dokončani sistem. Brez posebne gradnje ISO, brez dodatnega vnosa v zagonskem meniju — če tak pogon ni priključen, se nič ne spremeni in dobite običajnega čarovnika.
 
-Zaradi tega je Omarchy odličen kot osnovna slika za razvojna okolja za enkratno uporabo: ustvarite VM v Proxmox ali s Packer, ga zaženete, odidete, se povežete prek SSH. `cidata` je oznaka cloud-init `NoCloud`, zato vsa običajna orodja za virtualizacijo tak pogon že znajo priključiti.
+Zaradi tega je Spherie odličen kot osnovna slika za razvojna okolja za enkratno uporabo: ustvarite VM v Proxmox ali s Packer, ga zaženete, odidete, se povežete prek SSH. `cidata` je oznaka cloud-init `NoCloud`, zato vsa običajna orodja za virtualizacijo tak pogon že znajo priključiti.
 
 ## Konfiguracijske datoteke
 
@@ -24,7 +24,7 @@ Namesto `user_credentials.json` lahko odložite tudi prazno datoteko z imenom `d
 
 ## Dostop prek SSH
 
-Kadar je prisotna datoteka `authorized_keys`, namestitev nastavi ključe kot uporabnikovo datoteko `~/.ssh/authorized_keys`, omogoči `sshd` in zanj odpre požarni zid. (Običajna namestitev Omarchy ima openssh z onemogočeno storitvijo in zaprtimi vrati, zato nenadzorovana naprava sicer ne bi bila dosegljiva.) Namestitev doda samo vaše ključe — ne zrahlja nobene druge nastavitve preverjanja pristnosti demona SSH.
+Kadar je prisotna datoteka `authorized_keys`, namestitev nastavi ključe kot uporabnikovo datoteko `~/.ssh/authorized_keys`, omogoči `sshd` in zanj odpre požarni zid. (Običajna namestitev Spherie ima openssh z onemogočeno storitvijo in zaprtimi vrati, zato nenadzorovana naprava sicer ne bi bila dosegljiva.) Namestitev doda samo vaše ključe — ne zrahlja nobene druge nastavitve preverjanja pristnosti demona SSH.
 
 Kadar je prisotna datoteka `tailscale_authkey`, se naprava ob prvem zagonu namesto tega pridruži vašemu omrežju tailnet: Tailscale se namesti iz paketov, priloženih ISO, požarni zid dovoli vmesnik tailnet, opravilo v ozadju pa izvede pridružitev, takoj ko ima naprava dejansko omrežje, in poskuša znova, dokler ne uspe. Uporabite ključ za večkratno uporabo s predhodno odobritvijo, da lahko ena slika pogona služi številnim napravam.
 
@@ -38,7 +38,7 @@ cp user_configuration.json user_credentials.json authorized_keys cidata/
 genisoimage -output cidata.iso -volid cidata -joliet -rock cidata/
 ```
 
-Nato ga priključite VM poleg ISO Omarchy. Tukaj je celoten primer za Proxmox:
+Nato ga priključite VM poleg ISO Spherie. Tukaj je celoten primer za Proxmox:
 
 ```bash
 qm create 101 --name my-omarchy \

@@ -12,7 +12,7 @@ Ha magára a jelszóra van szükséged, az `omarchy network password <interface>
 
 ## DNS
 
-Az Omarchy azt a DNS-t használja, amelyet a hálózatod DHCP-n keresztül ad. Ezt felülírhatod az egész gépre a _Setup > Network > DNS_ alatt, ahol a Cloudflare és a Google egy kattintásra van. Válaszd a _Custom_ lehetőséget a saját szervereid beírásához.
+Az Spherie azt a DNS-t használja, amelyet a hálózatod DHCP-n keresztül ad. Ezt felülírhatod az egész gépre a _Setup > Network > DNS_ alatt, ahol a Cloudflare és a Google egy kattintásra van. Válaszd a _Custom_ lehetőséget a saját szervereid beírásához.
 
 A terminálból az `omarchy dns` kiírja az aktuális szolgáltatót, az `omarchy dns Cloudflare` pedig beállít egyet.
 
@@ -24,7 +24,7 @@ Ez a sávot rögzíti, nem egy adott hozzáférési pontot, így az AP-k közöt
 
 ## Milyen gyors?
 
-A _Trigger > Speed Test > Network Speed Test_ a tényleges fel- és letöltési sebességedet méri egy pár számlappal. A terminálból ez az `omarchy network speedtest down` vagy `up`. Az Omarchy saját szolgáltatásával szemben mér, és csak a saját tesztátviteleit számolja. Más letöltések versenyezhetnek a sávszélességért, de nem adódnak hozzá a sebességteszt eredményéhez. (Mellette abban a menüben ott van egy lemezsebesség-teszt is, ha a másik szűk keresztmetszetet méred.)
+A _Trigger > Speed Test > Network Speed Test_ a tényleges fel- és letöltési sebességedet méri egy pár számlappal. A terminálból ez az `omarchy network speedtest down` vagy `up`. Az Spherie saját szolgáltatásával szemben mér, és csak a saját tesztátviteleit számolja. Más letöltések versenyezhetnek a sávszélességért, de nem adódnak hozzá a sebességteszt eredményéhez. (Mellette abban a menüben ott van egy lemezsebesség-teszt is, ha a másik szűk keresztmetszetet méred.)
 
 ## A tűzfal
 

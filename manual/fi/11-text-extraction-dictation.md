@@ -16,7 +16,7 @@ Sanelet pitämällä `Right Alt` pohjassa tai vaihtamalla tilaa näppäimillä `
 
 Samat pikanäppäimet toimivat jokaisen taustan kanssa. Valitse taustasi kohdasta Setup > Defaults > Dictation. Taustan asennusohjelma määrittää sen ja tallentaa valinnan. Suorita `omarchy default dictation` nähdäksesi, mikä on valittuna. Valinta tallennetaan tiedostoon `~/.config/omarchy/defaults/dictation`. Uudet asennukset valitsevat Superwhisperin automaattisesti.
 
-Omarchy lataa valitun taustan työpöytäintegraation automaattisesti. Superwhisperin määrityksiä ei tarvita kansiossa `~/.config/hypr/`.
+Spherie lataa valitun taustan työpöytäintegraation automaattisesti. Superwhisperin määrityksiä ei tarvita kansiossa `~/.config/hypr/`.
 
 Mukautetut sidokset ja skriptit voivat käyttää komentoja `omarchy dictation start`, `omarchy dictation stop` ja `omarchy dictation toggle`. Valittu tausta hoitaa tallennuksen ja litteroinnin. Superwhisperin valitseminen poistaa käytöstä sen oman pohjassa pidettävän pikanäppäimen ja asettaa sen omaksi vaihtopikanäppäimeksi `Ctrl + Alt + Space`, jolloin se pysyy erillään Omarchyn tallennusnäppäimistä. Superwhisper vaatii vähintään yhden oman tallennuspikanäppäimen, ja sen peruutuspikanäppäin pysyy käytettävissä.
 

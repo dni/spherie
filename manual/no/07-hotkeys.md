@@ -172,7 +172,7 @@ Endre/legg til bindinger i `~/.config/hypr/bindings.lua`.
 | `Super + V` | Lim inn |
 | `Super + Ctrl + V` | Utklippstavlebehandler |
 
-Vanligvis på Linux må du bruke `Ctrl + Shift + C/V` for å kopiere og lime inn i terminalen og `Ctrl + C/V` for å gjøre det alle andre steder. Disse enhetlige hurtigtastene for utklippstavlen i Omarchy fungerer overalt.
+Vanligvis på Linux må du bruke `Ctrl + Shift + C/V` for å kopiere og lime inn i terminalen og `Ctrl + C/V` for å gjøre det alle andre steder. Disse enhetlige hurtigtastene for utklippstavlen i Spherie fungerer overalt.
 
 ## Opptak
 

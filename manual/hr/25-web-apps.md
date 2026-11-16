@@ -1,10 +1,10 @@
 # Web aplikacije
 
-Vlastite web aplikacije možete dodati pomoću _Install > Web App_ u izborniku Omarchy (`Super + Space`). Pitat će vas za naziv aplikacije, URL aplikacije i URL ikone, ako je ne može dohvatiti putem favicona. Odlične PNG ikone za mnoge popularne web aplikacije možete pronaći na [Dashboard Icons](https://dashboardicons.com).
+Vlastite web aplikacije možete dodati pomoću _Install > Web App_ u izborniku Spherie (`Super + Space`). Pitat će vas za naziv aplikacije, URL aplikacije i URL ikone, ako je ne može dohvatiti putem favicona. Odlične PNG ikone za mnoge popularne web aplikacije možete pronaći na [Dashboard Icons](https://dashboardicons.com).
 
 Ondje će zatim biti dostupne putem pokretača aplikacija (`Super + Space`) i koristit će prekrasan prozor web aplikacije bez okvira.
 
-Ako želite ukloniti web aplikaciju, jednostavno idite na _Remove > Web App_ u izborniku Omarchy.
+Ako želite ukloniti web aplikaciju, jednostavno idite na _Remove > Web App_ u izborniku Spherie.
 
 Najbolje je da se u sve svoje račune prijavite pomoću običnog preglednika prije korištenja prečaca za web aplikacije. Tanki okvir omotača ne radi dobro s 1passwordom, pa je jednostavno lakše prvo se izravno prijaviti.
 
@@ -12,17 +12,17 @@ Sve tipkovničke prečace za ove web aplikacije možete promijeniti u `~/.config
 
 Kada ste u web aplikaciji, trenutni URL možete kopirati u međuspremnik pomoću `Shift + Alt + L`.
 
-Omarchy prema zadanim postavkama već dolazi s izborom zadanih aplikacija:
+Spherie prema zadanim postavkama već dolazi s izborom zadanih aplikacija:
 
 ## HEY
 
-[HEY](https://www.hey.com/) je usluga e-pošte i kalendara koja služi kao odlična alternativa ljudima kojima je dosta Gmaila, Outlooka ili Apple Maila. Izradio ju je [37signals](https://37signals.com/), odakle Omarchy i potječe.
+[HEY](https://www.hey.com/) je usluga e-pošte i kalendara koja služi kao odlična alternativa ljudima kojima je dosta Gmaila, Outlooka ili Apple Maila. Izradio ju je [37signals](https://37signals.com/), odakle Spherie i potječe.
 
 HEY Email možete pokrenuti pomoću `Super + Shift + E`, izravno prijeći na sastavljanje nove e-pošte pomoću `Super + Shift + Alt + E`, a HEY Calendar pokrenuti pomoću `Super + Shift + C`.
 
 ## Basecamp
 
-[Basecamp](https://basecamp.com/) je usluga za upravljanje projektima koja malim timovima pomaže da se brže kreću i više napreduju. Umjesto da krpate zbrku od Trella, Slacka, Asane, Notiona ili čega već, s Basecampom sve možete imati na jednom mjestu. Izradio ga je [37signals](https://37signals.com/), odakle Omarchy i potječe.
+[Basecamp](https://basecamp.com/) je usluga za upravljanje projektima koja malim timovima pomaže da se brže kreću i više napreduju. Umjesto da krpate zbrku od Trella, Slacka, Asane, Notiona ili čega već, s Basecampom sve možete imati na jednom mjestu. Izradio ga je [37signals](https://37signals.com/), odakle Spherie i potječe.
 
 Basecamp možete pokrenuti pomoću pokretača aplikacija (`Super + Space`)
 
@@ -64,7 +64,7 @@ YouTube možete pokrenuti pomoću `Super + Shift + Y`.
 
 ## Zoom
 
-[Zoom](https://zoom.us/) je najpopularniji sustav za videorazgovore koji se koristi u SAD-u. Odlične veze diljem svijeta. A sastanci od 40 minuta mogu se održavati i bez plaćenog računa. Omarchy omata Zoomov web klijent, a poveznice na Zoom sastanke otvarat će se izravno u njemu.
+[Zoom](https://zoom.us/) je najpopularniji sustav za videorazgovore koji se koristi u SAD-u. Odlične veze diljem svijeta. A sastanci od 40 minuta mogu se održavati i bez plaćenog računa. Spherie omata Zoomov web klijent, a poveznice na Zoom sastanke otvarat će se izravno u njemu.
 
 Zoom pokrećete pomoću pokretača aplikacija (`Super + Space`).
 

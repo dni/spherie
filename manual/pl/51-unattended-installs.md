@@ -1,8 +1,8 @@
 # Instalacje nienadzorowane
 
-Obraz ISO Omarchy może zainstalować się sam, bez nikogo przy klawiaturze. Jeśli instalator znajdzie drugi dysk o etykiecie `cidata` zawierający jego pliki konfiguracyjne, skopiuje je, całkowicie pominie kreator konfiguracji i samodzielnie zrestartuje się do gotowego systemu. Nie potrzeba żadnego specjalnego obrazu ISO ani dodatkowej pozycji w menu rozruchowym — bez takiego dysku nic się nie zmienia i dostajesz normalny kreator.
+Obraz ISO Spherie może zainstalować się sam, bez nikogo przy klawiaturze. Jeśli instalator znajdzie drugi dysk o etykiecie `cidata` zawierający jego pliki konfiguracyjne, skopiuje je, całkowicie pominie kreator konfiguracji i samodzielnie zrestartuje się do gotowego systemu. Nie potrzeba żadnego specjalnego obrazu ISO ani dodatkowej pozycji w menu rozruchowym — bez takiego dysku nic się nie zmienia i dostajesz normalny kreator.
 
-Dzięki temu Omarchy świetnie sprawdza się jako obraz bazowy dla jednorazowych środowisk deweloperskich: tworzysz VM w Proxmox albo za pomocą Packer, uruchamiasz ją, odchodzisz, logujesz się przez SSH. `cidata` to etykieta `NoCloud` z cloud-init, więc wszystkie popularne narzędzia do wirtualizacji już wiedzą, jak podłączyć taki dysk.
+Dzięki temu Spherie świetnie sprawdza się jako obraz bazowy dla jednorazowych środowisk deweloperskich: tworzysz VM w Proxmox albo za pomocą Packer, uruchamiasz ją, odchodzisz, logujesz się przez SSH. `cidata` to etykieta `NoCloud` z cloud-init, więc wszystkie popularne narzędzia do wirtualizacji już wiedzą, jak podłączyć taki dysk.
 
 ## Pliki konfiguracyjne
 
@@ -24,7 +24,7 @@ Możesz też zamiast `user_credentials.json` umieścić pusty plik o nazwie `def
 
 ## Dostęp SSH
 
-Gdy obecny jest plik `authorized_keys`, instalator ustawia te klucze jako `~/.ssh/authorized_keys` użytkownika, włącza `sshd` i otwiera dla niego zaporę. (Standardowa instalacja Omarchy dostarcza openssh z wyłączoną usługą i zamkniętym portem, więc maszyna instalowana bez nadzoru byłaby w przeciwnym razie nieosiągalna.) Instalator tylko dodaje Twoje klucze — nie poluzowuje żadnych innych ustawień uwierzytelniania demona SSH.
+Gdy obecny jest plik `authorized_keys`, instalator ustawia te klucze jako `~/.ssh/authorized_keys` użytkownika, włącza `sshd` i otwiera dla niego zaporę. (Standardowa instalacja Spherie dostarcza openssh z wyłączoną usługą i zamkniętym portem, więc maszyna instalowana bez nadzoru byłaby w przeciwnym razie nieosiągalna.) Instalator tylko dodaje Twoje klucze — nie poluzowuje żadnych innych ustawień uwierzytelniania demona SSH.
 
 Gdy obecny jest plik `tailscale_authkey`, maszyna przy pierwszym uruchomieniu dołącza zamiast tego do Twojej sieci tailnet: Tailscale jest instalowany z pakietów dołączonych do obrazu ISO, zapora dopuszcza interfejs tailnet, a zadanie w tle wykonuje dołączenie, gdy tylko maszyna faktycznie uzyska dostęp do sieci, ponawiając próby aż do skutku. Użyj klucza wielokrotnego użytku, wstępnie autoryzowanego, aby jeden obraz dysku mógł obsłużyć wiele maszyn.
 
@@ -38,7 +38,7 @@ cp user_configuration.json user_credentials.json authorized_keys cidata/
 genisoimage -output cidata.iso -volid cidata -joliet -rock cidata/
 ```
 
-Następnie podłącz go do VM obok obrazu ISO Omarchy. Oto pełny przykład dla Proxmox:
+Następnie podłącz go do VM obok obrazu ISO Spherie. Oto pełny przykład dla Proxmox:
 
 ```bash
 qm create 101 --name my-omarchy \

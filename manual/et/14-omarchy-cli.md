@@ -1,6 +1,6 @@
-# Omarchy CLI
+# Spherie CLI
 
-Omarchyt juhitakse tavaliselt kiirklahvide ja Omarchy menüü (`Super + Space`) kaudu. Aga seda saab juhtida ka `omarchy` CLI kaudu. See on eriti abiks siis, kui lased mõnel AI agendil endaga koos kohandusi või seadistusi teha.
+Omarchyt juhitakse tavaliselt kiirklahvide ja Spherie menüü (`Super + Space`) kaudu. Aga seda saab juhtida ka `omarchy` CLI kaudu. See on eriti abiks siis, kui lased mõnel AI agendil endaga koos kohandusi või seadistusi teha.
 
 CLI-l on juurdepääs kõigile sisemistele tööriistadele, mida kasutatakse nii menüü kaudu kui ka muul viisil. Kõike saadaolevat näed, kui käivitad terminalis käsu `omarchy`.
 
@@ -8,7 +8,7 @@ See näeb välja umbes selline:
 
 ```
 ~ ❯ omarchy
-Omarchy command center
+Spherie command center
 
 Usage:
   omarchy <command> [args...]
@@ -17,7 +17,7 @@ Usage:
   omarchy <group> <command> --help
 
 Common commands:
-  omarchy update              Update Omarchy and system packages
+  omarchy update              Update Spherie and system packages
   omarchy theme list          List available themes
   omarchy theme set <name>    Apply a theme
   omarchy font list           List available fonts
@@ -27,14 +27,14 @@ Common commands:
 Groups:
   agent          AI coding agents, their usage, and subscription accounts
   audio          Audio input and output controls
-  bar            Omarchy shell bar layout and settings
+  bar            Spherie shell bar layout and settings
   battery        Battery status helpers
   bluetooth      Bluetooth device controls
-  branch         Omarchy git branch management
+  branch         Spherie git branch management
   branding       About and screensaver branding
   brightness     Display and keyboard brightness
   capture        Screenshots and screen recording
-  channel        Omarchy release channel management
+  channel        Spherie release channel management
   clipboard      Clipboard helpers
   cmd            Command and shortcut helpers
   config         System configuration helpers
@@ -59,4 +59,4 @@ Iga käsk võtab ka lippu `--help`, olenemata sellest, kas küsid tervet rühma 
 
 ### Menüü avamine terminalist
 
-Omarchy menüü on samuti skriptitav, mis on käepärane oma kiirklahvide jaoks. `omarchy menu` avab selle juurtasemel ja sa saad hüpata otse puu suvalisse kohta, kui selle nimega nimetad: `omarchy menu summon appearance.theme` viib otse teemavalijasse, `omarchy menu toggle system` avab süsteemimenüü ja sulgeb selle uuesti, kui see on juba üleval, ning `omarchy menu close` paneb selle ära.
+Spherie menüü on samuti skriptitav, mis on käepärane oma kiirklahvide jaoks. `omarchy menu` avab selle juurtasemel ja sa saad hüpata otse puu suvalisse kohta, kui selle nimega nimetad: `omarchy menu summon appearance.theme` viib otse teemavalijasse, `omarchy menu toggle system` avab süsteemimenüü ja sulgeb selle uuesti, kui see on juba üleval, ning `omarchy menu close` paneb selle ära.

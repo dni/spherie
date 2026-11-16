@@ -1,6 +1,6 @@
 # Ağ
 
-Omarchy'de ağ bağlantısı NetworkManager tarafından yönetilir ve bunu [üst çubuktaki](05-the-top-bar.md) ağ simgesinden ya da `Super + Ctrl + N` ile kontrol edersiniz.
+Spherie'de ağ bağlantısı NetworkManager tarafından yönetilir ve bunu [üst çubuktaki](05-the-top-bar.md) ağ simgesinden ya da `Super + Ctrl + N` ile kontrol edersiniz.
 
 Bu panel Wi-Fi ağlarını tarar, sinyal gücünü gösterir ve bağlantı kurar. Ethernet için hiçbir şey gerekmez — kabloyu takın ve çalışır. Terminalde kalmayı tercih ederseniz, `nmtui` size aynı kontrolleri sunar ve bir de `omarchy network` komut grubu vardır.
 
@@ -12,7 +12,7 @@ Parolanın kendisine gerçekten ihtiyacınız varsa, `omarchy network password <
 
 ## DNS
 
-Omarchy, ağınızın DHCP üzerinden verdiği DNS'i kullanır. Bunu tüm makine için _Setup > Network > DNS_ altında geçersiz kılabilirsiniz; burada Cloudflare ve Google tek tık uzağınızdadır. Kendi sunucularınızı yazmak için _Custom_ seçeneğini seçin.
+Spherie, ağınızın DHCP üzerinden verdiği DNS'i kullanır. Bunu tüm makine için _Setup > Network > DNS_ altında geçersiz kılabilirsiniz; burada Cloudflare ve Google tek tık uzağınızdadır. Kendi sunucularınızı yazmak için _Custom_ seçeneğini seçin.
 
 Terminalden, `omarchy dns` geçerli sağlayıcıyı yazdırır ve `omarchy dns Cloudflare` birini ayarlar.
 
@@ -24,7 +24,7 @@ Bu, belirli bir erişim noktasını değil bandı sabitler, böylece AP'ler aras
 
 ## Ne kadar hızlı?
 
-_Trigger > Speed Test > Network Speed Test_ gerçek indirme ve yükleme hızınızı bir çift göstergeyle ölçer. Terminalden, `omarchy network speedtest down` ya da `up` ile yapılır. Omarchy'nin kendi servisine karşı ölçüm yapar ve yalnızca kendi test aktarımlarını sayar. Diğer indirmeler bant genişliği için rekabet edebilir, ancak hız testi sonucuna eklenmezler. (Diğer darboğazı ölçüyorsanız, o menüde hemen yanında bir disk hız testi de bulunur.)
+_Trigger > Speed Test > Network Speed Test_ gerçek indirme ve yükleme hızınızı bir çift göstergeyle ölçer. Terminalden, `omarchy network speedtest down` ya da `up` ile yapılır. Spherie'nin kendi servisine karşı ölçüm yapar ve yalnızca kendi test aktarımlarını sayar. Diğer indirmeler bant genişliği için rekabet edebilir, ancak hız testi sonucuna eklenmezler. (Diğer darboğazı ölçüyorsanız, o menüde hemen yanında bir disk hız testi de bulunur.)
 
 ## Güvenlik duvarı
 

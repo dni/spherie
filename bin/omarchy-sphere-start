@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# omarchy:summary=Start a sphere (and the spheres its network depends on)
+# omarchy:args=<sphere>
+# omarchy:examples=omarchy sphere start work
+
+set -euo pipefail
+source "$OMARCHY_PATH/default/spherie/lib.sh"
+
+start() {
+  sphere_load "$1"
+  # Gateways come up first: br-net is served by net, br-anon by tor.
+  case "$NET" in
+    br-net) [[ $1 == "net" ]] || start net ;;
+    br-anon) start tor ;;
+  esac
+  sphere_load "$1"
+
+  if [[ $NAME != "template" && ! -f $SPHERIE_DATA/home/$NAME.qcow2 ]]; then
+    sudo -u spherie qemu-img create -q -f qcow2 "$SPHERIE_DATA/home/$NAME.qcow2" 50G
+  fi
+
+  sphere_running "$NAME" || sudo systemctl start "spherie@$NAME.service"
+}
+
+start "$1"

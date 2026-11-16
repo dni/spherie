@@ -1,8 +1,8 @@
 # Usakinishaji Usiosimamiwa
 
-ISO ya Omarchy inaweza kujisakinisha bila mtu yeyote kwenye kibodi. Ikiwa kisakinishi kitakuta diski ya pili yenye lebo `cidata` inayobeba faili zake za usanidi, kinakili faili hizo, kinaruka mchawi wa usanidi kabisa, na kuwasha upya kwenye mfumo uliokamilika chenyewe. Hakuna ujenzi maalum wa ISO, hakuna kiingilio cha ziada kwenye menyu ya kuwasha — bila diski kama hiyo kuambatishwa, hakuna kinachobadilika na unapata mchawi wa kawaida.
+ISO ya Spherie inaweza kujisakinisha bila mtu yeyote kwenye kibodi. Ikiwa kisakinishi kitakuta diski ya pili yenye lebo `cidata` inayobeba faili zake za usanidi, kinakili faili hizo, kinaruka mchawi wa usanidi kabisa, na kuwasha upya kwenye mfumo uliokamilika chenyewe. Hakuna ujenzi maalum wa ISO, hakuna kiingilio cha ziada kwenye menyu ya kuwasha — bila diski kama hiyo kuambatishwa, hakuna kinachobadilika na unapata mchawi wa kawaida.
 
-Hii huifanya Omarchy kuwa bora kama picha ya msingi kwa mazingira ya uendelezaji yanayoweza kutupwa: unda VM katika Proxmox au kwa Packer, iwashe, ondoka, ingia kwa SSH. `cidata` ni lebo ya cloud-init `NoCloud`, kwa hivyo zana zote za kawaida za uboreshaji pepe tayari zinajua jinsi ya kuambatisha diski kama hiyo.
+Hii huifanya Spherie kuwa bora kama picha ya msingi kwa mazingira ya uendelezaji yanayoweza kutupwa: unda VM katika Proxmox au kwa Packer, iwashe, ondoka, ingia kwa SSH. `cidata` ni lebo ya cloud-init `NoCloud`, kwa hivyo zana zote za kawaida za uboreshaji pepe tayari zinajua jinsi ya kuambatisha diski kama hiyo.
 
 ## Faili za usanidi
 
@@ -24,7 +24,7 @@ Unaweza pia kuweka faili tupu yenye jina `defer-provisioning` badala ya `user_cr
 
 ## Ufikiaji wa SSH
 
-Wakati `authorized_keys` ipo, usakinishaji huweka funguo hizo kama `~/.ssh/authorized_keys` ya mtumiaji, huwezesha `sshd`, na kuifungulia firewall. (Usakinishaji wa kawaida wa Omarchy huja na openssh huku huduma ikiwa imezimwa na mlango ukiwa umefungwa, kwa hivyo mashine isiyosimamiwa isingefikika vinginevyo.) Usakinishaji huongeza funguo zako tu — hailegezi mipangilio mingine yoyote ya uthibitishaji ya daemon ya SSH.
+Wakati `authorized_keys` ipo, usakinishaji huweka funguo hizo kama `~/.ssh/authorized_keys` ya mtumiaji, huwezesha `sshd`, na kuifungulia firewall. (Usakinishaji wa kawaida wa Spherie huja na openssh huku huduma ikiwa imezimwa na mlango ukiwa umefungwa, kwa hivyo mashine isiyosimamiwa isingefikika vinginevyo.) Usakinishaji huongeza funguo zako tu — hailegezi mipangilio mingine yoyote ya uthibitishaji ya daemon ya SSH.
 
 Wakati `tailscale_authkey` ipo, mashine hujiunga na tailnet yako wakati wa kuwasha kwa kwanza badala yake: Tailscale husakinishwa kutoka kwa vifurushi vilivyojumuishwa kwenye ISO, firewall huruhusu kiolesura cha tailnet, na kazi ya chinichini huendesha uunganishaji mara tu mashine inapokuwa na mtandao kweli, ikijaribu tena hadi ifanikiwe. Tumia ufunguo unaoweza kutumika tena, ulioidhinishwa mapema ili picha moja ya diski iweze kuhudumia mashine nyingi.
 
@@ -38,7 +38,7 @@ cp user_configuration.json user_credentials.json authorized_keys cidata/
 genisoimage -output cidata.iso -volid cidata -joliet -rock cidata/
 ```
 
-Kisha iambatishe kwenye VM pamoja na ISO ya Omarchy. Hapa kuna mfano kamili wa Proxmox:
+Kisha iambatishe kwenye VM pamoja na ISO ya Spherie. Hapa kuna mfano kamili wa Proxmox:
 
 ```bash
 qm create 101 --name my-omarchy \

@@ -1,6 +1,6 @@
 # Tinklas
 
-Omarchy tinklą tvarko NetworkManager, o jūs jį valdote iš tinklo piktogramos [viršutinėje juostoje](05-the-top-bar.md) arba su `Super + Ctrl + N`.
+Spherie tinklą tvarko NetworkManager, o jūs jį valdote iš tinklo piktogramos [viršutinėje juostoje](05-the-top-bar.md) arba su `Super + Ctrl + N`.
 
 Tas skydelis ieško Wi-Fi tinklų, rodo signalo stiprumą ir prisijungia. Ethernetui visai nieko nereikia — prijunkite ir veikia. Jei labiau norite likti terminale, `nmtui` suteikia tokius pačius valdiklius, be to, yra komandų grupė `omarchy network`.
 
@@ -12,7 +12,7 @@ Jei iš tikrųjų reikia paties slaptažodžio, jį išspausdina `omarchy networ
 
 ## DNS
 
-Omarchy naudoja tokį DNS, kokį jūsų tinklas pateikia per DHCP. Galite tai pakeisti visam kompiuteriui skiltyje _Setup > Network > DNS_, kur Cloudflare ir Google pasiekiami vienu spustelėjimu. Pasirinkite _Custom_, kad įvestumėte savo serverius.
+Spherie naudoja tokį DNS, kokį jūsų tinklas pateikia per DHCP. Galite tai pakeisti visam kompiuteriui skiltyje _Setup > Network > DNS_, kur Cloudflare ir Google pasiekiami vienu spustelėjimu. Pasirinkite _Custom_, kad įvestumėte savo serverius.
 
 Iš terminalo `omarchy dns` išspausdina dabartinį teikėją, o `omarchy dns Cloudflare` jį nustato.
 
@@ -24,7 +24,7 @@ Tai fiksuoja juostą, o ne konkretų prieigos tašką, todėl tarp AP ir toliau 
 
 ## Kaip greitai veikia?
 
-_Trigger > Speed Test > Network Speed Test_ išmatuoja tikrąjį siuntimo ir atsisiuntimo greitį su dviem skalėmis. Iš terminalo tai yra `omarchy network speedtest down` arba `up`. Matuojama naudojant pačios Omarchy paslaugą ir skaičiuojami tik jos bandomieji perdavimai. Kiti atsisiuntimai gali konkuruoti dėl pralaidumo, bet jie neįtraukiami į greičio testo rezultatą. (Tame pačiame meniu šalia yra disko greičio testas, jei tikrinate kitą siaurą vietą.)
+_Trigger > Speed Test > Network Speed Test_ išmatuoja tikrąjį siuntimo ir atsisiuntimo greitį su dviem skalėmis. Iš terminalo tai yra `omarchy network speedtest down` arba `up`. Matuojama naudojant pačios Spherie paslaugą ir skaičiuojami tik jos bandomieji perdavimai. Kiti atsisiuntimai gali konkuruoti dėl pralaidumo, bet jie neįtraukiami į greičio testo rezultatą. (Tame pačiame meniu šalia yra disko greičio testas, jei tikrinate kitą siaurą vietą.)
 
 ## Ugniasienė
 

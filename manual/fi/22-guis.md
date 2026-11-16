@@ -20,7 +20,7 @@ Obsidian on ilmainen kaikkiin tarkoituksiin, myös henkilökohtaiseen, kaupallis
 
 Obsidian tarjoaa myös [kaupallisen lisäosan synkronointiin](https://obsidian.md/sync) iOS- ja Android-mobiilisovellusten kanssa. (https://obsidian.md/pricing).
 
-Käynnistät Obsidianin näppäinyhdistelmällä `Super + Shift + O`. Teemojen synkronoinnin käyttämiseksi sinun on valittava asetuksista `Omarchy`-teema.
+Käynnistät Obsidianin näppäinyhdistelmällä `Super + Shift + O`. Teemojen synkronoinnin käyttämiseksi sinun on valittava asetuksista `Spherie`-teema.
 
 ## Omawrite
 
@@ -85,7 +85,7 @@ Käynnistät Omacalcin näppäinyhdistelmällä `Super + Shift + Q` (tai laskinn
 
 [Signal](https://signal.org/) on E2E-salatun viestinnän pioneeri ja erinomainen viestintävaihtoehto kaikille, jotka eivät halua kulkea jonkin suuren teknologiakonglomeraatin kautta.
 
-Käynnistät Signalin näppäinyhdistelmällä `Super + Shift + G`. Se ei kuulu perusasennukseen, joten kun painat sitä ensimmäisen kerran, Omarchy tarjoaa sen asentamista puolestasi (se löytyy myös Omarchy-valikosta kohdasta _Install > Service_).
+Käynnistät Signalin näppäinyhdistelmällä `Super + Shift + G`. Se ei kuulu perusasennukseen, joten kun painat sitä ensimmäisen kerran, Spherie tarjoaa sen asentamista puolestasi (se löytyy myös Omarchy-valikosta kohdasta _Install > Service_).
 
 ## Omaview
 

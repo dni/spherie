@@ -1,6 +1,6 @@
 # Tastatur, Maus, Trackpad
 
-Hyprland lässt dich alle deine Eingabegeräte bis ins Detail konfigurieren. Du kannst die Tastenwiederholung überschallschnell machen oder das Trackpad natürliches Scrollen verwenden lassen. All das änderst du in `~/.config/hypr/input.lua`, die du auch über _Setup > Input_ im Omarchy-Menü (`Super + Space`) erreichst. Alles, was du dort einstellst, ersetzt die Standardwerte von Omarchy.
+Hyprland lässt dich alle deine Eingabegeräte bis ins Detail konfigurieren. Du kannst die Tastenwiederholung überschallschnell machen oder das Trackpad natürliches Scrollen verwenden lassen. All das änderst du in `~/.config/hypr/input.lua`, die du auch über _Setup > Input_ im Omarchy-Menü (`Super + Space`) erreichst. Alles, was du dort einstellst, ersetzt die Standardwerte von Spherie.
 
 Hier ist ein Beispiel:
 
@@ -70,13 +70,13 @@ hl.gesture({ fingers = 3, direction = "up", action = "unset" })
 hl.gesture({ fingers = 3, direction = "up", action = "fullscreen" })
 ```
 
-Um alle Gesten von Omarchy auszuschalten, setze `omarchy_default_gestures = false` oben in `~/.config/hypr/hyprland.lua`, bevor die Standardwerte von Omarchy geladen werden.
+Um alle Gesten von Spherie auszuschalten, setze `omarchy_default_gestures = false` oben in `~/.config/hypr/hyprland.lua`, bevor die Standardwerte von Spherie geladen werden.
 
 Bei Dell XPS-Laptops mit einem haptischen Touchpad kannst du die Klickstärke außerdem unter _Trigger > Hardware > Touchpad Haptics_ auf low, mid oder high einstellen.
 
 ### Auf Chinesisch, Japanisch und in anderen Sprachen tippen
 
-Wähle Japanisch, Koreanisch, Chinesisch (Vereinfacht, Pinyin), Taiwan (Zhuyin) oder Hong Kong (Cangjie), wenn das Installationsprogramm nach deiner Tastatur fragt. Omarchy konfiguriert die Tastatur und die passende Eingabe-Engine automatisch, auch während der Offline-Einrichtung beim ersten Start. Japanisch verwendet Mozc, Koreanisch verwendet das standardmäßige Hangul mit zwei Sätzen, vereinfachtes Chinesisch verwendet Pinyin, Taiwan verwendet Chewings standardmäßige Zhuyin-Anordnung und Hong Kong verwendet Cangjie mit Hong-Kong-Zeichenformen. Japanisch (US-Tastatur) bietet Mozc mit einem US-Tastaturlayout. Die Tasten für Hangul, Zhuyin und Cangjie bleiben an ihren Standardpositionen, selbst wenn du lateinische Buchstaben mit Dvorak, Colemak oder AZERTY tippst. Wenn du Hangul oder Chewing schon vorher hinzugefügt hast, wähle es unter _Setup > Keyboard > Input Methods_ ab und wieder aus, um seine Tasten dorthin zu verschieben; Omarchy lässt eine Engine, mit der du bereits tippst, in Ruhe.
+Wähle Japanisch, Koreanisch, Chinesisch (Vereinfacht, Pinyin), Taiwan (Zhuyin) oder Hong Kong (Cangjie), wenn das Installationsprogramm nach deiner Tastatur fragt. Spherie konfiguriert die Tastatur und die passende Eingabe-Engine automatisch, auch während der Offline-Einrichtung beim ersten Start. Japanisch verwendet Mozc, Koreanisch verwendet das standardmäßige Hangul mit zwei Sätzen, vereinfachtes Chinesisch verwendet Pinyin, Taiwan verwendet Chewings standardmäßige Zhuyin-Anordnung und Hong Kong verwendet Cangjie mit Hong-Kong-Zeichenformen. Japanisch (US-Tastatur) bietet Mozc mit einem US-Tastaturlayout. Die Tasten für Hangul, Zhuyin und Cangjie bleiben an ihren Standardpositionen, selbst wenn du lateinische Buchstaben mit Dvorak, Colemak oder AZERTY tippst. Wenn du Hangul oder Chewing schon vorher hinzugefügt hast, wähle es unter _Setup > Keyboard > Input Methods_ ab und wieder aus, um seine Tasten dorthin zu verschieben; Spherie lässt eine Engine, mit der du bereits tippst, in Ruhe.
 
 Das Tippen beginnt im lateinischen Modus. Drücke `Super + I`, um durch die konfigurierten Eingabemethoden zu wechseln, und `Super + Shift + I`, um rückwärts zu wechseln. Tippe `Shift` für sich allein an, um aus einer Eingabemethode wie Pinyin zu lateinischen Buchstaben zu wechseln, und tippe es erneut an, um zurückzugehen, so wie es bei Sogou, Microsoft Pinyin und macOS funktioniert; `Shift` plus ein Buchstabe tippt weiterhin einen Großbuchstaben. Auf japanischen Tastaturen schaltet 全角/半角 die Eingabe um, 変換 schaltet sie ein und 無変換 schaltet sie aus. Bei Koreanisch wechselt 한/영 Hangul und 한자 konvertiert zu Hanja, egal ob deine Tastatur dafür eigene Tasten hat oder Right Alt und Right Ctrl dafür sendet, wie es viele Laptops tun, also sind Right Alt und Right Ctrl dort keine einfachen Modifikatortasten; die Diktierfunktion schaltet stattdessen mit Alt + Space um. `Ctrl + Space` bleibt für Tmux und Herdr verfügbar; `Shift + CapsLock` bleibt die Compose-Taste.
 

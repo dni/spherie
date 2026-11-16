@@ -8,7 +8,7 @@ Ogni scorciatoia si trova su un piano, definito dai suoi modificatori, e ogni pi
 
 | Piano | Cosa contiene | Esempi |
 | --- | --- | --- |
-| `Super + key` | Il sistema: finestre, workspace, layout e menu principali | `Super + Space` menu Omarchy, `Super + W` chiudi finestra, `Super + F` schermo intero |
+| `Super + key` | Il sistema: finestre, workspace, layout e menu principali | `Super + Space` menu Spherie, `Super + W` chiudi finestra, `Super + F` schermo intero |
 | `Super + Shift + key` | App | `Super + Shift + B` browser, `Super + Shift + E` email, `Super + Shift + N` editor |
 | `Super + Ctrl + key` | Pannelli e menu di sistema | `Super + Ctrl + A` audio, `Super + Ctrl + N` rete, `Super + Ctrl + C` menu di cattura |
 | `Super + Ctrl + Alt + key` | Azioni rapide e avvisi | `Super + Ctrl + Alt + T` mostra l'ora, `Super + Ctrl + Alt + B` batteria, `Super + Ctrl + Alt + C` screenshot |
@@ -34,7 +34,7 @@ Se un'impostazione predefinita non ti va bene (diciamo che vuoi `Super + Shift +
 
 | Scorciatoia                  | Funzione              |
 | ----------------------- | --------------------- |
-| `Super + Space`           | Menu Omarchy (app e tutto il resto)    |
+| `Super + Space`           | Menu Spherie (app e tutto il resto)    |
 | `Super + Alt + Space` | Griglia delle app |
 | `Super + Escape` | Menu di sistema (sospendi, riavvia, ecc.)  |
 | `Super + Ctrl + L` | Blocca il computer |
@@ -172,7 +172,7 @@ Modifica/aggiungi associazioni in `~/.config/hypr/bindings.lua`.
 | `Super + V`           | Incolla    |
 | `Super + Ctrl + V`           | Gestore degli appunti    |
 
-Di solito su Linux ti serve `Ctrl + Shift + C/V` per copiare e incollare nel terminale e `Ctrl + C/V` per farlo ovunque. Queste scorciatoie unificate per gli appunti di Omarchy funzionano ovunque.
+Di solito su Linux ti serve `Ctrl + Shift + C/V` per copiare e incollare nel terminale e `Ctrl + C/V` per farlo ovunque. Queste scorciatoie unificate per gli appunti di Spherie funzionano ovunque.
 
 ## Cattura
 
@@ -193,7 +193,7 @@ Di solito su Linux ti serve `Ctrl + Shift + C/V` per copiare e incollare nel ter
 
 Con le registrazioni dello schermo, la scorciatoia chiede prima quale audio vuoi, poi avvia la registrazione. Premila di nuovo per interromperla. Vedi [screenshot e registrazione](12-screenshots-recording.md) per i dettagli.
 
-Tutte le opzioni di cattura sono accessibili anche in _Trigger > Capture_ nel menu Omarchy (`Super + Space`).
+Tutte le opzioni di cattura sono accessibili anche in _Trigger > Capture_ nel menu Spherie (`Super + Space`).
 
 ## Notifiche
 
@@ -215,9 +215,9 @@ Tutte le opzioni di cattura sono accessibili anche in _Trigger > Capture_ nel me
 | `Super + Backspace` | Attiva/disattiva la trasparenza su una finestra |
 | `Super + Ctrl + Backspace` | Attiva/disattiva le proporzioni quadrate per la singola finestra |
 
-Le immagini di sfondo extra si trovano in `~/.config/omarchy/backgrounds/<theme name>`. Disponibili anche tramite _Install > Style > Background_ nel menu Omarchy.
+Le immagini di sfondo extra si trovano in `~/.config/omarchy/backgrounds/<theme name>`. Disponibili anche tramite _Install > Style > Background_ nel menu Spherie.
 
-Tutte le opzioni di stile sono accessibili anche in _Style_ nel menu Omarchy (`Super + Space`).
+Tutte le opzioni di stile sono accessibili anche in _Style_ nel menu Spherie (`Super + Space`).
 
 ## Interruttori
 
@@ -318,7 +318,7 @@ Queste funzioni devono essere eseguite dentro una sessione Tmux.
 
 ## Terminale Ghostty
 
-Il terminale Ghostty si installa usando _Install > Terminal_ tramite il menu Omarchy.
+Il terminale Ghostty si installa usando _Install > Terminal_ tramite il menu Spherie.
 
 | Scorciatoia                  | Funzione              |
 | ----------------------- | --------------------- |

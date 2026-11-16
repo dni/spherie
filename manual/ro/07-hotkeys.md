@@ -8,7 +8,7 @@ Fiecare tastă rapidă se află pe un plan, stabilit de modificatorii ei, iar fi
 
 | Plan | Ce se află acolo | Exemple |
 | --- | --- | --- |
-| `Super + key` | Sistemul: ferestre, spații de lucru, aranjamente și meniuri de bază | `Super + Space` meniul Omarchy, `Super + W` închide fereastra, `Super + F` ecran complet |
+| `Super + key` | Sistemul: ferestre, spații de lucru, aranjamente și meniuri de bază | `Super + Space` meniul Spherie, `Super + W` închide fereastra, `Super + F` ecran complet |
 | `Super + Shift + key` | Aplicații | `Super + Shift + B` browser, `Super + Shift + E` e-mail, `Super + Shift + N` editor |
 | `Super + Ctrl + key` | Panouri și meniuri de sistem | `Super + Ctrl + A` audio, `Super + Ctrl + N` rețea, `Super + Ctrl + C` meniul de captură |
 | `Super + Ctrl + Alt + key` | Acțiuni rapide și informări | `Super + Ctrl + Alt + T` afișează ora, `Super + Ctrl + Alt + B` bateria, `Super + Ctrl + Alt + C` captură de ecran |
@@ -34,7 +34,7 @@ Dacă o valoare implicită nu ți se potrivește (să zicem că vrei `Super + Sh
 
 | Hotkey                  | Function              |
 | ----------------------- | --------------------- |
-| `Super + Space`           | Meniul Omarchy (aplicații și orice altceva)    |
+| `Super + Space`           | Meniul Spherie (aplicații și orice altceva)    |
 | `Super + Alt + Space` | Grila de aplicații |
 | `Super + Escape` | Meniul de sistem (suspendare, repornire etc.)  |
 | `Super + Ctrl + L` | Blochează calculatorul |
@@ -172,7 +172,7 @@ Modifică/adaugă combinații în `~/.config/hypr/bindings.lua`.
 | `Super + V`           | Lipește    |
 | `Super + Ctrl + V`           | Manager de clipboard    |
 
-În mod obișnuit pe Linux, ai nevoie de `Ctrl + Shift + C/V` ca să faci copy'n'paste în terminal și de `Ctrl + C/V` ca să faci asta peste tot în altă parte. Aceste taste rapide Omarchy pentru clipboard unificat funcționează peste tot.
+În mod obișnuit pe Linux, ai nevoie de `Ctrl + Shift + C/V` ca să faci copy'n'paste în terminal și de `Ctrl + C/V` ca să faci asta peste tot în altă parte. Aceste taste rapide Spherie pentru clipboard unificat funcționează peste tot.
 
 ## Captură
 
@@ -193,7 +193,7 @@ Modifică/adaugă combinații în `~/.config/hypr/bindings.lua`.
 
 La înregistrările de ecran, tasta rapidă întreabă mai întâi ce audio vrei, apoi pornește înregistrarea. Apas-o din nou ca să oprești. Vezi [capturi de ecran și înregistrare](12-screenshots-recording.md) pentru detalii.
 
-Toate opțiunile de captură sunt accesibile și sub _Declanșator > Captură_ în meniul Omarchy (`Super + Space`).
+Toate opțiunile de captură sunt accesibile și sub _Declanșator > Captură_ în meniul Spherie (`Super + Space`).
 
 ## Notificări
 
@@ -215,9 +215,9 @@ Toate opțiunile de captură sunt accesibile și sub _Declanșator > Captură_ �
 | `Super + Backspace` | Comută transparența pe o fereastră |
 | `Super + Ctrl + Backspace` | Comută proporția pătrată pentru o singură fereastră |
 
-Imaginile de fundal suplimentare se află în `~/.config/omarchy/backgrounds/<theme name>`. Disponibile și prin _Instalare > Stil > Fundal_ în meniul Omarchy.
+Imaginile de fundal suplimentare se află în `~/.config/omarchy/backgrounds/<theme name>`. Disponibile și prin _Instalare > Stil > Fundal_ în meniul Spherie.
 
-Toate opțiunile de stil sunt accesibile și sub _Stil_ în meniul Omarchy (`Super + Space`).
+Toate opțiunile de stil sunt accesibile și sub _Stil_ în meniul Spherie (`Super + Space`).
 
 ## Comutări
 
@@ -318,7 +318,7 @@ Aceste funcții trebuie rulate în interiorul unei sesiuni Tmux.
 
 ## Terminalul Ghostty
 
-Terminalul Ghostty se instalează folosind _Instalare > Terminal_ prin meniul Omarchy.
+Terminalul Ghostty se instalează folosind _Instalare > Terminal_ prin meniul Spherie.
 
 | Hotkey                  | Function              |
 | ----------------------- | --------------------- |

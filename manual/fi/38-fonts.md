@@ -1,6 +1,6 @@
 # Fontit
 
-Omarchy käyttää oletuksena JetBrainsMono Nerd Font -fonttia sekä päätteen että järjestelmän fonttina.
+Spherie käyttää oletuksena JetBrainsMono Nerd Font -fonttia sekä päätteen että järjestelmän fonttina.
 
  ![fonts-jetbrainsmono](images/fonts-jetbrainsmono.webp)
 

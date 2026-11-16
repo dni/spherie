@@ -1,6 +1,6 @@
 # Tarmoq
 
-Omarchy'da tarmoq NetworkManager tomonidan boshqariladi, siz esa uni [yuqori panel](05-the-top-bar.md)dagi tarmoq belgisidan yoki `Super + Ctrl + N` bilan boshqarasiz.
+Spherie'da tarmoq NetworkManager tomonidan boshqariladi, siz esa uni [yuqori panel](05-the-top-bar.md)dagi tarmoq belgisidan yoki `Super + Ctrl + N` bilan boshqarasiz.
 
 O'sha panel Wi-Fi tarmoqlarini qidiradi, signal kuchini ko'rsatadi va ulanadi. Ethernet uchun hech narsa kerak emas — kabelni ulang va u ishlaydi. Agar terminalda qolishni afzal ko'rsangiz, `nmtui` xuddi o'sha boshqaruvlarni beradi, shuningdek `omarchy network` buyruqlar guruhi ham bor.
 
@@ -12,7 +12,7 @@ Agar sizga aynan parolning o'zi kerak bo'lsa, `omarchy network password <interfa
 
 ## DNS
 
-Omarchy tarmog'ingiz DHCP orqali bergan DNS'dan foydalanadi. Buni butun mashina uchun _Setup > Network > DNS_ ostida o'zgartirishingiz mumkin, u yerda Cloudflare va Google bir bosishda tayyor. O'zingizning serverlaringizni yozish uchun _Custom_ ni tanlang.
+Spherie tarmog'ingiz DHCP orqali bergan DNS'dan foydalanadi. Buni butun mashina uchun _Setup > Network > DNS_ ostida o'zgartirishingiz mumkin, u yerda Cloudflare va Google bir bosishda tayyor. O'zingizning serverlaringizni yozish uchun _Custom_ ni tanlang.
 
 Terminaldan `omarchy dns` joriy providerni chiqaradi va `omarchy dns Cloudflare` bittasini o'rnatadi.
 
@@ -24,7 +24,7 @@ Bu muayyan access point'ni emas, bandni qotiradi, shuning uchun siz AP'lar orasi
 
 ## U qanchalik tez?
 
-_Trigger > Speed Test > Network Speed Test_ bir juft shkalalar bilan haqiqiy yuklab olish va yuklash tezligingizni o'lchaydi. Terminaldan bu `omarchy network speedtest down` yoki `up`. U Omarchy'ning o'z xizmati bilan o'lchaydi va faqat o'zining test uzatishlarini hisobga oladi. Boshqa yuklab olishlar o'tkazish qobiliyati uchun raqobat qilishi mumkin, lekin ular speed-test natijasiga qo'shilmaydi. (Agar boshqa tor joyni benchmark qilayotgan bo'lsangiz, o'sha menyuda uning yonida disk speed test'i ham turibdi.)
+_Trigger > Speed Test > Network Speed Test_ bir juft shkalalar bilan haqiqiy yuklab olish va yuklash tezligingizni o'lchaydi. Terminaldan bu `omarchy network speedtest down` yoki `up`. U Spherie'ning o'z xizmati bilan o'lchaydi va faqat o'zining test uzatishlarini hisobga oladi. Boshqa yuklab olishlar o'tkazish qobiliyati uchun raqobat qilishi mumkin, lekin ular speed-test natijasiga qo'shilmaydi. (Agar boshqa tor joyni benchmark qilayotgan bo'lsangiz, o'sha menyuda uning yonida disk speed test'i ham turibdi.)
 
 ## Firewall
 

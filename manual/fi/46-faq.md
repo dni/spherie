@@ -58,7 +58,7 @@ export OMASNAP_SCREENSHOT_DIR="$HOME/Pictures/Captures"
 
 Voit tehdä saman näyttötallenteille käyttämällä asetusta `OMARCHY_SCREENRECORD_DIR`.
 
-Omasnap luo kuvakaappaushakemistonsa automaattisesti. Luo näyttötallenteiden hakemisto itse ja käynnistä sitten Omarchy uudelleen, jotta kumpikin ympäristömuutos tulee voimaan.
+Omasnap luo kuvakaappaushakemistonsa automaattisesti. Luo näyttötallenteiden hakemisto itse ja käynnistä sitten Spherie uudelleen, jotta kumpikin ympäristömuutos tulee voimaan.
 
 ### Miten saan kaiuttimet + web-kameran toimimaan Apple Studio Display -näytössäni?
 

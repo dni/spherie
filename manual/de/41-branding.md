@@ -1,6 +1,6 @@
 # Branding
 
-Omarchy ermöglicht es dir, dein Firmenlogo oder ein persönliches Bild sowohl für die Boot-Entsperrung, den Bildschirmschoner als auch den Info-Bildschirm festzulegen.
+Spherie ermöglicht es dir, dein Firmenlogo oder ein persönliches Bild sowohl für die Boot-Entsperrung, den Bildschirmschoner als auch den Info-Bildschirm festzulegen.
 
 ### Boot-Entsperrung
 

@@ -1,6 +1,6 @@
 # Branding
 
-Omarchy lader dig indstille dit firmalogo eller et personligt billede til både opstartsoplåsningen, pauseskærmen og Om-skærmen.
+Spherie lader dig indstille dit firmalogo eller et personligt billede til både opstartsoplåsningen, pauseskærmen og Om-skærmen.
 
 ### Opstartsoplåsning
 

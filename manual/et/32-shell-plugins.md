@@ -1,8 +1,8 @@
 # Kesta pistikprogrammid
 
-Omarchy töölaud töötab ühe pikaealise Quickshelli protsessina nimega `omarchy-shell` ja peaaegu kõik, mida ekraanil näed, on selle sees olev pistikprogramm. Riba on pistikprogramm. Nagu ka paneelid, mis sellelt alla langevad, täisekraani ülekatteid nagu emoji valija ja lõikelaua haldur, Omarchy menüü ise, lukkuekraan, polkit dialoog ja peata teenused, mis jälgivad sinu akut ja soojendavad öösel ekraani.
+Spherie töölaud töötab ühe pikaealise Quickshelli protsessina nimega `omarchy-shell` ja peaaegu kõik, mida ekraanil näed, on selle sees olev pistikprogramm. Riba on pistikprogramm. Nagu ka paneelid, mis sellelt alla langevad, täisekraani ülekatteid nagu emoji valija ja lõikelaua haldur, Spherie menüü ise, lukkuekraan, polkit dialoog ja peata teenused, mis jälgivad sinu akut ja soojendavad öösel ekraani.
 
-See pole lihtsalt rakendusdetail. See tähendab, et saad töölaua osi välja lülitada, välja vahetada või kirjutada oma, puudutamata rida ka Omarchy lähtekoodi.
+See pole lihtsalt rakendusdetail. See tähendab, et saad töölaua osi välja lülitada, välja vahetada või kirjutada oma, puudutamata rida ka Spherie lähtekoodi.
 
 Esmase osapoole pistikprogrammid tulevad Omarchyga ja elavad kaustas `$OMARCHY_PATH/shell/plugins/`. Kõik, mida ise lisad — oma katsetused või midagi, mille GitHubist leidsid — elab kaustas `~/.config/omarchy/plugins/`. Mõlemad avastatakse käivitamisel samal viisil, kuid sisseehitatud saavad usaldusväärsed kesta liidesed, samas kui kolmanda osapoole pistikprogrammid saavad piiratud liidese, mis on piiratud nende oma teenuse ja elutsükliga. Sisseehitatute kloonid säilitavad ainult allikaspetsiifilise konfiguratsiooni ja UI kõned, mida on vaja algse käitumise jaoks.
 
@@ -101,4 +101,4 @@ Pistikprogrammide arendamiseks vaata [kesta viidet](https://github.com/omacom/om
 
 Kui oled teinud midagi, mis sulle meeldib, pane see avalikku giti reposse. See on kogu levitamismehhanism — igaüks saab seejärel käivitada `omarchy plugin add` sinu URL-i vastu ja see töötab sekunditega.
 
-Et aidata inimestel seda tegelikult leida, loetle see aadressil [plugins.omarchy.org](https://plugins.omarchy.org). See on Omarchy kesta pistikprogrammide turg ja see on esimene koht, kust vaadata, kui mõtled, kas keegi on juba ehitanud vidina, mida sa hakkad kirjutama. Sirvi seda enne alustamist!
+Et aidata inimestel seda tegelikult leida, loetle see aadressil [plugins.omarchy.org](https://plugins.omarchy.org). See on Spherie kesta pistikprogrammide turg ja see on esimene koht, kust vaadata, kui mõtled, kas keegi on juba ehitanud vidina, mida sa hakkad kirjutama. Sirvi seda enne alustamist!

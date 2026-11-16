@@ -1,0 +1,32 @@
+[Unit]
+Description=Spherie sphere %i
+After=network-pre.target
+Wants=spherie-bridges.service
+After=spherie-bridges.service
+
+[Service]
+User=spherie
+Group=kvm
+Environment=OMARCHY_PATH=/usr/share/omarchy
+RuntimeDirectory=spherie
+RuntimeDirectoryPreserve=yes
+RuntimeDirectoryMode=0750
+ExecStartPre=+/usr/bin/omarchy-sphere-net up %i
+ExecStartPre=/usr/bin/mkdir -p /var/tmp/spherie
+ExecStart=/usr/bin/omarchy-sphere-qemu %i
+ExecStop=/usr/bin/omarchy-sphere-powerdown %i $MAINPID
+ExecStopPost=+/usr/bin/omarchy-sphere-net down %i
+TimeoutStopSec=60
+KillMode=mixed
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+ReadWritePaths=/var/lib/spherie/home /var/tmp/spherie /var/lib/spherie
+DeviceAllow=/dev/kvm rw
+DeviceAllow=/dev/vhost-vsock rw
+DeviceAllow=/dev/net/tun rw
+DeviceAllow=char-vfio rw
+
+[Install]
+WantedBy=multi-user.target

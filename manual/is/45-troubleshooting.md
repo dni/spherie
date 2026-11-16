@@ -6,7 +6,7 @@ Prófaðu fyrst að [færa kerfið þitt til baka](47-system-snapshots.md) í ú
 
 ### Hvers vegna eru sum forrit svona stór á skjánum mínum?
 
-Omarchy gerir ráð fyrir 2x skjái í háum upplausn, svo það stillir `GDK_SCALE` á 2 þangað til þú velur kvörðun í skjáborðinu. Ef þú ert með 1x skjá og GTK eða X11 forrit birtast of stór, veldu 1x fyrir hann í skjáborðinu, eða bættu `hl.env("GDK_SCALE", "1")` við `~/.config/hypr/monitors.lua` (og endurræstu svo öll forrit sem eru of stór). Sjá [handbókina um skjái](33-monitors.md).
+Spherie gerir ráð fyrir 2x skjái í háum upplausn, svo það stillir `GDK_SCALE` á 2 þangað til þú velur kvörðun í skjáborðinu. Ef þú ert með 1x skjá og GTK eða X11 forrit birtast of stór, veldu 1x fyrir hann í skjáborðinu, eða bættu `hl.env("GDK_SCALE", "1")` við `~/.config/hypr/monitors.lua` (og endurræstu svo öll forrit sem eru of stór). Sjá [handbókina um skjái](33-monitors.md).
 
 Fyrir Spotify geturðu notað `Ctrl + Minus` til að minnka viðmótið (og `Ctrl + Plus` til að stækka það).
 
@@ -26,7 +26,7 @@ Líklega vegna þess að þeir eru ekki stilltir sem aðalúttak. Smelltu á há
 
 ### Hátalarar fartölvunnar minnar hljóma undarlega
 
-Á sumum fartölvum beitir Omarchy sjálfkrafa hátalaratillingu sem leiðréttir tíðnisvörun innbyggðu hátalaranna. `omarchy audio tuning status` segir þér hvort slík sé virk á vélinni þinni, og `omarchy audio tuning off` slökkvir á henni ef þú vilt frekar heyra hátalarana óbreytta.
+Á sumum fartölvum beitir Spherie sjálfkrafa hátalaratillingu sem leiðréttir tíðnisvörun innbyggðu hátalaranna. `omarchy audio tuning status` segir þér hvort slík sé virk á vélinni þinni, og `omarchy audio tuning off` slökkvir á henni ef þú vilt frekar heyra hátalarana óbreytta.
 
 ### Hvers vegna get ég ekki skráð mig inn eða notað sudo með lykilorðinu mínu?
 

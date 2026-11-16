@@ -1,16 +1,16 @@
 # Mac-Unterstützung
 
-Omarchy hat integrierte Unterstützung für **Intel Macs**. Es gibt im Moment ein paar bekannte Einschränkungen, aber solange du dir dessen bewusst bist und damit einverstanden bist, kannst du deinen alten Macs neues Leben einhauchen, indem du Omarchy darauf lädst.
+Spherie hat integrierte Unterstützung für **Intel Macs**. Es gibt im Moment ein paar bekannte Einschränkungen, aber solange du dir dessen bewusst bist und damit einverstanden bist, kannst du deinen alten Macs neues Leben einhauchen, indem du Spherie darauf lädst.
 
 Bitte beachte, dass eine Installation auf einem Mac der M-Serie derzeit nicht direkt unterstützt wird. Mehr über den aktuellen Stand dazu erfährst du in #omarchy-on-other in unserem [Discord](https://discord.gg/tXFUdasqhY).
 
-In einem einfachen Test konnten wir allein durch die Installation von Omarchy eine Leistungssteigerung von 36 % auf einem 2019 MacBook Pro erzielen.
+In einem einfachen Test konnten wir allein durch die Installation von Spherie eine Leistungssteigerung von 36 % auf einem 2019 MacBook Pro erzielen.
 
  ![macbook-omarchy](images/macbook-omarchy.webp)
 
-### Omarchy auf dem Mac installieren
+### Spherie auf dem Mac installieren
 
-Omarchy unterstützt derzeit nur, das **einzige** installierte OS zu sein. Während der Installation wird das Laufwerk gelöscht und MacOS wird nicht mehr bootfähig sein.
+Spherie unterstützt derzeit nur, das **einzige** installierte OS zu sein. Während der Installation wird das Laufwerk gelöscht und MacOS wird nicht mehr bootfähig sein.
 
 Du kannst es später bei Bedarf weiterhin über Internet Recovery wiederherstellen.
 

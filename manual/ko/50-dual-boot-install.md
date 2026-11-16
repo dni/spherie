@@ -14,7 +14,7 @@ Windows와 함께 설치하려면 시작 메뉴에서 `disk management`를 입�
 
 ![dual-boot-2](images/dual-boot-2.webp)
 
- 볼륨을 축소할 양을 입력하세요. 이 크기가 부팅 파티션을 포함한 향후 Omarchy 설치의 크기가 됩니다.
+ 볼륨을 축소할 양을 입력하세요. 이 크기가 부팅 파티션을 포함한 향후 Spherie 설치의 크기가 됩니다.
 
  ![dual-boot-3](images/dual-boot-3.webp)
 
@@ -22,9 +22,9 @@ Windows와 함께 설치하려면 시작 메뉴에서 `disk management`를 입�
 
  ![dual-boot-4](images/dual-boot-4.webp)
 
-## Omarchy 설치하기
+## Spherie 설치하기
 
-Omarchy 설치 과정은 사실상 평소와 동일합니다. 디스크를 선택한 뒤에는 **여유 공간에 설치** 옵션이 제공됩니다. 전체 디스크를 지우지 않으려면 해당 옵션을 선택하세요.
+Spherie 설치 과정은 사실상 평소와 동일합니다. 디스크를 선택한 뒤에는 **여유 공간에 설치** 옵션이 제공됩니다. 전체 디스크를 지우지 않으려면 해당 옵션을 선택하세요.
 
  ![dual-boot-5](images/dual-boot-5.webp)
 
@@ -33,7 +33,7 @@ Omarchy 설치 과정은 사실상 평소와 동일합니다. 디스크를 선�
 
 ## 다른 설치를 부트로더에 추가하기
 
-Omarchy 설치를 마치면 이제 Limine 부트로더가 기본값인 것을 알 수 있습니다. 이를 이용해 Windows와 같은 다른 설치에 대한 옵션을 Limine에 추가할 수도 있습니다.
+Spherie 설치를 마치면 이제 Limine 부트로더가 기본값인 것을 알 수 있습니다. 이를 이용해 Windows와 같은 다른 설치에 대한 옵션을 Limine에 추가할 수도 있습니다.
 
 다른 운영 체제를 추가하려면 `limine-scan`을 실행하고 안내에 따라 원하는 항목을 Limine 설정에 추가하세요. 부팅 메뉴는 기본적으로 숨겨져 있으며 1초 뒤에 Omarchy가 시작됩니다. Windows나 다른 항목을 선택하려면 Limine이 시작되자마자 아무 키나 누르세요. 메뉴가 나타나면 화살표 키를 사용해 항목을 선택하고 Enter를 누르세요. 키를 누르기 전에 Omarchy가 시작되면 재시작하고 다시 시도하세요. _Setup > Direct Boot_를 켰다면 펌웨어가 Limine을 완전히 건너뛰므로 BIOS 부팅 메뉴에서 Limine을 선택하거나 _Setup > Direct Boot_를 다시 실행해 해당 항목을 제거하세요.
 

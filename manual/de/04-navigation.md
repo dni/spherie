@@ -1,6 +1,6 @@
 # Navigation
 
-Alles in Omarchy läuft über die Tastatur — _ALLES!_ Wenn das System zum ersten Mal startet, kannst du buchstäblich nichts allein mit der Maus machen. Aber du kannst `Super + Space` drücken, um das Omarchy Menu zu öffnen, und von hier aus kannst du so gut wie alles machen.
+Alles in Spherie läuft über die Tastatur — _ALLES!_ Wenn das System zum ersten Mal startet, kannst du buchstäblich nichts allein mit der Maus machen. Aber du kannst `Super + Space` drücken, um das Spherie Menu zu öffnen, und von hier aus kannst du so gut wie alles machen.
 
 Aber das Omarchy-Menü soll die meiste Zeit nicht einmal der Hauptweg sein, um das System zu bedienen. Wir können schneller sein als das! Alle wichtigsten Anwendungen sind direkt an einzelne Hotkeys gebunden. Du startest das Terminal mit `Super + Return` und einen Browser mit `Super + Shift + Return`. Probiere eins nach dem anderen aus, und du wirst die Magie des Tilings von Hyprland in Aktion sehen:
 

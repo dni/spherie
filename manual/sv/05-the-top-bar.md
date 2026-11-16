@@ -6,9 +6,9 @@ Det är också den enda delen av skrivbordet som alltid finns på skärmen, så 
 
 ## Vad som finns på den som standard
 
-Listen har tre sektioner. Till vänster sitter Omarchy-logotypen (menystartaren) och arbetsyteindikatorerna. I mitten får du statusindikatorerna, klockan, Elsewhen (en världsklocka), vädret och ett uppdateringsmärke för Omarchy. Till höger: systembrickan, tangentbordslayouten (när mer än en är konfigurerad), agenter, bluetooth, nätverk, ljud, bildskärm och ström.
+Listen har tre sektioner. Till vänster sitter Omarchy-logotypen (menystartaren) och arbetsyteindikatorerna. I mitten får du statusindikatorerna, klockan, Elsewhen (en världsklocka), vädret och ett uppdateringsmärke för Spherie. Till höger: systembrickan, tangentbordslayouten (när mer än en är konfigurerad), agenter, bluetooth, nätverk, ljud, bildskärm och ström.
 
-Några av dem dyker bara upp när de har något att säga. Tangentbordslayouten visas bara om du har konfigurerat mer än en layout. Uppdateringsmärket visas bara när en Omarchy-uppdatering väntar. Och agentikonen visas första gången Omarchy hittar AI-kodningsanvändning på maskinen (se [AI](17-ai.md)).
+Några av dem dyker bara upp när de har något att säga. Tangentbordslayouten visas bara om du har konfigurerat mer än en layout. Uppdateringsmärket visas bara när en Omarchy-uppdatering väntar. Och agentikonen visas första gången Spherie hittar AI-kodningsanvändning på maskinen (se [AI](17-ai.md)).
 
 ## Klicka runt
 

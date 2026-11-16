@@ -6,7 +6,7 @@ Versuche zuerst, [dein System zurückzusetzen](47-system-snapshots.md) auf die V
 
 ### Warum sind manche Apps auf meinem Display so groß?
 
-Omarchy geht von einem 2x-Display mit hoher Auflösung aus, also setzt es `GDK_SCALE` auf 2, bis du im Monitor-Panel eine Skalierung auswählst. Wenn du ein 1x-Display hast und GTK- oder X11-Apps überdimensioniert dargestellt werden, wähle im Monitor-Panel 1x dafür aus, oder füge `hl.env("GDK_SCALE", "1")` zu `~/.config/hypr/monitors.lua` hinzu (und starte dann jede überdimensionierte App neu). Siehe [das Handbuch zu Monitoren](33-monitors.md).
+Spherie geht von einem 2x-Display mit hoher Auflösung aus, also setzt es `GDK_SCALE` auf 2, bis du im Monitor-Panel eine Skalierung auswählst. Wenn du ein 1x-Display hast und GTK- oder X11-Apps überdimensioniert dargestellt werden, wähle im Monitor-Panel 1x dafür aus, oder füge `hl.env("GDK_SCALE", "1")` zu `~/.config/hypr/monitors.lua` hinzu (und starte dann jede überdimensionierte App neu). Siehe [das Handbuch zu Monitoren](33-monitors.md).
 
 Für Spotify kannst du `Ctrl + Minus` verwenden, um die UI zu verkleinern (und `Ctrl + Plus`, um sie zu vergrößern).
 
@@ -26,7 +26,7 @@ Wahrscheinlich, weil sie nicht als primäre Ausgabe gesetzt sind. Klicke auf das
 
 ### Meine Laptop-Lautsprecher klingen komisch
 
-Bei manchen Laptops wendet Omarchy automatisch ein Lautsprecher-Tuning an, das den Frequenzgang der eingebauten Lautsprecher korrigiert. `omarchy audio tuning status` zeigt dir, ob eines auf deinem Gerät aktiv ist, und `omarchy audio tuning off` schaltet es aus, wenn du die Lautsprecher lieber unverfälscht hören willst.
+Bei manchen Laptops wendet Spherie automatisch ein Lautsprecher-Tuning an, das den Frequenzgang der eingebauten Lautsprecher korrigiert. `omarchy audio tuning status` zeigt dir, ob eines auf deinem Gerät aktiv ist, und `omarchy audio tuning off` schaltet es aus, wenn du die Lautsprecher lieber unverfälscht hören willst.
 
 ### Warum kann ich mich nicht einloggen oder sudo mit meinem Passwort verwenden?
 

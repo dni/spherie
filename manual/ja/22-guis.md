@@ -20,7 +20,7 @@ Obsidianは、個人利用、商用利用、非営利利用を含むあらゆる
 
 Obsidianは、iOSとAndroidのモバイルアプリと同期するための[商用アドオン](https://obsidian.md/sync)も提供している。(https://obsidian.md/pricing)。
 
-Obsidianは `Super + Shift + O` で起動する。テーマの同期を使うには、設定で `Omarchy` テーマを選択しなければならない。
+Obsidianは `Super + Shift + O` で起動する。テーマの同期を使うには、設定で `Spherie` テーマを選択しなければならない。
 
 ## Omawrite
 

@@ -1,10 +1,10 @@
 # Vtičniki lupine
 
-Namizje Omarchy teče kot en sam dolgotrajen proces Quickshell z imenom `omarchy-shell`, skoraj vse, kar vidite na zaslonu, pa je vtičnik znotraj njega. Vrstica je vtičnik. Prav tako paneli, ki padajo iz nje, celozaslonska prekrivanja, kot sta izbirnik emojijev in upravitelj odložišča, meni Omarchy sam, zaklepni zaslon, pogovorno okno polkit in brezglave storitve, ki spremljajo vašo baterijo in ponoči ogrevajo zaslon.
+Namizje Spherie teče kot en sam dolgotrajen proces Quickshell z imenom `omarchy-shell`, skoraj vse, kar vidite na zaslonu, pa je vtičnik znotraj njega. Vrstica je vtičnik. Prav tako paneli, ki padajo iz nje, celozaslonska prekrivanja, kot sta izbirnik emojijev in upravitelj odložišča, meni Spherie sam, zaklepni zaslon, pogovorno okno polkit in brezglave storitve, ki spremljajo vašo baterijo in ponoči ogrevajo zaslon.
 
-To ni le podrobnost izvajanja. Pomeni, da lahko dele namizja izklopite, jih zamenjate ali napisete svoje, ne da bi se dotaknili ene same vrstice izvorne kode Omarchy.
+To ni le podrobnost izvajanja. Pomeni, da lahko dele namizja izklopite, jih zamenjate ali napisete svoje, ne da bi se dotaknili ene same vrstice izvorne kode Spherie.
 
-Prvostrankarski vtičniki se dobavljajo z Omarchy in živijo v `$OMARCHY_PATH/shell/plugins/`. Vse, kar dodate sami — lastni poskusi ali kaj, kar ste našli na GitHubu — živi v `~/.config/omarchy/plugins/`. Oba se odkrijeta na enak način ob zagonu, vendar vgrajeni prejmejo zaupanja vredne vmesnike lupine, vtičniki tretjih oseb pa omejen vmesnik, omejen na lastno storitev in življenjski cikel. Kloni vgrajenih vtičnikov obdržijo le izvorno specifične konfiguracije in klice UI, potrebne za izvirno vedenje.
+Prvostrankarski vtičniki se dobavljajo z Spherie in živijo v `$OMARCHY_PATH/shell/plugins/`. Vse, kar dodate sami — lastni poskusi ali kaj, kar ste našli na GitHubu — živi v `~/.config/omarchy/plugins/`. Oba se odkrijeta na enak način ob zagonu, vendar vgrajeni prejmejo zaupanja vredne vmesnike lupine, vtičniki tretjih oseb pa omejen vmesnik, omejen na lastno storitev in življenjski cikel. Kloni vgrajenih vtičnikov obdržijo le izvorno specifične konfiguracije in klice UI, potrebne za izvirno vedenje.
 
 ## Ogled tega, kar imate
 
@@ -101,4 +101,4 @@ Za razvoj vtičnikov glejte [referenco lupine](https://github.com/omacom/omarchy
 
 Ko naredite nekaj, kar vam je všeč, to postavite v javni repozitorij git. To je celoten mehanizem distribucije — kdorkoli lahko nato zažene `omarchy plugin add` proti vašemu URL-ju in ga ima v nekaj sekundah zagnanega.
 
-Da ga bodo ljudje dejansko našli, ga navedete na [plugins.omarchy.org](https://plugins.omarchy.org). To je tržnica za vtičnike lupine Omarchy in prvo mesto, kamor pogledati, ko se sprašujete, ali je nekdo že zgradil pripomoček, ki ga nameravate napisati. Pred začetkom ga prebrskajte!
+Da ga bodo ljudje dejansko našli, ga navedete na [plugins.omarchy.org](https://plugins.omarchy.org). To je tržnica za vtičnike lupine Spherie in prvo mesto, kamor pogledati, ko se sprašujete, ali je nekdo že zgradil pripomoček, ki ga nameravate napisati. Pred začetkom ga prebrskajte!

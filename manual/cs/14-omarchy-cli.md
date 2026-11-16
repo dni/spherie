@@ -1,6 +1,6 @@
-# Omarchy CLI
+# Spherie CLI
 
-Omarchy se obvykle ovládá pomocí klávesových zkratek a menu Omarchy (`Super + Space`). Ovládat ho ale můžete i prostřednictvím CLI `omarchy`. To se hodí zejména tehdy, když s vámi na úpravách nebo konfiguraci pracuje AI agent.
+Spherie se obvykle ovládá pomocí klávesových zkratek a menu Spherie (`Super + Space`). Ovládat ho ale můžete i prostřednictvím CLI `omarchy`. To se hodí zejména tehdy, když s vámi na úpravách nebo konfiguraci pracuje AI agent.
 
 CLI má přístup ke všem interním nástrojům, které se používají jak přes menu, tak i jinak. Vše, co je k dispozici, uvidíte po spuštění `omarchy` v terminálu.
 
@@ -8,7 +8,7 @@ Vypadá to nějak takto:
 
 ```
 ~ ❯ omarchy
-Omarchy command center
+Spherie command center
 
 Usage:
   omarchy <command> [args...]
@@ -17,7 +17,7 @@ Usage:
   omarchy <group> <command> --help
 
 Common commands:
-  omarchy update              Update Omarchy and system packages
+  omarchy update              Update Spherie and system packages
   omarchy theme list          List available themes
   omarchy theme set <name>    Apply a theme
   omarchy font list           List available fonts
@@ -27,14 +27,14 @@ Common commands:
 Groups:
   agent          AI coding agents, their usage, and subscription accounts
   audio          Audio input and output controls
-  bar            Omarchy shell bar layout and settings
+  bar            Spherie shell bar layout and settings
   battery        Battery status helpers
   bluetooth      Bluetooth device controls
-  branch         Omarchy git branch management
+  branch         Spherie git branch management
   branding       About and screensaver branding
   brightness     Display and keyboard brightness
   capture        Screenshots and screen recording
-  channel        Omarchy release channel management
+  channel        Spherie release channel management
   clipboard      Clipboard helpers
   cmd            Command and shortcut helpers
   config         System configuration helpers
@@ -59,4 +59,4 @@ Každý příkaz přijímá i `--help`, ať už se zeptáte celé skupiny (`omar
 
 ### Otevření menu z terminálu
 
-Menu Omarchy lze ovládat i skriptem, což se hodí pro vaše vlastní klávesové zkratky. `omarchy menu` ho otevře na kořenové úrovni a pojmenováním můžete skočit rovnou na libovolné místo ve stromu: `omarchy menu summon appearance.theme` přejde přímo do výběru motivu, `omarchy menu toggle system` otevře systémové menu a zase ho zavře, pokud už je otevřené, a `omarchy menu close` ho schová.
+Menu Spherie lze ovládat i skriptem, což se hodí pro vaše vlastní klávesové zkratky. `omarchy menu` ho otevře na kořenové úrovni a pojmenováním můžete skočit rovnou na libovolné místo ve stromu: `omarchy menu summon appearance.theme` přejde přímo do výběru motivu, `omarchy menu toggle system` otevře systémové menu a zase ho zavře, pokud už je otevřené, a `omarchy menu close` ho schová.

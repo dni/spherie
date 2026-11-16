@@ -1,6 +1,6 @@
 # Netzwerk
 
-Netzwerk in Omarchy wird von NetworkManager verwaltet, und du bedienst es über das Netzwerksymbol in der [oberen Leiste](05-the-top-bar.md) oder mit `Super + Ctrl + N`.
+Netzwerk in Spherie wird von NetworkManager verwaltet, und du bedienst es über das Netzwerksymbol in der [oberen Leiste](05-the-top-bar.md) oder mit `Super + Ctrl + N`.
 
 Dieses Panel sucht nach Wi-Fi-Netzwerken, zeigt die Signalstärke an und stellt die Verbindung her. Ethernet braucht überhaupt nichts — einstecken, und es funktioniert. Wenn du lieber im Terminal bleibst, bietet dir `nmtui` dieselben Steuerelemente, und es gibt auch eine Befehlsgruppe `omarchy network`.
 
@@ -12,7 +12,7 @@ Wenn du tatsächlich das Passwort selbst brauchst, gibt `omarchy network passwor
 
 ## DNS
 
-Omarchy verwendet den DNS, den dein Netzwerk über DHCP ausgibt. Du kannst das für die ganze Maschine unter _Setup > Network > DNS_ überschreiben, wo Cloudflare und Google nur einen Klick entfernt sind. Wähle _Custom_, um deine eigenen Server einzugeben.
+Spherie verwendet den DNS, den dein Netzwerk über DHCP ausgibt. Du kannst das für die ganze Maschine unter _Setup > Network > DNS_ überschreiben, wo Cloudflare und Google nur einen Klick entfernt sind. Wähle _Custom_, um deine eigenen Server einzugeben.
 
 Vom Terminal aus gibt `omarchy dns` den aktuellen Anbieter aus, und `omarchy dns Cloudflare` legt einen fest.
 
@@ -24,7 +24,7 @@ Damit wird das Band fixiert statt eines bestimmten Zugangspunkts, sodass du weit
 
 ## Wie schnell ist es?
 
-_Trigger > Speed Test > Network Speed Test_ misst deine tatsächliche Geschwindigkeit beim Hoch- und Herunterladen mit einem Paar Rundinstrumenten. Vom Terminal aus ist es `omarchy network speedtest down` oder `up`. Es misst gegen den eigenen Dienst von Omarchy und zählt nur dessen Testübertragungen. Andere Downloads können um Bandbreite konkurrieren, werden aber nicht zum Ergebnis des Geschwindigkeitstests hinzugerechnet. (Direkt daneben sitzt in diesem Menü ein Festplatten-Geschwindigkeitstest, falls du den anderen Engpass benchmarken willst.)
+_Trigger > Speed Test > Network Speed Test_ misst deine tatsächliche Geschwindigkeit beim Hoch- und Herunterladen mit einem Paar Rundinstrumenten. Vom Terminal aus ist es `omarchy network speedtest down` oder `up`. Es misst gegen den eigenen Dienst von Spherie und zählt nur dessen Testübertragungen. Andere Downloads können um Bandbreite konkurrieren, werden aber nicht zum Ergebnis des Geschwindigkeitstests hinzugerechnet. (Direkt daneben sitzt in diesem Menü ein Festplatten-Geschwindigkeitstest, falls du den anderen Engpass benchmarken willst.)
 
 ## Die Firewall
 

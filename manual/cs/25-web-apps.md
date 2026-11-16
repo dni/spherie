@@ -1,10 +1,10 @@
 # Webové aplikace
 
-Vlastní webové aplikace si můžete přidat pomocí _Install > Web App_ v nabídce Omarchy (`Super + Space`). Zeptá se vás na název aplikace, URL aplikace a URL ikony, pokud ji nedokáže získat přes favicon. Skvělé PNG ikony pro mnoho populárních webových aplikací najdete na [Dashboard Icons](https://dashboardicons.com).
+Vlastní webové aplikace si můžete přidat pomocí _Install > Web App_ v nabídce Spherie (`Super + Space`). Zeptá se vás na název aplikace, URL aplikace a URL ikony, pokud ji nedokáže získat přes favicon. Skvělé PNG ikony pro mnoho populárních webových aplikací najdete na [Dashboard Icons](https://dashboardicons.com).
 
 Budou pak dostupné přes spouštěč aplikací (`Super + Space`) a používají krásné bezrámové okno webové aplikace.
 
-Pokud chcete webovou aplikaci odebrat, stačí přejít do _Remove > Web App_ v nabídce Omarchy.
+Pokud chcete webovou aplikaci odebrat, stačí přejít do _Remove > Web App_ v nabídce Spherie.
 
 Nejlepší je přihlásit se ke všem svým účtům v běžném prohlížeči, než začnete používat zkratky webových aplikací. Tenký rám wrapperu s 1password moc dobře nefunguje, takže je prostě snazší být předem přihlášený přímo.
 
@@ -12,17 +12,17 @@ Všechny klávesové zkratky pro tyto webové aplikace můžete změnit v `~/.co
 
 Když jste ve webové aplikaci, můžete aktuální URL zkopírovat do schránky pomocí `Shift + Alt + L`.
 
-Omarchy ve výchozím nastavení už obsahuje řadu výchozích aplikací:
+Spherie ve výchozím nastavení už obsahuje řadu výchozích aplikací:
 
 ## HEY
 
-[HEY](https://www.hey.com/) je e-mailová a kalendářová služba, která je skvělou alternativou pro lidi, které už nebaví Gmail, Outlook nebo Apple Mail. Vytváří ji [37signals](https://37signals.com/), odkud Omarchy pochází.
+[HEY](https://www.hey.com/) je e-mailová a kalendářová služba, která je skvělou alternativou pro lidi, které už nebaví Gmail, Outlook nebo Apple Mail. Vytváří ji [37signals](https://37signals.com/), odkud Spherie pochází.
 
 HEY Email můžete spustit pomocí `Super + Shift + E`, rovnou přejít k psaní nového e-mailu pomocí `Super + Shift + Alt + E` a HEY Calendar spustit pomocí `Super + Shift + C`.
 
 ## Basecamp
 
-[Basecamp](https://basecamp.com/) je služba pro řízení projektů, která pomáhá malým týmům postupovat rychleji a dělat větší pokroky. Místo abyste lepili dohromady směsici Trello, Slack, Asana, Notion nebo čehokoli jiného, můžete mít s Basecamp všechno na jednom místě. Vytváří ji [37signals](https://37signals.com/), odkud Omarchy pochází.
+[Basecamp](https://basecamp.com/) je služba pro řízení projektů, která pomáhá malým týmům postupovat rychleji a dělat větší pokroky. Místo abyste lepili dohromady směsici Trello, Slack, Asana, Notion nebo čehokoli jiného, můžete mít s Basecamp všechno na jednom místě. Vytváří ji [37signals](https://37signals.com/), odkud Spherie pochází.
 
 Basecamp můžete spustit pomocí spouštěče aplikací (`Super + Space`)
 
@@ -64,19 +64,19 @@ YouTube můžete spustit pomocí `Super + Shift + Y`.
 
 ## Zoom
 
-[Zoom](https://zoom.us/) je nejpopulárnější systém pro videochat používaný v USA. Skvělé spojení po celém světě. A 40minutové schůzky můžete pořádat i bez placeného účtu. Omarchy obaluje webového klienta Zoomu a odkazy na zoom schůzky se budou otevírat přímo do něj.
+[Zoom](https://zoom.us/) je nejpopulárnější systém pro videochat používaný v USA. Skvělé spojení po celém světě. A 40minutové schůzky můžete pořádat i bez placeného účtu. Spherie obaluje webového klienta Zoomu a odkazy na zoom schůzky se budou otevírat přímo do něj.
 
 Zoom spustíte pomocí spouštěče aplikací (`Super + Space`).
 
 ## Discord
 
-[Discord](https://discord.com/) je místo, kde se schází většina herních a open source komunit, včetně [té vlastní od Omarchy](https://discord.gg/tXFUdasqhY).
+[Discord](https://discord.com/) je místo, kde se schází většina herních a open source komunit, včetně [té vlastní od Spherie](https://discord.gg/tXFUdasqhY).
 
 Discord spustíte pomocí spouštěče aplikací (`Super + Space`).
 
 ## Aplikace Microsoft
 
-Vyberte _Install > Service > Microsoft_ a přidejte Outlook, Word, Excel, PowerPoint, Teams a OneDrive jako webové aplikace. Každá aplikace má vlastní spouštěč a otevírá se přímo, používá komerční URL Microsoft 365 a váš stávající profil prohlížeče. Otevírají se ve stejných oknech prohlížečových aplikací jako ostatní webové aplikace Omarchy; neinstalují samostatného klienta Teams for Linux.
+Vyberte _Install > Service > Microsoft_ a přidejte Outlook, Word, Excel, PowerPoint, Teams a OneDrive jako webové aplikace. Každá aplikace má vlastní spouštěč a otevírá se přímo, používá komerční URL Microsoft 365 a váš stávající profil prohlížeče. Otevírají se ve stejných oknech prohlížečových aplikací jako ostatní webové aplikace Spherie; neinstalují samostatného klienta Teams for Linux.
 
 Balíček odeberete pomocí _Remove > Service > Microsoft_, jednotlivé aplikace pak pomocí _Remove > Web App_. Přes _Install > Web App_ si také můžete nainstalovat jen ty aplikace, které chcete.
 
@@ -88,4 +88,4 @@ Chcete-li pracovní přihlášení držet odděleně, připojte ke každému ř�
 Exec=omarchy-launch-webapp "https://teams.cloud.microsoft/" --user-data-dir=/absolute/path/to/work-browser-profile
 ```
 
-Příkladový adresář nahraďte absolutní cestou podle své volby a stejnou cestu použijte pro všech šest spouštěčů, aby mezi nimi byla pracovní přihlášení sdílená. Webové aplikace používají podporovaný prohlížeč vybraný v Omarchy, a když výchozí prohlížeč není podporovaný, sáhnou po Chrome.
+Příkladový adresář nahraďte absolutní cestou podle své volby a stejnou cestu použijte pro všech šest spouštěčů, aby mezi nimi byla pracovní přihlášení sdílená. Webové aplikace používají podporovaný prohlížeč vybraný v Spherie, a když výchozí prohlížeč není podporovaný, sáhnou po Chrome.

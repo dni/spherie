@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# omarchy:summary=Pick a sphere app to launch from the launcher
+# omarchy:args=[--list]
+
+set -euo pipefail
+source "$OMARCHY_PATH/default/spherie/lib.sh"
+
+entries() {
+  local name app
+  for name in $(sphere_names); do
+    sphere_load "$name"
+    (( HIDDEN )) && continue
+    for app in $APPS; do
+      echo "$name: $app"
+    done
+  done
+}
+
+if [[ ${1:-} == "--list" ]]; then
+  entries
+  exit 0
+fi
+
+mapfile -t options < <(entries)
+choice=$(omarchy-menu-select "$(omarchy-i18n sphere.appPrompt)" "${options[@]}" -- --width 420) || exit 0
+[[ -n $choice ]] || exit 0
+omarchy-sphere-run "${choice%%: *}" "${choice#*: }"

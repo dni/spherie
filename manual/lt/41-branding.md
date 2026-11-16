@@ -1,6 +1,6 @@
 # Prekės ženklas
 
-Omarchy leidžia nustatyti įmonės logotipą arba asmeninį paveikslėlį paleidimo atrakinimo ekranui, ekrano užsklandai ir ekranui „Apie“.
+Spherie leidžia nustatyti įmonės logotipą arba asmeninį paveikslėlį paleidimo atrakinimo ekranui, ekrano užsklandai ir ekranui „Apie“.
 
 ### Paleidimo atrakinimas
 
@@ -24,11 +24,11 @@ Tame meniu yra trys įrašai:
 
 - **Teksto redagavimas** atidaro `~/.config/omarchy/branding/screensaver.txt` jūsų redaktoriuje. Įveskite arba įklijuokite, ką tik norite — ASCII piešinį, savo vardą, nepadorų žodį. Išsaugokite ir uždarykite, ir ekrano užsklanda iš karto įsijungs, kad galėtumėte ją pamatyti.
 - **Nustatyti iš paveikslėlio** atidaro failų parinkiklį png arba svg failui, paverčia jį ASCII ir parodo jums rezultatą. Logotipai su aiškiu siluetu veikia daug geriau nei nuotraukos.
-- **Atkurti numatytąjį** grąžina Omarchy logotipą.
+- **Atkurti numatytąjį** grąžina Spherie logotipą.
 
 ### Ekranas „Apie“
 
-Tos pačios trys parinktys yra skiltyje _Išvaizda > Prekės ženklas > Apie_, skirtos ekranui _Apie_, kurį gaunate iš Omarchy meniu, ir jos veikia identiškai — failas yra `~/.config/omarchy/branding/about.txt`, o langas „Apie“ iššoka po kiekvieno pakeitimo. Piešinys ekranui „Apie“ paverčiamas mažesniu dydžiu nei ekrano užsklandos, nes jis turi tilpti lange, o ne užpildyti visą jūsų ekraną.
+Tos pačios trys parinktys yra skiltyje _Išvaizda > Prekės ženklas > Apie_, skirtos ekranui _Apie_, kurį gaunate iš Spherie meniu, ir jos veikia identiškai — failas yra `~/.config/omarchy/branding/about.txt`, o langas „Apie“ iššoka po kiekvieno pakeitimo. Piešinys ekranui „Apie“ paverčiamas mažesniu dydžiu nei ekrano užsklandos, nes jis turi tilpti lange, o ne užpildyti visą jūsų ekraną.
 
 Kol langas atidarytas, kas kelias sekundes per piešinį nuslysta žalias blyksnis ir tada vėl palieka jį ramų. Jūsų pačių piešinys jį taip pat gauna, jei kiekvienas jo simbolis yra vieno stulpelio pločio — toks yra viskas, ką sukuria _Nustatyti iš paveikslėlio_. Piešinys, sudarytas iš emoji arba dvigubo pločio simbolių, vietoj to lieka ramus, kaip ir ekranas, jei turite savo fastfetch konfigūraciją: nejudantis logotipas tais atvejais reiškia, kad animacija pasitraukia iš kelio, o ne kad ji sugedo, nes slystantis blyksnis per juos likusią eilutės dalį pastumtų į netinkamą vietą.
 
@@ -46,7 +46,7 @@ Priimami `--width` ir `--height` terminalo stulpeliais ir eilutėmis, `--mode` s
 
 ### Žodžiai vietoj logotipo
 
-`omarchy ascii` piešia tekstą šriftu Delta Corps Priest 1 — FIGlet šriftu, kuriuo nupieštas pats Omarchy žodinis ženklas, todėl ekrano užsklanda gali ką nors pasakyti, o ne rodyti paveikslėlį:
+`omarchy ascii` piešia tekstą šriftu Delta Corps Priest 1 — FIGlet šriftu, kuriuo nupieštas pats Spherie žodinis ženklas, todėl ekrano užsklanda gali ką nors pasakyti, o ne rodyti paveikslėlį:
 
 ```
 omarchy ascii "Back in five" > ~/.config/omarchy/branding/screensaver.txt

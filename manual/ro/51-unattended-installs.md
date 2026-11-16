@@ -1,8 +1,8 @@
 # Instalări nesupravegheate
 
-ISO-ul Omarchy se poate instala singur, fără nimeni la tastatură. Dacă programul de instalare găsește o a doua unitate etichetată `cidata` care conține fișierele sale de configurare, le copiază de pe ea, sare complet peste asistentul de configurare și repornește singur în sistemul finit. Fără o versiune specială de ISO, fără o intrare suplimentară în meniul de pornire — fără o astfel de unitate conectată, nu se schimbă nimic și primești asistentul normal.
+ISO-ul Spherie se poate instala singur, fără nimeni la tastatură. Dacă programul de instalare găsește o a doua unitate etichetată `cidata` care conține fișierele sale de configurare, le copiază de pe ea, sare complet peste asistentul de configurare și repornește singur în sistemul finit. Fără o versiune specială de ISO, fără o intrare suplimentară în meniul de pornire — fără o astfel de unitate conectată, nu se schimbă nimic și primești asistentul normal.
 
-Asta face din Omarchy o imagine de bază excelentă pentru medii de dezvoltare de unică folosință: creezi un VM în Proxmox sau cu Packer, îl pornești, pleci de lângă el și intri prin SSH. `cidata` este eticheta cloud-init `NoCloud`, așa că toate instrumentele comune de virtualizare știu deja cum să atașeze o astfel de unitate.
+Asta face din Spherie o imagine de bază excelentă pentru medii de dezvoltare de unică folosință: creezi un VM în Proxmox sau cu Packer, îl pornești, pleci de lângă el și intri prin SSH. `cidata` este eticheta cloud-init `NoCloud`, așa că toate instrumentele comune de virtualizare știu deja cum să atașeze o astfel de unitate.
 
 ## Fișierele de configurare
 
@@ -24,7 +24,7 @@ Poți pune și un fișier gol numit `defer-provisioning` în locul lui `user_cre
 
 ## Acces SSH
 
-Când `authorized_keys` este prezent, instalarea configurează cheile ca `~/.ssh/authorized_keys` al utilizatorului, activează `sshd` și deschide firewall-ul pentru el. (O instalare Omarchy standard vine cu openssh cu serviciul dezactivat și portul închis, așa că o mașină nesupravegheată ar fi altfel inaccesibilă.) Instalarea adaugă doar cheile tale — nu slăbește niciuna dintre celelalte setări de autentificare ale demonului SSH.
+Când `authorized_keys` este prezent, instalarea configurează cheile ca `~/.ssh/authorized_keys` al utilizatorului, activează `sshd` și deschide firewall-ul pentru el. (O instalare Spherie standard vine cu openssh cu serviciul dezactivat și portul închis, așa că o mașină nesupravegheată ar fi altfel inaccesibilă.) Instalarea adaugă doar cheile tale — nu slăbește niciuna dintre celelalte setări de autentificare ale demonului SSH.
 
 Când `tailscale_authkey` este prezent, mașina se alătură în schimb tailnet-ului tău la prima pornire: Tailscale este instalat din pachetele incluse în ISO, firewall-ul permite interfața tailnet, iar o sarcină în fundal rulează alăturarea imediat ce mașina are efectiv rețea, reîncercând până reușește. Folosește o cheie reutilizabilă, preautorizată, ca o singură imagine de unitate să poată servi multe mașini.
 
@@ -38,7 +38,7 @@ cp user_configuration.json user_credentials.json authorized_keys cidata/
 genisoimage -output cidata.iso -volid cidata -joliet -rock cidata/
 ```
 
-Apoi atașează-l la VM alături de ISO-ul Omarchy. Iată un exemplu complet pentru Proxmox:
+Apoi atașează-l la VM alături de ISO-ul Spherie. Iată un exemplu complet pentru Proxmox:
 
 ```bash
 qm create 101 --name my-omarchy \

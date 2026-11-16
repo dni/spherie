@@ -8,7 +8,7 @@ Se on myös se työpöydän osa, joka on aina näytöllä, joten kannattaa tiet�
 
 Palkissa on kolme osiota. Vasemmalla ovat Omarchy-logo (valikon käynnistin) ja työtilojen ilmaisimet. Keskellä saat tilailmaisimet, kellon, Elsewhenin (maailmankello), sään ja Omarchy-päivitysmerkin. Oikealla: järjestelmälokero, näppäimistöasettelu (kun niitä on määritetty useampi kuin yksi), agentit, bluetooth, verkko, ääni, näyttö ja virta.
 
-Muutama niistä näkyy vain silloin, kun niillä on jotain sanottavaa. Näppäimistöasettelu näkyy vain, jos olet määrittänyt useamman kuin yhden asettelun. Päivitysmerkki näkyy vain silloin, kun Omarchy-päivitys odottaa. Ja agenttikuvake ilmestyy ensimmäisen kerran, kun Omarchy löytää koneelta AI-koodauskäyttöä (katso [AI](17-ai.md)).
+Muutama niistä näkyy vain silloin, kun niillä on jotain sanottavaa. Näppäimistöasettelu näkyy vain, jos olet määrittänyt useamman kuin yhden asettelun. Päivitysmerkki näkyy vain silloin, kun Omarchy-päivitys odottaa. Ja agenttikuvake ilmestyy ensimmäisen kerran, kun Spherie löytää koneelta AI-koodauskäyttöä (katso [AI](17-ai.md)).
 
 ## Klikkailu
 

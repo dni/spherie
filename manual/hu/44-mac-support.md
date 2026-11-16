@@ -1,16 +1,16 @@
 # Mac-támogatás
 
-Az Omarchy beépített támogatást kínál az **Intel Macekhez**. Jelenleg van néhány ismert korlátozás, de amíg tisztában vagy ezekkel, és rendben vannak számodra, új életet lehelhetsz régi Macjeidbe az Omarchy telepítésével.
+Az Spherie beépített támogatást kínál az **Intel Macekhez**. Jelenleg van néhány ismert korlátozás, de amíg tisztában vagy ezekkel, és rendben vannak számodra, új életet lehelhetsz régi Macjeidbe az Spherie telepítésével.
 
 Felhívjuk a figyelmet, hogy az M-sorozatú Macekre történő telepítés jelenleg nem támogatott közvetlenül. Erről bővebben a #omarchy-on-other csatornán tájékozódhatsz a [Discord](https://discord.gg/tXFUdasqhY) szerverünkön.
 
-Egy egyszerű tesztben 36%-os teljesítménynövekedést értünk el egy 2019-es MacBook Prón pusztán az Omarchy telepítésével.
+Egy egyszerű tesztben 36%-os teljesítménynövekedést értünk el egy 2019-es MacBook Prón pusztán az Spherie telepítésével.
 
  ![macbook-omarchy](images/macbook-omarchy.webp)
 
-### Az Omarchy telepítése Macre
+### Az Spherie telepítése Macre
 
-Az Omarchy jelenleg csak egyedüli operációs rendszerként telepítve támogatott. A telepítés során a meghajtó törlődik, és a MacOS a továbbiakban nem lesz indítható.
+Az Spherie jelenleg csak egyedüli operációs rendszerként telepítve támogatott. A telepítés során a meghajtó törlődik, és a MacOS a továbbiakban nem lesz indítható.
 
 Később az Internet Recovery segítségével mégis visszaállíthatod, ha szeretnéd.
 

@@ -8,7 +8,7 @@
 
 | প্লেন | সেখানে যা থাকে | উদাহরণ |
 | --- | --- | --- |
-| `Super + key` | সিস্টেম: উইন্ডো, ওয়ার্কস্পেস, লেআউট এবং মূল মেনু | `Super + Space` Omarchy মেনু, `Super + W` উইন্ডো বন্ধ করুন, `Super + F` পূর্ণ স্ক্রিন |
+| `Super + key` | সিস্টেম: উইন্ডো, ওয়ার্কস্পেস, লেআউট এবং মূল মেনু | `Super + Space` Spherie মেনু, `Super + W` উইন্ডো বন্ধ করুন, `Super + F` পূর্ণ স্ক্রিন |
 | `Super + Shift + key` | অ্যাপ | `Super + Shift + B` ব্রাউজার, `Super + Shift + E` ইমেল, `Super + Shift + N` এডিটর |
 | `Super + Ctrl + key` | প্যানেল এবং সিস্টেম মেনু | `Super + Ctrl + A` অডিও, `Super + Ctrl + N` নেটওয়ার্ক, `Super + Ctrl + C` ক্যাপচার মেনু |
 | `Super + Ctrl + Alt + key` | দ্রুত অ্যাকশন এবং নোটিশ | `Super + Ctrl + Alt + T` সময় দেখান, `Super + Ctrl + Alt + B` ব্যাটারি, `Super + Ctrl + Alt + C` স্ক্রিনশট |
@@ -34,7 +34,7 @@
 
 | হটকি | কাজ |
 | ----------------------- | --------------------- |
-| `Super + Space` | Omarchy মেনু (অ্যাপ এবং অন্য সবকিছু) |
+| `Super + Space` | Spherie মেনু (অ্যাপ এবং অন্য সবকিছু) |
 | `Super + Alt + Space` | অ্যাপ গ্রিড |
 | `Super + Escape` | সিস্টেম মেনু (সাসপেন্ড, রিস্টার্ট, ইত্যাদি) |
 | `Super + Ctrl + L` | কম্পিউটার লক করুন |
@@ -193,7 +193,7 @@
 
 স্ক্রিনরেকর্ডিংয়ের ক্ষেত্রে, হটকিটি প্রথমে জিজ্ঞাসা করে আপনি কোন অডিও চান, তারপর রেকর্ডিং শুরু করে। বন্ধ করতে আবার চাপুন। বিস্তারিত জানতে [স্ক্রিনশট ও রেকর্ডিং](12-screenshots-recording.md) দেখুন।
 
-সব ক্যাপচার বিকল্প Omarchy মেনুতে (`Super + Space`) _Trigger > Capture_-এর অধীনেও পাওয়া যায়।
+সব ক্যাপচার বিকল্প Spherie মেনুতে (`Super + Space`) _Trigger > Capture_-এর অধীনেও পাওয়া যায়।
 
 ## বিজ্ঞপ্তি
 
@@ -215,9 +215,9 @@
 | `Super + Backspace` | একটি উইন্ডোতে স্বচ্ছতা টগল করুন |
 | `Super + Ctrl + Backspace` | একক-উইন্ডোর বর্গাকার অনুপাত টগল করুন |
 
-অতিরিক্ত ব্যাকগ্রাউন্ড ছবি `~/.config/omarchy/backgrounds/<theme name>`-এ থাকে। Omarchy মেনুতে _Install > Style > Background_-এর মাধ্যমেও পাওয়া যায়।
+অতিরিক্ত ব্যাকগ্রাউন্ড ছবি `~/.config/omarchy/backgrounds/<theme name>`-এ থাকে। Spherie মেনুতে _Install > Style > Background_-এর মাধ্যমেও পাওয়া যায়।
 
-সব স্টাইল বিকল্প Omarchy মেনুতে (`Super + Space`) _Style_-এর অধীনেও পাওয়া যায়।
+সব স্টাইল বিকল্প Spherie মেনুতে (`Super + Space`) _Style_-এর অধীনেও পাওয়া যায়।
 
 ## টগলসমূহ
 
@@ -318,7 +318,7 @@
 
 ## Ghostty টার্মিনাল
 
-Ghostty টার্মিনাল Omarchy মেনুর মাধ্যমে _Install > Terminal_ ব্যবহার করে ইনস্টল করা হয়।
+Ghostty টার্মিনাল Spherie মেনুর মাধ্যমে _Install > Terminal_ ব্যবহার করে ইনস্টল করা হয়।
 
 | হটকি | কাজ |
 | ----------------------- | --------------------- |

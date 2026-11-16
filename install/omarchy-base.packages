@@ -3,6 +3,7 @@
 
 aether
 alsa-utils
+arch-install-scripts
 asdcontrol
 avahi
 base-devel
@@ -118,6 +119,7 @@ podman
 postgresql-libs
 python-gobject
 python-poetry-core
+qemu-base
 qt6-base
 qt6-declarative
 qt6-multimedia
@@ -156,6 +158,7 @@ unzip
 usage
 uwsm
 vi
+waypipe-spherie
 whois
 wireless-regdb
 wireplumber

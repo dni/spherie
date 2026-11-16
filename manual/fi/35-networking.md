@@ -12,7 +12,7 @@ Jos tarvitset itse salasanan, `omarchy network password <interface>` tulostaa se
 
 ## DNS
 
-Omarchy käyttää sitä DNS:ää, jonka verkkosi antaa DHCP:n kautta. Voit ohittaa sen koko koneelle kohdassa _Setup > Network > DNS_, jossa Cloudflare ja Google ovat yhden napsautuksen päässä. Valitse _Custom_ kirjoittaaksesi omat palvelimesi.
+Spherie käyttää sitä DNS:ää, jonka verkkosi antaa DHCP:n kautta. Voit ohittaa sen koko koneelle kohdassa _Setup > Network > DNS_, jossa Cloudflare ja Google ovat yhden napsautuksen päässä. Valitse _Custom_ kirjoittaaksesi omat palvelimesi.
 
 Terminaalissa `omarchy dns` tulostaa nykyisen tarjoajan ja `omarchy dns Cloudflare` asettaa sellaisen.
 

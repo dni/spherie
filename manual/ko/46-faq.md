@@ -28,7 +28,7 @@ omarchy bar set omarchy.clock format "dddd h:mm AP"
 
 ### 시간대는 어떻게 바꾸나요?
 
-Omarchy 메뉴에서 _Update > Timezone_을 실행하고 목록에서 선택하세요. 시간대는 맞는데 시계 자체가 어긋난 경우라면, _Update > Time_이 시간 동기화를 대신 재시작해줍니다.
+Spherie 메뉴에서 _Update > Timezone_을 실행하고 목록에서 선택하세요. 시간대는 맞는데 시계 자체가 어긋난 경우라면, _Update > Time_이 시간 동기화를 대신 재시작해줍니다.
 
 ### DNS를 바꾸거나, Wi-Fi를 공유하거나, 연결 속도를 확인하려면 어떻게 하나요?
 
@@ -72,7 +72,7 @@ Obsidian이나 LibreOffice 같은 프로그램이나 그 밖의 사전 설치된
 
 _Remove > Package_를 실행하면 설치된 모든 패키지를 볼 수 있습니다. 그런 다음 tab으로 제거하고 싶은 패키지를 선택하고, return으로 선택한 모든 것의 제거를 시작할 수 있습니다.
 
-Omarchy 메뉴의 _Remove > Web App_을 사용해 원하지 않는 사전 설치 웹 앱을 제거할 수도 있습니다.
+Spherie 메뉴의 _Remove > Web App_을 사용해 원하지 않는 사전 설치 웹 앱을 제거할 수도 있습니다.
 
 아니면 _Remove > Preinstalls_를 실행해 사전 설치된 추가 항목들 — 웹 앱, TUI, 선택적 애플리케이션 — 을 한 번에 쓸어내세요. 그것들을 실행하던 단축키도 함께 사라지므로, `~/.config/hypr/bindings.lua`에서 직접 채워 넣을 깨끗한 바인딩 상태가 남습니다.
 

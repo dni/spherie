@@ -8,7 +8,7 @@ Cada drecera es troba en un pla, determinat pels seus modificadors, i cada pla t
 
 | Pla | Què hi ha | Exemples |
 | --- | --- | --- |
-| `Super + key` | El sistema: finestres, espais de treball, disposicions i menús principals | `Super + Space` menú d'Omarchy, `Super + W` tanca la finestra, `Super + F` pantalla completa |
+| `Super + key` | El sistema: finestres, espais de treball, disposicions i menús principals | `Super + Space` menú d'Spherie, `Super + W` tanca la finestra, `Super + F` pantalla completa |
 | `Super + Shift + key` | Aplicacions | `Super + Shift + B` navegador, `Super + Shift + E` correu electrònic, `Super + Shift + N` editor |
 | `Super + Ctrl + key` | Panells i menús del sistema | `Super + Ctrl + A` àudio, `Super + Ctrl + N` xarxa, `Super + Ctrl + C` menú de captura |
 | `Super + Ctrl + Alt + key` | Accions ràpides i avisos | `Super + Ctrl + Alt + T` mostra l'hora, `Super + Ctrl + Alt + B` bateria, `Super + Ctrl + Alt + C` captura de pantalla |
@@ -34,7 +34,7 @@ Si una opció per defecte no et va bé (per exemple, vols `Super + Shift + S` pe
 
 | Drecera                  | Funció              |
 | ----------------------- | --------------------- |
-| `Super + Space`           | Menú d'Omarchy (aplicacions i tota la resta)    |
+| `Super + Space`           | Menú d'Spherie (aplicacions i tota la resta)    |
 | `Super + Alt + Space` | Graella d'aplicacions |
 | `Super + Escape` | Menú del sistema (suspèn, reinicia, etc.)  |
 | `Super + Ctrl + L` | Bloqueja l'ordinador |
@@ -172,7 +172,7 @@ Canvia/afegeix dreceres a `~/.config/hypr/bindings.lua`.
 | `Super + V`           | Enganxa    |
 | `Super + Ctrl + V`           | Gestor del porta-retalls    |
 
-Normalment a Linux, necessites `Ctrl + Shift + C/V` per copiar i enganxar al terminal i `Ctrl + C/V` per fer-ho a tota la resta de llocs. Aquestes dreceres de porta-retalls unificades d'Omarchy funcionen a tot arreu.
+Normalment a Linux, necessites `Ctrl + Shift + C/V` per copiar i enganxar al terminal i `Ctrl + C/V` per fer-ho a tota la resta de llocs. Aquestes dreceres de porta-retalls unificades d'Spherie funcionen a tot arreu.
 
 ## Captura
 
@@ -193,7 +193,7 @@ Normalment a Linux, necessites `Ctrl + Shift + C/V` per copiar i enganxar al ter
 
 Amb els enregistraments de pantalla, la drecera primer et pregunta quin àudio vols, i després comença a enregistrar. Torna-la a prémer per aturar-lo. Consulta [captures de pantalla i enregistrament](12-screenshots-recording.md) per als detalls.
 
-Totes les opcions de captura també són accessibles a _Activador > Captura_ en el menú d'Omarchy (`Super + Space`).
+Totes les opcions de captura també són accessibles a _Activador > Captura_ en el menú d'Spherie (`Super + Space`).
 
 ## Notificacions
 
@@ -215,9 +215,9 @@ Totes les opcions de captura també són accessibles a _Activador > Captura_ en 
 | `Super + Backspace` | Commuta la transparència d'una finestra |
 | `Super + Ctrl + Backspace` | Commuta la proporció quadrada d'una sola finestra |
 
-Les imatges de fons addicionals es troben a `~/.config/omarchy/backgrounds/<theme name>`. També disponibles a _Instal·la > Estil > Fons_ en el menú d'Omarchy.
+Les imatges de fons addicionals es troben a `~/.config/omarchy/backgrounds/<theme name>`. També disponibles a _Instal·la > Estil > Fons_ en el menú d'Spherie.
 
-Totes les opcions d'estil també són accessibles a _Estil_ en el menú d'Omarchy (`Super + Space`).
+Totes les opcions d'estil també són accessibles a _Estil_ en el menú d'Spherie (`Super + Space`).
 
 ## Commutadors
 
@@ -318,7 +318,7 @@ Aquestes funcions s'han d'executar dins d'una sessió de Tmux.
 
 ## Terminal Ghostty
 
-El terminal Ghostty s'instal·la amb _Instal·la > Terminal_ a través del menú d'Omarchy.
+El terminal Ghostty s'instal·la amb _Instal·la > Terminal_ a través del menú d'Spherie.
 
 | Drecera                  | Funció              |
 | ----------------------- | --------------------- |

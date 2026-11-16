@@ -8,7 +8,7 @@ Svaki prečac nalazi se na jednoj ravnini, određenoj njegovim modifikatorima, a
 
 | Ravan | Što se tamo nalazi | Primjeri |
 | --- | --- | --- |
-| `Super + key` | Sustav: prozori, radni prostori, rasporedi i glavni izbornici | `Super + Space` Omarchy izbornik, `Super + W` zatvori prozor, `Super + F` cijeli zaslon |
+| `Super + key` | Sustav: prozori, radni prostori, rasporedi i glavni izbornici | `Super + Space` Spherie izbornik, `Super + W` zatvori prozor, `Super + F` cijeli zaslon |
 | `Super + Shift + key` | Aplikacije | `Super + Shift + B` preglednik, `Super + Shift + E` e-pošta, `Super + Shift + N` uređivač |
 | `Super + Ctrl + key` | Ploče i izbornici sustava | `Super + Ctrl + A` zvuk, `Super + Ctrl + N` mreža, `Super + Ctrl + C` izbornik hvatanja |
 | `Super + Ctrl + Alt + key` | Brze radnje i obavijesti | `Super + Ctrl + Alt + T` prikaži vrijeme, `Super + Ctrl + Alt + B` baterija, `Super + Ctrl + Alt + C` snimka zaslona |
@@ -34,7 +34,7 @@ Ako vam zadana postavka ne odgovara (recimo da želite `Super + Shift + S` za sn
 
 | Prečac                  | Funkcija              |
 | ----------------------- | --------------------- |
-| `Super + Space`           | Omarchy izbornik (aplikacije i sve ostalo)    |
+| `Super + Space`           | Spherie izbornik (aplikacije i sve ostalo)    |
 | `Super + Alt + Space` | Mreža aplikacija |
 | `Super + Escape` | Izbornik sustava (obustava, ponovno pokretanje itd.)  |
 | `Super + Ctrl + L` | Zaključaj računalo |
@@ -193,7 +193,7 @@ Obično na Linuxu trebate `Ctrl + Shift + C/V` za kopiranje i lijepljenje u term
 
 Kod snimanja zaslona, prečac prvo pita koji zvuk želite, a zatim započinje snimanje. Pritisnite ga ponovno za zaustavljanje. Pogledajte [snimke zaslona i snimanje](12-screenshots-recording.md) za pojedinosti.
 
-Sve mogućnosti hvatanja dostupne su i pod _Trigger > Capture_ u Omarchy izborniku (`Super + Space`).
+Sve mogućnosti hvatanja dostupne su i pod _Trigger > Capture_ u Spherie izborniku (`Super + Space`).
 
 ## Obavijesti
 
@@ -215,9 +215,9 @@ Sve mogućnosti hvatanja dostupne su i pod _Trigger > Capture_ u Omarchy izborni
 | `Super + Backspace` | Uklj./isklj. prozirnost prozora |
 | `Super + Ctrl + Backspace` | Uklj./isklj. kvadratni omjer jednog prozora |
 
-Dodatne pozadinske slike nalaze se u `~/.config/omarchy/backgrounds/<theme name>`. Dostupno i putem _Install > Style > Background_ u Omarchy izborniku.
+Dodatne pozadinske slike nalaze se u `~/.config/omarchy/backgrounds/<theme name>`. Dostupno i putem _Install > Style > Background_ u Spherie izborniku.
 
-Sve mogućnosti stila dostupne su i pod _Style_ u Omarchy izborniku (`Super + Space`).
+Sve mogućnosti stila dostupne su i pod _Style_ u Spherie izborniku (`Super + Space`).
 
 ## Prekidači
 
@@ -318,7 +318,7 @@ Te se funkcije moraju pokrenuti unutar Tmux sesije.
 
 ## Ghostty terminal
 
-Ghostty terminal instalira se pomoću _Install > Terminal_ putem Omarchy izbornika.
+Ghostty terminal instalira se pomoću _Install > Terminal_ putem Spherie izbornika.
 
 | Prečac                  | Funkcija              |
 | ----------------------- | --------------------- |

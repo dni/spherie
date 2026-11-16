@@ -1,6 +1,6 @@
 # Schriftarten
 
-Omarchy verwendet standardmäßig JetBrainsMono Nerd Font sowohl als Terminal- als auch als Systemschriftart.
+Spherie verwendet standardmäßig JetBrainsMono Nerd Font sowohl als Terminal- als auch als Systemschriftart.
 
  ![fonts-jetbrainsmono](images/fonts-jetbrainsmono.webp)
 

@@ -8,7 +8,7 @@ Det er også den eneste del af skrivebordet, der altid er på skærmen, så det 
 
 Bjælken har tre sektioner. Til venstre sidder Omarchy-logoet (menustarteren) og arbejdsområdeindikatorerne. I midten får du statusindikatorerne, uret, Elsewhen (et verdensure), vejret og et Omarchy-opdateringsmærke. Til højre: systembakken, tastaturlayoutet (når mere end ét er konfigureret), agenter, bluetooth, netværk, lyd, skærm og strøm.
 
-Nogle af dem dukker kun op, når de har noget at sige. Tastaturlayoutet vises kun, hvis du har konfigureret mere end ét layout. Opdateringsmærket vises kun, når der venter en Omarchy-opdatering. Og agentikonet vises første gang Omarchy finder AI-kodeforbrug på maskinen (se [AI](17-ai.md)).
+Nogle af dem dukker kun op, når de har noget at sige. Tastaturlayoutet vises kun, hvis du har konfigureret mere end ét layout. Opdateringsmærket vises kun, når der venter en Omarchy-opdatering. Og agentikonet vises første gang Spherie finder AI-kodeforbrug på maskinen (se [AI](17-ai.md)).
 
 ## At klikke rundt
 

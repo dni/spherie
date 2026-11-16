@@ -1,6 +1,6 @@
 # Instalacija s dvostrukim pokretanjem
 
-Omarchy možete instalirati na jednu particiju uz Windows ili druge instalacije.
+Spherie možete instalirati na jednu particiju uz Windows ili druge instalacije.
 
 Ovaj način instalacije i dalje prema zadanim postavkama dolazi s LUKS enkripcijom za particiju, pa se zapravo ne razlikuje od instalacije na cijeli disk i jednostavno zahtijeva slobodan prostor dostupan na disku.
 
@@ -18,7 +18,7 @@ Pronađite odgovarajuću particiju, kliknite je desnom tipkom miša i odaberite 
 
  ![dual-boot-3](images/dual-boot-3.webp)
 
-Kada završite, trebali biste vidjeti nešto ovako, gdje je odjeljak od 50GB onaj na koji ćemo u ovom primjeru instalirati Omarchy.
+Kada završite, trebali biste vidjeti nešto ovako, gdje je odjeljak od 50GB onaj na koji ćemo u ovom primjeru instalirati Spherie.
 
  ![dual-boot-4](images/dual-boot-4.webp)
 
@@ -35,7 +35,7 @@ Potvrdite da sve izgleda dobro i pričekajte da instalacija završi kao i inače
 
 Kada završite instalaciju Omarchyja, primijetit ćete da je pokretački program Limine sada zadani. Pomoću njega u Limine možete dodati i opcije za svoje druge instalacije, poput Windowsa.
 
-Za dodavanje drugih operativnih sustava pokrenite `limine-scan` i slijedite upute za dodavanje željenih unosa u svoju konfiguraciju Liminea. Izbornik za pokretanje prema zadanim postavkama ostaje skriven i pokreće Omarchy nakon jedne sekunde. Za odabir Windowsa ili drugog unosa pritisnite bilo koju tipku čim se Limine pokrene; kada se izbornik pojavi, pomoću tipki sa strelicama odaberite unos i pritisnite Enter. Ako se Omarchy pokrene prije nego što pritisnete tipku, ponovno pokrenite računalo i pokušajte ponovno. Ako ste uključili _Setup > Direct Boot_, firmver u potpunosti preskače Limine, pa odaberite Limine iz izbornika za pokretanje BIOS-a ili ponovno pokrenite _Setup > Direct Boot_ kako biste uklonili unos.
+Za dodavanje drugih operativnih sustava pokrenite `limine-scan` i slijedite upute za dodavanje željenih unosa u svoju konfiguraciju Liminea. Izbornik za pokretanje prema zadanim postavkama ostaje skriven i pokreće Spherie nakon jedne sekunde. Za odabir Windowsa ili drugog unosa pritisnite bilo koju tipku čim se Limine pokrene; kada se izbornik pojavi, pomoću tipki sa strelicama odaberite unos i pritisnite Enter. Ako se Spherie pokrene prije nego što pritisnete tipku, ponovno pokrenite računalo i pokušajte ponovno. Ako ste uključili _Setup > Direct Boot_, firmver u potpunosti preskače Limine, pa odaberite Limine iz izbornika za pokretanje BIOS-a ili ponovno pokrenite _Setup > Direct Boot_ kako biste uklonili unos.
 
 ## Bitlocker
 

@@ -1,6 +1,6 @@
-# Omarchy CLI
+# Spherie CLI
 
-Karaniwang kinokontrol ang Omarchy sa pamamagitan ng mga hotkey at ng menu ng Omarchy (`Super + Space`). Ngunit maaari mo rin itong kontrolin sa pamamagitan ng `omarchy` CLI. Partikular itong nakakatulong kapag may AI agent kang katrabaho sa pag-customize o pag-configure.
+Karaniwang kinokontrol ang Spherie sa pamamagitan ng mga hotkey at ng menu ng Spherie (`Super + Space`). Ngunit maaari mo rin itong kontrolin sa pamamagitan ng `omarchy` CLI. Partikular itong nakakatulong kapag may AI agent kang katrabaho sa pag-customize o pag-configure.
 
 May access ang CLI sa lahat ng internal tooling na ginagamit kapwa sa pamamagitan ng menu at sa iba pang paraan. Makikita mo ang lahat ng available sa pagpapatakbo ng `omarchy` sa terminal.
 
@@ -8,7 +8,7 @@ Ganito ang hitsura nito nang halos:
 
 ```
 ~ ❯ omarchy
-Omarchy command center
+Spherie command center
 
 Usage:
   omarchy <command> [args...]
@@ -17,7 +17,7 @@ Usage:
   omarchy <group> <command> --help
 
 Common commands:
-  omarchy update              Update Omarchy and system packages
+  omarchy update              Update Spherie and system packages
   omarchy theme list          List available themes
   omarchy theme set <name>    Apply a theme
   omarchy font list           List available fonts
@@ -27,14 +27,14 @@ Common commands:
 Groups:
   agent          AI coding agents, their usage, and subscription accounts
   audio          Audio input and output controls
-  bar            Omarchy shell bar layout and settings
+  bar            Spherie shell bar layout and settings
   battery        Battery status helpers
   bluetooth      Bluetooth device controls
-  branch         Omarchy git branch management
+  branch         Spherie git branch management
   branding       About and screensaver branding
   brightness     Display and keyboard brightness
   capture        Screenshots and screen recording
-  channel        Omarchy release channel management
+  channel        Spherie release channel management
   clipboard      Clipboard helpers
   cmd            Command and shortcut helpers
   config         System configuration helpers
@@ -59,4 +59,4 @@ Tumatanggap din ang bawat command ng `--help`, tanungin mo man ang buong grupo (
 
 ### Pagbubukas ng menu mula sa terminal
 
-Maaari ring i-script ang menu ng Omarchy, na madaling gamitin para sa sarili mong mga keybinding. Binubuksan ito ng `omarchy menu` sa root, at maaari kang dumiretso sa anumang punto sa tree sa pagbanggit nito: dumidiretso ang `omarchy menu summon appearance.theme` sa theme picker, binubuksan ng `omarchy menu toggle system` ang system menu at isinasara itong muli kung nakabukas na ito, at itinatago ito ng `omarchy menu close`.
+Maaari ring i-script ang menu ng Spherie, na madaling gamitin para sa sarili mong mga keybinding. Binubuksan ito ng `omarchy menu` sa root, at maaari kang dumiretso sa anumang punto sa tree sa pagbanggit nito: dumidiretso ang `omarchy menu summon appearance.theme` sa theme picker, binubuksan ng `omarchy menu toggle system` ang system menu at isinasara itong muli kung nakabukas na ito, at itinatago ito ng `omarchy menu close`.

@@ -20,7 +20,7 @@ Obsidian je brezplačen za vse namene, vključno z osebno, komercialno in neprof
 
 Obsidian ponuja tudi [komercialni dodatek za sinhronizacijo](https://obsidian.md/sync) z mobilnimi aplikacijami v sistemih iOS in Android. (https://obsidian.md/pricing).
 
-Obsidian zaženete s `Super + Shift + O`. Za uporabo sinhronizacije tem morate v nastavitvah izbrati temo `Omarchy`.
+Obsidian zaženete s `Super + Shift + O`. Za uporabo sinhronizacije tem morate v nastavitvah izbrati temo `Spherie`.
 
 ## Omawrite
 
@@ -44,7 +44,7 @@ Aether zaženete prek zaganjalnika aplikacij (`Super + Space`).
 
 [LocalSend](https://localsend.org/) vam omogoča pošiljanje datotek drugim napravam v istem omrežju, v katerih je nameščena ta aplikacija, podobno kot Appleov AirDrop. Je pa medplatformska, tako da lahko datoteke pošiljate v sisteme Windows, macOS, Android, iOS in seveda Linux ter iz njih.
 
-Meni Share lahko odprete s `Super + Ctrl + S` ali pod _Trigger > Share_ v meniju Omarchy. Ponudi vam štiri možnosti:
+Meni Share lahko odprete s `Super + Ctrl + S` ali pod _Trigger > Share_ v meniju Spherie. Ponudi vam štiri možnosti:
 
 - **Clipboard** pošlje vse, kar ste kopirali, kot besedilno datoteko. Odlično, če želite povezavo ali delček spraviti v telefon, ne da bi si ga poslali po e-pošti.
 - **File** odpre izbirnik datotek, v katerem jih lahko izberete več hkrati.
@@ -65,7 +65,7 @@ LibreOffice zaženete prek zaganjalnika aplikacij (`Super + Space`).
 
 ## Hype
 
-[Hype](https://github.com/omacom/hype) je Omarchyjeva lastna izjemno preprosta aplikacija za predstavitve. Vaša predstavitev je ena sama datoteka Markdown s slikami in videoposnetki ob njej: vsak diapozitiv napišete pod živim predogledom, diapozitive povlečete v pravi vrstni red, nato pa predstavljate čez celoten zaslon ali izvozite v PDF in PowerPoint. Prevzame celo vašo temo Omarchy.
+[Hype](https://github.com/omacom/hype) je Omarchyjeva lastna izjemno preprosta aplikacija za predstavitve. Vaša predstavitev je ena sama datoteka Markdown s slikami in videoposnetki ob njej: vsak diapozitiv napišete pod živim predogledom, diapozitive povlečete v pravi vrstni red, nato pa predstavljate čez celoten zaslon ali izvozite v PDF in PowerPoint. Prevzame celo vašo temo Spherie.
 
 Hype zaženete prek zaganjalnika aplikacij (`Super + Space`). Pritisnite `?` znotraj njega, da vidite vse bližnjice.
 
@@ -85,7 +85,7 @@ Omacalc zaženete s `Super + Shift + Q` (ali s tipko za kalkulator, če jo vaša
 
 [Signal](https://signal.org/) je pionir sporočanja s šifriranjem E2E in odlična možnost za komunikacijo za vse, ki raje ne bi šli prek enega od velikih tehnoloških konglomeratov.
 
-Signal zaženete s `Super + Shift + G`. Ni del osnovne namestitve, zato vam bo Omarchy ob prvem pritisku te kombinacije ponudil, da ga namesti namesto vas (najdete ga tudi pod _Install > Service_ v meniju Omarchy).
+Signal zaženete s `Super + Shift + G`. Ni del osnovne namestitve, zato vam bo Spherie ob prvem pritisku te kombinacije ponudil, da ga namesti namesto vas (najdete ga tudi pod _Install > Service_ v meniju Spherie).
 
 ## Omaview
 

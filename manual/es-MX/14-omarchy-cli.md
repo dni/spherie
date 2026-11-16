@@ -1,6 +1,6 @@
-# Omarchy CLI
+# Spherie CLI
 
-Normalmente, Omarchy se controla mediante las teclas de acceso rápido y el menú de Omarchy (`Super + Space`). Pero también puedes controlarlo mediante la CLI `omarchy`. Esto es especialmente útil cuando tienes a un agente de IA trabajando contigo en la personalización o la configuración.
+Normalmente, Spherie se controla mediante las teclas de acceso rápido y el menú de Spherie (`Super + Space`). Pero también puedes controlarlo mediante la CLI `omarchy`. Esto es especialmente útil cuando tienes a un agente de IA trabajando contigo en la personalización o la configuración.
 
 La CLI tiene acceso a todas las herramientas internas que se usan tanto desde el menú como por otros medios. Puedes ver todo lo que está disponible ejecutando `omarchy` en la terminal.
 
@@ -8,7 +8,7 @@ Se ve más o menos así:
 
 ```
 ~ ❯ omarchy
-Omarchy command center
+Spherie command center
 
 Usage:
   omarchy <command> [args...]
@@ -17,7 +17,7 @@ Usage:
   omarchy <group> <command> --help
 
 Common commands:
-  omarchy update              Update Omarchy and system packages
+  omarchy update              Update Spherie and system packages
   omarchy theme list          List available themes
   omarchy theme set <name>    Apply a theme
   omarchy font list           List available fonts
@@ -27,14 +27,14 @@ Common commands:
 Groups:
   agent          AI coding agents, their usage, and subscription accounts
   audio          Audio input and output controls
-  bar            Omarchy shell bar layout and settings
+  bar            Spherie shell bar layout and settings
   battery        Battery status helpers
   bluetooth      Bluetooth device controls
-  branch         Omarchy git branch management
+  branch         Spherie git branch management
   branding       About and screensaver branding
   brightness     Display and keyboard brightness
   capture        Screenshots and screen recording
-  channel        Omarchy release channel management
+  channel        Spherie release channel management
   clipboard      Clipboard helpers
   cmd            Command and shortcut helpers
   config         System configuration helpers
@@ -59,4 +59,4 @@ Todo comando también admite `--help`, ya sea que consultes un grupo completo (`
 
 ### Abrir el menú desde la terminal
 
-El menú de Omarchy también se puede controlar mediante comandos, lo que viene bien para tus propios atajos de teclado. `omarchy menu` lo abre en la raíz, y puedes saltar directamente a cualquier punto del árbol nombrándolo: `omarchy menu summon appearance.theme` va directo al selector de temas, `omarchy menu toggle system` abre el menú del sistema y lo vuelve a cerrar si ya está abierto, y `omarchy menu close` lo oculta.
+El menú de Spherie también se puede controlar mediante comandos, lo que viene bien para tus propios atajos de teclado. `omarchy menu` lo abre en la raíz, y puedes saltar directamente a cualquier punto del árbol nombrándolo: `omarchy menu summon appearance.theme` va directo al selector de temas, `omarchy menu toggle system` abre el menú del sistema y lo vuelve a cerrar si ya está abierto, y `omarchy menu close` lo oculta.

@@ -1,8 +1,8 @@
 # Instalacije bez nadzora
 
-Omarchy ISO može se instalirati sam, bez ikoga za tipkovnicom. Ako instalacijski program pronađe drugi disk s oznakom `cidata` na kojem se nalaze njegove konfiguracijske datoteke, kopirat će ih, u potpunosti preskočiti čarobnjaka za postavljanje i samostalno se ponovno pokrenuti u dovršeni sustav. Nije potrebna posebna izrada ISO-a niti dodatna stavka u izborniku za pokretanje — ako takav disk nije priključen, ništa se ne mijenja i dobivate uobičajenog čarobnjaka.
+Spherie ISO može se instalirati sam, bez ikoga za tipkovnicom. Ako instalacijski program pronađe drugi disk s oznakom `cidata` na kojem se nalaze njegove konfiguracijske datoteke, kopirat će ih, u potpunosti preskočiti čarobnjaka za postavljanje i samostalno se ponovno pokrenuti u dovršeni sustav. Nije potrebna posebna izrada ISO-a niti dodatna stavka u izborniku za pokretanje — ako takav disk nije priključen, ništa se ne mijenja i dobivate uobičajenog čarobnjaka.
 
-Zbog toga je Omarchy izvrstan kao osnovna slika za jednokratna razvojna okruženja: stvorite VM u Proxmoxu ili pomoću Packera, pokrenite ga, odšetajte i povežite se putem SSH-a. `cidata` je cloud-init oznaka `NoCloud`, pa svi uobičajeni alati za virtualizaciju već znaju kako priključiti takav disk.
+Zbog toga je Spherie izvrstan kao osnovna slika za jednokratna razvojna okruženja: stvorite VM u Proxmoxu ili pomoću Packera, pokrenite ga, odšetajte i povežite se putem SSH-a. `cidata` je cloud-init oznaka `NoCloud`, pa svi uobičajeni alati za virtualizaciju već znaju kako priključiti takav disk.
 
 ## Konfiguracijske datoteke
 
@@ -38,7 +38,7 @@ cp user_configuration.json user_credentials.json authorized_keys cidata/
 genisoimage -output cidata.iso -volid cidata -joliet -rock cidata/
 ```
 
-Zatim ga priključite u VM uz Omarchy ISO. Evo potpunog primjera za Proxmox:
+Zatim ga priključite u VM uz Spherie ISO. Evo potpunog primjera za Proxmox:
 
 ```bash
 qm create 101 --name my-omarchy \

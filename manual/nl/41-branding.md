@@ -1,6 +1,6 @@
 # Branding
 
-Met Omarchy kun je je bedrijfslogo of persoonlijke afbeelding instellen voor zowel de opstartontgrendeling, de schermbeveiliging als het Over-scherm.
+Met Spherie kun je je bedrijfslogo of persoonlijke afbeelding instellen voor zowel de opstartontgrendeling, de schermbeveiliging als het Over-scherm.
 
 ### Opstartontgrendeling
 

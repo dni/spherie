@@ -1,8 +1,8 @@
 # Mga Pag-install na Walang Nagbabantay
 
-Kayang i-install ng Omarchy ISO ang sarili nito nang walang tao sa keyboard. Kung makakahanap ang installer ng pangalawang drive na may label na `cidata` na naglalaman ng mga configuration file nito, kokopyahin nito ang mga iyon, lalaktawan nang buo ang setup wizard, at magre-reboot papunta sa tapos nang system nang mag-isa. Walang espesyal na ISO build, walang dagdag na boot menu entry — kung walang ganoong drive na nakakabit, walang magbabago at makukuha mo ang normal na wizard.
+Kayang i-install ng Spherie ISO ang sarili nito nang walang tao sa keyboard. Kung makakahanap ang installer ng pangalawang drive na may label na `cidata` na naglalaman ng mga configuration file nito, kokopyahin nito ang mga iyon, lalaktawan nang buo ang setup wizard, at magre-reboot papunta sa tapos nang system nang mag-isa. Walang espesyal na ISO build, walang dagdag na boot menu entry — kung walang ganoong drive na nakakabit, walang magbabago at makukuha mo ang normal na wizard.
 
-Dahil dito, mahusay ang Omarchy bilang base image para sa mga disposable na dev environment: gumawa ng VM sa Proxmox o gamit ang Packer, i-boot ito, umalis, mag-SSH papasok. Ang `cidata` ay ang cloud-init `NoCloud` label, kaya alam na ng lahat ng karaniwang virtualization tooling kung paano magkabit ng ganoong drive.
+Dahil dito, mahusay ang Spherie bilang base image para sa mga disposable na dev environment: gumawa ng VM sa Proxmox o gamit ang Packer, i-boot ito, umalis, mag-SSH papasok. Ang `cidata` ay ang cloud-init `NoCloud` label, kaya alam na ng lahat ng karaniwang virtualization tooling kung paano magkabit ng ganoong drive.
 
 ## Ang mga configuration file
 
@@ -24,7 +24,7 @@ Maaari ka ring maglagay ng walang lamang file na pinangalanang `defer-provisioni
 
 ## Access sa SSH
 
-Kapag naroon ang `authorized_keys`, ise-setup ng install ang mga key bilang `~/.ssh/authorized_keys` ng user, ie-enable ang `sshd`, at bubuksan ang firewall para dito. (May kasamang openssh ang stock na Omarchy install na naka-disable ang service at sarado ang port, kaya hindi maaabot ang isang unattended na machine kung hindi.) Idinaragdag lang ng install ang mga key mo — hindi nito niluluwagan ang alinman sa iba pang authentication setting ng SSH daemon.
+Kapag naroon ang `authorized_keys`, ise-setup ng install ang mga key bilang `~/.ssh/authorized_keys` ng user, ie-enable ang `sshd`, at bubuksan ang firewall para dito. (May kasamang openssh ang stock na Spherie install na naka-disable ang service at sarado ang port, kaya hindi maaabot ang isang unattended na machine kung hindi.) Idinaragdag lang ng install ang mga key mo — hindi nito niluluwagan ang alinman sa iba pang authentication setting ng SSH daemon.
 
 Kapag naroon ang `tailscale_authkey`, sasali sa halip ang machine sa tailnet mo sa unang boot: ii-install ang Tailscale mula sa mga bundled na package ng ISO, papayagan ng firewall ang tailnet interface, at magpapatakbo ang isang background job ng pagsali sa sandaling magkaroon talaga ng network ang machine, at uulit ito hanggang magtagumpay. Gumamit ng reusable, pre-authorized na key para makapagsilbi ang isang drive image sa maraming machine.
 
@@ -38,7 +38,7 @@ cp user_configuration.json user_credentials.json authorized_keys cidata/
 genisoimage -output cidata.iso -volid cidata -joliet -rock cidata/
 ```
 
-Pagkatapos, ikabit ito sa VM kasama ng Omarchy ISO. Narito ang isang buong halimbawa sa Proxmox:
+Pagkatapos, ikabit ito sa VM kasama ng Spherie ISO. Narito ang isang buong halimbawa sa Proxmox:
 
 ```bash
 qm create 101 --name my-omarchy \

@@ -1,8 +1,8 @@
 # Pogoste prilagoditve
 
-To je zbirka pogostih prilagoditev nastavitve Omarchy. Vedite, da bo sistemskim posodobitvam občasno morda treba obnoviti določene konfiguracije v njihovo prvotno stanje. Če se to zgodi, vaše spremembe ne bodo izgubljene, ampak bodo postavljene v datoteko `.bak` v istem imeniku.
+To je zbirka pogostih prilagoditev nastavitve Spherie. Vedite, da bo sistemskim posodobitvam občasno morda treba obnoviti določene konfiguracije v njihovo prvotno stanje. Če se to zgodi, vaše spremembe ne bodo izgubljene, ampak bodo postavljene v datoteko `.bak` v istem imeniku.
 
-Če kaj pokvarite, lahko posamezne konfiguracije obnovite v njihovo prvotno nastavitev prek _Posodobi > Config_ v meniju Omarchy. Če _resnično_ vse pokvarite, lahko vse konfiguracije ponastavite prek `omarchy-reinstall`.
+Če kaj pokvarite, lahko posamezne konfiguracije obnovite v njihovo prvotno nastavitev prek _Posodobi > Config_ v meniju Spherie. Če _resnično_ vse pokvarite, lahko vse konfiguracije ponastavite prek `omarchy-reinstall`.
 
 ### Vedno razkrij vse ikone pladnja
 

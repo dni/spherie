@@ -6,7 +6,7 @@ Prøv først at [rulle dit system tilbage](47-system-snapshots.md) til versionen
 
 ### Hvorfor er nogle apps så store på min skærm?
 
-Omarchy antager, at du har en skærm med 2x høj opløsning, så det sætter `GDK_SCALE` til 2, indtil du vælger en skalering i skærmpanelet. Hvis du bruger en 1x-skærm, og GTK- eller X11-apps bliver for store, så vælg 1x til den i skærmpanelet, eller tilføj `hl.env("GDK_SCALE", "1")` til `~/.config/hypr/monitors.lua` (og genstart derefter enhver app, der er for stor). Se [manualen om skærme](33-monitors.md).
+Spherie antager, at du har en skærm med 2x høj opløsning, så det sætter `GDK_SCALE` til 2, indtil du vælger en skalering i skærmpanelet. Hvis du bruger en 1x-skærm, og GTK- eller X11-apps bliver for store, så vælg 1x til den i skærmpanelet, eller tilføj `hl.env("GDK_SCALE", "1")` til `~/.config/hypr/monitors.lua` (og genstart derefter enhver app, der er for stor). Se [manualen om skærme](33-monitors.md).
 
 Til Spotify kan du bruge `Ctrl + Minus` til at formindske brugerfladen (og `Ctrl + Plus` til at gøre den større).
 
@@ -26,7 +26,7 @@ Sandsynligvis fordi de ikke er indstillet som den primære udgang. Klik på høj
 
 ### Mine bærbare højttalere lyder forkert
 
-På nogle bærbare anvender Omarchy automatisk en højttalertuning, der korrigerer de indbyggede højttaleres frekvensrespons. `omarchy audio tuning status` fortæller dig, om en er aktiv på din maskine, og `omarchy audio tuning off` slår den fra, hvis du hellere vil høre højttalerne råt.
+På nogle bærbare anvender Spherie automatisk en højttalertuning, der korrigerer de indbyggede højttaleres frekvensrespons. `omarchy audio tuning status` fortæller dig, om en er aktiv på din maskine, og `omarchy audio tuning off` slår den fra, hvis du hellere vil høre højttalerne råt.
 
 ### Hvorfor kan jeg ikke logge ind eller bruge sudo med min adgangskode?
 

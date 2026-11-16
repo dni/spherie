@@ -1,16 +1,16 @@
 # Suport per a Mac
 
-Omarchy inclou suport integrat per als **Mac amb Intel**. De moment hi ha un parell de limitacions conegudes, però mentre en siguis conscient i t'hi conformis, pots donar una nova vida als teus Mac antics instal·lant-hi Omarchy.
+Spherie inclou suport integrat per als **Mac amb Intel**. De moment hi ha un parell de limitacions conegudes, però mentre en siguis conscient i t'hi conformis, pots donar una nova vida als teus Mac antics instal·lant-hi Spherie.
 
 Tingues en compte que, de moment, la instal·lació en un Mac amb xip de la sèrie M no té suport directe. Pots saber-ne més sobre l'estat d'això a #omarchy-on-other, al nostre [Discord](https://discord.gg/tXFUdasqhY).
 
-En una prova senzilla, vam aconseguir un 36% més de rendiment en un MacBook Pro del 2019 només instal·lant-hi Omarchy.
+En una prova senzilla, vam aconseguir un 36% més de rendiment en un MacBook Pro del 2019 només instal·lant-hi Spherie.
 
  ![macbook-omarchy](images/macbook-omarchy.webp)
 
-### Instal·lar Omarchy en un Mac
+### Instal·lar Spherie en un Mac
 
-Omarchy, de moment, només admet ser l'**únic** sistema operatiu instal·lat. Durant la instal·lació, el disc s'esborrarà i MacOS ja no es podrà arrencar.
+Spherie, de moment, només admet ser l'**únic** sistema operatiu instal·lat. Durant la instal·lació, el disc s'esborrarà i MacOS ja no es podrà arrencar.
 
 Tot i així, si vols, el pots restaurar més endavant mitjançant Internet Recovery.
 

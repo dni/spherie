@@ -1,8 +1,8 @@
 # 無人值守安裝
 
-Omarchy ISO 可以在鍵盤前沒有任何人的情況下自行完成安裝。如果安裝程式找到第二個標記為 `cidata`、且帶有其設定檔的磁碟機，它會將這些檔案複製出來、完全跳過設定精靈，並自行重新開機進入已完成的系統。不需要特殊的 ISO 建置，也不需要額外的開機選單項目——如果沒有連接這類磁碟機，一切都不會改變，你看到的仍是一般的精靈。
+Spherie ISO 可以在鍵盤前沒有任何人的情況下自行完成安裝。如果安裝程式找到第二個標記為 `cidata`、且帶有其設定檔的磁碟機，它會將這些檔案複製出來、完全跳過設定精靈，並自行重新開機進入已完成的系統。不需要特殊的 ISO 建置，也不需要額外的開機選單項目——如果沒有連接這類磁碟機，一切都不會改變，你看到的仍是一般的精靈。
 
-這讓 Omarchy 非常適合作為一次性開發環境的基礎映像：在 Proxmox 或用 Packer 建立一台 VM，開機，走開，然後透過 SSH 連進去。`cidata` 是 cloud-init 的 `NoCloud` 標籤，因此所有常見的虛擬化工具都已經知道如何連接這類磁碟機。
+這讓 Spherie 非常適合作為一次性開發環境的基礎映像：在 Proxmox 或用 Packer 建立一台 VM，開機，走開，然後透過 SSH 連進去。`cidata` 是 cloud-init 的 `NoCloud` 標籤，因此所有常見的虛擬化工具都已經知道如何連接這類磁碟機。
 
 ## 設定檔
 
@@ -24,7 +24,7 @@ git 提交所用的姓名與電子郵件並不屬於安裝的一部分。等機�
 
 ## SSH 存取
 
-當 `authorized_keys` 存在時，安裝程式會將這些金鑰設定為使用者的 `~/.ssh/authorized_keys`、啟用 `sshd`，並在防火牆中為其開啟連接埠。（標準的 Omarchy 安裝隨附的 openssh 會停用服務並關閉連接埠，因此無人值守的機器否則將無法連線。）安裝程式只會加入你的金鑰——它不會放寬 SSH 守護程序的任何其他驗證設定。
+當 `authorized_keys` 存在時，安裝程式會將這些金鑰設定為使用者的 `~/.ssh/authorized_keys`、啟用 `sshd`，並在防火牆中為其開啟連接埠。（標準的 Spherie 安裝隨附的 openssh 會停用服務並關閉連接埠，因此無人值守的機器否則將無法連線。）安裝程式只會加入你的金鑰——它不會放寬 SSH 守護程序的任何其他驗證設定。
 
 當 `tailscale_authkey` 存在時，機器會改為在首次開機時加入你的 tailnet：Tailscale 會從 ISO 隨附的套件中安裝，防火牆會允許 tailnet 介面，而背景工作會在機器實際連上網路後立即執行加入動作，並持續重試直到成功為止。請使用可重複使用、預先授權的金鑰，這樣一份磁碟機映像就能供許多台機器使用。
 
@@ -38,7 +38,7 @@ cp user_configuration.json user_credentials.json authorized_keys cidata/
 genisoimage -output cidata.iso -volid cidata -joliet -rock cidata/
 ```
 
-然後將它與 Omarchy ISO 一起連接到 VM。以下是一個完整的 Proxmox 範例：
+然後將它與 Spherie ISO 一起連接到 VM。以下是一個完整的 Proxmox 範例：
 
 ```bash
 qm create 101 --name my-omarchy \

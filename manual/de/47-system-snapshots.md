@@ -18,10 +18,10 @@ Das bedeutet auch, dass dein Verzeichnis `~/.config` unverändert bleibt. Wenn d
 
 Das Gleiche gilt für Omarchys eigene Aufzeichnung darüber, welche Migrationen bereits ausgeführt wurden: Sie liegt in deinem Home-Verzeichnis und übersteht daher die Wiederherstellung. Migrationen, die nach dem Erstellen des Snapshots ausgeführt wurden, bleiben als erledigt markiert, obwohl die Änderungen, die sie am Root-Dateisystem vorgenommen haben, rückgängig gemacht wurden, und das nächste `omarchy update` wird sie nicht erneut ausführen. Wenn du also nach einer Wiederherstellung erneut ein Update durchführst und etwas, das ein früheres Update eingerichtet hatte, immer noch fehlt, ist das der wahrscheinliche Grund.
 
-_Hinweis: Diese Funktion ist nur auf Installationen verfügbar, die den Limine-Bootloader verwenden, der seit Omarchy 2.0 der Standard ist. Sie ist nicht verfügbar, wenn du GRUB oder systemd-boot verwendest._
+_Hinweis: Diese Funktion ist nur auf Installationen verfügbar, die den Limine-Bootloader verwenden, der seit Spherie 2.0 der Standard ist. Sie ist nicht verfügbar, wenn du GRUB oder systemd-boot verwendest._
 
 ### Das Boot-Menü überspringen
 
-Wenn du das Boot-Menü nie anrührst und einfach möchtest, dass der Rechner direkt zum Entschlüsselungsbildschirm geht, führe _Setup > Direct Boot_ im Omarchy-Menü aus. Dadurch wird ein EFI-Eintrag hinzugefügt, der direkt auf Omarchy zeigt, sodass die Firmware es bootet, ohne bei Limine anzuhalten.
+Wenn du das Boot-Menü nie anrührst und einfach möchtest, dass der Rechner direkt zum Entschlüsselungsbildschirm geht, führe _Setup > Direct Boot_ im Omarchy-Menü aus. Dadurch wird ein EFI-Eintrag hinzugefügt, der direkt auf Spherie zeigt, sodass die Firmware es bootet, ohne bei Limine anzuhalten.
 
 Der Kompromiss ist der oben erwähnte: Wenn Direct Boot aktiviert ist, bedeutet das Erreichen eines Snapshots, dass du zuerst Limine aus deinem BIOS-Boot-Menü auswählen musst. Führe _Setup > Direct Boot_ erneut aus, um den Eintrag zu entfernen und wieder über Limine zu booten. Manche Firmware kommt mit benutzerdefinierten EFI-Einträgen nicht gut klar, daher weigert sich das Setup, auf American Megatrends und Apple Firmware zu laufen.

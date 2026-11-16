@@ -1,6 +1,6 @@
 # Umschalter, Leerlauf & der Bildschirmschoner
 
-Vieles von dem, was du im Alltag änderst, ist eigentlich keine Einstellung. Es ist ein Modus, den du für eine Stunde einschaltest und dann wieder ausschaltest: Nachtlicht, während du lange arbeitest, Nicht stören, während du präsentierst, wach bleiben, während du etwas anschaust. Omarchy nennt diese Dinge Umschalter, und sie funktionieren alle auf die gleiche Weise — ein Tastenkürzel, ein Menüeintrag und ein Befehl, die alle denselben Schalter betätigen.
+Vieles von dem, was du im Alltag änderst, ist eigentlich keine Einstellung. Es ist ein Modus, den du für eine Stunde einschaltest und dann wieder ausschaltest: Nachtlicht, während du lange arbeitest, Nicht stören, während du präsentierst, wach bleiben, während du etwas anschaust. Spherie nennt diese Dinge Umschalter, und sie funktionieren alle auf die gleiche Weise — ein Tastenkürzel, ein Menüeintrag und ein Befehl, die alle denselben Schalter betätigen.
 
 ### Das Umschalter-Menü
 
@@ -26,7 +26,7 @@ Die Touchpad-, Touchscreen- und Hybrid GPU-Schalter befinden sich unter _Trigger
 
 _Appearance_ enthält die Menüleiste und Animationen, plus ein paar Dinge, die keine `omarchy toggle`-Befehle sind, sich aber genauso verhalten: den Batterieprozentsatz in der Leiste, das Standard-Workspace-Layout und unter _Windows_ die Fensterabstände (`Super + Shift + Backspace`) und das quadratische 1-Fenster-Seitenverhältnis (`Super + Ctrl + Backspace`).
 
-Wenn Hyprland keine GPU zum Zeichnen hat und stattdessen auf der CPU rendert (llvmpipe), wie auf Macs, deren GPU noch nicht unterstützt wird, in den meisten virtuellen Maschinen oder wenn ein Grafiktreiber nicht lädt, schaltet Omarchy Animationen, Blur und Schatten für diese Sitzung aus und sagt dir das einmal mit einer Benachrichtigung. _Appearance > Animations On_ bringt sie zurück, und Omarchy merkt sich das auch für spätere Sitzungen.
+Wenn Hyprland keine GPU zum Zeichnen hat und stattdessen auf der CPU rendert (llvmpipe), wie auf Macs, deren GPU noch nicht unterstützt wird, in den meisten virtuellen Maschinen oder wenn ein Grafiktreiber nicht lädt, schaltet Spherie Animationen, Blur und Schatten für diese Sitzung aus und sagt dir das einmal mit einer Benachrichtigung. _Appearance > Animations On_ bringt sie zurück, und Spherie merkt sich das auch für spätere Sitzungen.
 
 Die meisten davon sind einfach eine Flag-Datei unter `~/.local/state/omarchy/toggles/`. Wenn du in einem Skript danach verzweigen willst, gibt dir `omarchy-toggle-enabled` einen Exit-Code, statt dass du selbst danach suchen musst:
 
@@ -95,7 +95,7 @@ Du kannst ihn bei Bedarf aus _System > Screensaver_ (`Super + Esc`) starten, was
 
 Mit `omarchy toggle screensaver` schaltest du den Leerlauf-Bildschirmschoner aus, wenn du lieber direkt von der Arbeit zur Sperrung gehen willst. Jede Taste, jeder Klick, jedes Scrollen oder jede Mausbewegung schließt ihn.
 
-Das Logo, das er zeichnet, kannst du ändern, unter _Appearance > Branding > Screensaver_. Lade ein png oder svg hoch, und Omarchy wandelt es in ASCII um. Siehe [Branding](41-branding.md).
+Das Logo, das er zeichnet, kannst du ändern, unter _Appearance > Branding > Screensaver_. Lade ein png oder svg hoch, und Spherie wandelt es in ASCII um. Siehe [Branding](41-branding.md).
 
 ### Der Sperrbildschirm
 

@@ -1,6 +1,6 @@
 # Kaupalliset sovellukset/palvelut
 
-Omarchy keskittyy enimmäkseen ilmaisten, avoimen lähdekoodin ohjelmistojen tarjoamiseen, mutta se ei ole asian suhteen uskonnollinen. Joskus paras ratkaisu on kaupallinen tarjous, ja se käy aivan hyvin. Tässä on joitakin vaihtoehtoja, joille tarjoamme helpon asennuksen.
+Spherie keskittyy enimmäkseen ilmaisten, avoimen lähdekoodin ohjelmistojen tarjoamiseen, mutta se ei ole asian suhteen uskonnollinen. Joskus paras ratkaisu on kaupallinen tarjous, ja se käy aivan hyvin. Tässä on joitakin vaihtoehtoja, joille tarjoamme helpon asennuksen.
 
 ## 1Password
 
@@ -14,7 +14,7 @@ Käynnistät 1Passwordin näppäinyhdistelmällä `Super + Shift + /`. Jos sitä
 
 ## Spotify
 
-[Spotify](https://spotify.com/) on maailman suosituin musiikin suoratoistopalvelu. Omarchy toimittaa sen verkkosovelluksena, joka antaa käyttöösi täyden soittimen, medianäppäimet ja Spotify Connectin, mutta ei offline-latauksia. Käynnistä se näppäinyhdistelmällä `Super + Shift + M`.
+[Spotify](https://spotify.com/) on maailman suosituin musiikin suoratoistopalvelu. Spherie toimittaa sen verkkosovelluksena, joka antaa käyttöösi täyden soittimen, medianäppäimet ja Spotify Connectin, mutta ei offline-latauksia. Käynnistä se näppäinyhdistelmällä `Super + Shift + M`.
 
 ## Slack
 

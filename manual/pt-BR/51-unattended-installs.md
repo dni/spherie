@@ -1,8 +1,8 @@
 # Instalações autônomas
 
-A ISO do Omarchy pode se instalar sem ninguém no teclado. Se o instalador encontrar um segundo disco com o rótulo `cidata` contendo seus arquivos de configuração, ele os copia, pula o assistente de configuração por completo e reinicia sozinho no sistema pronto. Nenhuma versão especial da ISO, nenhuma entrada extra no menu de inicialização — sem um disco assim conectado, nada muda e você tem o assistente normal.
+A ISO do Spherie pode se instalar sem ninguém no teclado. Se o instalador encontrar um segundo disco com o rótulo `cidata` contendo seus arquivos de configuração, ele os copia, pula o assistente de configuração por completo e reinicia sozinho no sistema pronto. Nenhuma versão especial da ISO, nenhuma entrada extra no menu de inicialização — sem um disco assim conectado, nada muda e você tem o assistente normal.
 
-Isso torna o Omarchy ótimo como imagem base para ambientes de desenvolvimento descartáveis: crie uma VM no Proxmox ou com o Packer, inicialize, saia de perto, acesse por SSH. `cidata` é o rótulo `NoCloud` do cloud-init, então todas as ferramentas comuns de virtualização já sabem como conectar um disco assim.
+Isso torna o Spherie ótimo como imagem base para ambientes de desenvolvimento descartáveis: crie uma VM no Proxmox ou com o Packer, inicialize, saia de perto, acesse por SSH. `cidata` é o rótulo `NoCloud` do cloud-init, então todas as ferramentas comuns de virtualização já sabem como conectar um disco assim.
 
 ## Os arquivos de configuração
 
@@ -24,7 +24,7 @@ Você também pode colocar um arquivo vazio chamado `defer-provisioning` no luga
 
 ## Acesso por SSH
 
-Quando `authorized_keys` está presente, a instalação configura as chaves como o `~/.ssh/authorized_keys` do usuário, ativa o `sshd` e abre o firewall para ele. (Uma instalação padrão do Omarchy vem com o openssh com o serviço desativado e a porta fechada, então uma máquina autônoma ficaria inacessível de outra forma.) A instalação só adiciona as suas chaves — ela não afrouxa nenhuma das outras configurações de autenticação do daemon SSH.
+Quando `authorized_keys` está presente, a instalação configura as chaves como o `~/.ssh/authorized_keys` do usuário, ativa o `sshd` e abre o firewall para ele. (Uma instalação padrão do Spherie vem com o openssh com o serviço desativado e a porta fechada, então uma máquina autônoma ficaria inacessível de outra forma.) A instalação só adiciona as suas chaves — ela não afrouxa nenhuma das outras configurações de autenticação do daemon SSH.
 
 Quando `tailscale_authkey` está presente, a máquina entra no seu tailnet na primeira inicialização: o Tailscale é instalado a partir dos pacotes incluídos na ISO, o firewall permite a interface do tailnet e um trabalho em segundo plano executa a entrada assim que a máquina realmente tiver rede, tentando de novo até conseguir. Use uma chave reutilizável e pré-autorizada para que uma única imagem de disco possa atender muitas máquinas.
 
@@ -38,7 +38,7 @@ cp user_configuration.json user_credentials.json authorized_keys cidata/
 genisoimage -output cidata.iso -volid cidata -joliet -rock cidata/
 ```
 
-Depois conecte-o à VM junto com a ISO do Omarchy. Aqui está um exemplo completo no Proxmox:
+Depois conecte-o à VM junto com a ISO do Spherie. Aqui está um exemplo completo no Proxmox:
 
 ```bash
 qm create 101 --name my-omarchy \

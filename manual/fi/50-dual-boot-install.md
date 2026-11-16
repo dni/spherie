@@ -18,7 +18,7 @@ Etsi oikea osio, napsauta sitä hiiren kakkospainikkeella ja valitse **Shrink Vo
 
  ![dual-boot-3](images/dual-boot-3.webp)
 
-Kun olet valmis, sinun pitäisi nähdä jotain tämänkaltaista. Tässä esimerkissä Omarchy asennetaan 50GB:n osioon.
+Kun olet valmis, sinun pitäisi nähdä jotain tämänkaltaista. Tässä esimerkissä Spherie asennetaan 50GB:n osioon.
 
  ![dual-boot-4](images/dual-boot-4.webp)
 
@@ -35,7 +35,7 @@ Vahvista, että kaikki näyttää hyvältä, ja odota asennuksen valmistumista n
 
 Kun Omarchy-asennuksesi on valmis, huomaat, että Limine-käynnistyslatain on nyt oletuksena. Siihen voit lisätä myös vaihtoehtoja muille asennuksillesi, kuten Windowsille.
 
-Lisää muita käyttöjärjestelmiä suorittamalla `limine-scan` ja lisäämällä haluamasi merkinnät Limine-määritykseesi ohjeiden mukaisesti. Käynnistysvalikko pysyy oletuksena piilossa ja käynnistää Omarchyn yhden sekunnin kuluttua. Valitse Windows tai muu merkintä painamalla mitä tahansa näppäintä heti, kun Limine käynnistyy. Kun valikko tulee näkyviin, valitse merkintä nuolinäppäimillä ja paina Enter. Jos Omarchy käynnistyy ennen kuin ehdit painaa näppäintä, käynnistä kone uudelleen ja yritä uudelleen. Jos otit käyttöön asetuksen _Setup > Direct Boot_, laiteohjelmisto ohittaa Limine kokonaan. Valitse silloin Limine BIOS-käynnistysvalikosta tai poista merkintä suorittamalla _Setup > Direct Boot_ uudelleen.
+Lisää muita käyttöjärjestelmiä suorittamalla `limine-scan` ja lisäämällä haluamasi merkinnät Limine-määritykseesi ohjeiden mukaisesti. Käynnistysvalikko pysyy oletuksena piilossa ja käynnistää Omarchyn yhden sekunnin kuluttua. Valitse Windows tai muu merkintä painamalla mitä tahansa näppäintä heti, kun Limine käynnistyy. Kun valikko tulee näkyviin, valitse merkintä nuolinäppäimillä ja paina Enter. Jos Spherie käynnistyy ennen kuin ehdit painaa näppäintä, käynnistä kone uudelleen ja yritä uudelleen. Jos otit käyttöön asetuksen _Setup > Direct Boot_, laiteohjelmisto ohittaa Limine kokonaan. Valitse silloin Limine BIOS-käynnistysvalikosta tai poista merkintä suorittamalla _Setup > Direct Boot_ uudelleen.
 
 ## Bitlocker
 

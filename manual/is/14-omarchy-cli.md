@@ -1,6 +1,6 @@
-# Omarchy CLI
+# Spherie CLI
 
-Omarchy er venjulega stjórnað með flýtilyklunum og Omarchy-valmyndinni (`Super + Space`). En þú getur líka stjórnað því gegnum `omarchy` CLI. Þetta er sérstaklega gagnlegt þegar þú ert að hafa AI agent að vinna með þér að sérstillingum eða uppsetningu.
+Spherie er venjulega stjórnað með flýtilyklunum og Omarchy-valmyndinni (`Super + Space`). En þú getur líka stjórnað því gegnum `omarchy` CLI. Þetta er sérstaklega gagnlegt þegar þú ert að hafa AI agent að vinna með þér að sérstillingum eða uppsetningu.
 
 CLI hefur aðgang að öllum innri verkfærunum sem eru notuð bæði gegnum valmyndina og annars staðar. Þú getur séð allt sem er í boði með því að keyra `omarchy` í terminal.
 
@@ -8,7 +8,7 @@ CLI hefur aðgang að öllum innri verkfærunum sem eru notuð bæði gegnum val
 
 ```
 ~ ❯ omarchy
-Omarchy command center
+Spherie command center
 
 Usage:
   omarchy <command> [args...]
@@ -17,7 +17,7 @@ Usage:
   omarchy <group> <command> --help
 
 Common commands:
-  omarchy update              Update Omarchy and system packages
+  omarchy update              Update Spherie and system packages
   omarchy theme list          List available themes
   omarchy theme set <name>    Apply a theme
   omarchy font list           List available fonts
@@ -27,14 +27,14 @@ Common commands:
 Groups:
   agent          AI coding agents, their usage, and subscription accounts
   audio          Audio input and output controls
-  bar            Omarchy shell bar layout and settings
+  bar            Spherie shell bar layout and settings
   battery        Battery status helpers
   bluetooth      Bluetooth device controls
-  branch         Omarchy git branch management
+  branch         Spherie git branch management
   branding       About and screensaver branding
   brightness     Display and keyboard brightness
   capture        Screenshots and screen recording
-  channel        Omarchy release channel management
+  channel        Spherie release channel management
   clipboard      Clipboard helpers
   cmd            Command and shortcut helpers
   config         System configuration helpers

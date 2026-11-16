@@ -1,0 +1,12 @@
+[Unit]
+Description=Spherie isolated bridges (no host address)
+Before=network-pre.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+Environment=OMARCHY_PATH=/usr/share/omarchy
+ExecStart=/usr/bin/omarchy-sphere-net bridges
+
+[Install]
+WantedBy=multi-user.target

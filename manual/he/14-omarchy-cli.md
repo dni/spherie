@@ -1,6 +1,6 @@
-# Omarchy CLI
+# Spherie CLI
 
-את Omarchy שולטים בדרך כלל דרך מקשי הקיצור והתפריט של Omarchy (`Super + Space`). אבל אפשר לשלוט בה גם דרך ה-CLI של `omarchy`. זה מועיל במיוחד כשסוכן AI עובד איתך על התאמה אישית או על תצורה.
+את Spherie שולטים בדרך כלל דרך מקשי הקיצור והתפריט של Spherie (`Super + Space`). אבל אפשר לשלוט בה גם דרך ה-CLI של `omarchy`. זה מועיל במיוחד כשסוכן AI עובד איתך על התאמה אישית או על תצורה.
 
 ל-CLI יש גישה לכל הכלים הפנימיים שמשמשים גם דרך התפריט וגם בדרכים אחרות. אפשר לראות את כל מה שזמין על ידי הרצת `omarchy` בטרמינל.
 
@@ -8,7 +8,7 @@
 
 ```
 ~ ❯ omarchy
-Omarchy command center
+Spherie command center
 
 Usage:
   omarchy <command> [args...]
@@ -17,7 +17,7 @@ Usage:
   omarchy <group> <command> --help
 
 Common commands:
-  omarchy update              Update Omarchy and system packages
+  omarchy update              Update Spherie and system packages
   omarchy theme list          List available themes
   omarchy theme set <name>    Apply a theme
   omarchy font list           List available fonts
@@ -27,14 +27,14 @@ Common commands:
 Groups:
   agent          AI coding agents, their usage, and subscription accounts
   audio          Audio input and output controls
-  bar            Omarchy shell bar layout and settings
+  bar            Spherie shell bar layout and settings
   battery        Battery status helpers
   bluetooth      Bluetooth device controls
-  branch         Omarchy git branch management
+  branch         Spherie git branch management
   branding       About and screensaver branding
   brightness     Display and keyboard brightness
   capture        Screenshots and screen recording
-  channel        Omarchy release channel management
+  channel        Spherie release channel management
   clipboard      Clipboard helpers
   cmd            Command and shortcut helpers
   config         System configuration helpers
@@ -59,4 +59,4 @@ Capture commands — Screenshots and screen recording:
 
 ### פתיחת התפריט מהטרמינל
 
-גם בתפריט של Omarchy אפשר לשלוט באמצעות סקריפטים, וזה שימושי עבור מקשי הקיצור שלך. `omarchy menu` פותח אותו מהשורש, ואפשר לקפוץ ישר לכל נקודה בעץ על ידי ציון שמה: `omarchy menu summon appearance.theme` הולך ישר לבוחר ערכות הנושא, `omarchy menu toggle system` פותח את תפריט המערכת וסוגר אותו שוב אם הוא כבר פתוח, ו-`omarchy menu close` מסתיר אותו.
+גם בתפריט של Spherie אפשר לשלוט באמצעות סקריפטים, וזה שימושי עבור מקשי הקיצור שלך. `omarchy menu` פותח אותו מהשורש, ואפשר לקפוץ ישר לכל נקודה בעץ על ידי ציון שמה: `omarchy menu summon appearance.theme` הולך ישר לבוחר ערכות הנושא, `omarchy menu toggle system` פותח את תפריט המערכת וסוגר אותו שוב אם הוא כבר פתוח, ו-`omarchy menu close` מסתיר אותו.

@@ -1,0 +1,346 @@
+diff --git a/src/main.rs b/src/main.rs
+index 8046379..87e2d64 100644
+--- a/src/main.rs
++++ b/src/main.rs
+@@ -328,6 +328,18 @@ fn build_connection_command<'a>(
+         args.push(OsStr::new("--title-prefix"));
+         args.push(OsStr::new(&options.title_prefix));
+     }
++    if let Some(list) = &options.allow_globals {
++        args.push(OsStr::new("--allow-globals"));
++        args.push(OsStr::new(list));
++    }
++    if let Some(name) = &options.clipboard_owner {
++        args.push(OsStr::new("--clipboard-owner"));
++        args.push(OsStr::new(name));
++    }
++    if let Some(path) = &options.clipboard_arm {
++        args.push(OsStr::new("--clipboard-arm"));
++        args.push(path.as_os_str());
++    }
+     if options.video.format.is_some() {
+         args.push(vid_str);
+     }
+@@ -2147,6 +2159,25 @@ fn main() -> Result<ExitCode, String> {
+                 .help("Prepend string to all window titles")
+                 .default_value(""),
+         )
++        .arg(
++            Arg::new("allow-globals")
++                .long("allow-globals")
++                .value_name("list")
++                .help("client: Only advertise and allow binding these comma-separated globals"),
++        )
++        .arg(
++            Arg::new("clipboard-owner")
++                .long("clipboard-owner")
++                .value_name("name")
++                .help("client: Only show clipboard and drag-and-drop data offered under the same owner name"),
++        )
++        .arg(
++            Arg::new("clipboard-arm")
++                .long("clipboard-arm")
++                .value_name("path")
++                .value_parser(value_parser!(PathBuf))
++                .help("client: Also show unmarked selections while this file contains the owner name"),
++        )
+         .arg(
+             Arg::new("unlink-socket")
+                 .long("unlink-socket")
+@@ -2296,6 +2327,18 @@ fn main() -> Result<ExitCode, String> {
+     let socket_arg = matches.get_one::<OsString>("socket");
+     let remote_socket_arg = matches.get_one::<OsString>("remote-socket");
+     let title_prefix = matches.get_one::<String>("title-prefix").unwrap();
++    let allow_globals = matches.get_one::<String>("allow-globals").cloned();
++    let clipboard_owner = matches.get_one::<String>("clipboard-owner").cloned();
++    let clipboard_arm = matches.get_one::<PathBuf>("clipboard-arm").cloned();
++    if let Some(name) = &clipboard_owner {
++        if name.is_empty()
++            || !name
++                .bytes()
++                .all(|c| c.is_ascii_alphanumeric() || c == b'-' || c == b'_')
++        {
++            return Err(tag!("--clipboard-owner must be a non-empty [A-Za-z0-9_-] name"));
++        }
++    }
+     let display = matches.get_one::<PathBuf>("display");
+     let threads = matches.get_one::<u32>("threads").unwrap();
+     let unlink = *matches.get_one::<bool>("unlink-socket").unwrap();
+@@ -2389,6 +2432,9 @@ fn main() -> Result<ExitCode, String> {
+         video,
+         threads: *threads,
+         title_prefix: (*title_prefix).clone(),
++        allow_globals,
++        clipboard_owner,
++        clipboard_arm,
+         drm_node: drm_node.cloned(),
+         test_skip_vulkan,
+         test_no_timeline_export,
+diff --git a/src/mainloop.rs b/src/mainloop.rs
+index d35fe63..78601db 100644
+--- a/src/mainloop.rs
++++ b/src/mainloop.rs
+@@ -151,6 +151,11 @@ pub struct Globals<'a> {
+      * creates to be safe. */
+     pub screencopy_restrictions: BTreeMap<u32, Vec<u64>>,
+ 
++    /** Clipboard gate: owner name found on each data offer's marker mime type */
++    pub offer_owner: BTreeMap<ObjId, Vec<u8>>,
++    /** Clipboard gate: data offers hidden from the program; reading them is an error */
++    pub hidden_offers: BTreeSet<ObjId>,
++
+     /** Options. */
+     pub opts: &'a Options,
+ 
+@@ -5912,6 +5917,15 @@ pub struct Options {
+     pub threads: u32,
+     /** A valid utf8 string with which to prefix xdg toplevel titles */
+     pub title_prefix: String,
++    /** Display side: if set, a comma-separated list of the only globals that
++     * are advertised and may be bound; all other globals are hidden. */
++    pub allow_globals: Option<String>,
++    /** Display side: if set, gate clipboard and drag-and-drop data so this
++     * connection only sees data offered by connections with the same owner name. */
++    pub clipboard_owner: Option<String>,
++    /** Display side, with clipboard_owner: a file whose content, when equal to the
++     * owner name, also lets unmarked (compositor-local) selections through. */
++    pub clipboard_arm: Option<PathBuf>,
+     /* If true, filter out protocols and messages using dmabufs */
+     pub no_gpu: bool,
+     /* The drm render node to use (if the Wayland compositor does not specify a specific node) */
+@@ -6004,6 +6018,8 @@ pub fn main_interface_loop(
+         presentation_clock: None,
+         advertised_modifiers: BTreeMap::new(),
+         screencopy_restrictions: BTreeMap::new(),
++        offer_owner: BTreeMap::new(),
++        hidden_offers: BTreeSet::new(),
+         opts,
+         wire_version: init_wire_version,
+         has_first_message: false,
+diff --git a/src/tracking.rs b/src/tracking.rs
+index cb38323..34747e4 100644
+--- a/src/tracking.rs
++++ b/src/tracking.rs
+@@ -1513,6 +1513,208 @@ macro_rules! check_space {
+     };
+ }
+ 
++/** Mime type prefix marking which owner offered clipboard/drag data. */
++const OWNER_MIME_PREFIX: &[u8] = b"application/x-waypipe-owner-";
++
++fn global_allowed(list: &str, intf: &[u8]) -> bool {
++    list.split(',').any(|x| x.trim().as_bytes() == intf)
++}
++
++fn clipboard_armed(glob: &Globals, owner: &str) -> bool {
++    let Some(path) = &glob.opts.clipboard_arm else {
++        return false;
++    };
++    match std::fs::read(path) {
++        Ok(data) => {
++            /* trim_ascii() needs Rust 1.80, newer than this crate's minimum */
++            let end = data
++                .iter()
++                .rposition(|c| !c.is_ascii_whitespace())
++                .map_or(0, |i| i + 1);
++            &data[..end] == owner.as_bytes()
++        }
++        Err(_) => false,
++    }
++}
++
++/** Display-side isolation for running untrusted programs (e.g. in a VM):
++ * restrict globals to an allowlist, give every toplevel the title prefix from
++ * the start, and gate clipboard and drag-and-drop data by owner.
++ *
++ * Returns Ok(None) when the message should get regular processing. */
++fn isolation_filter(
++    msg: &[u8],
++    dst: &mut &mut [u8],
++    obj_type: WaylandInterface,
++    opcode: usize,
++    is_req: bool,
++    object_id: ObjId,
++    glob: &mut Globals,
++) -> Result<Option<ProcMsg>, String> {
++    let opts = glob.opts;
++    assert!(opcode <= u8::MAX as usize);
++    let mod_opcode = if is_req {
++        MethodId::Request(opcode as u8)
++    } else {
++        MethodId::Event(opcode as u8)
++    };
++    let meth_table = if is_req {
++        INTERFACE_TABLE[obj_type as usize].reqs
++    } else {
++        INTERFACE_TABLE[obj_type as usize].evts
++    };
++    let Some(meth) = meth_table.get(opcode) else {
++        return Ok(None);
++    };
++
++    match (obj_type, mod_opcode) {
++        (WaylandInterface::WlRegistry, OPCODE_WL_REGISTRY_GLOBAL) => {
++            let Some(list) = &opts.allow_globals else {
++                return Ok(None);
++            };
++            let (_name, intf, _version) = parse_evt_wl_registry_global(msg)?;
++            if global_allowed(list, intf) {
++                return Ok(None);
++            }
++            debug!("Hiding global not in allowlist: {}", EscapeWlName(intf));
++            Ok(Some(ProcMsg::Done))
++        }
++        (WaylandInterface::WlRegistry, OPCODE_WL_REGISTRY_BIND) => {
++            let Some(list) = &opts.allow_globals else {
++                return Ok(None);
++            };
++            /* The compositor rejects binds whose interface does not match the
++             * global's, so checking the interface name is sufficient. */
++            let (_name, intf, _version, _oid) = parse_req_wl_registry_bind(msg)?;
++            if global_allowed(list, intf) {
++                return Ok(None);
++            }
++            Err(tag!(
++                "Program tried to bind global not in allowlist: {}",
++                EscapeWlName(intf)
++            ))
++        }
++        (WaylandInterface::XdgSurface, OPCODE_XDG_SURFACE_GET_TOPLEVEL) => {
++            /* Without this, a toplevel that never sets a title would not
++             * carry the prefix at all. */
++            if opts.title_prefix.is_empty() {
++                return Ok(None);
++            }
++            let prefix = opts.title_prefix.as_bytes();
++            let toplevel = parse_req_xdg_surface_get_toplevel(msg)?;
++            let space = msg.len() + length_req_xdg_toplevel_set_title(prefix.len());
++            if dst.len() < space {
++                return Ok(Some(ProcMsg::NeedsSpace((space, 0))));
++            }
++            let r = default_proc_way_msg(msg, dst, meth, is_req, object_id, glob)?;
++            write_req_xdg_toplevel_set_title(dst, toplevel, prefix);
++            Ok(Some(r))
++        }
++        (WaylandInterface::WlDataDeviceManager, OPCODE_WL_DATA_DEVICE_MANAGER_CREATE_DATA_SOURCE) => {
++            let Some(owner) = &opts.clipboard_owner else {
++                return Ok(None);
++            };
++            let mut marker = OWNER_MIME_PREFIX.to_vec();
++            marker.extend_from_slice(owner.as_bytes());
++            let source = parse_req_wl_data_device_manager_create_data_source(msg)?;
++            let space = msg.len() + length_req_wl_data_source_offer(marker.len());
++            if dst.len() < space {
++                return Ok(Some(ProcMsg::NeedsSpace((space, 0))));
++            }
++            let r = default_proc_way_msg(msg, dst, meth, is_req, object_id, glob)?;
++            write_req_wl_data_source_offer(dst, source, &marker);
++            Ok(Some(r))
++        }
++        (WaylandInterface::WlDataSource, OPCODE_WL_DATA_SOURCE_OFFER) => {
++            if opts.clipboard_owner.is_none() {
++                return Ok(None);
++            }
++            let mime = parse_req_wl_data_source_offer(msg)?;
++            if mime.starts_with(OWNER_MIME_PREFIX) {
++                debug!("Dropping program-supplied owner marker");
++                return Ok(Some(ProcMsg::Done));
++            }
++            Ok(None)
++        }
++        (WaylandInterface::WlDataDevice, OPCODE_WL_DATA_DEVICE_DATA_OFFER) => {
++            if opts.clipboard_owner.is_none() {
++                return Ok(None);
++            }
++            /* Offer IDs are reused, so forget anything known about the old one */
++            let offer = parse_evt_wl_data_device_data_offer(msg)?;
++            glob.offer_owner.remove(&offer);
++            glob.hidden_offers.remove(&offer);
++            Ok(None)
++        }
++        (WaylandInterface::WlDataOffer, OPCODE_WL_DATA_OFFER_OFFER) => {
++            if opts.clipboard_owner.is_none() {
++                return Ok(None);
++            }
++            let mime = parse_evt_wl_data_offer_offer(msg)?;
++            if let Some(owner) = mime.strip_prefix(OWNER_MIME_PREFIX) {
++                glob.offer_owner.insert(object_id, owner.to_vec());
++                /* The marker is Waypipe's bookkeeping; the program never sees it */
++                return Ok(Some(ProcMsg::Done));
++            }
++            Ok(None)
++        }
++        (WaylandInterface::WlDataDevice, OPCODE_WL_DATA_DEVICE_SELECTION) => {
++            let Some(owner) = &opts.clipboard_owner else {
++                return Ok(None);
++            };
++            let offer = parse_evt_wl_data_device_selection(msg)?;
++            if offer == ObjId(0) {
++                return Ok(None);
++            }
++            let allowed = match glob.offer_owner.get(&offer) {
++                Some(o) => o.as_slice() == owner.as_bytes(),
++                None => clipboard_armed(glob, owner),
++            };
++            if allowed {
++                return Ok(None);
++            }
++            debug!("Hiding selection offer {} from another owner", offer);
++            glob.hidden_offers.insert(offer);
++            if dst.len() < msg.len() {
++                return Ok(Some(ProcMsg::NeedsSpace((msg.len(), 0))));
++            }
++            write_evt_wl_data_device_selection(dst, object_id, ObjId(0));
++            Ok(Some(ProcMsg::Done))
++        }
++        (WaylandInterface::WlDataDevice, MethodId::Event(1)) => {
++            /* wl_data_device::enter(serial, surface, x, y, id: ?wl_data_offer) */
++            let Some(owner) = &opts.clipboard_owner else {
++                return Ok(None);
++            };
++            if msg.len() != 28 {
++                return Err(tag!("Unexpected wl_data_device::enter length {}", msg.len()));
++            }
++            let offer = ObjId(u32::from_le_bytes(msg[24..28].try_into().unwrap()));
++            if offer == ObjId(0)
++                || glob.offer_owner.get(&offer).map(|o| o.as_slice()) == Some(owner.as_bytes())
++            {
++                return Ok(None);
++            }
++            debug!("Hiding drag offer {} from another owner", offer);
++            glob.hidden_offers.insert(offer);
++            if dst.len() < msg.len() {
++                return Ok(Some(ProcMsg::NeedsSpace((msg.len(), 0))));
++            }
++            let mut copy = msg.to_vec();
++            copy[24..28].fill(0);
++            copy_msg(&copy, dst);
++            Ok(Some(ProcMsg::Done))
++        }
++        (WaylandInterface::WlDataOffer, OPCODE_WL_DATA_OFFER_RECEIVE) => {
++            if glob.hidden_offers.contains(&object_id) {
++                return Err(tag!("Program tried to read a hidden data offer"));
++            }
++            Ok(None)
++        }
++        _ => Ok(None),
++    }
++}
++
+ /** Process a Wayland message; typically this just copies the message from the source
+  * to the destination buffer, but sometimes messages are dropped and inserted, and file
+  * descriptor processing is done or queued.
+@@ -1538,6 +1740,13 @@ pub fn process_way_msg(
+     };
+ 
+     let is_req = glob.on_display_side == from_channel;
++    if glob.on_display_side {
++        if let Some(obj_type) = glob.objects.get(&object_id).map(|o| o.obj_type) {
++            if let Some(r) = isolation_filter(msg, dst, obj_type, opcode, is_req, object_id, glob)? {
++                return Ok(r);
++            }
++        }
++    }
+     let Some(ref mut obj) = glob.objects.get_mut(&object_id) else {
+         debug!(
+             "Processing {} on unknown object {}; opcode {} length {}",

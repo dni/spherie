@@ -1,10 +1,10 @@
 # Connectors de l'intèrpret d'escriptori
 
-L'escriptori d'Omarchy s'executa com un únic procés Quickshell de llarga durada anomenat `omarchy-shell`, i gairebé tot el que veus en pantalla és un connector a dins seu. La barra és un connector. També ho són els panells que en baixen, les superposicions a pantalla completa com el selector d'emojis i el gestor del porta-retalls, el mateix menú d'Omarchy, la pantalla de bloqueig, el diàleg de polkit i els serveis sense interfície que observen la teva bateria i escalfen la pantalla a la nit.
+L'escriptori d'Spherie s'executa com un únic procés Quickshell de llarga durada anomenat `omarchy-shell`, i gairebé tot el que veus en pantalla és un connector a dins seu. La barra és un connector. També ho són els panells que en baixen, les superposicions a pantalla completa com el selector d'emojis i el gestor del porta-retalls, el mateix menú d'Spherie, la pantalla de bloqueig, el diàleg de polkit i els serveis sense interfície que observen la teva bateria i escalfen la pantalla a la nit.
 
-Això no és només un detall d'implementació. Vol dir que pots apagar peces de l'escriptori, intercanviar-les o escriure'n de pròpies sense tocar ni una línia del codi font d'Omarchy.
+Això no és només un detall d'implementació. Vol dir que pots apagar peces de l'escriptori, intercanviar-les o escriure'n de pròpies sense tocar ni una línia del codi font d'Spherie.
 
-Els connectors oficials venen amb Omarchy i viuen a `$OMARCHY_PATH/shell/plugins/`. Qualsevol cosa que afegeixis tu mateix — els teus propis experiments, o alguna cosa que hagis trobat a GitHub — viu a `~/.config/omarchy/plugins/`. Tots dos es descobreixen de la mateixa manera a l'arrencada, però els integrats reben interfícies de l'intèrpret de confiança mentre que els connectors de tercers reben una interfície limitada restringida al seu propi servei i cicle de vida. Els clons dels integrats conserven només la configuració i les crides a la interfície d'usuari específiques de l'origen necessàries per al comportament original.
+Els connectors oficials venen amb Spherie i viuen a `$OMARCHY_PATH/shell/plugins/`. Qualsevol cosa que afegeixis tu mateix — els teus propis experiments, o alguna cosa que hagis trobat a GitHub — viu a `~/.config/omarchy/plugins/`. Tots dos es descobreixen de la mateixa manera a l'arrencada, però els integrats reben interfícies de l'intèrpret de confiança mentre que els connectors de tercers reben una interfície limitada restringida al seu propi servei i cicle de vida. Els clons dels integrats conserven només la configuració i les crides a la interfície d'usuari específiques de l'origen necessàries per al comportament original.
 
 ## Veure què tens
 
@@ -101,4 +101,4 @@ Per al desenvolupament de connectors, consulta la [referència de l'intèrpret](
 
 Un cop hagis fet alguna cosa que t'agradi, posa-ho en un repositori git públic. Aquest és tot el mecanisme de distribució: llavors qualsevol pot executar `omarchy plugin add` contra el teu URL i tenir-lo en funcionament en qüestió de segons.
 
-Per ajudar la gent a trobar-lo de debò, llista'l a [plugins.omarchy.org](https://plugins.omarchy.org). Aquest és el mercat de connectors de l'intèrpret d'Omarchy, i és el primer lloc on cal mirar quan et preguntes si algú ja ha creat el giny que estàs a punt d'escriure. Fes-hi un cop d'ull abans de començar!
+Per ajudar la gent a trobar-lo de debò, llista'l a [plugins.omarchy.org](https://plugins.omarchy.org). Aquest és el mercat de connectors de l'intèrpret d'Spherie, i és el primer lloc on cal mirar quan et preguntes si algú ja ha creat el giny que estàs a punt d'escriure. Fes-hi un cop d'ull abans de començar!

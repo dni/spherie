@@ -1,6 +1,6 @@
 # Järelevalveta paigaldused
 
-Omarchy ISO suudab end ise paigaldada ilma, et keegi klaviatuuri taga oleks. Kui paigaldaja leiab teise draivi sildiga `cidata`, millel on selle konfiguratsioonifailid, kopeerib ta need sealt ära, jätab seadistusviisardi täielikult vahele ja taaskäivitub omal käel valmis süsteemi. Ei mingit spetsiaalset ISO koosteversiooni, ei mingit lisakirjet alglaadimismenüüs — kui sellist draivi küljes pole, ei muutu midagi ja saad tavalise viisardi.
+Spherie ISO suudab end ise paigaldada ilma, et keegi klaviatuuri taga oleks. Kui paigaldaja leiab teise draivi sildiga `cidata`, millel on selle konfiguratsioonifailid, kopeerib ta need sealt ära, jätab seadistusviisardi täielikult vahele ja taaskäivitub omal käel valmis süsteemi. Ei mingit spetsiaalset ISO koosteversiooni, ei mingit lisakirjet alglaadimismenüüs — kui sellist draivi küljes pole, ei muutu midagi ja saad tavalise viisardi.
 
 See teeb Omarchyst suurepärase baastõmmise ühekordsete arenduskeskkondade jaoks: loo VM Proxmoxis või Packeriga, käivita see, kõnni minema, logi SSH kaudu sisse. `cidata` on cloud-initi `NoCloud` silt, nii et kõik levinud virtualiseerimistööriistad oskavad sellise draivi juba külge ühendada.
 
@@ -24,7 +24,7 @@ Võid `user_credentials.json` asemel sisse panna ka tühja faili nimega `defer-p
 
 ## SSH juurdepääs
 
-Kui `authorized_keys` on olemas, seab paigaldus võtmed kasutaja `~/.ssh/authorized_keys` failiks, lubab `sshd` ja avab selle jaoks tulemüüri. (Omarchy tavapaigalduses tarnitakse openssh keelatud teenuse ja suletud pordiga, nii et järelevalveta masin oleks muidu kättesaamatu.) Paigaldus lisab ainult sinu võtmed — see ei lõdvenda ühtegi muud SSH deemoni autentimisseadet.
+Kui `authorized_keys` on olemas, seab paigaldus võtmed kasutaja `~/.ssh/authorized_keys` failiks, lubab `sshd` ja avab selle jaoks tulemüüri. (Spherie tavapaigalduses tarnitakse openssh keelatud teenuse ja suletud pordiga, nii et järelevalveta masin oleks muidu kättesaamatu.) Paigaldus lisab ainult sinu võtmed — see ei lõdvenda ühtegi muud SSH deemoni autentimisseadet.
 
 Kui `tailscale_authkey` on olemas, liitub masin selle asemel esimesel käivitamisel sinu tailnetiga: Tailscale paigaldatakse ISO-ga kaasas olevatest pakettidest, tulemüür lubab tailneti liidest ja taustatöö käivitab liitumise niipea, kui masinal on päriselt võrk olemas, proovides uuesti, kuni see õnnestub. Kasuta korduvkasutatavat, eelnevalt autoriseeritud võtit, nii saab üks draivitõmmis teenindada paljusid masinaid.
 
@@ -38,7 +38,7 @@ cp user_configuration.json user_credentials.json authorized_keys cidata/
 genisoimage -output cidata.iso -volid cidata -joliet -rock cidata/
 ```
 
-Seejärel ühenda see Omarchy ISO kõrval VM-i külge. Siin on täielik Proxmoxi näide:
+Seejärel ühenda see Spherie ISO kõrval VM-i külge. Siin on täielik Proxmoxi näide:
 
 ```bash
 qm create 101 --name my-omarchy \

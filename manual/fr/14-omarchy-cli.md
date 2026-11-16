@@ -1,6 +1,6 @@
-# Omarchy CLI
+# Spherie CLI
 
-Omarchy se contrôle habituellement via les raccourcis clavier et le menu Omarchy (`Super + Space`). Mais vous pouvez aussi le contrôler via la CLI `omarchy`. C'est particulièrement utile lorsque vous faites travailler un agent IA avec vous sur la personnalisation ou la configuration.
+Spherie se contrôle habituellement via les raccourcis clavier et le menu Spherie (`Super + Space`). Mais vous pouvez aussi le contrôler via la CLI `omarchy`. C'est particulièrement utile lorsque vous faites travailler un agent IA avec vous sur la personnalisation ou la configuration.
 
 La CLI a accès à tous les outils internes utilisés à la fois via le menu et autrement. Vous pouvez voir tout ce qui est disponible en exécutant `omarchy` dans le terminal.
 
@@ -8,7 +8,7 @@ Cela ressemble à quelque chose comme ceci :
 
 ```
 ~ ❯ omarchy
-Omarchy command center
+Spherie command center
 
 Usage:
   omarchy <command> [args...]
@@ -17,7 +17,7 @@ Usage:
   omarchy <group> <command> --help
 
 Common commands:
-  omarchy update              Update Omarchy and system packages
+  omarchy update              Update Spherie and system packages
   omarchy theme list          List available themes
   omarchy theme set <name>    Apply a theme
   omarchy font list           List available fonts
@@ -27,14 +27,14 @@ Common commands:
 Groups:
   agent          AI coding agents, their usage, and subscription accounts
   audio          Audio input and output controls
-  bar            Omarchy shell bar layout and settings
+  bar            Spherie shell bar layout and settings
   battery        Battery status helpers
   bluetooth      Bluetooth device controls
-  branch         Omarchy git branch management
+  branch         Spherie git branch management
   branding       About and screensaver branding
   brightness     Display and keyboard brightness
   capture        Screenshots and screen recording
-  channel        Omarchy release channel management
+  channel        Spherie release channel management
   clipboard      Clipboard helpers
   cmd            Command and shortcut helpers
   config         System configuration helpers
@@ -59,4 +59,4 @@ Chaque commande accepte aussi `--help`, que vous interrogiez un groupe entier (`
 
 ### Ouvrir le menu depuis le terminal
 
-Le menu Omarchy est également scriptable, ce qui est pratique pour vos propres raccourcis clavier. `omarchy menu` l'ouvre à la racine, et vous pouvez sauter directement à n'importe quel point de l'arborescence en le nommant : `omarchy menu summon appearance.theme` va directement au sélecteur de thème, `omarchy menu toggle system` ouvre le menu système et le referme s'il est déjà affiché, et `omarchy menu close` le masque.
+Le menu Spherie est également scriptable, ce qui est pratique pour vos propres raccourcis clavier. `omarchy menu` l'ouvre à la racine, et vous pouvez sauter directement à n'importe quel point de l'arborescence en le nommant : `omarchy menu summon appearance.theme` va directement au sélecteur de thème, `omarchy menu toggle system` ouvre le menu système et le referme s'il est déjà affiché, et `omarchy menu close` le masque.

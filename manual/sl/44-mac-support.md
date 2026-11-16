@@ -1,16 +1,16 @@
 # Podpora za Mac
 
-Omarchy ima vgrajeno podporo za **Intel Macs**. Trenutno obstaja nekaj znanih omejitev, a dokler se jih zavedate in so vam sprejemljive, lahko z namestitvijo Omarchy svojim starim Macom vdihnete novo življenje.
+Spherie ima vgrajeno podporo za **Intel Macs**. Trenutno obstaja nekaj znanih omejitev, a dokler se jih zavedate in so vam sprejemljive, lahko z namestitvijo Spherie svojim starim Macom vdihnete novo življenje.
 
 Upoštevajte, da namestitev na Mac s čipi M-serije trenutno ni neposredno podprta. Več o tem, v kakšnem stanju je to, lahko izveste v #omarchy-on-other v našem [Discord](https://discord.gg/tXFUdasqhY).
 
-V preprostem testu nam je uspelo na MacBook Pro iz leta 2019 doseči 36 % izboljšanje zmogljivosti zgolj z namestitvijo Omarchy.
+V preprostem testu nam je uspelo na MacBook Pro iz leta 2019 doseči 36 % izboljšanje zmogljivosti zgolj z namestitvijo Spherie.
 
  ![macbook-omarchy](images/macbook-omarchy.webp)
 
-### Nameščanje Omarchy na Mac
+### Nameščanje Spherie na Mac
 
-Omarchy trenutno podpira le namestitev kot **edini** OS. Med namestitvijo bo pogon izbrisan in MacOS ne bo več mogoče zagnati.
+Spherie trenutno podpira le namestitev kot **edini** OS. Med namestitvijo bo pogon izbrisan in MacOS ne bo več mogoče zagnati.
 
 Če želite, ga lahko pozneje še vedno obnovite prek Internet Recovery.
 

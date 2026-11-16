@@ -1,6 +1,6 @@
 # Netkerfi
 
-Netkerfi í Omarchy er í höndum NetworkManager, og þú stjórnar því frá nettákninu í [efstu stikunni](05-the-top-bar.md) eða með `Super + Ctrl + N`.
+Netkerfi í Spherie er í höndum NetworkManager, og þú stjórnar því frá nettákninu í [efstu stikunni](05-the-top-bar.md) eða með `Super + Ctrl + N`.
 
 Það spjald skannar eftir Wi-Fi netum, sýnir merkjastyrk og tengist. Ethernet þarf alls ekkert — stinga því bara í samband og það virkar. Ef þú vilt frekar vera í skelinni gefur `nmtui` þér sömu stjórntæki, og það er líka til `omarchy network` skipanahópur.
 
@@ -12,7 +12,7 @@ Ef þú þarft í raun lykilorðið sjálft prentar `omarchy network password <i
 
 ## DNS
 
-Omarchy notar það DNS sem netið þitt afhendir yfir DHCP. Þú getur hnekkt því fyrir alla vélina undir _Setup > Network > DNS_, þar sem Cloudflare og Google eru í eins smellis fjarlægð. Veldu _Custom_ til að slá inn eigin netþjóna.
+Spherie notar það DNS sem netið þitt afhendir yfir DHCP. Þú getur hnekkt því fyrir alla vélina undir _Setup > Network > DNS_, þar sem Cloudflare og Google eru í eins smellis fjarlægð. Veldu _Custom_ til að slá inn eigin netþjóna.
 
 Frá skelinni prentar `omarchy dns` núverandi veitu og `omarchy dns Cloudflare` stillir eina.
 
@@ -24,7 +24,7 @@ Ef beinirinn þinn setur 2.4GHz, 5GHz og 6GHz á sama nafn netsins mun fartölva
 
 ## Hversu hratt er það?
 
-_Trigger > Speed Test > Network Speed Test_ mælir raunverulegan hraða þinn upp og niður með tveimur skífum. Frá skelinni er það `omarchy network speedtest down` eða `up`. Það mælir gagnvart eigin þjónustu Omarchy og telur aðeins prófunarflutninga hennar. Önnur niðurhöl geta keppt um bandvídd, en þeim er ekki bætt við niðurstöðu hraðaprófsins. (Það er diskahraðapróf við hliðina á því í þeirri valmynd, ef þú ert að mæla hinn flöskuhálsinn.)
+_Trigger > Speed Test > Network Speed Test_ mælir raunverulegan hraða þinn upp og niður með tveimur skífum. Frá skelinni er það `omarchy network speedtest down` eða `up`. Það mælir gagnvart eigin þjónustu Spherie og telur aðeins prófunarflutninga hennar. Önnur niðurhöl geta keppt um bandvídd, en þeim er ekki bætt við niðurstöðu hraðaprófsins. (Það er diskahraðapróf við hliðina á því í þeirri valmynd, ef þú ert að mæla hinn flöskuhálsinn.)
 
 ## Eldveggurinn
 

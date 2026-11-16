@@ -20,11 +20,11 @@ Obsidian on tasuta kõigeks otstarbeks, sealhulgas isiklikuks, äriliseks ja mit
 
 Obsidian pakub ka [tasulist sünkroonimise lisandmoodulit](https://obsidian.md/sync) mobiilirakendustega iOS-il ja Androidil. (https://obsidian.md/pricing).
 
-Sa käivitad Obsidiani klahvidega `Super + Shift + O`. Teema sünkroonimise kasutamiseks pead seadete all valima `Omarchy` teema.
+Sa käivitad Obsidiani klahvidega `Super + Shift + O`. Teema sünkroonimise kasutamiseks pead seadete all valima `Spherie` teema.
 
 ## Omawrite
 
-[Omawrite](https://github.com/omacom-io/omawrite) on Omarchy enda ülilihtne Markdowni kirjutamisrakendus. Ei mingeid hoidlaid, ei mingeid pluginaid, ainult sina ja sõnad.
+[Omawrite](https://github.com/omacom-io/omawrite) on Spherie enda ülilihtne Markdowni kirjutamisrakendus. Ei mingeid hoidlaid, ei mingeid pluginaid, ainult sina ja sõnad.
 
 Sa käivitad Omawrite'i klahvidega `Super + Shift + W`.
 
@@ -44,7 +44,7 @@ Sa käivitad Aetheri rakenduste käivitaja kaudu (`Super + Space`).
 
 [LocalSend](https://localsend.org/) laseb sul saata faile teistesse samas võrgus rakendust kasutavatesse seadmetesse, nagu Apple'i AirDrop. See on aga platvormiülene, nii et saad faile saata Windowsi, macOS-i, Androidi, iOS-i ja muidugi Linuxi seadmetesse ning neist tagasi.
 
-Jagamismenüü saad avada klahvidega `Super + Ctrl + S` või Omarchy menüüs jaotises _Trigger > Share_. See annab sulle neli võimalust:
+Jagamismenüü saad avada klahvidega `Super + Ctrl + S` või Spherie menüüs jaotises _Trigger > Share_. See annab sulle neli võimalust:
 
 - **Lõikelaud** saadab tekstifailina selle, mille oled kopeerinud. Suurepärane viis lingi või koodijupi telefoni saamiseks ilma endale e-kirja saatmata.
 - **Fail** avab failivalija, kus saad korraga mitu valida.
@@ -55,7 +55,7 @@ Sama asi töötab terminalist käskudega `omarchy share clipboard`, `omarchy sha
 
 Sa saad saata ka otse failihaldurist: tee Nautiluses mis tahes valikul paremklõps ja vali _Send via LocalSend_.
 
-Omarchy tulemüür on vaikimisi suletud, välja arvatud LocalSendi port, nii et see töötab värskel installil kohe karbist võttes. Vaata [turvalisust](48-security.md).
+Spherie tulemüür on vaikimisi suletud, välja arvatud LocalSendi port, nii et see töötab värskel installil kohe karbist võttes. Vaata [turvalisust](48-security.md).
 
 ## LibreOffice
 
@@ -65,19 +65,19 @@ Sa käivitad LibreOffice'i rakenduste käivitaja kaudu (`Super + Space`).
 
 ## Hype
 
-[Hype](https://github.com/omacom/hype) on Omarchy enda ülilihtne esitlusrakendus. Sinu esitlus on üks Markdowni fail, mille kõrval on selle pildid ja videod: kirjuta iga slaid reaalajas eelvaate alla, lohista slaidid õigesse järjekorda, seejärel esitle täisekraanil või ekspordi PDF-i ja PowerPointi. See võtab isegi sinu Omarchy teema üle.
+[Hype](https://github.com/omacom/hype) on Spherie enda ülilihtne esitlusrakendus. Sinu esitlus on üks Markdowni fail, mille kõrval on selle pildid ja videod: kirjuta iga slaid reaalajas eelvaate alla, lohista slaidid õigesse järjekorda, seejärel esitle täisekraanil või ekspordi PDF-i ja PowerPointi. See võtab isegi sinu Spherie teema üle.
 
 Sa käivitad Hype'i rakenduste käivitaja kaudu (`Super + Space`). Vajuta sees `?`, et näha kõiki otseteid.
 
 ## Signed
 
-[Signed](https://github.com/omacom/signed) on Omarchy enda ülilihtne viis PDF-ide allkirjastamiseks ja täitmiseks. Pane oma salvestatud allkiri, tekst ja tänane kuupäev lehel ükskõik kuhu, seejärel salvesta allkirjastatud koopia originaali kõrvale. Kuidas seda teha, vaata jaotisest [PDF-ide täitmine](27-filling-out-pdfs.md).
+[Signed](https://github.com/omacom/signed) on Spherie enda ülilihtne viis PDF-ide allkirjastamiseks ja täitmiseks. Pane oma salvestatud allkiri, tekst ja tänane kuupäev lehel ükskõik kuhu, seejärel salvesta allkirjastatud koopia originaali kõrvale. Kuidas seda teha, vaata jaotisest [PDF-ide täitmine](27-filling-out-pdfs.md).
 
 Sa käivitad Signedi rakenduste käivitaja kaudu (`Super + Space`) või avad sellega PDF-i failihaldurist.
 
 ## Omacalc
 
-[Omacalc](https://github.com/omacom-io/omacalc) on Omarchy enda ülilihtne kalkulaator, mis avaneb hõljuvas aknas.
+[Omacalc](https://github.com/omacom-io/omacalc) on Spherie enda ülilihtne kalkulaator, mis avaneb hõljuvas aknas.
 
 Sa käivitad Omacalci klahvidega `Super + Shift + Q` (või kalkulaatoriklahviga, kui su klaviatuuril selline on).
 
@@ -85,11 +85,11 @@ Sa käivitad Omacalci klahvidega `Super + Shift + Q` (või kalkulaatoriklahviga,
 
 [Signal](https://signal.org/) on E2E-krüpteeritud sõnumside teerajaja ja suurepärane suhtlusvõimalus kõigile, kes eelistavad mitte käia läbi mõne suure tehnoloogiakonglomeraadi.
 
-Sa käivitad Signali klahvidega `Super + Shift + G`. See ei ole baasinstalli osa, nii et kui sa seda esimest korda vajutad, pakub Omarchy selle sulle installimist (see on ka Omarchy menüüs jaotises _Install > Service_).
+Sa käivitad Signali klahvidega `Super + Shift + G`. See ei ole baasinstalli osa, nii et kui sa seda esimest korda vajutad, pakub Spherie selle sulle installimist (see on ka Spherie menüüs jaotises _Install > Service_).
 
 ## Omaview
 
-[Omaview](https://github.com/omacom/omaview) on Omarchy enda ülilihtne pildibrauser ja meediumipleier: üks aken sinu fotode, videote ja muusika jaoks. Ava foto ja nooleklahvid liiguvad läbi ülejäänud selles kaustas olevate failide, `N` ja `P` teevad sama iga asja puhul ning `Ctrl + M` näitab tervet kausta ruudustikuna. See näitab ka HEIC-, AVIF- ja JPEG XL fotosid ning jätkab kõiges pikemas sealt, kus pooleli jäid.
+[Omaview](https://github.com/omacom/omaview) on Spherie enda ülilihtne pildibrauser ja meediumipleier: üks aken sinu fotode, videote ja muusika jaoks. Ava foto ja nooleklahvid liiguvad läbi ülejäänud selles kaustas olevate failide, `N` ja `P` teevad sama iga asja puhul ning `Ctrl + M` näitab tervet kausta ruudustikuna. See näitab ka HEIC-, AVIF- ja JPEG XL fotosid ning jätkab kõiges pikemas sealt, kus pooleli jäid.
 
 Vajuta `F` täisekraani jaoks, `E` pildi redigeerimiseks rakenduses Omasnap või video kärpimiseks rakenduses Omacut, `Ctrl + P` pildi printimiseks ja `Delete`, et fail Prügikasti teisaldada (`Ctrl + Z` toob selle tagasi). Vajuta sees `?`, et näha kõiki otseteid.
 
@@ -97,13 +97,13 @@ Sa käivitad Omaview rakendusena _Media Viewer_ rakenduste käivitaja kaudu (`Su
 
 ## Omacut
 
-[Omacut](https://github.com/omacom-io/omacut) on Omarchy enda ülilihtne videokärpija. Kui sul on vaja ainult klipi algus ja lõpp maha lõigata, on see parem kui täiemahulise videoredaktori käivitamine.
+[Omacut](https://github.com/omacom-io/omacut) on Spherie enda ülilihtne videokärpija. Kui sul on vaja ainult klipi algus ja lõpp maha lõigata, on see parem kui täiemahulise videoredaktori käivitamine.
 
 Sa käivitad Omacuti rakenduste käivitaja kaudu (`Super + Space`).
 
 ## Monologue
 
-[Monologue](https://github.com/omacom/monologue) on Omarchy enda ülilihtne veebikaamera salvestaja. Vali oma kaamera ja mikrofon üks kord, seejärel vajuta salvestamiseks `Space` ning uuesti sama võtte peatamiseks ja jätkamiseks. See salvestab alati sinu kaamera kõrgeima eraldusvõimega, koos reaalajas mikrofoni mõõdikuga, et saaksid enne alustamist oma tasemeid kontrollida.
+[Monologue](https://github.com/omacom/monologue) on Spherie enda ülilihtne veebikaamera salvestaja. Vali oma kaamera ja mikrofon üks kord, seejärel vajuta salvestamiseks `Space` ning uuesti sama võtte peatamiseks ja jätkamiseks. See salvestab alati sinu kaamera kõrgeima eraldusvõimega, koos reaalajas mikrofoni mõõdikuga, et saaksid enne alustamist oma tasemeid kontrollida.
 
 Peata võte ja see avaneb kohe sisseehitatud redaktoris. Tee klipil selle poolitamiseks topeltklõps, lohista käepidemeid iga tüki kärpimiseks ja eemalda osad, mida sa ei taha. Seejärel salvesta see MP4-na. Sinu algne salvestus säilitatakse, kuni sa selle ära viskad, nii et saad alati tagasi tulla ja seda teisiti lõigata.
 

@@ -8,7 +8,7 @@ Hún er líka eini hluti skjáborðsins sem er alltaf á skjánum, svo það bor
 
 Stikan hefur þrjá hluta. Vinstra megin situr Omarchy-merkið (ræsir valmyndina) og vinnusvæðavísarnir. Í miðjunni færðu stöðuvísana, klukkuna, Elsewhen (heimsklukku), veðrið og Omarchy-uppfærslumerki. Hægra megin: kerfisbakkin, lyklaborðsuppsetningin (þegar fleiri en ein er stillt), umboð, bluetooth, net, hljóð, skjár og orka.
 
-Nokkrir þeirra birtast aðeins þegar þeir hafa eitthvað að segja. Lyklaborðsuppsetningin birtist aðeins ef þú hefur stillt fleiri en eina uppsetningu. Uppfærslumerkið birtist aðeins þegar Omarchy-uppfærsla bíður. Og umboðstáknið birtist í fyrsta skipti sem Omarchy finnur notkun gervigreindar við forritun á vélinni (sjá [AI](17-ai.md)).
+Nokkrir þeirra birtast aðeins þegar þeir hafa eitthvað að segja. Lyklaborðsuppsetningin birtist aðeins ef þú hefur stillt fleiri en eina uppsetningu. Uppfærslumerkið birtist aðeins þegar Omarchy-uppfærsla bíður. Og umboðstáknið birtist í fyrsta skipti sem Spherie finnur notkun gervigreindar við forritun á vélinni (sjá [AI](17-ai.md)).
 
 ## Að smella um
 
@@ -137,6 +137,6 @@ Sérhver græja er ein færsla í einum af fimm uppröðunarfylkjunum og stillin
 
 `center` er kassinn í miðju stikunnar: allt í honum er miðjað á skjánum sem einn hópur. `centerBegin` og `centerEnd` hanga á hvorri hlið kassans, sem er hvernig klukkan helst nákvæmlega í miðjunni jafnvel þegar veðrið og uppfærslumerkið koma og fara. Settu fleiri en eina græju í `center` og þær miðjast saman; skildu hann eftir tóman og `centerBegin` og `centerEnd` mætast í miðju stikunnar.
 
-Ein regla sem vert er að leggja á minnið: **þegar þú átt þína eigin `shell.json` er hún ráðandi**. Þangað til þú aðlagar eitthvað les skelin sjálfgefna skrá Omarchy. Um leið og þú dregur græju, keyrir `omarchy bar` eða breytir skránni sjálfur átt þú hana — það er engin djúp samruni, svo nýjar sjálfgefnar græjur í framtíðarútgáfum Omarchy munu ekki birtast sjálfkrafa á stikunni þinni. `omarchy bar defaults` setur meðfylgjandi uppröðun til baka hvenær sem þú vilt hreint borð.
+Ein regla sem vert er að leggja á minnið: **þegar þú átt þína eigin `shell.json` er hún ráðandi**. Þangað til þú aðlagar eitthvað les skelin sjálfgefna skrá Spherie. Um leið og þú dregur græju, keyrir `omarchy bar` eða breytir skránni sjálfur átt þú hana — það er engin djúp samruni, svo nýjar sjálfgefnar græjur í framtíðarútgáfum Spherie munu ekki birtast sjálfkrafa á stikunni þinni. `omarchy bar defaults` setur meðfylgjandi uppröðun til baka hvenær sem þú vilt hreint borð.
 
 Sama skráin geymir líka aðgerðaleysistíma þína á efsta stigi, utan `bar` lykilsins: `idle.screensaver` og `idle.lock`, bæði í sekúndum síðan þú fórst í aðgerðaleysi. Svo sjálfgefni skjávörðurinn fer í gang eftir 150 sekúndur og læsingin eftir 300.

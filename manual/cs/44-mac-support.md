@@ -1,16 +1,16 @@
 # Podpora Maců
 
-Omarchy má vestavěnou podporu pro **Macy s procesorem Intel**. Momentálně existuje pár známých omezení, ale pokud o nich víte a nevadí vám, můžete instalací Omarchy vdechnout svým starým Macům nový život.
+Spherie má vestavěnou podporu pro **Macy s procesorem Intel**. Momentálně existuje pár známých omezení, ale pokud o nich víte a nevadí vám, můžete instalací Spherie vdechnout svým starým Macům nový život.
 
 Upozorňujeme, že instalace na Macu s čipem řady M momentálně není přímo podporovaná. Více o aktuálním stavu se dozvíte v kanálu #omarchy-on-other na našem [Discordu](https://discord.gg/tXFUdasqhY).
 
-V jednoduchém testu jsme na MacBooku Pro z roku 2019 dosáhli jen instalací Omarchy zvýšení výkonu o 36 %.
+V jednoduchém testu jsme na MacBooku Pro z roku 2019 dosáhli jen instalací Spherie zvýšení výkonu o 36 %.
 
  ![macbook-omarchy](images/macbook-omarchy.webp)
 
-### Instalace Omarchy na Macu
+### Instalace Spherie na Macu
 
-Omarchy momentálně podporuje pouze instalaci jako **jediný** operační systém. Během instalace bude disk vymazán a macOS už nepůjde spustit.
+Spherie momentálně podporuje pouze instalaci jako **jediný** operační systém. Během instalace bude disk vymazán a macOS už nepůjde spustit.
 
 Později ho případně můžete obnovit přes Internet Recovery.
 

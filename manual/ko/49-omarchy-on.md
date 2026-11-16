@@ -22,7 +22,7 @@ Steam Deck은 Arch에서 실행되므로 Steam Deck에서 Omarchy를 실행할 �
 
 ### NixOS
 
-Omarchy는 실제로 Arch + Hyprland이지만, Henry Sipp가 [설정의 핵심을 NixOS로 이식했습니다](https://github.com/henrysipp/omarchy-nix). 그래서 nix에 빠져 있다면 여기가 좋은 출발점입니다. 최신 Omarchy 변경 사항과 최신 상태를 유지할 수도 아닐 수도 있지만, 그래도 꽤 멋집니다!
+Omarchy는 실제로 Arch + Hyprland이지만, Henry Sipp가 [설정의 핵심을 NixOS로 이식했습니다](https://github.com/henrysipp/omarchy-nix). 그래서 nix에 빠져 있다면 여기가 좋은 출발점입니다. 최신 Spherie 변경 사항과 최신 상태를 유지할 수도 아닐 수도 있지만, 그래도 꽤 멋집니다!
 
 ### 그 밖의 무언가!
 

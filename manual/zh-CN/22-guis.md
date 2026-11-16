@@ -20,11 +20,11 @@ Obsidian 免费用于所有用途，包括个人、商业和非营利用途。
 
 Obsidian 还提供了一个用于与 iOS 和 Android 上的移动应用同步的[商业附加组件](https://obsidian.md/sync)。(https://obsidian.md/pricing)。
 
-用 `Super + Shift + O` 启动 Obsidian。要使用主题同步，你必须在设置中选择 `Omarchy` 主题。
+用 `Super + Shift + O` 启动 Obsidian。要使用主题同步，你必须在设置中选择 `Spherie` 主题。
 
 ## Omawrite
 
-[Omawrite](https://github.com/omacom-io/omawrite) 是 Omarchy 自家的极简 Markdown 写作应用。没有库，没有插件，只有你和文字。
+[Omawrite](https://github.com/omacom-io/omawrite) 是 Spherie 自家的极简 Markdown 写作应用。没有库，没有插件，只有你和文字。
 
 用 `Super + Shift + W` 启动 Omawrite。
 
@@ -44,7 +44,7 @@ Obsidian 还提供了一个用于与 iOS 和 Android 上的移动应用同步的
 
 [LocalSend](https://localsend.org/) 让你可以向同一网络上运行该应用的其他设备发送文件，就像 Apple 的 AirDrop 一样。不过它是跨平台的，所以你可以与 Windows、macOS、Android、iOS，当然还有 Linux 之间互发文件。
 
-你可以用 `Super + Ctrl + S` 打开 Share 菜单，或者在 Omarchy 菜单中选择 _Trigger > Share_。它会给你四个选项：
+你可以用 `Super + Ctrl + S` 打开 Share 菜单，或者在 Spherie 菜单中选择 _Trigger > Share_。它会给你四个选项：
 
 - **Clipboard** 会将你复制的任何内容作为文本文件发送。非常适合把链接或代码片段传到手机上，不用给自己发电子邮件。
 - **File** 会打开文件选择器，你可以一次选择多个文件。
@@ -55,7 +55,7 @@ Obsidian 还提供了一个用于与 iOS 和 Android 上的移动应用同步的
 
 你也可以直接从文件管理器发送：在 Nautilus 中右键点击任意选中的内容，然后选择 _Send via LocalSend_。
 
-Omarchy 的防火墙默认处于封闭状态，只有 LocalSend 的端口例外，因此在全新安装后即可开箱即用地使用。参见[安全](48-security.md)。
+Spherie 的防火墙默认处于封闭状态，只有 LocalSend 的端口例外，因此在全新安装后即可开箱即用地使用。参见[安全](48-security.md)。
 
 ## LibreOffice
 
@@ -65,19 +65,19 @@ Omarchy 的防火墙默认处于封闭状态，只有 LocalSend 的端口例外�
 
 ## Hype
 
-[Hype](https://github.com/omacom/hype) 是 Omarchy 自家的极简演示应用。你的幻灯片就是一个单独的 Markdown 文件，图片和视频放在它旁边：在实时预览下方编写每一张幻灯片，拖动幻灯片调整顺序，然后全屏演示或导出为 PDF 和 PowerPoint。它甚至会采用你的 Omarchy 主题。
+[Hype](https://github.com/omacom/hype) 是 Spherie 自家的极简演示应用。你的幻灯片就是一个单独的 Markdown 文件，图片和视频放在它旁边：在实时预览下方编写每一张幻灯片，拖动幻灯片调整顺序，然后全屏演示或导出为 PDF 和 PowerPoint。它甚至会采用你的 Spherie 主题。
 
 通过应用启动器（`Super + Space`）启动 Hype。在里面按 `?` 可以查看所有快捷键。
 
 ## Signed
 
-[Signed](https://github.com/omacom/signed) 是 Omarchy 自家极简的 PDF 签名和填写工具。将你保存的签名、文字和今天的日期放到页面上的任意位置，然后在原文件旁边保存一份已签名的副本。有关操作方法，请参见[填写 PDF](27-filling-out-pdfs.md)。
+[Signed](https://github.com/omacom/signed) 是 Spherie 自家极简的 PDF 签名和填写工具。将你保存的签名、文字和今天的日期放到页面上的任意位置，然后在原文件旁边保存一份已签名的副本。有关操作方法，请参见[填写 PDF](27-filling-out-pdfs.md)。
 
 通过应用启动器（`Super + Space`）启动 Signed，或者从文件管理器中用它打开 PDF。
 
 ## Omacalc
 
-[Omacalc](https://github.com/omacom-io/omacalc) 是 Omarchy 自家的极简计算器，会在浮动窗口中打开。
+[Omacalc](https://github.com/omacom-io/omacalc) 是 Spherie 自家的极简计算器，会在浮动窗口中打开。
 
 用 `Super + Shift + Q` 启动 Omacalc（如果你的键盘有计算器键，也可以用那个键）。
 
@@ -85,11 +85,11 @@ Omarchy 的防火墙默认处于封闭状态，只有 LocalSend 的端口例外�
 
 [Signal](https://signal.org/) 是 E2E 加密消息的先驱，对于任何不想通过大型科技集团通信的人来说，都是一个很好的选择。
 
-用 `Super + Shift + G` 启动 Signal。它不包含在基础安装中，所以你第一次按下这个快捷键时，Omarchy 会主动提出为你安装它（也可以在 Omarchy 菜单的 _Install > Service_ 中找到它）。
+用 `Super + Shift + G` 启动 Signal。它不包含在基础安装中，所以你第一次按下这个快捷键时，Spherie 会主动提出为你安装它（也可以在 Spherie 菜单的 _Install > Service_ 中找到它）。
 
 ## Omaview
 
-[Omaview](https://github.com/omacom/omaview) 是 Omarchy 自家的极简图片查看器和媒体播放器：一个窗口就能看你的照片、视频和音乐。打开一张照片后，用方向键可以浏览其所在文件夹中的其他内容，`N` 和 `P` 对任何内容都可以这样浏览，`Ctrl + M` 会将整个文件夹显示为网格。它也能显示 HEIC、AVIF 和 JPEG XL 照片，并且对于任何长内容，都能从你上次离开的地方继续。
+[Omaview](https://github.com/omacom/omaview) 是 Spherie 自家的极简图片查看器和媒体播放器：一个窗口就能看你的照片、视频和音乐。打开一张照片后，用方向键可以浏览其所在文件夹中的其他内容，`N` 和 `P` 对任何内容都可以这样浏览，`Ctrl + M` 会将整个文件夹显示为网格。它也能显示 HEIC、AVIF 和 JPEG XL 照片，并且对于任何长内容，都能从你上次离开的地方继续。
 
 按 `F` 全屏，按 `E` 在 Omasnap 中编辑图片或在 Omacut 中裁剪视频，按 `Ctrl + P` 打印图片，按 `Delete` 将文件移到废纸篓（按 `Ctrl + Z` 可以将其恢复）。在里面按 `?` 可以查看所有快捷键。
 
@@ -97,13 +97,13 @@ Omarchy 的防火墙默认处于封闭状态，只有 LocalSend 的端口例外�
 
 ## Omacut
 
-[Omacut](https://github.com/omacom-io/omacut) 是 Omarchy 自家的极简视频裁剪工具。当你只需要剪掉片段的开头和结尾时，它比启动一个完整的视频编辑器要方便得多。
+[Omacut](https://github.com/omacom-io/omacut) 是 Spherie 自家的极简视频裁剪工具。当你只需要剪掉片段的开头和结尾时，它比启动一个完整的视频编辑器要方便得多。
 
 通过应用启动器（`Super + Space`）启动 Omacut。
 
 ## Monologue
 
-[Monologue](https://github.com/omacom/monologue) 是 Omarchy 自家的极简网络摄像头录像工具。只需选择一次摄像头和麦克风，然后按 `Space` 开始录制，再按一次即可暂停并继续同一段录制。它始终以你摄像头的最高分辨率录制，并带有实时麦克风电平表，让你在开始前检查音量。
+[Monologue](https://github.com/omacom/monologue) 是 Spherie 自家的极简网络摄像头录像工具。只需选择一次摄像头和麦克风，然后按 `Space` 开始录制，再按一次即可暂停并继续同一段录制。它始终以你摄像头的最高分辨率录制，并带有实时麦克风电平表，让你在开始前检查音量。
 
 停止录制后，它会立即在内置编辑器中打开。双击片段可以将其拆分，拖动手柄可以裁剪每一部分，并删除你不想要的部分。然后将其保存为 MP4。你的原始录像会一直保留，直到你将其丢弃，所以你随时可以回来以不同的方式剪辑。
 

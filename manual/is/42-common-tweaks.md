@@ -10,7 +10,7 @@ Sjálfgefið eru bakkatákn, eins og Dropbox, 1password eða Steam, falin á bak
 
 ### Rúnnuð gluggahorn
 
-Sjálfgefin hönnun Omarchy er ferköntuð horn, en ef þér finnst gott að mýkja það aðeins geturðu breytt `~/.config/hypr/looknfeel.lua` svo rúnun sé ekki lengur athugasemd:
+Sjálfgefin hönnun Spherie er ferköntuð horn, en ef þér finnst gott að mýkja það aðeins geturðu breytt `~/.config/hypr/looknfeel.lua` svo rúnun sé ekki lengur athugasemd:
 
 ```
 hl.config({

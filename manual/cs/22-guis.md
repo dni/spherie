@@ -20,11 +20,11 @@ Obsidian je zdarma pro všechny účely, včetně osobního, komerčního a nezi
 
 Obsidian nabízí také [komerční doplněk pro synchronizaci](https://obsidian.md/sync) s mobilními aplikacemi na iOS a Android. (https://obsidian.md/pricing).
 
-Obsidian spustíte pomocí `Super + Shift + O`. Chcete-li používat synchronizaci motivů, musíte v nastavení vybrat motiv `Omarchy`.
+Obsidian spustíte pomocí `Super + Shift + O`. Chcete-li používat synchronizaci motivů, musíte v nastavení vybrat motiv `Spherie`.
 
 ## Omawrite
 
-[Omawrite](https://github.com/omacom-io/omawrite) je vlastní naprosto jednoduchá aplikace Omarchy na psaní v Markdownu. Žádné trezory, žádné pluginy, jen vy a slova.
+[Omawrite](https://github.com/omacom-io/omawrite) je vlastní naprosto jednoduchá aplikace Spherie na psaní v Markdownu. Žádné trezory, žádné pluginy, jen vy a slova.
 
 Omawrite spustíte pomocí `Super + Shift + W`.
 
@@ -44,7 +44,7 @@ Aether spustíte přes spouštěč aplikací (`Super + Space`).
 
 [LocalSend](https://localsend.org/) vám umožní posílat soubory do jiných zařízení ve stejné síti, na kterých běží tato aplikace, podobně jako AirDrop od Applu. Je ale multiplatformní, takže můžete posílat soubory do Windows, macOS, Androidu, iOS a samozřejmě Linuxu i z nich.
 
-Nabídku Share můžete otevřít pomocí `Super + Ctrl + S` nebo v nabídce Omarchy pod _Trigger > Share_. Nabízí čtyři možnosti:
+Nabídku Share můžete otevřít pomocí `Super + Ctrl + S` nebo v nabídce Spherie pod _Trigger > Share_. Nabízí čtyři možnosti:
 
 - **Clipboard** odešle cokoli, co jste zkopírovali, jako textový soubor. Skvělé, když chcete dostat odkaz nebo úryvek do telefonu, aniž byste si posílali e-mail.
 - **File** otevře výběr souborů, kde jich můžete vybrat několik najednou.
@@ -55,7 +55,7 @@ Totéž funguje z terminálu pomocí `omarchy share clipboard`, `omarchy share f
 
 Posílat můžete také přímo ze správce souborů: klikněte pravým tlačítkem na libovolný výběr v Nautilus a zvolte _Send via LocalSend_.
 
-Firewall Omarchy je ve výchozím nastavení zavřený s výjimkou portu LocalSendu, takže to na čerstvé instalaci funguje bez dalšího nastavování. Viz [zabezpečení](48-security.md).
+Firewall Spherie je ve výchozím nastavení zavřený s výjimkou portu LocalSendu, takže to na čerstvé instalaci funguje bez dalšího nastavování. Viz [zabezpečení](48-security.md).
 
 ## LibreOffice
 
@@ -65,19 +65,19 @@ LibreOffice spustíte přes spouštěč aplikací (`Super + Space`).
 
 ## Hype
 
-[Hype](https://github.com/omacom/hype) je vlastní naprosto jednoduchá prezentační aplikace Omarchy. Vaše prezentace je jediný soubor Markdown s obrázky a videi vedle něj: každý snímek píšete pod živým náhledem, přetažením snímky seřadíte, pak prezentujete na celé obrazovce nebo exportujete do PDF a PowerPointu. Dokonce převezme i váš motiv Omarchy.
+[Hype](https://github.com/omacom/hype) je vlastní naprosto jednoduchá prezentační aplikace Spherie. Vaše prezentace je jediný soubor Markdown s obrázky a videi vedle něj: každý snímek píšete pod živým náhledem, přetažením snímky seřadíte, pak prezentujete na celé obrazovce nebo exportujete do PDF a PowerPointu. Dokonce převezme i váš motiv Spherie.
 
 Hype spustíte přes spouštěč aplikací (`Super + Space`). Stisknutím `?` uvnitř zobrazíte všechny zkratky.
 
 ## Signed
 
-[Signed](https://github.com/omacom/signed) je vlastní naprosto jednoduchý způsob Omarchy, jak podepisovat PDF a vyplňovat je. Umístěte svůj uložený podpis, text a dnešní datum kamkoli na stránku, pak uložte podepsanou kopii vedle originálu. Jak na to, najdete ve [Vyplňování PDF](27-filling-out-pdfs.md).
+[Signed](https://github.com/omacom/signed) je vlastní naprosto jednoduchý způsob Spherie, jak podepisovat PDF a vyplňovat je. Umístěte svůj uložený podpis, text a dnešní datum kamkoli na stránku, pak uložte podepsanou kopii vedle originálu. Jak na to, najdete ve [Vyplňování PDF](27-filling-out-pdfs.md).
 
 Signed spustíte přes spouštěč aplikací (`Super + Space`), nebo s ním otevřete PDF ze správce souborů.
 
 ## Omacalc
 
-[Omacalc](https://github.com/omacom-io/omacalc) je vlastní naprosto jednoduchá kalkulačka Omarchy, která se otevírá v plovoucím okně.
+[Omacalc](https://github.com/omacom-io/omacalc) je vlastní naprosto jednoduchá kalkulačka Spherie, která se otevírá v plovoucím okně.
 
 Omacalc spustíte pomocí `Super + Shift + Q` (nebo klávesou kalkulačky, pokud ji vaše klávesnice má).
 
@@ -85,11 +85,11 @@ Omacalc spustíte pomocí `Super + Shift + Q` (nebo klávesou kalkulačky, pokud
 
 [Signal](https://signal.org/) je průkopníkem šifrovaného posílání zpráv E2E a skvělou komunikační volbou pro každého, kdo by raději nešel přes některý z velkých technologických konglomerátů.
 
-Signal spustíte pomocí `Super + Shift + G`. Není součástí základní instalace, takže když to stisknete poprvé, Omarchy vám nabídne, že ho za vás nainstaluje (je také v nabídce Omarchy pod _Install > Service_).
+Signal spustíte pomocí `Super + Shift + G`. Není součástí základní instalace, takže když to stisknete poprvé, Spherie vám nabídne, že ho za vás nainstaluje (je také v nabídce Spherie pod _Install > Service_).
 
 ## Omaview
 
-[Omaview](https://github.com/omacom/omaview) je vlastní naprosto jednoduchý prohlížeč obrázků a přehrávač médií Omarchy: jedno okno pro vaše fotografie, videa a hudbu. Otevřete fotografii a klávesy se šipkami procházejí zbytek její složky, `N` a `P` to dělají pro cokoli a `Ctrl + M` zobrazí celou složku jako mřížku. Zobrazuje také fotografie HEIC, AVIF a JPEG XL a u čehokoli dlouhého pokračuje tam, kde jste přestali.
+[Omaview](https://github.com/omacom/omaview) je vlastní naprosto jednoduchý prohlížeč obrázků a přehrávač médií Spherie: jedno okno pro vaše fotografie, videa a hudbu. Otevřete fotografii a klávesy se šipkami procházejí zbytek její složky, `N` a `P` to dělají pro cokoli a `Ctrl + M` zobrazí celou složku jako mřížku. Zobrazuje také fotografie HEIC, AVIF a JPEG XL a u čehokoli dlouhého pokračuje tam, kde jste přestali.
 
 Stiskněte `F` pro celou obrazovku, `E` pro úpravu obrázku v Omasnap nebo střih videa v Omacut, `Ctrl + P` pro tisk obrázku a `Delete` pro přesunutí souboru do Trash (`Ctrl + Z` ho vrátí zpět). Stisknutím `?` uvnitř zobrazíte všechny zkratky.
 
@@ -97,13 +97,13 @@ Omaview spustíte jako _Media Viewer_ přes spouštěč aplikací (`Super + Spac
 
 ## Omacut
 
-[Omacut](https://github.com/omacom-io/omacut) je vlastní naprosto jednoduchý střihač videa Omarchy. Když potřebujete jen oříznout začátek a konec klipu, je to mnohem lepší než spouštět plnohodnotný editor videa.
+[Omacut](https://github.com/omacom-io/omacut) je vlastní naprosto jednoduchý střihač videa Spherie. Když potřebujete jen oříznout začátek a konec klipu, je to mnohem lepší než spouštět plnohodnotný editor videa.
 
 Omacut spustíte přes spouštěč aplikací (`Super + Space`).
 
 ## Monologue
 
-[Monologue](https://github.com/omacom/monologue) je vlastní naprosto jednoduchý záznamník z webkamery Omarchy. Jednou si vyberte kameru a mikrofon, pak stiskněte `Space` pro nahrávání a znovu pro pozastavení a obnovení stejného záběru. Vždy nahrává v nejvyšším rozlišení vaší kamery, s živým měřičem mikrofonu, takže si před začátkem můžete zkontrolovat úrovně.
+[Monologue](https://github.com/omacom/monologue) je vlastní naprosto jednoduchý záznamník z webkamery Spherie. Jednou si vyberte kameru a mikrofon, pak stiskněte `Space` pro nahrávání a znovu pro pozastavení a obnovení stejného záběru. Vždy nahrává v nejvyšším rozlišení vaší kamery, s živým měřičem mikrofonu, takže si před začátkem můžete zkontrolovat úrovně.
 
 Zastavte záběr a okamžitě se otevře ve vestavěném editoru. Poklikáním klip rozdělíte, přetažením úchytů každou část oříznete a odstraníte části, které nechcete. Pak ho uložte jako MP4. Vaše původní nahrávka zůstane zachována, dokud ji nezahodíte, takže se k ní můžete vždy vrátit a sestříhat ji jinak.
 

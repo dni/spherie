@@ -1,6 +1,6 @@
 # Leturgerðir
 
-Omarchy notar JetBrainsMono Nerd Font bæði sem leturgerð útstöðvarinnar og kerfisins sjálfgefið.
+Spherie notar JetBrainsMono Nerd Font bæði sem leturgerð útstöðvarinnar og kerfisins sjálfgefið.
 
  ![fonts-jetbrainsmono](images/fonts-jetbrainsmono.webp)
 

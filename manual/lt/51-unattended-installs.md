@@ -1,8 +1,8 @@
 # Diegimas be priežiūros
 
-Omarchy ISO gali įsidiegti pats, niekam nesėdint prie klaviatūros. Jei diegimo programa randa antrą diską su žyma `cidata`, kuriame yra jos konfigūracijos failai, ji juos nukopijuoja, visiškai praleidžia sąrankos vedlį ir pati persikrauna į baigtą sistemą. Jokio specialaus ISO atvaizdo, jokio papildomo įrašo paleidimo meniu — neprijungus tokio disko, niekas nesikeičia ir gaunate įprastą vedlį.
+Spherie ISO gali įsidiegti pats, niekam nesėdint prie klaviatūros. Jei diegimo programa randa antrą diską su žyma `cidata`, kuriame yra jos konfigūracijos failai, ji juos nukopijuoja, visiškai praleidžia sąrankos vedlį ir pati persikrauna į baigtą sistemą. Jokio specialaus ISO atvaizdo, jokio papildomo įrašo paleidimo meniu — neprijungus tokio disko, niekas nesikeičia ir gaunate įprastą vedlį.
 
-Dėl to Omarchy puikiai tinka kaip bazinis atvaizdas vienkartinėms kūrimo aplinkoms: sukuriate VM Proxmox arba su Packer, paleidžiate ją, nueinate šalin, prisijungiate per SSH. `cidata` yra cloud-init `NoCloud` žyma, todėl visi įprasti virtualizacijos įrankiai jau moka tokį diską prijungti.
+Dėl to Spherie puikiai tinka kaip bazinis atvaizdas vienkartinėms kūrimo aplinkoms: sukuriate VM Proxmox arba su Packer, paleidžiate ją, nueinate šalin, prisijungiate per SSH. `cidata` yra cloud-init `NoCloud` žyma, todėl visi įprasti virtualizacijos įrankiai jau moka tokį diską prijungti.
 
 ## Konfigūracijos failai
 
@@ -24,7 +24,7 @@ Taip pat galite vietoj `user_credentials.json` įdėti tuščią failą pavadini
 
 ## Prieiga per SSH
 
-Kai yra `authorized_keys`, diegimas nustato raktus kaip naudotojo `~/.ssh/authorized_keys`, įjungia `sshd` ir atveria jai ugniasienę. (Standartinis Omarchy diegimas pateikiamas su openssh, kurio tarnyba išjungta, o prievadas uždarytas, todėl be priežiūros diegiamas kompiuteris kitaip būtų nepasiekiamas.) Diegimas tik prideda jūsų raktus — jis nesušvelnina jokių kitų SSH demono autentifikavimo nustatymų.
+Kai yra `authorized_keys`, diegimas nustato raktus kaip naudotojo `~/.ssh/authorized_keys`, įjungia `sshd` ir atveria jai ugniasienę. (Standartinis Spherie diegimas pateikiamas su openssh, kurio tarnyba išjungta, o prievadas uždarytas, todėl be priežiūros diegiamas kompiuteris kitaip būtų nepasiekiamas.) Diegimas tik prideda jūsų raktus — jis nesušvelnina jokių kitų SSH demono autentifikavimo nustatymų.
 
 Kai yra `tailscale_authkey`, kompiuteris pirmojo paleidimo metu vietoj to prisijungia prie jūsų tailnet: Tailscale įdiegiamas iš ISO pateikiamų paketų, ugniasienė leidžia tailnet sąsają, o foninė užduotis atlieka prisijungimą, kai tik kompiuteris faktiškai gauna tinklą, ir kartoja, kol pavyksta. Naudokite daugkartinį, iš anksto autorizuotą raktą, kad vienas disko atvaizdas galėtų aptarnauti daug kompiuterių.
 
@@ -38,7 +38,7 @@ cp user_configuration.json user_credentials.json authorized_keys cidata/
 genisoimage -output cidata.iso -volid cidata -joliet -rock cidata/
 ```
 
-Tada prijunkite jį prie VM kartu su Omarchy ISO. Štai išsamus Proxmox pavyzdys:
+Tada prijunkite jį prie VM kartu su Spherie ISO. Štai išsamus Proxmox pavyzdys:
 
 ```bash
 qm create 101 --name my-omarchy \

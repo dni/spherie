@@ -2,7 +2,7 @@
 
 ### Fingrafarsauðkenning
 
-Margar fartölvur eru með fingrafarsskynjara til auðkenningar. Þú getur notað hann í Omarchy með því að keyra _Setup > Security > Fingerprint_ í Omarchy-valmyndinni (`Super + Space`).
+Margar fartölvur eru með fingrafarsskynjara til auðkenningar. Þú getur notað hann í Spherie með því að keyra _Setup > Security > Fingerprint_ í Omarchy-valmyndinni (`Super + Space`).
 
 Það setur upp fingrafarspakkann, skráir fingrafarið þitt, staðfestir það og þá ertu tilbúinn að nota fingrafarið til að aflæsa lásaskjánum (sem þú getur kallað fram með `Super + Ctrl + L`), fara í sudo-stillingu og staðfesta kerfiskvaðningar.
 

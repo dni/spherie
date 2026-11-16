@@ -12,17 +12,17 @@ Best er ef þú skráir þig inn á alla reikningana þína í venjulegum vafra 
 
 Þegar þú ert í vefforriti geturðu afritað núverandi vefslóð á klippiborðið með `Shift + Alt + L`.
 
-Sjálfgefið fylgir Omarchy nú þegar með úrval af sjálfgefnum forritum:
+Sjálfgefið fylgir Spherie nú þegar með úrval af sjálfgefnum forritum:
 
 ## HEY
 
-[HEY](https://www.hey.com/) er tölvupóst- og dagatalsþjónusta sem er frábær valkostur fyrir fólk sem er orðið þreytt á Gmail, Outlook eða Apple Mail. Hún er gerð af [37signals](https://37signals.com/) þar sem Omarchy á uppruna sinn.
+[HEY](https://www.hey.com/) er tölvupóst- og dagatalsþjónusta sem er frábær valkostur fyrir fólk sem er orðið þreytt á Gmail, Outlook eða Apple Mail. Hún er gerð af [37signals](https://37signals.com/) þar sem Spherie á uppruna sinn.
 
 Þú getur ræst HEY Email með `Super + Shift + E`, farið beint í að semja nýjan tölvupóst með `Super + Shift + Alt + E` og ræst HEY Calendar með `Super + Shift + C`.
 
 ## Basecamp
 
-[Basecamp](https://basecamp.com/) er verkefnastjórnunarþjónusta sem hjálpar litlum teymum að vinna hraðar og ná meiri árangri. Í stað þess að setja saman óreiðu af Trello, Slack, Asana, Notion eða hvað það nú er, geturðu haft allt á einum stað með Basecamp. Það er gert af [37signals](https://37signals.com/) þar sem Omarchy á uppruna sinn.
+[Basecamp](https://basecamp.com/) er verkefnastjórnunarþjónusta sem hjálpar litlum teymum að vinna hraðar og ná meiri árangri. Í stað þess að setja saman óreiðu af Trello, Slack, Asana, Notion eða hvað það nú er, geturðu haft allt á einum stað með Basecamp. Það er gert af [37signals](https://37signals.com/) þar sem Spherie á uppruna sinn.
 
 Þú getur ræst Basecamp í gegnum forritavalmyndina (`Super + Space`)
 
@@ -64,19 +64,19 @@ X er þar sem fréttirnar berast fyrst.
 
 ## Zoom
 
-[Zoom](https://zoom.us/) er vinsælasta myndfundakerfið sem notað er í Bandaríkjunum. Frábærar tengingar um allan heim. Og hægt er að halda 40 mínútna fundi án greidds reiknings. Omarchy notar vefútgáfu Zoom sem umgjörð og Zoom-fundatenglar opnast beint í henni.
+[Zoom](https://zoom.us/) er vinsælasta myndfundakerfið sem notað er í Bandaríkjunum. Frábærar tengingar um allan heim. Og hægt er að halda 40 mínútna fundi án greidds reiknings. Spherie notar vefútgáfu Zoom sem umgjörð og Zoom-fundatenglar opnast beint í henni.
 
 Þú ræsir Zoom í gegnum forritavalmyndina (`Super + Space`).
 
 ## Discord
 
-[Discord](https://discord.com/) er þar sem flest leikja- og opins kóða samfélög halda sig, þar á meðal [eigið samfélag Omarchy](https://discord.gg/tXFUdasqhY).
+[Discord](https://discord.com/) er þar sem flest leikja- og opins kóða samfélög halda sig, þar á meðal [eigið samfélag Spherie](https://discord.gg/tXFUdasqhY).
 
 Þú ræsir Discord í gegnum forritavalmyndina (`Super + Space`).
 
 ## Microsoft-forrit
 
-Veldu _Install > Service > Microsoft_ til að bæta Outlook, Word, Excel, PowerPoint, Teams og OneDrive við sem vefforrit. Hvert forrit hefur sinn eigin ræsi og opnast beint, notar viðskiptaútgáfu vefslóðanna fyrir Microsoft 365 og núverandi vafrasniðið þitt. Þau opnast í sömu vafraforritsgluggum og önnur vefforrit Omarchy; þau setja ekki upp sérstaka Teams for Linux-útgáfuna.
+Veldu _Install > Service > Microsoft_ til að bæta Outlook, Word, Excel, PowerPoint, Teams og OneDrive við sem vefforrit. Hvert forrit hefur sinn eigin ræsi og opnast beint, notar viðskiptaútgáfu vefslóðanna fyrir Microsoft 365 og núverandi vafrasniðið þitt. Þau opnast í sömu vafraforritsgluggum og önnur vefforrit Spherie; þau setja ekki upp sérstaka Teams for Linux-útgáfuna.
 
 Fjarlægðu pakkann með _Remove > Service > Microsoft_ eða fjarlægðu einstök forrit með _Remove > Web App_. Þú getur líka sett upp bara þau forrit sem þú vilt í gegnum _Install > Web App_.
 
@@ -88,4 +88,4 @@ Til að halda vinnuinnskráningum aðskildum skaltu bæta möppu fyrir vafragög
 Exec=omarchy-launch-webapp "https://teams.cloud.microsoft/" --user-data-dir=/absolute/path/to/work-browser-profile
 ```
 
-Skiptu dæmamöppunni út fyrir algilt slóð að eigin vali og notaðu sömu slóðina fyrir alla sex ræsana til að deila vinnuinnskráningum á milli þeirra. Vefforritin nota valinn studdan vafra Omarchy og grípa til Chrome þegar sjálfgefni vafrinn er ekki studdur.
+Skiptu dæmamöppunni út fyrir algilt slóð að eigin vali og notaðu sömu slóðina fyrir alla sex ræsana til að deila vinnuinnskráningum á milli þeirra. Vefforritin nota valinn studdan vafra Spherie og grípa til Chrome þegar sjálfgefni vafrinn er ekki studdur.

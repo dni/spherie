@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Apply this sphere's identity from the kernel command line the host set.
+
+set -euo pipefail
+
+cmdline_value() {
+  local word
+  for word in $(</proc/cmdline); do
+    if [[ $word == "$1="* ]]; then
+      echo "${word#*=}"
+      return
+    fi
+  done
+}
+
+name=$(cmdline_value spherie.name)
+role=$(cmdline_value spherie.role)
+
+[[ $name =~ ^[a-z0-9-]+$ ]] || name="sphere"
+[[ $role =~ ^[a-z]+$ ]] || role="app"
+
+echo "$name" >/etc/hostname
+hostname "$name"
+
+if [[ -x /usr/local/lib/spherie/roles/$role.sh ]]; then
+  /usr/local/lib/spherie/roles/$role.sh "$name"
+fi

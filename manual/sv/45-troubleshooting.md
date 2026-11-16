@@ -6,13 +6,13 @@ Försök först att [återställa systemet](47-system-snapshots.md) till version
 
 ### Varför är vissa appar så stora på min skärm?
 
-Omarchy förutsätter en högupplöst skärm på 2x, så det sätter `GDK_SCALE` till 2 tills du väljer en skala i bildskärmspanelen. Om du har en 1x-skärm och GTK- eller X11-appar visas för stora, välj 1x för den i bildskärmspanelen, eller lägg till `hl.env("GDK_SCALE", "1")` i `~/.config/hypr/monitors.lua` (och starta sedan om alla appar som är för stora). Se [manualen om bildskärmar](33-monitors.md).
+Spherie förutsätter en högupplöst skärm på 2x, så det sätter `GDK_SCALE` till 2 tills du väljer en skala i bildskärmspanelen. Om du har en 1x-skärm och GTK- eller X11-appar visas för stora, välj 1x för den i bildskärmspanelen, eller lägg till `hl.env("GDK_SCALE", "1")` i `~/.config/hypr/monitors.lua` (och starta sedan om alla appar som är för stora). Se [manualen om bildskärmar](33-monitors.md).
 
 För Spotify kan du använda `Ctrl + Minus` för att förminska gränssnittet (och `Ctrl + Plus` för att göra det större).
 
 ### Varför slutade alla mina bindningar med Super-tangenten att fungera?
 
-På vissa bärbara datorer från ASUS ROG och TUF är `Fn + Super` en kombination som är lätt att missa och som växlar ett firmware-lås för Windows-tangenten (till för spel, så att du inte lämnar ett spel av misstag). Ingenting på skärmen talar om att det har hänt. Medan låset är på avger Super ingenting alls — så varje bindning i Omarchy som använder Super slutar bara fungera, och det ser ut som att Hyprland gick sönder.
+På vissa bärbara datorer från ASUS ROG och TUF är `Fn + Super` en kombination som är lätt att missa och som växlar ett firmware-lås för Windows-tangenten (till för spel, så att du inte lämnar ett spel av misstag). Ingenting på skärmen talar om att det har hänt. Medan låset är på avger Super ingenting alls — så varje bindning i Spherie som använder Super slutar bara fungera, och det ser ut som att Hyprland gick sönder.
 
 Tryck på `Fn + Super` en gång innan du gräver i `~/.config/hypr/`, och om det inte får tillbaka Super, tryck en gång till så att du inte lämnar låset på. Det här är inte Fn-lock, som bara ändrar vad F-tangentsraden gör.
 
@@ -26,7 +26,7 @@ Förmodligen för att de inte är inställda som primär utgång. Klicka på hö
 
 ### Högtalarna i min bärbara dator låter fel
 
-På vissa bärbara datorer tillämpar Omarchy automatiskt en högtalarjustering som korrigerar frekvensresponsen hos de inbyggda högtalarna. `omarchy audio tuning status` talar om för dig om en sådan är aktiv på din maskin, och `omarchy audio tuning off` stänger av den om du hellre vill höra högtalarna råa.
+På vissa bärbara datorer tillämpar Spherie automatiskt en högtalarjustering som korrigerar frekvensresponsen hos de inbyggda högtalarna. `omarchy audio tuning status` talar om för dig om en sådan är aktiv på din maskin, och `omarchy audio tuning off` stänger av den om du hellre vill höra högtalarna råa.
 
 ### Varför kan jag inte logga in eller använda sudo med mitt lösenord?
 

@@ -1,6 +1,6 @@
 # Rețea
 
-Rețeaua în Omarchy este gestionată de NetworkManager, iar o controlezi din pictograma de rețea din [bara de sus](05-the-top-bar.md) sau cu `Super + Ctrl + N`.
+Rețeaua în Spherie este gestionată de NetworkManager, iar o controlezi din pictograma de rețea din [bara de sus](05-the-top-bar.md) sau cu `Super + Ctrl + N`.
 
 Acel panou scanează rețelele Wi-Fi, arată puterea semnalului și se conectează. Ethernet nu are nevoie de nimic — îl conectezi și funcționează. Dacă preferi să rămâi în terminal, `nmtui` îți oferă aceleași comenzi, și există și un grup de comenzi `omarchy network`.
 
@@ -12,7 +12,7 @@ Dacă ai nevoie de fapt de parola în sine, `omarchy network password <interface
 
 ## DNS
 
-Omarchy folosește DNS-ul pe care rețeaua ta îl furnizează prin DHCP. Îl poți înlocui pentru întregul sistem în _Setup > Network > DNS_, unde Cloudflare și Google sunt la un clic distanță. Alege _Custom_ pentru a introduce propriile tale servere.
+Spherie folosește DNS-ul pe care rețeaua ta îl furnizează prin DHCP. Îl poți înlocui pentru întregul sistem în _Setup > Network > DNS_, unde Cloudflare și Google sunt la un clic distanță. Alege _Custom_ pentru a introduce propriile tale servere.
 
 Din terminal, `omarchy dns` afișează furnizorul curent, iar `omarchy dns Cloudflare` setează unul.
 
@@ -24,7 +24,7 @@ Asta fixează banda, nu un anumit punct de acces, așa că te poți deplasa în 
 
 ## Cât de rapidă este?
 
-_Trigger > Speed Test > Network Speed Test_ măsoară viteza ta reală de descărcare și încărcare cu o pereche de indicatoare. Din terminal este `omarchy network speedtest down` sau `up`. Măsoară față de serviciul propriu al Omarchy și ia în calcul doar transferurile sale de test. Alte descărcări pot concura pentru lățimea de bandă, dar nu sunt adăugate la rezultatul testului de viteză. (Există un test de viteză pentru disc chiar lângă el în acel meniu, dacă vrei să testezi celălalt blocaj.)
+_Trigger > Speed Test > Network Speed Test_ măsoară viteza ta reală de descărcare și încărcare cu o pereche de indicatoare. Din terminal este `omarchy network speedtest down` sau `up`. Măsoară față de serviciul propriu al Spherie și ia în calcul doar transferurile sale de test. Alte descărcări pot concura pentru lățimea de bandă, dar nu sunt adăugate la rezultatul testului de viteză. (Există un test de viteză pentru disc chiar lângă el în acel meniu, dacă vrei să testezi celălalt blocaj.)
 
 ## Firewall-ul
 

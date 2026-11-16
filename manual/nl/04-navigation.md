@@ -1,6 +1,6 @@
 # Navigatie
 
-Alles in Omarchy gebeurt via het toetsenbord — _ALLES!_ Als het systeem net is opgestart, kun je letterlijk niets doen met alleen de muis. Maar je kunt op `Super + Space` drukken om het Omarchy Menu te openen en van hieruit kun je zo'n beetje alles doen.
+Alles in Spherie gebeurt via het toetsenbord — _ALLES!_ Als het systeem net is opgestart, kun je letterlijk niets doen met alleen de muis. Maar je kunt op `Super + Space` drukken om het Spherie Menu te openen en van hieruit kun je zo'n beetje alles doen.
 
 Maar het Omarchy-menu is niet eens bedoeld als de belangrijkste manier om het systeem meestal te bedienen. We kunnen sneller dan dat! Alle belangrijkste applicaties zijn direct aan afzonderlijke sneltoetsen gebonden. Je start de terminal met `Super + Return` en een browser met `Super + Shift + Return`. Probeer het een na het ander te doen, en je ziet de magie van Hyprland's tiling in actie:
 
@@ -30,7 +30,7 @@ Je kunt ook volledig scherm gaan met `Super + F` of zelfs alleen volledige breed
 
 ### Dwindle versus scrolling-layout
 
-De standaardlayout van Omarchy heet dwindle. Die houdt alle vensters die je op een enkele werkruimte opent te allen tijde zichtbaar, zelfs als ze daarvoor kleiner moeten worden gemaakt.
+De standaardlayout van Spherie heet dwindle. Die houdt alle vensters die je op een enkele werkruimte opent te allen tijde zichtbaar, zelfs als ze daarvoor kleiner moeten worden gemaakt.
 
  ![navigation-dwindle-layout](images/navigation-dwindle-layout.webp)
 

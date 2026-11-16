@@ -1,16 +1,16 @@
 # Mac qo'llab-quvvatlovi
 
-Omarchy'da **Intel Macs** uchun ichki qo'llab-quvvatlov mavjud. Hozircha bir nechta ma'lum cheklovlar bor, lekin ularni bilsangiz va ular sizga ma'qul bo'lsa; eski Maclaringizga Omarchy yuklab, ularga yangi hayot bag'ishlashingiz mumkin.
+Spherie'da **Intel Macs** uchun ichki qo'llab-quvvatlov mavjud. Hozircha bir nechta ma'lum cheklovlar bor, lekin ularni bilsangiz va ular sizga ma'qul bo'lsa; eski Maclaringizga Spherie yuklab, ularga yangi hayot bag'ishlashingiz mumkin.
 
 E'tibor bering, M-seriyali Mac'ga o'rnatish hozirda bevosita qo'llab-quvvatlanmaydi. Bu boradagi holat haqida ko'proq ma'lumotni [Discord](https://discord.gg/tXFUdasqhY) serverimizdagi #omarchy-on-other kanalida topishingiz mumkin.
 
-Oddiy testda biz 2019-yilgi MacBook Pro'ga shunchaki Omarchy o'rnatish orqali 36% unumdorlik o'sishiga erisha oldik.
+Oddiy testda biz 2019-yilgi MacBook Pro'ga shunchaki Spherie o'rnatish orqali 36% unumdorlik o'sishiga erisha oldik.
 
  ![macbook-omarchy](images/macbook-omarchy.webp)
 
-### Omarchy'ni Mac'ga o'rnatish
+### Spherie'ni Mac'ga o'rnatish
 
-Omarchy hozirda **yagona** o'rnatilgan OS bo'lishni qo'llab-quvvatlaydi. O'rnatish davomida disk to'liq o'chiriladi va MacOS endi yuklanmaydi.
+Spherie hozirda **yagona** o'rnatilgan OS bo'lishni qo'llab-quvvatlaydi. O'rnatish davomida disk to'liq o'chiriladi va MacOS endi yuklanmaydi.
 
 Keyinroq xohlasangiz, uni Internet Recovery orqali tiklashingiz mumkin.
 

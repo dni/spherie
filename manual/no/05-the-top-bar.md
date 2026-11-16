@@ -8,7 +8,7 @@ Det er også den eneste delen av skrivebordet som alltid er på skjermen, så de
 
 Linjen har tre seksjoner. Til venstre sitter Omarchy-logoen (menystarteren) og arbeidsområdeindikatorene. I midten får du statusindikatorene, klokken, Elsewhen (en verdensklokke), været og et Omarchy-oppdateringsmerke. Til høyre: systemstatusfeltet, tastaturoppsettet (når mer enn ett er konfigurert), agenter, Bluetooth, nettverk, lyd, skjerm og strøm.
 
-Noen få av dem vises bare når de har noe å si. Tastaturoppsettet vises bare hvis du har konfigurert mer enn ett oppsett. Oppdateringsmerket vises bare når det venter en Omarchy-oppdatering. Og agentikonet vises første gang Omarchy finner bruk av AI-koding på maskinen (se [AI](17-ai.md)).
+Noen få av dem vises bare når de har noe å si. Tastaturoppsettet vises bare hvis du har konfigurert mer enn ett oppsett. Oppdateringsmerket vises bare når det venter en Omarchy-oppdatering. Og agentikonet vises første gang Spherie finner bruk av AI-koding på maskinen (se [AI](17-ai.md)).
 
 ## Å klikke rundt
 

@@ -1,10 +1,10 @@
 # Shell įskiepiai
 
-Omarchy darbalaukis veikia kaip vienas ilgai gyvuojantis Quickshell procesas pavadinimu `omarchy-shell`, ir beveik viskas, ką matai ekrane, yra įskiepis jame. Juosta yra įskiepis. Taip pat skydeliai, krentantys iš jos, viso ekrano perteikliai, pavyzdžiui, emoji rinkiklis ir iškarpinės tvarkyklė, pats Omarchy meniu, užrakinimo ekranas, polkit dialogas ir nematomas paslaugos, kurios stebiavo akumuliatorių ir šildo ekraną nakčiai.
+Spherie darbalaukis veikia kaip vienas ilgai gyvuojantis Quickshell procesas pavadinimu `omarchy-shell`, ir beveik viskas, ką matai ekrane, yra įskiepis jame. Juosta yra įskiepis. Taip pat skydeliai, krentantys iš jos, viso ekrano perteikliai, pavyzdžiui, emoji rinkiklis ir iškarpinės tvarkyklė, pats Spherie meniu, užrakinimo ekranas, polkit dialogas ir nematomas paslaugos, kurios stebiavo akumuliatorių ir šildo ekraną nakčiai.
 
-Tai ne vien įgyvendinimo detalė. Tai reiškia, kad gali išjungti darbalaukio dalis, jas pakeisti ar parašyti savo, neliesdamas nė vienos Omarchy šaltinio eilutės.
+Tai ne vien įgyvendinimo detalė. Tai reiškia, kad gali išjungti darbalaukio dalis, jas pakeisti ar parašyti savo, neliesdamas nė vienos Spherie šaltinio eilutės.
 
-Pirmosios šalies įskiepiai pristatomi su Omarchy ir gyvena `$OMARCHY_PATH/shell/plugins/`. Viskas, ką pridedi pats — savo eksperimentai ar kažkas rasta GitHub — gyvena `~/.config/omarchy/plugins/`. Abu atrandami tuo pačiu būdu paleidimo metu, bet įtaisyti gauna patikimas shell sąsajas, o trečiųjų šalių įskiepiai gauna ribotą sąsają, apribotą jų pačių paslauga ir gyvavimo ciklu. Įtaisytųjų klonai išlaiko tik su šaltiniu susijusią konfigūraciją ir UI iškvietimus, reikalingus originaliam veikimui.
+Pirmosios šalies įskiepiai pristatomi su Spherie ir gyvena `$OMARCHY_PATH/shell/plugins/`. Viskas, ką pridedi pats — savo eksperimentai ar kažkas rasta GitHub — gyvena `~/.config/omarchy/plugins/`. Abu atrandami tuo pačiu būdu paleidimo metu, bet įtaisyti gauna patikimas shell sąsajas, o trečiųjų šalių įskiepiai gauna ribotą sąsają, apribotą jų pačių paslauga ir gyvavimo ciklu. Įtaisytųjų klonai išlaiko tik su šaltiniu susijusią konfigūraciją ir UI iškvietimus, reikalingus originaliam veikimui.
 
 ## Pamatyti, ką turi
 
@@ -101,4 +101,4 @@ Tai paleidžia tuos pačius patikrinimus, kuriuos shell atlieka įkėlimo metu: 
 
 Kai sukūrei kažką, kas tau patinka, įdėk tai į viešą git saugyklą. Tai visas platinimo mechanizmas — tada bet kas gali paleisti `omarchy plugin add` prieš tavo URL ir turėti jį veikiantį per kelias sekundes.
 
-Kad padėtum žmonėms jį iš tikrųjų rasti, išvardyk jį [plugins.omarchy.org](https://plugins.omarchy.org). Tai Omarchy shell įskiepių turgus (marketplace) ir pirmoji vieta, kurios žiūrėti, kai domiesi, ar kas nors jau sukūrę valdiklį, kurį ruošiesi rašyti. Peržiūrėk jį prieš pradedant!
+Kad padėtum žmonėms jį iš tikrųjų rasti, išvardyk jį [plugins.omarchy.org](https://plugins.omarchy.org). Tai Spherie shell įskiepių turgus (marketplace) ir pirmoji vieta, kurios žiūrėti, kai domiesi, ar kas nors jau sukūrę valdiklį, kurį ruošiesi rašyti. Peržiūrėk jį prieš pradedant!

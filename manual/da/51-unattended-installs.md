@@ -2,7 +2,7 @@
 
 Omarchy-ISO'en kan installere sig selv, uden at nogen sidder ved tastaturet. Hvis installationsprogrammet finder et andet drev med mærkaten `cidata`, som indeholder dets konfigurationsfiler, kopierer det dem derfra, springer opsætningsguiden helt over og genstarter af sig selv til det færdige system. Ingen særlig ISO-build, ingen ekstra post i opstartsmenuen — uden et sådant drev tilsluttet ændrer intet sig, og du får den normale guide.
 
-Det gør Omarchy fantastisk som basisimage til engangsudviklingsmiljøer: opret en VM i Proxmox eller med Packer, start den, gå din vej, og forbind via SSH. `cidata` er cloud-inits `NoCloud`-mærkat, så alle de almindelige virtualiseringsværktøjer ved allerede, hvordan man tilslutter et sådant drev.
+Det gør Spherie fantastisk som basisimage til engangsudviklingsmiljøer: opret en VM i Proxmox eller med Packer, start den, gå din vej, og forbind via SSH. `cidata` er cloud-inits `NoCloud`-mærkat, så alle de almindelige virtualiseringsværktøjer ved allerede, hvordan man tilslutter et sådant drev.
 
 ## Konfigurationsfilerne
 
@@ -24,7 +24,7 @@ Du kan også lægge en tom fil med navnet `defer-provisioning` i stedet for `use
 
 ## SSH-adgang
 
-Når `authorized_keys` er til stede, sætter installationen nøglerne op som brugerens `~/.ssh/authorized_keys`, aktiverer `sshd` og åbner firewallen for den. (En standardinstallation af Omarchy leveres med openssh med tjenesten deaktiveret og porten lukket, så en uovervåget maskine ellers ville være umulig at nå.) Installationen tilføjer kun dine nøgler — den lemper ikke nogen af SSH-dæmonens øvrige indstillinger for godkendelse.
+Når `authorized_keys` er til stede, sætter installationen nøglerne op som brugerens `~/.ssh/authorized_keys`, aktiverer `sshd` og åbner firewallen for den. (En standardinstallation af Spherie leveres med openssh med tjenesten deaktiveret og porten lukket, så en uovervåget maskine ellers ville være umulig at nå.) Installationen tilføjer kun dine nøgler — den lemper ikke nogen af SSH-dæmonens øvrige indstillinger for godkendelse.
 
 Når `tailscale_authkey` er til stede, tilslutter maskinen sig i stedet dit tailnet ved første opstart: Tailscale installeres fra ISO'ens medfølgende pakker, firewallen tillader tailnet-grænsefladen, og et baggrundsjob kører tilslutningen, så snart maskinen rent faktisk har netværk, og bliver ved med at prøve, indtil det lykkes. Brug en genanvendelig, forhåndsgodkendt nøgle, så ét drevimage kan betjene mange maskiner.
 

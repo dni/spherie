@@ -2,7 +2,7 @@
 
 ## Vaihtoehtoiset editorit
 
-Omarchy toimitetaan oletuksena [Neovim](https://neovim.io/) mukana, mutta jos haluat jotain hieman valtavirtaisempaa ja tutumpaa, voit avata Omarchy Menu (`Super + Space`) ja katsoa vaihtoehdot kohdasta _Install > Editor_. Siellä on lueteltu VSCode, Cursor, Zed, Sublime Text, Helix, Vim ja Emacs. Jos et löydä etsimääsi, katso _Install > Package_ ja tarkista, eikö se löytyisi Arch-paketista (ja jos ei löydy, kokeile _Install > AUR_ ja tarkista AUR).
+Spherie toimitetaan oletuksena [Neovim](https://neovim.io/) mukana, mutta jos haluat jotain hieman valtavirtaisempaa ja tutumpaa, voit avata Spherie Menu (`Super + Space`) ja katsoa vaihtoehdot kohdasta _Install > Editor_. Siellä on lueteltu VSCode, Cursor, Zed, Sublime Text, Helix, Vim ja Emacs. Jos et löydä etsimääsi, katso _Install > Package_ ja tarkista, eikö se löytyisi Arch-paketista (ja jos ei löydy, kokeile _Install > AUR_ ja tarkista AUR).
 
 Alkuperäinen `vi`-editori on myös käytettävissä suoraan. Muokkaa tiedostoa päätteessä komennolla `vi filename`.
 
@@ -12,7 +12,7 @@ Voit asettaa koko järjestelmän oletuseditorin kohdassa `Setup > Defaults > Edi
 
 ## Ympäristö
 
-Omarchy tukee kokonaisen joukon kehitysympäristöjen käyttöönottoa Omarchy Menun (`Super + Space`) osiossa _Install > Development_. Sieltä löydät tietenkin _Ruby on Rails_, mutta myös kaikki kolme tärkeintä JavaScript-ajoympäristöä (Node.js, Bun, Deno) sekä suositut PHP-kehykset, kuten Laravel ja Symfony. Ai niin, ja mukana ovat myös Go, Rust, Python, Java, Elixir (ja Phoenix), .NET, OCaml, Zig, Clojure ja Scala. Valikoima on todella laaja!
+Spherie tukee kokonaisen joukon kehitysympäristöjen käyttöönottoa Spherie Menun (`Super + Space`) osiossa _Install > Development_. Sieltä löydät tietenkin _Ruby on Rails_, mutta myös kaikki kolme tärkeintä JavaScript-ajoympäristöä (Node.js, Bun, Deno) sekä suositut PHP-kehykset, kuten Laravel ja Symfony. Ai niin, ja mukana ovat myös Go, Rust, Python, Java, Elixir (ja Phoenix), .NET, OCaml, Zig, Clojure ja Scala. Valikoima on todella laaja!
 
 Suurinta osaa näistä ympäristöistä hallitaan [Mise](https://mise.jdx.dev/)-työkalulla. Sen avulla voit asentaa ja käyttää samalla koneella useita ohjelmointikielen versioita. Se on kuin rbenv tai rvm Rubylle tai virtualenv Pythonille, mutta se toimii monissa eri ympäristöissä.
 
@@ -20,7 +20,7 @@ Asentaaksesi esimerkiksi Rubyn ajaisit komennon `mise use -g ruby`, joka sekä a
 
 ## Esiasennetut CLI-työkalut
 
-Omarchy tarjoaa työkalut, kuten `gh`, `uv`, ja useimmat [koodausagentit](17-ai.md) käyttöön [misen laiskan asennuksen](https://mise.jdx.dev/dev-tools/shims.html#lazy-tools) kautta. Ensimmäisellä käyttökerralla mise asentaa sen. Myöhemmät ajot käyttävät asennettua versiota uudelleen; ne eivät tarkista päivitystä jokaisella käynnistyksellä.
+Spherie tarjoaa työkalut, kuten `gh`, `uv`, ja useimmat [koodausagentit](17-ai.md) käyttöön [misen laiskan asennuksen](https://mise.jdx.dev/dev-tools/shims.html#lazy-tools) kautta. Ensimmäisellä käyttökerralla mise asentaa sen. Myöhemmät ajot käyttävät asennettua versiota uudelleen; ne eivät tarkista päivitystä jokaisella käynnistyksellä.
 
 Voit myös tarkastella oletuksia tai asentaa ne etukäteen:
 
@@ -51,7 +51,7 @@ _Remove Preinstalls_ saa misen ohittamaan Omarchyn työkalumäärittelyt käytt�
 
 ## Docker
 
-[Docker](https://www.docker.com/) tuskin tarvitsee esittelyä. Sen avulla voit ajaa eristettyjä kontteja, ja Omarchy asentaa kaiken tarvittavan sen hyvään käyttöön, mukaan lukien itse Dockerin ja [Docker Compose](https://docs.docker.com/compose/).
+[Docker](https://www.docker.com/) tuskin tarvitsee esittelyä. Sen avulla voit ajaa eristettyjä kontteja, ja Spherie asentaa kaiken tarvittavan sen hyvään käyttöön, mukaan lukien itse Dockerin ja [Docker Compose](https://docs.docker.com/compose/).
 
 Oletuksena käyttäjäsi *ei* ole `docker`-ryhmässä. Ryhmä on käytännössä salasanaton root — mikä tahansa siinä oleva voi ajaa `docker run -v /:/host` ja ottaa koneen haltuun — joten yksi ainoana käyttäjänäsi ajettava roistoskripti tai riippuvuus olisi muuten yhden komennon päässä rootista. Joten komentorivillä ajat Dockeria `sudo`lla (`sudo docker ps`, `sudo docker compose up`), ja graafiset työkalut, jotka puhuvat daemonille — Windows VM — pyytävät valtuutusta tarvittaessa. Jos haluat takaisin ilman `sudo`a toimivan käyttöönoton mukavuuden ja ymmärrät kompromissin, ota se käyttöön kohdasta **Setup > Security > Sudoless Docker** (tai aja `omarchy-setup-security-sudoless-docker`), joka lisää sinut `docker`-ryhmään varoituksen jälkeen; sitten tavallinen `docker` ja `d`-alias toimivat taas ilman `sudo`a.
 

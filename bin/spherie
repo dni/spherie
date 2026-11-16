@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# omarchy:summary=Spherie entry point: shorthand for `omarchy sphere`
+# omarchy:hidden=true
+
+exec omarchy sphere "$@"

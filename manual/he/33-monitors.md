@@ -1,6 +1,6 @@
 # צגים
 
-Omarchy מניחה כברירת מחדל שאתה עובד עם צג ברמת retina שתומך ב-2x. זה מה שצריך כדי לקבל את גופני התכנות הנאים והחדים האלה. לזה מותאמים כמעט כל המחשבים הניידים החדשים והיוקרתיים עם מסכים ברזולוציה גבוהה. זה מה שתרצה להריץ על [Apple Studio Display](https://www.apple.com/studio-display/)/[ProArt PA27JCV](https://www.asus.com/us/displays-desktops/monitors/proart/proart-display-5k-pa27jcv/)/[Samsung S9](https://www.samsung.com/us/computing/monitors/5k/27-viewfinity-s9-5k-monitor-with-thunderbolt-4-matte-display-and-smart-features-ls27c900panxza/)/[Kuycon G27P](https://kuycon.us/monitors/G27P/) בגודל 27" 5K או [Apple XDR](https://www.apple.com/pro-display-xdr/)/[ProArt PA32QCV](https://www.asus.com/displays-desktops/monitors/proart/proart-display-6k-pa32qcv/)/[Kuycon G32P](https://kuycon.us/monitors/G32P/) בגודל 32" 6K.
+Spherie מניחה כברירת מחדל שאתה עובד עם צג ברמת retina שתומך ב-2x. זה מה שצריך כדי לקבל את גופני התכנות הנאים והחדים האלה. לזה מותאמים כמעט כל המחשבים הניידים החדשים והיוקרתיים עם מסכים ברזולוציה גבוהה. זה מה שתרצה להריץ על [Apple Studio Display](https://www.apple.com/studio-display/)/[ProArt PA27JCV](https://www.asus.com/us/displays-desktops/monitors/proart/proart-display-5k-pa27jcv/)/[Samsung S9](https://www.samsung.com/us/computing/monitors/5k/27-viewfinity-s9-5k-monitor-with-thunderbolt-4-matte-display-and-smart-features-ls27c900panxza/)/[Kuycon G27P](https://kuycon.us/monitors/G27P/) בגודל 27" 5K או [Apple XDR](https://www.apple.com/pro-display-xdr/)/[ProArt PA32QCV](https://www.asus.com/displays-desktops/monitors/proart/proart-display-6k-pa32qcv/)/[Kuycon G32P](https://kuycon.us/monitors/G32P/) בגודל 32" 6K.
 
 אבל אם אתה לא עובד עם צג עם PPI של 218 ומעלה, תרצה לשנות את הגדרות הצג. לדוגמה, אם יש לך 4K בגודל 27" או 32", תוכל לבחור עבורו קנה מידה חלקי מפאנל הצג בשורת העליונה, או להגדיר את ברירת המחדל לכל הצגים על ידי פתיחת `~/.config/hypr/monitors.lua` ומעבר להמלצה לשילוב הזה:
 
@@ -27,13 +27,13 @@ hl.env("GDK_SCALE", "1")
 omarchy display text size 14
 ```
 
-זה מקבל גודל בפיקסלים בין 9 ל-20, ומזיז את מעטפת Omarchy, אפליקציות GTK והמסוף שלך יחד, כך שכל שולחן העבודה נשאר בפרופורציה. הרץ אותו ללא ארגומנט כדי לראות איפה אתה נמצא, ו-`omarchy display text size reset` כדי לחזור לברירת המחדל. Foot הוא המשתרך היחיד: אין לו דרך לטעון מחדש את התצורה שלו, כך שמסופים פעילים שומרים על הגודל הישן עד שתפתח אחד חדש.
+זה מקבל גודל בפיקסלים בין 9 ל-20, ומזיז את מעטפת Spherie, אפליקציות GTK והמסוף שלך יחד, כך שכל שולחן העבודה נשאר בפרופורציה. הרץ אותו ללא ארגומנט כדי לראות איפה אתה נמצא, ו-`omarchy display text size reset` כדי לחזור לברירת המחדל. Foot הוא המשתרך היחיד: אין לו דרך לטעון מחדש את התצורה שלו, כך שמסופים פעילים שומרים על הגודל הישן עד שתפתח אחד חדש.
 
 ### הרחבה ושיקוף של צגי מחשב נייד
 
-כאשר אתה מחבר מסך חיצוני למחשב הנייד שלך, התצוגה מורחבת באופן אוטומטי. אבל תוכל לשנות את זה לשיקוף במקום זאת באמצעות _Trigger > Hardware_ בתפריט Omarchy או `Super + Ctrl + Alt + Delete`. זה מועיל במיוחד אם המסך החיצוני הזה הוא מקרן, ואתה רוצה להציג משהו בזמן שאתה עובד.
+כאשר אתה מחבר מסך חיצוני למחשב הנייד שלך, התצוגה מורחבת באופן אוטומטי. אבל תוכל לשנות את זה לשיקוף במקום זאת באמצעות _Trigger > Hardware_ בתפריט Spherie או `Super + Ctrl + Alt + Delete`. זה מועיל במיוחד אם המסך החיצוני הזה הוא מקרן, ואתה רוצה להציג משהו בזמן שאתה עובד.
 
-כאשר אתה מרחיב, סגירת המכסה של המחשב הנייד תכבה אוטומטית את המסך הפנימי. פתיחת המכסה תדליק אותו שוב. תוכל גם לשלוט בזה באופן ידני באמצעות _Trigger > Hardware_ בתפריט Omarchy או `Super + Ctrl + Delete`.
+כאשר אתה מרחיב, סגירת המכסה של המחשב הנייד תכבה אוטומטית את המסך הפנימי. פתיחת המכסה תדליק אותו שוב. תוכל גם לשלוט בזה באופן ידני באמצעות _Trigger > Hardware_ בתפריט Spherie או `Super + Ctrl + Delete`.
 
 ### סידור מסכים מרובים
 

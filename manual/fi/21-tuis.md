@@ -12,19 +12,19 @@ Siirryt eri ruutujen välillä näppäimellä `Tab`. Files-ruudussa valitset tie
 
 [Btop](https://github.com/aristocratos/btop) on kaunis resurssienhallinta, joka näyttää muistin, CPU:n, levyn ja verkon käytön. Se myös listaa kaikki aktiiviset prosessit ja antaa sinun hallita niitä.
 
-Omarchy kutsuu sitä nimellä Activity Monitor, ja käynnistät sen sovelluskäynnistimestä tai painamalla `Super + Shift + T`. Se avautuu kelluvana ikkunana, jonka voit laatoittaa näppäimillä `Super + T`.
+Spherie kutsuu sitä nimellä Activity Monitor, ja käynnistät sen sovelluskäynnistimestä tai painamalla `Super + Shift + T`. Se avautuu kelluvana ikkunana, jonka voit laatoittaa näppäimillä `Super + T`.
 
 ## Herdr
 
 [Herdr](https://github.com/omacom-io/herdr) on terminaalin työtilojen hallinta, joka antaa sinulle työtilat, välilehdet ja ruudut ja pitää ne kaikki käynnissä pysyvässä istunnossa, josta voit irrottautua ja johon voit palata myöhemmin.
 
-Käynnistät sen (tai liityt uudelleen olemassa olevaan istuntoosi) sovelluskäynnistimestä tai näppäimillä `Super + Ctrl + Return`. Omarchy toimittaa Herdr-asetukset, jotka vastaavat sen Tmux-asetuksia, joten etuliitenäppäin on täälläkin `Ctrl + Space`. Voit selata kaikkia näppäinsidoksia näppäimillä `Super + Ctrl + K`.
+Käynnistät sen (tai liityt uudelleen olemassa olevaan istuntoosi) sovelluskäynnistimestä tai näppäimillä `Super + Ctrl + Return`. Spherie toimittaa Herdr-asetukset, jotka vastaavat sen Tmux-asetuksia, joten etuliitenäppäin on täälläkin `Ctrl + Space`. Voit selata kaikkia näppäinsidoksia näppäimillä `Super + Ctrl + K`.
 
 ## Fastfetch
 
 [Fastfetch](https://github.com/fastfetch-cli/fastfetch) näyttää järjestelmätietoja, kuten ytimen version, käyttöajan, teeman, CPU:n, muistin ja paljon muuta. Se on suositun neofetch-työkalun seuraaja.
 
-Omarchy on pakannut tämän nimellä _About_ Omarchy-valikkoon (`Super + Space`).
+Spherie on pakannut tämän nimellä _About_ Omarchy-valikkoon (`Super + Space`).
 
 ## Cliamp
 

@@ -1,10 +1,10 @@
 # Preklopi, nedejavnost in ohranjevalnik zaslona
 
-Veliko tega, kar vsak dan spreminjaš, v resnici ni nastavitev. Je način, ki ga vklopiš za eno uro in nato spet izklopiš: nočna svetloba, ko delaš pozno, ne moti, ko predstavljaš, ostani buden, ko nekaj gledaš. Omarchy jim pravi preklopi in vsi delujejo enako — bližnjica na tipkovnici, vnos v meniju in ukaz, vsi sprožijo isto stikalo.
+Veliko tega, kar vsak dan spreminjaš, v resnici ni nastavitev. Je način, ki ga vklopiš za eno uro in nato spet izklopiš: nočna svetloba, ko delaš pozno, ne moti, ko predstavljaš, ostani buden, ko nekaj gledaš. Spherie jim pravi preklopi in vsi delujejo enako — bližnjica na tipkovnici, vnos v meniju in ukaz, vsi sprožijo isto stikalo.
 
 ### Meni preklopov
 
-`Super + Ctrl + O` neposredno odpre _Sprožilec > Preklop_, lahko pa prideš tja tudi iz menija Omarchy (`Super + Space`). Vse na tem seznamu je stikalo, ki ga lahko preklopiš, ne da bi razmišljal, kje je stanje shranjeno. Stikala za videz namizja so zraven, pod _Videz_.
+`Super + Ctrl + O` neposredno odpre _Sprožilec > Preklop_, lahko pa prideš tja tudi iz menija Spherie (`Super + Space`). Vse na tem seznamu je stikalo, ki ga lahko preklopiš, ne da bi razmišljal, kje je stanje shranjeno. Stikala za videz namizja so zraven, pod _Videz_.
 
 Iz terminala so ista stikala `omarchy toggle <thing>`. Zaženi samo `omarchy toggle`, da vidiš celotno skupino.
 
@@ -26,7 +26,7 @@ Stikala za sledilno ploščico, zaslon na dotik in hibridni GPU so pod _Sprožil
 
 _Videz_ vsebuje menijsko vrstico in animacije ter nekaj stvari, ki niso ukazi `omarchy toggle`, a se obnašajo enako: prikaz odstotka baterije v vrstici, privzeto postavitev delovnih površin ter pod _Okna_ razmike med okni (`Super + Shift + Backspace`) in kvadratno obliko pri enem oknu (`Super + Ctrl + Backspace`).
 
-Ko Hyprland nima GPU-ja, s katerim bi risal, in namesto tega riše s CPU-jem (llvmpipe), kot na Macih, katerih GPU še ni podprt, v večini virtualnih strojev ali ko se grafični gonilnik ne naloži, Omarchy za to sejo izklopi animacije, zameglitev in sence ter ti to enkrat pove z obvestilom. _Videz > Vklopi animacije_ jih vrne nazaj in Omarchy si to zapomni tudi za kasnejše seje.
+Ko Hyprland nima GPU-ja, s katerim bi risal, in namesto tega riše s CPU-jem (llvmpipe), kot na Macih, katerih GPU še ni podprt, v večini virtualnih strojev ali ko se grafični gonilnik ne naloži, Spherie za to sejo izklopi animacije, zameglitev in sence ter ti to enkrat pove z obvestilom. _Videz > Vklopi animacije_ jih vrne nazaj in Spherie si to zapomni tudi za kasnejše seje.
 
 Večina teh je le datoteka z zastavico pod `~/.local/state/omarchy/toggles/`. Če želiš v skripti vejiti glede na eno od njih, ti `omarchy-toggle-enabled` vrne izhodno kodo, namesto da bi moral iti iskat:
 
@@ -67,7 +67,7 @@ Vseeno prideta skozi dve vrsti sporočil: lastna potrditvena pojavna obvestila O
 
 ### Nedejavnost
 
-Obnašanje ob nedejavnosti upravlja lupina Omarchy, časovne nastavitve pa so blok `idle` na najvišji ravni v `~/.config/omarchy/shell.json`:
+Obnašanje ob nedejavnosti upravlja lupina Spherie, časovne nastavitve pa so blok `idle` na najvišji ravni v `~/.config/omarchy/shell.json`:
 
 ```json
 {
@@ -95,10 +95,10 @@ Na zahtevo ga lahko zaženeš iz _Sistem > Ohranjevalnik zaslona_ (`Super + Esc`
 
 `omarchy toggle screensaver` izklopi tistega ob nedejavnosti, če greš raje naravnost od dela do zaklenjenega stanja. Vsaka tipka, klik, drsenje ali premik miške ga zapre.
 
-Logotip, ki ga riše, lahko spremeniš pod _Videz > Grafična podoba > Ohranjevalnik zaslona_. Naloži png ali svg in Omarchy ga pretvori v ASCII. Glej [grafično podobo](41-branding.md).
+Logotip, ki ga riše, lahko spremeniš pod _Videz > Grafična podoba > Ohranjevalnik zaslona_. Naloži png ali svg in Spherie ga pretvori v ASCII. Glej [grafično podobo](41-branding.md).
 
 ### Zaklenjeni zaslon
 
-`Super + Ctrl + L` zaklene stroj. To zažene zaklenjeni zaslon iz lupine Omarchy, zatemni zaslon, ponastavi postavitev tipkovnice na prvo, da gesla ne vnašaš v napačni abecedi, in — če ga imaš zagnanega — ob odhodu zaklene 1Password.
+`Super + Ctrl + L` zaklene stroj. To zažene zaklenjeni zaslon iz lupine Spherie, zatemni zaslon, ponastavi postavitev tipkovnice na prvo, da gesla ne vnašaš v napačni abecedi, in — če ga imaš zagnanega — ob odhodu zaklene 1Password.
 
 Zaklenjeni zaslon sprejme geslo, sprejel pa bo tudi prstni odtis, ko ga nastaviš. To in druge načine avtentikacije obravnava [strojna avtentikacija](37-hardware-authentication.md).

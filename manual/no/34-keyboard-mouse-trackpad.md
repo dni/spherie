@@ -1,6 +1,6 @@
 # Tastatur, mus, styreflate
 
-Hyprland lar deg konfigurere alle inndataenhetene dine i stor detalj. Du kan gjøre tastaturrepetisjonen supersonisk rask eller få styreflaten til å bruke naturlig rulling. Du endrer alt i `~/.config/hypr/input.lua`, som du også når via _Setup > Input_ i Omarchy-menyen (`Super + Space`). Alt du setter der, erstatter standardene i Omarchy.
+Hyprland lar deg konfigurere alle inndataenhetene dine i stor detalj. Du kan gjøre tastaturrepetisjonen supersonisk rask eller få styreflaten til å bruke naturlig rulling. Du endrer alt i `~/.config/hypr/input.lua`, som du også når via _Setup > Input_ i Omarchy-menyen (`Super + Space`). Alt du setter der, erstatter standardene i Spherie.
 
 Her er et eksempel:
 
@@ -70,13 +70,13 @@ hl.gesture({ fingers = 3, direction = "up", action = "unset" })
 hl.gesture({ fingers = 3, direction = "up", action = "fullscreen" })
 ```
 
-For å slå av alle gestene i Omarchy setter du `omarchy_default_gestures = false` nær toppen av `~/.config/hypr/hyprland.lua`, før standardene i Omarchy lastes inn.
+For å slå av alle gestene i Spherie setter du `omarchy_default_gestures = false` nær toppen av `~/.config/hypr/hyprland.lua`, før standardene i Spherie lastes inn.
 
 På Dell XPS-laptoper med en haptisk styreflate kan du også sette klikkstyrken til low, mid eller high under _Trigger > Hardware > Touchpad Haptics_.
 
 ### Skriving på kinesisk, japansk og andre språk
 
-Velg Japanese, Korean, Chinese (Simplified, Pinyin), Taiwan (Zhuyin) eller Hong Kong (Cangjie) når installasjonsprogrammet spør om tastaturet ditt. Omarchy konfigurerer tastaturet og den tilhørende inndatamotoren automatisk, også under frakoblet oppsett ved første oppstart. Japansk bruker Mozc, koreansk bruker standard to-sett Hangul, forenklet kinesisk bruker Pinyin, Taiwan bruker Chewings standard Zhuyin-oppsett, og Hong Kong bruker Cangjie med tegnformer fra Hong Kong. Japanese (US keyboard) gir Mozc med et amerikansk tastaturoppsett. Tastene for Hangul, Zhuyin og Cangjie blir værende i standardposisjonene sine selv når du skriver latinske bokstaver med Dvorak, Colemak eller AZERTY. Hvis du la til Hangul eller Chewing før dette, velger du det bort og velger det på nytt under _Setup > Keyboard > Input Methods_ for å flytte tastene dit; Omarchy lar en motor du allerede skriver med, være i fred.
+Velg Japanese, Korean, Chinese (Simplified, Pinyin), Taiwan (Zhuyin) eller Hong Kong (Cangjie) når installasjonsprogrammet spør om tastaturet ditt. Spherie konfigurerer tastaturet og den tilhørende inndatamotoren automatisk, også under frakoblet oppsett ved første oppstart. Japansk bruker Mozc, koreansk bruker standard to-sett Hangul, forenklet kinesisk bruker Pinyin, Taiwan bruker Chewings standard Zhuyin-oppsett, og Hong Kong bruker Cangjie med tegnformer fra Hong Kong. Japanese (US keyboard) gir Mozc med et amerikansk tastaturoppsett. Tastene for Hangul, Zhuyin og Cangjie blir værende i standardposisjonene sine selv når du skriver latinske bokstaver med Dvorak, Colemak eller AZERTY. Hvis du la til Hangul eller Chewing før dette, velger du det bort og velger det på nytt under _Setup > Keyboard > Input Methods_ for å flytte tastene dit; Spherie lar en motor du allerede skriver med, være i fred.
 
 Skrivingen starter i latinsk modus. Trykk `Super + I` for å bla gjennom konfigurerte inndatametoder, og `Super + Shift + I` for å bla tilbake. Trykk `Shift` alene for å gå ut av en inndatametode som Pinyin og over til latinske bokstaver, og trykk den igjen for å gå tilbake, slik Sogou, Microsoft Pinyin og macOS fungerer; `Shift` pluss en bokstav skriver fortsatt en stor bokstav. På japanske tastaturer veksler 全角/半角 inndata, 変換 slår det på, og 無変換 slår det av. Med koreansk bytter 한/영 Hangul og 한자 konverterer til Hanja, enten tastaturet ditt har egne taster eller sender Right Alt og Right Ctrl for dem, slik mange laptoper gjør, så Right Alt og Right Ctrl er ikke vanlige modifikatorer der; diktering veksles med Alt + Space i stedet. `Ctrl + Space` forblir tilgjengelig for Tmux og Herdr; `Shift + CapsLock` forblir compose-tasten.
 

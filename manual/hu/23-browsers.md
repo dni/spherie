@@ -1,8 +1,8 @@
 # Böngészők
 
-Az Omarchy alapértelmezett böngészőként a [Google Chrome](https://www.google.com/chrome/) böngészőt szállítja. A témája illeszkedik a rendszered többi részéhez, ez nyílik meg a `Super + Shift + Return` billentyűkombinációval, és ebben fut minden [webalkalmazás](25-web-apps.md) is. Egyenesen böngészőablakkal indul: nincs üdvözlőképernyő vagy bejelentkezésre felszólító üzenet, a használati statisztikákat és az összeomlási jelentéseket nem küldi el a Google-nak, a hirdetések adatvédelmével kapcsolatos felszólítások pedig ki vannak kapcsolva. Ha szeretnéd a szinkronizálást, a profilgombra kattintva bármikor bejelentkezhetsz a Google-fiókodba.
+Az Spherie alapértelmezett böngészőként a [Google Chrome](https://www.google.com/chrome/) böngészőt szállítja. A témája illeszkedik a rendszered többi részéhez, ez nyílik meg a `Super + Shift + Return` billentyűkombinációval, és ebben fut minden [webalkalmazás](25-web-apps.md) is. Egyenesen böngészőablakkal indul: nincs üdvözlőképernyő vagy bejelentkezésre felszólító üzenet, a használati statisztikákat és az összeomlási jelentéseket nem küldi el a Google-nak, a hirdetések adatvédelmével kapcsolatos felszólítások pedig ki vannak kapcsolva. Ha szeretnéd a szinkronizálást, a profilgombra kattintva bármikor bejelentkezhetsz a Google-fiókodba.
 
-Ha a Chrome nem a te ízlésed, nem vagy hozzákötve. Az Omarchy menü _Telepítés > Böngésző_ pontja alatt megtalálod a [Chromium](https://www.chromium.org/) böngészőt (a sima, nyílt forráskódú buildet, amelyből a Chrome is készül), az Edge-et, a Brave-et, a Brave Origint, a Firefoxot és a [Zen](https://zen-browser.app/) böngészőt. Válassz egyet, és az Omarchy telepíti, beállítja a házirendkönyvtárát, és alkalmazza rá az aktuális témádat.
+Ha a Chrome nem a te ízlésed, nem vagy hozzákötve. Az Spherie menü _Telepítés > Böngésző_ pontja alatt megtalálod a [Chromium](https://www.chromium.org/) böngészőt (a sima, nyílt forráskódú buildet, amelyből a Chrome is készül), az Edge-et, a Brave-et, a Brave Origint, a Firefoxot és a [Zen](https://zen-browser.app/) böngészőt. Válassz egyet, és az Spherie telepíti, beállítja a házirendkönyvtárát, és alkalmazza rá az aktuális témádat.
 
 ## Az egyik beállítása alapértelmezettként
 
@@ -14,7 +14,7 @@ Terminálból így megy:
 omarchy default browser firefox
 ```
 
-Argumentum nélkül futtatva megmondja, mi az aktuális alapértelmezett. Ez az XDG-kezelőt állítja be, így nem csak az Omarchy gyorsbillentyűi igazodnak hozzá — minden, ami linket nyit meg, a csevegőalkalmazástól a terminálparancsig, az általad választott böngészőbe kerül.
+Argumentum nélkül futtatva megmondja, mi az aktuális alapértelmezett. Ez az XDG-kezelőt állítja be, így nem csak az Spherie gyorsbillentyűi igazodnak hozzá — minden, ami linket nyit meg, a csevegőalkalmazástól a terminálparancsig, az általad választott böngészőbe kerül.
 
 ## URL másolása és videó letöltése
 
@@ -30,9 +30,9 @@ Ezek csak a Chromium-családhoz járnak. A Firefox és a Zen nem kapja meg őket
 
 ## Firefox és Zen
 
-A Firefox és a Zen más családba tartozik, ezért más elbánásban részesül: az Omarchy egy házirendfájlt telepít az ésszerű alapértelmezésekhez, és natív Wayland módba kapcsolja őket, amelyet tört skálázáshoz és sima, érintőpados görgetéshez akarsz.
+A Firefox és a Zen más családba tartozik, ezért más elbánásban részesül: az Spherie egy házirendfájlt telepít az ésszerű alapértelmezésekhez, és natív Wayland módba kapcsolja őket, amelyet tört skálázáshoz és sima, érintőpados görgetéshez akarsz.
 
-Nem kapják meg a fenti Chromium-bővítményeket, és az Omarchy sem témázza őket, így az élménynek ezeket a részeit neked kell beállítanod.
+Nem kapják meg a fenti Chromium-bővítményeket, és az Spherie sem témázza őket, így az élménynek ezeket a részeit neked kell beállítanod.
 
 ## Eltávolítás
 

@@ -89,6 +89,7 @@ source "$OMARCHY_INSTALL/helpers/logging.sh"
 start_install_log
 
 source "$OMARCHY_INSTALL/config/all.sh"
+source "$OMARCHY_INSTALL/spheres/all.sh"
 
 if (( defer_provisioning )); then
   omarchy-apply-hardware --defer-provisioning

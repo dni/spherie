@@ -1,6 +1,6 @@
 # Pelaaminen
 
-Omarchy ei ole vain _tUoTtAvUuTtA_ varten, vaan myös hauskanpitoa varten, ja mikä olisi hauskempaa kuin pelaaminen? Omarchyn mukana tulee kokonainen valikoima pelivaihtoehtoja — Steam ja RetroArch natiivi- ja retropelaamiseen, Battle.net, Lutris ja Heroic muihin kuin Steam-kauppoihin, Moonlight PC-suoratoistoon, Xbox Cloud Gaming + NVIDIA GeForce NOW pilvipelaamiseen sekä ikivihreä Minecraft.
+Spherie ei ole vain _tUoTtAvUuTtA_ varten, vaan myös hauskanpitoa varten, ja mikä olisi hauskempaa kuin pelaaminen? Omarchyn mukana tulee kokonainen valikoima pelivaihtoehtoja — Steam ja RetroArch natiivi- ja retropelaamiseen, Battle.net, Lutris ja Heroic muihin kuin Steam-kauppoihin, Moonlight PC-suoratoistoon, Xbox Cloud Gaming + NVIDIA GeForce NOW pilvipelaamiseen sekä ikivihreä Minecraft.
 
 Valven uskomattoman työn ansiosta [proton-yhteensopivuuskerroksessa](https://en.wikipedia.org/wiki/Proton_(software)) Linuxilla on nyt pelattavissa kymmeniätuhansia moderneja pelejä. Ai niin, ja tiesitkö, että [Steam Deck](https://store.steampowered.com/steamdeck/) pyörii itse asiassa Archilla!
 

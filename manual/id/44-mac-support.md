@@ -1,16 +1,16 @@
 # Dukungan Mac
 
-Omarchy memiliki dukungan bawaan untuk **Mac Intel**. Saat ini ada beberapa keterbatasan yang diketahui, tetapi selama Anda menyadarinya dan tidak masalah dengan hal itu; Anda bisa memberikan kehidupan baru pada Mac lama Anda dengan memasang Omarchy.
+Spherie memiliki dukungan bawaan untuk **Mac Intel**. Saat ini ada beberapa keterbatasan yang diketahui, tetapi selama Anda menyadarinya dan tidak masalah dengan hal itu; Anda bisa memberikan kehidupan baru pada Mac lama Anda dengan memasang Spherie.
 
 Harap diperhatikan bahwa pemasangan di Mac seri M saat ini tidak didukung secara langsung. Anda bisa mengetahui lebih lanjut tentang keadaan hal ini di #omarchy-on-other di [Discord](https://discord.gg/tXFUdasqhY) kami.
 
-Dalam sebuah pengujian sederhana, kami berhasil mencapai peningkatan performa sebesar 36% pada MacBook Pro 2019 hanya dengan menginstal Omarchy.
+Dalam sebuah pengujian sederhana, kami berhasil mencapai peningkatan performa sebesar 36% pada MacBook Pro 2019 hanya dengan menginstal Spherie.
 
  ![macbook-omarchy](images/macbook-omarchy.webp)
 
-### Menginstal Omarchy di Mac
+### Menginstal Spherie di Mac
 
-Omarchy saat ini hanya mendukung menjadi **satu-satunya** OS yang terinstal. Selama pemasangan, drive akan dihapus total dan MacOS tidak akan bisa di-boot lagi.
+Spherie saat ini hanya mendukung menjadi **satu-satunya** OS yang terinstal. Selama pemasangan, drive akan dihapus total dan MacOS tidak akan bisa di-boot lagi.
 
 Anda tetap bisa memulihkannya nanti melalui Internet Recovery jika mau.
 

@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# omarchy:summary=Set up spheres on this machine (service user, bridges, IOMMU, NIC handoff, template)
+# omarchy:requires-sudo=true
+
+set -euo pipefail
+
+if (( EUID == 0 )); then
+  echo "Run omarchy sphere install as your user; it uses sudo where needed." >&2
+  exit 1
+fi
+
+export OMARCHY_INSTALL="$OMARCHY_PATH/install"
+
+run_logged() {
+  echo "==> $(basename "$1")"
+  # shellcheck source=/dev/null
+  source "$1"
+}
+
+source "$OMARCHY_INSTALL/spheres/all.sh"
+
+echo
+echo "Spheres are set up. Reboot so the IOMMU and NIC handoff take effect."

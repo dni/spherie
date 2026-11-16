@@ -1,6 +1,6 @@
 # Netwerken
 
-Netwerken in Omarchy wordt afgehandeld door NetworkManager, en je bedient het vanuit het netwerkpictogram in de [bovenbalk](05-the-top-bar.md) of met `Super + Ctrl + N`.
+Netwerken in Spherie wordt afgehandeld door NetworkManager, en je bedient het vanuit het netwerkpictogram in de [bovenbalk](05-the-top-bar.md) of met `Super + Ctrl + N`.
 
 Dat paneel scant naar Wi-Fi-netwerken, toont de signaalsterkte en maakt verbinding. Ethernet heeft helemaal niets nodig — plug het in en het werkt. Als je liever in de terminal blijft, geeft `nmtui` je dezelfde bediening, en er is ook een `omarchy network`-commandogroep.
 
@@ -12,7 +12,7 @@ Als je echt het wachtwoord zelf nodig hebt, geeft `omarchy network password <int
 
 ## DNS
 
-Omarchy gebruikt de DNS die je netwerk via DHCP uitdeelt. Je kunt dat voor de hele machine overschrijven onder _Setup > Network > DNS_, waar Cloudflare en Google één klik verwijderd zijn. Kies _Custom_ om je eigen servers in te typen.
+Spherie gebruikt de DNS die je netwerk via DHCP uitdeelt. Je kunt dat voor de hele machine overschrijven onder _Setup > Network > DNS_, waar Cloudflare en Google één klik verwijderd zijn. Kies _Custom_ om je eigen servers in te typen.
 
 Vanuit de terminal geeft `omarchy dns` de huidige provider weer en stelt `omarchy dns Cloudflare` er een in.
 
@@ -24,7 +24,7 @@ Dit zet de band vast in plaats van een specifiek toegangspunt, dus je blijft nor
 
 ## Hoe snel is het?
 
-_Trigger > Speed Test > Network Speed Test_ meet je werkelijke upload- en downloadsnelheid met een paar wijzerplaten. Vanuit de terminal is het `omarchy network speedtest down` of `up`. Het meet tegen Omarchy's eigen dienst en telt alleen zijn testoverdrachten. Andere downloads kunnen concurreren om bandbreedte, maar ze worden niet opgeteld bij het resultaat van de snelheidstest. (Er zit een schijfsnelheidstest naast in dat menu, als je de andere bottleneck aan het benchmarken bent.)
+_Trigger > Speed Test > Network Speed Test_ meet je werkelijke upload- en downloadsnelheid met een paar wijzerplaten. Vanuit de terminal is het `omarchy network speedtest down` of `up`. Het meet tegen Spherie's eigen dienst en telt alleen zijn testoverdrachten. Andere downloads kunnen concurreren om bandbreedte, maar ze worden niet opgeteld bij het resultaat van de snelheidstest. (Er zit een schijfsnelheidstest naast in dat menu, als je de andere bottleneck aan het benchmarken bent.)
 
 ## De firewall
 

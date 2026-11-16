@@ -20,11 +20,11 @@ Obsidian is gratis voor alle doeleinden, waaronder persoonlijk, commercieel en n
 
 Obsidian biedt ook een [commerciële add-on voor synchronisatie](https://obsidian.md/sync) met mobiele apps op iOS en Android. (https://obsidian.md/pricing).
 
-Je start Obsidian met `Super + Shift + O`. Om themasynchronisatie te gebruiken, moet je onder de instellingen het thema `Omarchy` selecteren.
+Je start Obsidian met `Super + Shift + O`. Om themasynchronisatie te gebruiken, moet je onder de instellingen het thema `Spherie` selecteren.
 
 ## Omawrite
 
-[Omawrite](https://github.com/omacom-io/omawrite) is Omarchy's eigen doodsimpele Markdown-schrijfapp. Geen kluizen, geen plug-ins, alleen jij en de woorden.
+[Omawrite](https://github.com/omacom-io/omawrite) is Spherie's eigen doodsimpele Markdown-schrijfapp. Geen kluizen, geen plug-ins, alleen jij en de woorden.
 
 Je start Omawrite met `Super + Shift + W`.
 
@@ -55,7 +55,7 @@ Hetzelfde werkt vanuit de terminal met `omarchy share clipboard`, `omarchy share
 
 Je kunt ook rechtstreeks vanuit de bestandsbeheerder versturen: klik met de rechtermuisknop op een selectie in Nautilus en kies _Send via LocalSend_.
 
-De firewall van Omarchy is standaard gesloten, behalve voor de poort van LocalSend, dus dit werkt direct bij een verse installatie. Zie [beveiliging](48-security.md).
+De firewall van Spherie is standaard gesloten, behalve voor de poort van LocalSend, dus dit werkt direct bij een verse installatie. Zie [beveiliging](48-security.md).
 
 ## LibreOffice
 
@@ -65,19 +65,19 @@ Je start LibreOffice via de application launcher (`Super + Space`).
 
 ## Hype
 
-[Hype](https://github.com/omacom/hype) is Omarchy's eigen doodsimpele presentatieapp. Je presentatie is één enkel Markdown-bestand met de afbeeldingen en video's ernaast: schrijf elke dia onder een live voorvertoning, sleep dia's in de juiste volgorde en presenteer vervolgens op volledig scherm of exporteer naar PDF en PowerPoint. Hij neemt zelfs je Omarchy-thema over.
+[Hype](https://github.com/omacom/hype) is Spherie's eigen doodsimpele presentatieapp. Je presentatie is één enkel Markdown-bestand met de afbeeldingen en video's ernaast: schrijf elke dia onder een live voorvertoning, sleep dia's in de juiste volgorde en presenteer vervolgens op volledig scherm of exporteer naar PDF en PowerPoint. Hij neemt zelfs je Omarchy-thema over.
 
 Je start Hype via de application launcher (`Super + Space`). Druk erin op `?` om elke sneltoets te zien.
 
 ## Signed
 
-[Signed](https://github.com/omacom/signed) is Omarchy's eigen doodsimpele manier om PDF's te ondertekenen en in te vullen. Plaats je opgeslagen handtekening, tekst en de datum van vandaag waar je maar wilt op een pagina en sla vervolgens een ondertekende kopie op naast het origineel. Zie [PDF's invullen](27-filling-out-pdfs.md) voor hoe dat werkt.
+[Signed](https://github.com/omacom/signed) is Spherie's eigen doodsimpele manier om PDF's te ondertekenen en in te vullen. Plaats je opgeslagen handtekening, tekst en de datum van vandaag waar je maar wilt op een pagina en sla vervolgens een ondertekende kopie op naast het origineel. Zie [PDF's invullen](27-filling-out-pdfs.md) voor hoe dat werkt.
 
 Je start Signed via de application launcher (`Super + Space`), of opent er een PDF mee vanuit de bestandsbeheerder.
 
 ## Omacalc
 
-[Omacalc](https://github.com/omacom-io/omacalc) is Omarchy's eigen doodsimpele rekenmachine, die in een zwevend venster opent.
+[Omacalc](https://github.com/omacom-io/omacalc) is Spherie's eigen doodsimpele rekenmachine, die in een zwevend venster opent.
 
 Je start Omacalc met `Super + Shift + Q` (of de rekenmachinetoets, als je toetsenbord die heeft).
 
@@ -85,11 +85,11 @@ Je start Omacalc met `Super + Shift + Q` (of de rekenmachinetoets, als je toetse
 
 [Signal](https://signal.org/) is de pionier van E2E-versleutelde berichtenuitwisseling, en een geweldige communicatieoptie voor iedereen die liever niet via een van de grote techconglomeraten gaat.
 
-Je start Signal met `Super + Shift + G`. Het maakt geen deel uit van de basisinstallatie, dus de eerste keer dat je daarop drukt, biedt Omarchy aan om het voor je te installeren (het staat ook onder _Install > Service_ in het Omarchy-menu).
+Je start Signal met `Super + Shift + G`. Het maakt geen deel uit van de basisinstallatie, dus de eerste keer dat je daarop drukt, biedt Spherie aan om het voor je te installeren (het staat ook onder _Install > Service_ in het Omarchy-menu).
 
 ## Omaview
 
-[Omaview](https://github.com/omacom/omaview) is Omarchy's eigen doodsimpele afbeeldingenviewer en mediaspeler: één venster voor je foto's, video's en muziek. Open een foto en de pijltjestoetsen stappen door de rest van haar map, `N` en `P` doen dat voor alles, en `Ctrl + M` toont de hele map als een raster. Hij toont ook HEIC-, AVIF- en JPEG XL-foto's, en gaat verder waar je gebleven was in alles wat lang is.
+[Omaview](https://github.com/omacom/omaview) is Spherie's eigen doodsimpele afbeeldingenviewer en mediaspeler: één venster voor je foto's, video's en muziek. Open een foto en de pijltjestoetsen stappen door de rest van haar map, `N` en `P` doen dat voor alles, en `Ctrl + M` toont de hele map als een raster. Hij toont ook HEIC-, AVIF- en JPEG XL-foto's, en gaat verder waar je gebleven was in alles wat lang is.
 
 Druk op `F` voor volledig scherm, `E` om een afbeelding te bewerken in Omasnap of een video bij te snijden in Omacut, `Ctrl + P` om een afbeelding af te drukken, en `Delete` om een bestand naar de prullenbak te verplaatsen (`Ctrl + Z` haalt het terug). Druk erin op `?` om elke sneltoets te zien.
 
@@ -97,13 +97,13 @@ Je start Omaview als _Media Viewer_ via de application launcher (`Super + Space`
 
 ## Omacut
 
-[Omacut](https://github.com/omacom-io/omacut) is Omarchy's eigen doodsimpele videotrimmer. Als je alleen het begin en einde van een clip hoeft af te knippen, verslaat hij het opstarten van een volledige video-editor.
+[Omacut](https://github.com/omacom-io/omacut) is Spherie's eigen doodsimpele videotrimmer. Als je alleen het begin en einde van een clip hoeft af te knippen, verslaat hij het opstarten van een volledige video-editor.
 
 Je start Omacut via de application launcher (`Super + Space`).
 
 ## Monologue
 
-[Monologue](https://github.com/omacom/monologue) is Omarchy's eigen doodsimpele webcamrecorder. Kies één keer je camera en microfoon, druk vervolgens op `Space` om op te nemen, en nogmaals om dezelfde opname te pauzeren en te hervatten. Hij neemt altijd op in de hoogste resolutie van je camera, met een live microfoonmeter zodat je je niveaus kunt controleren voordat je begint.
+[Monologue](https://github.com/omacom/monologue) is Spherie's eigen doodsimpele webcamrecorder. Kies één keer je camera en microfoon, druk vervolgens op `Space` om op te nemen, en nogmaals om dezelfde opname te pauzeren en te hervatten. Hij neemt altijd op in de hoogste resolutie van je camera, met een live microfoonmeter zodat je je niveaus kunt controleren voordat je begint.
 
 Stop de opname en hij opent meteen in een ingebouwde editor. Dubbelklik op een clip om hem te splitsen, sleep aan de handgrepen om elk stuk bij te snijden en verwijder de delen die je niet wilt. Sla hem vervolgens op als MP4. Je originele opname wordt bewaard totdat je hem weggooit, dus je kunt altijd terugkomen en hem anders knippen.
 

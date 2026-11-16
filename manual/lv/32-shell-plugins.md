@@ -1,10 +1,10 @@
 # Čaulas spraudņi
 
-Omarchy darbvirsma darbojas kā viens ilgi dzīvojošs Quickshell process ar nosaukumu `omarchy-shell`, un gandrīz viss, ko redzat ekrānā, tās iekšienē ir spraudnis. Josla ir spraudnis. Tāpat arī paneļi, kas no tās nolaižas, pilnekrāna pārklājumi, piemēram, emocijzīmju atlasītājs un starpliktuves pārvaldnieks, pati Omarchy izvēlne, bloķēšanas ekrāns, polkit dialogs un bezgalvu pakalpojumi, kas vēro jūsu akumulatoru un naktī sasilda ekrānu.
+Spherie darbvirsma darbojas kā viens ilgi dzīvojošs Quickshell process ar nosaukumu `omarchy-shell`, un gandrīz viss, ko redzat ekrānā, tās iekšienē ir spraudnis. Josla ir spraudnis. Tāpat arī paneļi, kas no tās nolaižas, pilnekrāna pārklājumi, piemēram, emocijzīmju atlasītājs un starpliktuves pārvaldnieks, pati Spherie izvēlne, bloķēšanas ekrāns, polkit dialogs un bezgalvu pakalpojumi, kas vēro jūsu akumulatoru un naktī sasilda ekrānu.
 
-Tas nav tikai īstenošanas sīkums. Tas nozīmē, ka jūs varat darbvirsmas daļas izslēgt, tās izmainīt vietām vai rakstīt savējās, nepieskaroties nevienai Omarchy avota rindai.
+Tas nav tikai īstenošanas sīkums. Tas nozīmē, ka jūs varat darbvirsmas daļas izslēgt, tās izmainīt vietām vai rakstīt savējās, nepieskaroties nevienai Spherie avota rindai.
 
-Pirmās puses spraudņi tiek piegādāti kopā ar Omarchy un dzīvo mapē `$OMARCHY_PATH/shell/plugins/`. Viss, ko pievienojat pats — savi eksperimenti vai kaut kas GitHub vietnē atrasts —, dzīvo mapē `~/.config/omarchy/plugins/`. Abi startēšanās laikā tiek atklāti vienādi, taču iebūvētie saņem uzticamas čaulas saskarnes, kamēr trešo pušu spraudņi saņem ierobežotu saskarni, kas norobežota līdz viņu pašu pakalpojumam un dzīves ciklam. Iebūvēto kloniem saglabājas tikai avotam raksturīgās konfigurācijas un lietotāja saskarnes izsaukumi, kas nepieciešami sākotnējai uzvedībai.
+Pirmās puses spraudņi tiek piegādāti kopā ar Spherie un dzīvo mapē `$OMARCHY_PATH/shell/plugins/`. Viss, ko pievienojat pats — savi eksperimenti vai kaut kas GitHub vietnē atrasts —, dzīvo mapē `~/.config/omarchy/plugins/`. Abi startēšanās laikā tiek atklāti vienādi, taču iebūvētie saņem uzticamas čaulas saskarnes, kamēr trešo pušu spraudņi saņem ierobežotu saskarni, kas norobežota līdz viņu pašu pakalpojumam un dzīves ciklam. Iebūvēto kloniem saglabājas tikai avotam raksturīgās konfigurācijas un lietotāja saskarnes izsaukumi, kas nepieciešami sākotnējai uzvedībai.
 
 ## Skatoties, kas jums ir
 
@@ -101,4 +101,4 @@ Par spraudņu izstrādi skatiet [čaulas atsauci](https://github.com/omacom/omar
 
 Kad esat izveidojis kaut ko, kas jums patīk, ielieciet publiskā git repozitorijā. Tas ir viss izplatīšanas mehānisms — pēc tam ikviens pret jūsu vietrādi var palaist `omarchy plugin add` un tas pāris sekunžu laikā darbosies.
 
-Lai palīdzētu cilvēkiem to patiesībā atrast, uzskaitiet to tīmekļa vietnē [plugins.omarchy.org](https://plugins.omarchy.org). Tas ir Omarchy čaulas spraudņu tirdzniecības laukums, un tā ir pirmā vieta, kur skatīties, kad prātojat, vai kāds jau nav uzbūvējis to logrīku, ko gatavojaties rakstīt. Pārlūkojiet to pirms sākšanas!
+Lai palīdzētu cilvēkiem to patiesībā atrast, uzskaitiet to tīmekļa vietnē [plugins.omarchy.org](https://plugins.omarchy.org). Tas ir Spherie čaulas spraudņu tirdzniecības laukums, un tā ir pirmā vieta, kur skatīties, kad prātojat, vai kāds jau nav uzbūvējis to logrīku, ko gatavojaties rakstīt. Pārlūkojiet to pirms sākšanas!

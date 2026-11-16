@@ -8,7 +8,7 @@ Bakgrunner kan være videoer så vel som stillbilder. Legg en `mp4`-, `m4v`-, `m
 
 Temaer kan inkludere en kort intro for en stillbakgrunn. For `backgrounds/road.webp` ligger den tilhørende videoen i `backgrounds/intros/road.mp4`. Den spilles av automatisk ved oppstart, når du bytter til et tema med den bakgrunnen valgt, og når du velger den bakgrunnen, og går deretter tilbake til stillbildet. Introvideoer holdes utenfor bakgrunnsvelgeren og looper aldri.
 
-Å slå av _Appearance > Animations_ slår også av bakgrunnsintroer. Omarchy gjør dette som standard i en virtuell maskin. Kommandoen `omarchy theme bg intro toggle` kan slå introer av og på separat. Å oppdatere et tema spiller ikke av en intro.
+Å slå av _Appearance > Animations_ slår også av bakgrunnsintroer. Spherie gjør dette som standard i en virtuell maskin. Kommandoen `omarchy theme bg intro toggle` kan slå introer av og på separat. Å oppdatere et tema spiller ikke av en intro.
 
 Du finner en enorm samling kule, kuraterte bakgrunner i [dharmx/walls](https://github.com/dharmx/walls).
 

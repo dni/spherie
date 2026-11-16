@@ -1,16 +1,16 @@
 # Usaidizi wa Mac
 
-Omarchy ina usaidizi uliojengewa ndani kwa **Intel Macs**. Kuna mapungufu machache yanayojulikana kwa sasa, lakini mradi tu unayafahamu na uko sawa nayo; unaweza kuipa uhai mpya Mac zako za zamani kwa kupakia Omarchy.
+Spherie ina usaidizi uliojengewa ndani kwa **Intel Macs**. Kuna mapungufu machache yanayojulikana kwa sasa, lakini mradi tu unayafahamu na uko sawa nayo; unaweza kuipa uhai mpya Mac zako za zamani kwa kupakia Spherie.
 
 Tafadhali kumbuka kuwa kusakinisha kwenye Mac ya mfululizo wa M hakusaidiwi moja kwa moja kwa sasa. Unaweza kujua zaidi kuhusu hali ya hili katika #omarchy-on-other katika [Discord](https://discord.gg/tXFUdasqhY) yetu.
 
-Katika jaribio rahisi, tuliweza kupata ongezeko la utendaji la 36% kwenye MacBook Pro ya 2019 kwa kusakinisha tu Omarchy.
+Katika jaribio rahisi, tuliweza kupata ongezeko la utendaji la 36% kwenye MacBook Pro ya 2019 kwa kusakinisha tu Spherie.
 
  ![macbook-omarchy](images/macbook-omarchy.webp)
 
-### Kusakinisha Omarchy kwenye Mac
+### Kusakinisha Spherie kwenye Mac
 
-Omarchy inasaidia tu kuwa **pekee** OS iliyosakinishwa kwa sasa. Wakati wa usakinishaji, diski itafutwa na MacOS haitaweza kuwashwa tena.
+Spherie inasaidia tu kuwa **pekee** OS iliyosakinishwa kwa sasa. Wakati wa usakinishaji, diski itafutwa na MacOS haitaweza kuwashwa tena.
 
 Bado unaweza kuirejesha baadaye kupitia Internet Recovery ukipenda.
 

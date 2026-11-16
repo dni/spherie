@@ -1,16 +1,16 @@
 # Obsługa komputerów Mac
 
-Omarchy ma wbudowaną obsługę **komputerów Mac z procesorami Intel**. Obecnie istnieje kilka znanych ograniczeń, ale jeśli jesteś ich świadomy i Ci odpowiadają, możesz tchnąć nowe życie w swoje stare Maki, instalując na nich Omarchy.
+Spherie ma wbudowaną obsługę **komputerów Mac z procesorami Intel**. Obecnie istnieje kilka znanych ograniczeń, ale jeśli jesteś ich świadomy i Ci odpowiadają, możesz tchnąć nowe życie w swoje stare Maki, instalując na nich Spherie.
 
 Pamiętaj, że instalacja na Macu z chipem z serii M nie jest obecnie bezpośrednio obsługiwana. Więcej informacji o stanie prac w tym zakresie znajdziesz na kanale #omarchy-on-other na naszym [Discord](https://discord.gg/tXFUdasqhY).
 
-W prostym teście udało nam się osiągnąć 36% wzrost wydajności na MacBooku Pro z 2019 roku już przez samo zainstalowanie Omarchy.
+W prostym teście udało nam się osiągnąć 36% wzrost wydajności na MacBooku Pro z 2019 roku już przez samo zainstalowanie Spherie.
 
  ![macbook-omarchy](images/macbook-omarchy.webp)
 
-### Instalowanie Omarchy na Macu
+### Instalowanie Spherie na Macu
 
-Omarchy obecnie obsługuje wyłącznie instalację jako **jedyny** system operacyjny. Podczas instalacji dysk zostanie wyczyszczony, a MacOS nie będzie już mógł się uruchamiać.
+Spherie obecnie obsługuje wyłącznie instalację jako **jedyny** system operacyjny. Podczas instalacji dysk zostanie wyczyszczony, a MacOS nie będzie już mógł się uruchamiać.
 
 Jeśli zechcesz, możesz go później nadal przywrócić za pomocą Internet Recovery.
 

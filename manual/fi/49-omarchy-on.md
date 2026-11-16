@@ -1,4 +1,4 @@
-# Omarchy käytössä...
+# Spherie käytössä...
 
 ### Apple M1/M2 -sirut
 
@@ -14,7 +14,7 @@ VirtualBox on suosittu VM-ajuri. [Voit ajaa Omarchyn myös siinä](https://githu
 
 ### VMware Workstation Windows 11:ssä
 
-Toinen suosittu VM-ajuri Windowsille. [Omarchy on asetettu myös sen sisään](https://github.com/omacom/omarchy/discussions/572).
+Toinen suosittu VM-ajuri Windowsille. [Spherie on asetettu myös sen sisään](https://github.com/omacom/omarchy/discussions/572).
 
 ### Steam Deck
 
@@ -22,7 +22,7 @@ Steam Deck toimii Archilla, mikä tarkoittaa, että voit ajaa Omarchyn Steam Dec
 
 ### NixOS
 
-Omarchy on oikeastaan Arch + Hyprland, mutta Henry Sipp on [siirtänyt asennuksen ytimen NixOS:ään](https://github.com/henrysipp/omarchy-nix). Joten jos olet ottanut nix-pillerin, tässä on hyvä lähtökohta. Se ei välttämättä pysy ajan tasalla uusimpien Omarchy-muutosten kanssa, mutta se on silti aika hienoa!
+Spherie on oikeastaan Arch + Hyprland, mutta Henry Sipp on [siirtänyt asennuksen ytimen NixOS:ään](https://github.com/henrysipp/omarchy-nix). Joten jos olet ottanut nix-pillerin, tässä on hyvä lähtökohta. Se ei välttämättä pysy ajan tasalla uusimpien Omarchy-muutosten kanssa, mutta se on silti aika hienoa!
 
 ### Jotain muuta!
 

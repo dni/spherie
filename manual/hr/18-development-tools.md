@@ -2,7 +2,7 @@
 
 ## Alternativni uređivači
 
-Omarchy prema zadanim postavkama dolazi s [Neovimom](https://neovim.io/), ali ako želite nešto malo raširenije i poznatije, možete pokrenuti Omarchy Menu (`Super + Space`) i pogledati mogućnosti pod _Install > Editor_. Tamo su navedeni VSCode, Cursor, Zed, Sublime Text, Helix, Vim i Emacs. Ako ne pronađete ono što tražite, pogledajte _Install > Package_ i provjerite nije li to u nekom Arch paketu (a ako nije, pokušajte s _Install > AUR_ kako biste provjerili AUR).
+Spherie prema zadanim postavkama dolazi s [Neovimom](https://neovim.io/), ali ako želite nešto malo raširenije i poznatije, možete pokrenuti Spherie Menu (`Super + Space`) i pogledati mogućnosti pod _Install > Editor_. Tamo su navedeni VSCode, Cursor, Zed, Sublime Text, Helix, Vim i Emacs. Ako ne pronađete ono što tražite, pogledajte _Install > Package_ i provjerite nije li to u nekom Arch paketu (a ako nije, pokušajte s _Install > AUR_ kako biste provjerili AUR).
 
 Izvorni uređivač `vi` također je dostupan odmah po instalaciji. Pokrenite `vi filename` kako biste uredili datoteku u terminalu.
 
@@ -12,7 +12,7 @@ Zadani uređivač za cijeli sustav možete postaviti pod `Setup > Defaults > Edi
 
 ## Razvojna okruženja
 
-Omarchy podržava postavljanje cijelog niza razvojnih okruženja putem odjeljka _Install > Development_ u Omarchy Menuu (`Super + Space`). Ondje ćete, naravno, pronaći _Ruby on Rails_, ali i sva tri glavna izvršna okruženja za JavaScript (Node.js, Bun, Deno), kao i popularne PHP okvire poput Laravela i Symfonyja. Oh, tu su i Go, Rust, Python, Java, Elixir (s Phoenixom), .NET, OCaml, Zig, Clojure i Scala. Izbor je doista vrlo širok!
+Spherie podržava postavljanje cijelog niza razvojnih okruženja putem odjeljka _Install > Development_ u Spherie Menuu (`Super + Space`). Ondje ćete, naravno, pronaći _Ruby on Rails_, ali i sva tri glavna izvršna okruženja za JavaScript (Node.js, Bun, Deno), kao i popularne PHP okvire poput Laravela i Symfonyja. Oh, tu su i Go, Rust, Python, Java, Elixir (s Phoenixom), .NET, OCaml, Zig, Clojure i Scala. Izbor je doista vrlo širok!
 
 Većinom tih okruženja upravlja [Mise](https://mise.jdx.dev/). To je alat koji vam omogućuje instaliranje i pokretanje više verzija programskog jezika na istom računalu. Sličan je alatima rbenv ili rvm za Ruby ili virtualenv za Python, ali radi s nizom različitih okruženja.
 
@@ -20,7 +20,7 @@ Kako biste instalirali, recimo, Ruby, pokrenuli biste `mise use -g ruby`, čime 
 
 ## Unaprijed instalirani CLI alati
 
-Omarchy alate kao što su `gh`, `uv` i većinu [agenata za programiranje](17-ai.md) čini dostupnima putem [miseove lijene instalacije](https://mise.jdx.dev/dev-tools/shims.html#lazy-tools). Kada neki od njih pokrenete prvi put, mise će ga instalirati. Kasnija pokretanja upotrebljavaju instaliranu verziju; ne provjeravaju postoji li ažuriranje pri svakom pokretanju.
+Spherie alate kao što su `gh`, `uv` i većinu [agenata za programiranje](17-ai.md) čini dostupnima putem [miseove lijene instalacije](https://mise.jdx.dev/dev-tools/shims.html#lazy-tools). Kada neki od njih pokrenete prvi put, mise će ga instalirati. Kasnija pokretanja upotrebljavaju instaliranu verziju; ne provjeravaju postoji li ažuriranje pri svakom pokretanju.
 
 Zadane alate možete i pregledati ili ih instalirati unaprijed:
 
@@ -51,11 +51,11 @@ _Remove Preinstalls_ čini da mise za vašeg korisnika preskoči Omarchyjeve dek
 
 ## Docker
 
-[Docker](https://www.docker.com/) gotovo da i ne treba predstavljati. Omogućuje vam pokretanje izoliranih spremnika, a Omarchy instalira sve što je potrebno za njegov dobar rad, uključujući sam Docker i [Docker Compose](https://docs.docker.com/compose/).
+[Docker](https://www.docker.com/) gotovo da i ne treba predstavljati. Omogućuje vam pokretanje izoliranih spremnika, a Spherie instalira sve što je potrebno za njegov dobar rad, uključujući sam Docker i [Docker Compose](https://docs.docker.com/compose/).
 
 Prema zadanim postavkama vaš korisnik *nije* u grupi `docker`. Ta je grupa zapravo root bez lozinke — sve u njoj može pokrenuti `docker run -v /:/host` i preuzeti računalo — pa bi jedan jedini zlonamjerni skript ili ovisnost pokrenuta pod vašim korisnikom inače bio na samo jednu naredbu od roota. Zato Docker na naredbenom retku pokrećete sa `sudo` (`sudo docker ps`, `sudo docker compose up`), a grafički alati koji komuniciraju s pozadinskim procesom — Windows VM — traže autorizaciju kada im je potrebna. Ako želite natrag praktičnost postavljanja bez grupe i razumijete kompromis, omogućite ga putem **Setup > Security > Sudoless Docker** (ili pokrenite `omarchy-setup-security-sudoless-docker`), čime ćete nakon upozorenja biti dodani u grupu `docker`; tada obični `docker` i alias `d` ponovno rade bez `sudo`.
 
-Uobičajene baze podataka za lokalni razvoj u Dockeru možete postaviti putem _Install > Development > Docker DB_ u Omarchy izborniku.
+Uobičajene baze podataka za lokalni razvoj u Dockeru možete postaviti putem _Install > Development > Docker DB_ u Spherie izborniku.
 
 ## GitHub CLI
 

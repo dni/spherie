@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# omarchy:summary=Copy a file from one sphere to another's ~/Incoming/<from>/
+# omarchy:args=<from-sphere> <path-in-from> <to-sphere>
+# omarchy:examples=omarchy sphere copy personal ~/Downloads/invoice.pdf work
+
+set -euo pipefail
+source "$OMARCHY_PATH/default/spherie/lib.sh"
+
+from="$1"
+path="$2"
+to="$3"
+
+sphere_load "$to"
+to_cid="$CID"
+sphere_load "$from"
+from_cid="$CID"
+
+name=$(basename -- "$path" | tr -c 'A-Za-z0-9._+-\n' '_')
+name="${name#.}"
+[[ -n $name ]] || { echo "Invalid file name" >&2; exit 1; }
+
+# The host does the copy, so neither sphere can reach the other.
+yes=$(omarchy-i18n sphere.copyYes)
+answer=$(omarchy-menu-select "$(omarchy-i18n sphere.copyConfirm "$name" "$from" "$to")" "$yes" "$(omarchy-i18n sphere.copyNo)") || exit 1
+[[ $answer == "$yes" ]] || exit 1
+
+sphere_agent "$from_cid" file-send "$path" </dev/null |
+  sphere_agent "$to_cid" file-recv "$from" "$name"
+
+omarchy-notification-send "$(omarchy-i18n sphere.fileCopied "$name")" "$(omarchy-i18n sphere.fileCopiedBody "$from" "$to")"

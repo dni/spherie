@@ -1,10 +1,10 @@
 # Plugin Shell
 
-Desktop Omarchy berjalan sebagai satu proses Quickshell yang berumur panjang yang disebut `omarchy-shell`, dan hampir semua yang kamu lihat di layar adalah plugin di dalamnya. Bilah adalah plugin. Begitu juga panel yang turun darinya, overlay layar penuh seperti pemilih emoji dan manajer papan klip, menu Omarchy itu sendiri, layar kunci, dialog polkit, dan layanan headless yang mengawasi bateraimu dan menghangatkan layarmu di malam hari.
+Desktop Spherie berjalan sebagai satu proses Quickshell yang berumur panjang yang disebut `omarchy-shell`, dan hampir semua yang kamu lihat di layar adalah plugin di dalamnya. Bilah adalah plugin. Begitu juga panel yang turun darinya, overlay layar penuh seperti pemilih emoji dan manajer papan klip, menu Spherie itu sendiri, layar kunci, dialog polkit, dan layanan headless yang mengawasi bateraimu dan menghangatkan layarmu di malam hari.
 
-Itu bukan hanya detail implementasi. Ini berarti kamu dapat mematikan bagian desktop, menukarnya, atau menulis milikmu sendiri tanpa menyentuh satu baris pun kode sumber Omarchy.
+Itu bukan hanya detail implementasi. Ini berarti kamu dapat mematikan bagian desktop, menukarnya, atau menulis milikmu sendiri tanpa menyentuh satu baris pun kode sumber Spherie.
 
-Plugin pihak pertama disertakan dengan Omarchy dan berada di `$OMARCHY_PATH/shell/plugins/`. Apa pun yang kamu tambahkan sendiri — eksperimenmu sendiri, atau sesuatu yang kamu temukan di GitHub — berada di `~/.config/omarchy/plugins/`. Keduanya ditemukan dengan cara yang sama saat startup, tetapi built-in menerima antarmuka shell tepercaya sementara plugin pihak ketiga menerima antarmuka terbatas yang dicakup ke layanan dan siklus hidup mereka sendiri. Klon dari built-in hanya mempertahankan konfigurasi spesifik sumber dan panggilan UI yang dibutuhkan untuk perilaku asli.
+Plugin pihak pertama disertakan dengan Spherie dan berada di `$OMARCHY_PATH/shell/plugins/`. Apa pun yang kamu tambahkan sendiri — eksperimenmu sendiri, atau sesuatu yang kamu temukan di GitHub — berada di `~/.config/omarchy/plugins/`. Keduanya ditemukan dengan cara yang sama saat startup, tetapi built-in menerima antarmuka shell tepercaya sementara plugin pihak ketiga menerima antarmuka terbatas yang dicakup ke layanan dan siklus hidup mereka sendiri. Klon dari built-in hanya mempertahankan konfigurasi spesifik sumber dan panggilan UI yang dibutuhkan untuk perilaku asli.
 
 ## Melihat apa yang kamu miliki
 
@@ -101,4 +101,4 @@ Untuk pengembangan plugin, lihat [referensi shell](https://github.com/omacom/oma
 
 Setelah kamu membuat sesuatu yang kamu sukai, taruh di repo git publik. Itulah seluruh mekanisme distribusi — siapa pun kemudian dapat menjalankan `omarchy plugin add` terhadap URL-mu dan menjalankannya dalam hitungan detik.
 
-Untuk membantu orang benar-benar menemukannya, daftarkan di [plugins.omarchy.org](https://plugins.omarchy.org). Itulah pasar untuk plugin shell Omarchy, dan itu adalah tempat pertama untuk melihat saat kamu bertanya-tanya apakah seseorang telah membuat widget yang akan kamu tulis. Telusuri sebelum kamu memulai!
+Untuk membantu orang benar-benar menemukannya, daftarkan di [plugins.omarchy.org](https://plugins.omarchy.org). Itulah pasar untuk plugin shell Spherie, dan itu adalah tempat pertama untuk melihat saat kamu bertanya-tanya apakah seseorang telah membuat widget yang akan kamu tulis. Telusuri sebelum kamu memulai!

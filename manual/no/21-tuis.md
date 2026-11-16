@@ -12,19 +12,19 @@ Du hopper mellom de ulike panelene med `Tab`. I Files-panelet velger du filer fo
 
 [Btop](https://github.com/aristocratos/btop) er en vakker ressursbehandler som viser bruk av minne, CPU, disk og nettverk. Den lister også opp alle aktive prosesser og lar deg administrere dem.
 
-Omarchy kaller den Activity Monitor, og du starter den fra appstarteren eller ved å trykke `Super + Shift + T`. Den åpnes som et flytende vindu, som du kan flislegge med `Super + T`.
+Spherie kaller den Activity Monitor, og du starter den fra appstarteren eller ved å trykke `Super + Shift + T`. Den åpnes som et flytende vindu, som du kan flislegge med `Super + T`.
 
 ## Herdr
 
 [Herdr](https://github.com/omacom-io/herdr) er en arbeidsområdebehandler for terminalen som gir deg arbeidsområder, faner og paneler, og holder dem alle kjørende i en vedvarende økt du kan koble deg fra og komme tilbake til senere.
 
-Du starter den (eller kobler deg til den eksisterende økten din igjen) fra appstarteren eller med `Super + Ctrl + Return`. Omarchy leveres med en Herdr-konfigurasjon som speiler Tmux-konfigurasjonen, så prefiks-tasten er `Ctrl + Space` her også. Du kan bla gjennom alle tastebindingene med `Super + Ctrl + K`.
+Du starter den (eller kobler deg til den eksisterende økten din igjen) fra appstarteren eller med `Super + Ctrl + Return`. Spherie leveres med en Herdr-konfigurasjon som speiler Tmux-konfigurasjonen, så prefiks-tasten er `Ctrl + Space` her også. Du kan bla gjennom alle tastebindingene med `Super + Ctrl + K`.
 
 ## Fastfetch
 
 [Fastfetch](https://github.com/fastfetch-cli/fastfetch) viser systeminformasjon, som kjerneversjon, oppetid, tema, CPU, minne og mer. Det er en etterfølger til det populære neofetch-verktøyet.
 
-Omarchy har pakket dette som _About_ i Omarchy-menyen (`Super + Space`).
+Spherie har pakket dette som _About_ i Omarchy-menyen (`Super + Space`).
 
 ## Cliamp
 

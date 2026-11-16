@@ -1,16 +1,16 @@
 # Hỗ trợ Mac
 
-Omarchy có hỗ trợ tích hợp sẵn cho **Intel Macs**. Hiện tại vẫn còn một vài hạn chế đã biết, nhưng miễn là bạn nắm rõ và chấp nhận được những hạn chế đó; bạn có thể thổi luồng sinh khí mới vào những chiếc Mac cũ của mình bằng cách cài Omarchy.
+Spherie có hỗ trợ tích hợp sẵn cho **Intel Macs**. Hiện tại vẫn còn một vài hạn chế đã biết, nhưng miễn là bạn nắm rõ và chấp nhận được những hạn chế đó; bạn có thể thổi luồng sinh khí mới vào những chiếc Mac cũ của mình bằng cách cài Spherie.
 
 Xin lưu ý rằng việc cài đặt trên Mac dòng M hiện chưa được hỗ trợ trực tiếp. Bạn có thể tìm hiểu thêm về tình trạng này tại #omarchy-on-other trong [Discord](https://discord.gg/tXFUdasqhY) của chúng tôi.
 
-Trong một bài kiểm tra đơn giản, chúng tôi đã đạt được mức tăng hiệu năng 36% trên một chiếc MacBook Pro 2019 chỉ bằng cách cài đặt Omarchy.
+Trong một bài kiểm tra đơn giản, chúng tôi đã đạt được mức tăng hiệu năng 36% trên một chiếc MacBook Pro 2019 chỉ bằng cách cài đặt Spherie.
 
  ![macbook-omarchy](images/macbook-omarchy.webp)
 
-### Cài đặt Omarchy trên Mac
+### Cài đặt Spherie trên Mac
 
-Omarchy hiện chỉ hỗ trợ là hệ điều hành **duy nhất** được cài đặt. Trong quá trình cài đặt, ổ đĩa sẽ bị xóa sạch và MacOS sẽ không còn khởi động được nữa.
+Spherie hiện chỉ hỗ trợ là hệ điều hành **duy nhất** được cài đặt. Trong quá trình cài đặt, ổ đĩa sẽ bị xóa sạch và MacOS sẽ không còn khởi động được nữa.
 
 Bạn vẫn có thể khôi phục lại sau này qua Internet Recovery nếu muốn.
 

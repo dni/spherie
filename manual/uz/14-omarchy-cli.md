@@ -1,6 +1,6 @@
-# Omarchy CLI
+# Spherie CLI
 
-Omarchy odatda tezkor tugmalar va Omarchy menyusi (`Super + Space`) orqali boshqariladi. Lekin uni `omarchy` CLI orqali ham boshqarishingiz mumkin. Bu, ayniqsa, moslashtirish yoki konfiguratsiya ustida siz bilan birga AI agent ishlayotganda juda qo‘l keladi.
+Spherie odatda tezkor tugmalar va Spherie menyusi (`Super + Space`) orqali boshqariladi. Lekin uni `omarchy` CLI orqali ham boshqarishingiz mumkin. Bu, ayniqsa, moslashtirish yoki konfiguratsiya ustida siz bilan birga AI agent ishlayotganda juda qo‘l keladi.
 
 CLI menyu orqali ham, boshqa yo‘llar bilan ham ishlatiladigan barcha ichki vositalarga kirish imkoniga ega. Mavjud barcha narsani terminalda `omarchy` ni ishga tushirib ko‘rishingiz mumkin.
 
@@ -8,7 +8,7 @@ Bu taxminan shunday ko‘rinadi:
 
 ```
 ~ ❯ omarchy
-Omarchy command center
+Spherie command center
 
 Usage:
   omarchy <command> [args...]
@@ -17,7 +17,7 @@ Usage:
   omarchy <group> <command> --help
 
 Common commands:
-  omarchy update              Update Omarchy and system packages
+  omarchy update              Update Spherie and system packages
   omarchy theme list          List available themes
   omarchy theme set <name>    Apply a theme
   omarchy font list           List available fonts
@@ -27,14 +27,14 @@ Common commands:
 Groups:
   agent          AI coding agents, their usage, and subscription accounts
   audio          Audio input and output controls
-  bar            Omarchy shell bar layout and settings
+  bar            Spherie shell bar layout and settings
   battery        Battery status helpers
   bluetooth      Bluetooth device controls
-  branch         Omarchy git branch management
+  branch         Spherie git branch management
   branding       About and screensaver branding
   brightness     Display and keyboard brightness
   capture        Screenshots and screen recording
-  channel        Omarchy release channel management
+  channel        Spherie release channel management
   clipboard      Clipboard helpers
   cmd            Command and shortcut helpers
   config         System configuration helpers
@@ -59,4 +59,4 @@ Har bir buyruq `--help` ni ham qabul qiladi, xoh butun guruhni so‘rasangiz (`o
 
 ### Menyuni terminaldan ochish
 
-Omarchy menyusini skript orqali ham boshqarish mumkin, bu o‘z tugmalar birikmalaringiz uchun qulay. `omarchy menu` uni ildizidan ochadi va uni nomlash orqali daraxtning istalgan nuqtasiga to‘g‘ridan-to‘g‘ri o‘tishingiz mumkin: `omarchy menu summon appearance.theme` to‘g‘ridan-to‘g‘ri mavzu tanlagichga o‘tadi, `omarchy menu toggle system` tizim menyusini ochadi va agar u allaqachon ochiq bo‘lsa, uni yana yopadi, `omarchy menu close` esa uni yopib qo‘yadi.
+Spherie menyusini skript orqali ham boshqarish mumkin, bu o‘z tugmalar birikmalaringiz uchun qulay. `omarchy menu` uni ildizidan ochadi va uni nomlash orqali daraxtning istalgan nuqtasiga to‘g‘ridan-to‘g‘ri o‘tishingiz mumkin: `omarchy menu summon appearance.theme` to‘g‘ridan-to‘g‘ri mavzu tanlagichga o‘tadi, `omarchy menu toggle system` tizim menyusini ochadi va agar u allaqachon ochiq bo‘lsa, uni yana yopadi, `omarchy menu close` esa uni yopib qo‘yadi.

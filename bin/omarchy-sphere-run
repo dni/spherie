@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# omarchy:summary=Run an app inside a sphere; its windows open on this desktop
+# omarchy:args=<sphere> <command> [args...]
+# omarchy:examples=omarchy sphere run work chromium | omarchy sphere run vault keepassxc
+
+set -euo pipefail
+source "$OMARCHY_PATH/default/spherie/lib.sh"
+
+sphere_load "$1"
+shift
+(( HIDDEN )) && { echo "$NAME has no desktop" >&2; exit 1; }
+
+systemctl --user start spherie-guid.service
+
+if ! sphere_running "$NAME"; then
+  omarchy-sphere-start "$NAME"
+fi
+
+# Wait for the agent after a fresh boot.
+for ((i = 0; i < 60; i++)); do
+  [[ $(sphere_agent "$CID" ping </dev/null 2>/dev/null) == "pong" ]] && break
+  sleep 0.5
+done
+
+sphere_agent "$CID" run "$@" </dev/null >/dev/null

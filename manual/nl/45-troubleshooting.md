@@ -6,7 +6,7 @@ Probeer eerst [je systeem terug te zetten](47-system-snapshots.md) naar de versi
 
 ### Waarom zijn sommige apps zo groot op mijn scherm?
 
-Omarchy gaat uit van een 2x-scherm met hoge resolutie, dus stelt het `GDK_SCALE` in op 2 totdat je een schaal kiest in het monitorpaneel. Als je op een 1x-scherm zit en GTK- of X11-apps te groot worden weergegeven, kies dan 1x daarvoor in het monitorpaneel, of voeg `hl.env("GDK_SCALE", "1")` toe aan `~/.config/hypr/monitors.lua` (en herstart daarna elke app die te groot is). Zie [de handleiding over monitoren](33-monitors.md).
+Spherie gaat uit van een 2x-scherm met hoge resolutie, dus stelt het `GDK_SCALE` in op 2 totdat je een schaal kiest in het monitorpaneel. Als je op een 1x-scherm zit en GTK- of X11-apps te groot worden weergegeven, kies dan 1x daarvoor in het monitorpaneel, of voeg `hl.env("GDK_SCALE", "1")` toe aan `~/.config/hypr/monitors.lua` (en herstart daarna elke app die te groot is). Zie [de handleiding over monitoren](33-monitors.md).
 
 Bij Spotify kun je `Ctrl + Minus` gebruiken om de UI te verkleinen (en `Ctrl + Plus` om die groter te maken).
 
@@ -26,7 +26,7 @@ Waarschijnlijk omdat ze niet zijn ingesteld als primaire uitvoer. Klik op het sp
 
 ### De speakers van mijn laptop klinken niet goed
 
-Op sommige laptops past Omarchy automatisch een speaker-tuning toe die de frequentierespons van de ingebouwde speakers corrigeert. `omarchy audio tuning status` vertelt je of er een actief is op jouw machine, en `omarchy audio tuning off` schakelt die uit als je de speakers liever rauw hoort.
+Op sommige laptops past Spherie automatisch een speaker-tuning toe die de frequentierespons van de ingebouwde speakers corrigeert. `omarchy audio tuning status` vertelt je of er een actief is op jouw machine, en `omarchy audio tuning off` schakelt die uit als je de speakers liever rauw hoort.
 
 ### Waarom kan ik niet inloggen of sudo gebruiken met mijn wachtwoord?
 

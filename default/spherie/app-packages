@@ -1,0 +1,8 @@
+# command        package
+nm-connection-editor network-manager-applet
+alacritty        alacritty
+firefox          firefox
+chromium         chromium
+nautilus         nautilus
+keepassxc        keepassxc
+torbrowser-launcher torbrowser-launcher

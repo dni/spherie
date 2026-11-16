@@ -1,6 +1,6 @@
 # Sieť
 
-Sieť v Omarchy spravuje NetworkManager a ovládate ju z ikony siete v [hornej lište](05-the-top-bar.md) alebo pomocou `Super + Ctrl + N`.
+Sieť v Spherie spravuje NetworkManager a ovládate ju z ikony siete v [hornej lište](05-the-top-bar.md) alebo pomocou `Super + Ctrl + N`.
 
 Tento panel vyhľadáva siete Wi-Fi, ukazuje silu signálu a pripája sa k nim. Ethernet nepotrebuje vôbec nič — zapojíte ho a funguje. Ak radšej zostanete v termináli, `nmtui` vám dá rovnaké ovládanie a existuje aj skupina príkazov `omarchy network`.
 
@@ -12,7 +12,7 @@ Ak skutočne potrebujete samotné heslo, vypíše ho `omarchy network password <
 
 ## DNS
 
-Omarchy používa akékoľvek DNS, ktoré vaša sieť poskytne cez DHCP. Pre celý počítač to môžete prepísať v _Nastavenie > Sieť > DNS_, kde sú Cloudflare a Google vzdialené na jedno kliknutie. Vyberte _Vlastné_, ak chcete zadať vlastné servery.
+Spherie používa akékoľvek DNS, ktoré vaša sieť poskytne cez DHCP. Pre celý počítač to môžete prepísať v _Nastavenie > Sieť > DNS_, kde sú Cloudflare a Google vzdialené na jedno kliknutie. Vyberte _Vlastné_, ak chcete zadať vlastné servery.
 
 Z terminálu `omarchy dns` vypíše aktuálneho poskytovateľa a `omarchy dns Cloudflare` jedného nastaví.
 
@@ -24,7 +24,7 @@ Tým sa pripne pásmo, a nie konkrétny prístupový bod, takže sa naďalej nor
 
 ## Aké je to rýchle?
 
-_Spúšťač > Test rýchlosti > Test rýchlosti siete_ meria vašu skutočnú rýchlosť sťahovania a odosielania pomocou dvojice ciferníkov. Z terminálu je to `omarchy network speedtest down` alebo `up`. Meria voči vlastnej službe Omarchy a počíta len svoje testovacie prenosy. Iné sťahovania môžu súťažiť o šírku pásma, ale do výsledku testu rýchlosti sa nepripočítavajú. (V tom menu je hneď vedľa aj test rýchlosti disku, ak meriate to druhé úzke hrdlo.)
+_Spúšťač > Test rýchlosti > Test rýchlosti siete_ meria vašu skutočnú rýchlosť sťahovania a odosielania pomocou dvojice ciferníkov. Z terminálu je to `omarchy network speedtest down` alebo `up`. Meria voči vlastnej službe Spherie a počíta len svoje testovacie prenosy. Iné sťahovania môžu súťažiť o šírku pásma, ale do výsledku testu rýchlosti sa nepripočítavajú. (V tom menu je hneď vedľa aj test rýchlosti disku, ak meriate to druhé úzke hrdlo.)
 
 ## Firewall
 

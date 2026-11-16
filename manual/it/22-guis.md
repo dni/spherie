@@ -20,11 +20,11 @@ Obsidian è gratuito per qualsiasi scopo, incluso l'uso personale, commerciale e
 
 Obsidian offre anche un [componente aggiuntivo commerciale per la sincronizzazione](https://obsidian.md/sync) con le app mobili su iOS e Android. (https://obsidian.md/pricing).
 
-Avvii Obsidian con `Super + Shift + O`. Per usare la sincronizzazione dei temi, devi selezionare il tema `Omarchy` nelle impostazioni.
+Avvii Obsidian con `Super + Shift + O`. Per usare la sincronizzazione dei temi, devi selezionare il tema `Spherie` nelle impostazioni.
 
 ## Omawrite
 
-[Omawrite](https://github.com/omacom-io/omawrite) è l'app di scrittura Markdown semplicissima di Omarchy. Niente vault, niente plugin, solo tu e le parole.
+[Omawrite](https://github.com/omacom-io/omawrite) è l'app di scrittura Markdown semplicissima di Spherie. Niente vault, niente plugin, solo tu e le parole.
 
 Avvii Omawrite con `Super + Shift + W`.
 
@@ -44,7 +44,7 @@ Avvii Aether tramite il launcher delle applicazioni (`Super + Space`).
 
 [LocalSend](https://localsend.org/) ti permette di inviare file ad altri dispositivi sulla stessa rete che eseguono l'app, come AirDrop di Apple. È però multipiattaforma, quindi puoi inviare file da e verso Windows, macOS, Android, iOS e ovviamente Linux.
 
-Puoi aprire il menu Share con `Super + Ctrl + S` o in _Trigger > Share_ nel menu di Omarchy. Ti offre quattro opzioni:
+Puoi aprire il menu Share con `Super + Ctrl + S` o in _Trigger > Share_ nel menu di Spherie. Ti offre quattro opzioni:
 
 - **Clipboard** invia qualsiasi cosa tu abbia copiato come file di testo. Ottimo per portare un link o uno snippet sul tuo telefono senza doverti mandare un'email.
 - **File** apre un selettore di file in cui puoi selezionarne diversi alla volta.
@@ -55,7 +55,7 @@ La stessa cosa funziona dal terminale con `omarchy share clipboard`, `omarchy sh
 
 Puoi anche inviare direttamente dal file manager: fai clic con il pulsante destro del mouse su una selezione qualsiasi in Nautilus e scegli _Send via LocalSend_.
 
-Il firewall di Omarchy è chiuso per impostazione predefinita, tranne che per la porta di LocalSend, quindi tutto questo funziona immediatamente su un'installazione fresca. Vedi [sicurezza](48-security.md).
+Il firewall di Spherie è chiuso per impostazione predefinita, tranne che per la porta di LocalSend, quindi tutto questo funziona immediatamente su un'installazione fresca. Vedi [sicurezza](48-security.md).
 
 ## LibreOffice
 
@@ -65,19 +65,19 @@ Avvii LibreOffice tramite il launcher delle applicazioni (`Super + Space`).
 
 ## Hype
 
-[Hype](https://github.com/omacom/hype) è l'app per presentazioni semplicissima di Omarchy. La tua presentazione è un singolo file Markdown con le sue immagini e i suoi video accanto: scrivi ogni diapositiva sotto un'anteprima in tempo reale, trascina le diapositive nell'ordine desiderato, poi presenta a schermo intero o esporta in PDF e PowerPoint. Rileva persino il tuo tema Omarchy.
+[Hype](https://github.com/omacom/hype) è l'app per presentazioni semplicissima di Spherie. La tua presentazione è un singolo file Markdown con le sue immagini e i suoi video accanto: scrivi ogni diapositiva sotto un'anteprima in tempo reale, trascina le diapositive nell'ordine desiderato, poi presenta a schermo intero o esporta in PDF e PowerPoint. Rileva persino il tuo tema Spherie.
 
 Avvii Hype tramite il launcher delle applicazioni (`Super + Space`). Premi `?` al suo interno per vedere tutte le scorciatoie.
 
 ## Signed
 
-[Signed](https://github.com/omacom/signed) è il modo semplicissimo di Omarchy per firmare i PDF e compilarli. Posiziona la firma salvata, il testo e la data di oggi ovunque su una pagina, poi salva una copia firmata accanto all'originale. Vedi [Compilare i PDF](27-filling-out-pdfs.md) per scoprire come fare.
+[Signed](https://github.com/omacom/signed) è il modo semplicissimo di Spherie per firmare i PDF e compilarli. Posiziona la firma salvata, il testo e la data di oggi ovunque su una pagina, poi salva una copia firmata accanto all'originale. Vedi [Compilare i PDF](27-filling-out-pdfs.md) per scoprire come fare.
 
 Avvii Signed tramite il launcher delle applicazioni (`Super + Space`), oppure apri un PDF con Signed dal file manager.
 
 ## Omacalc
 
-[Omacalc](https://github.com/omacom-io/omacalc) è la calcolatrice semplicissima di Omarchy, che si apre in una finestra mobile.
+[Omacalc](https://github.com/omacom-io/omacalc) è la calcolatrice semplicissima di Spherie, che si apre in una finestra mobile.
 
 Avvii Omacalc con `Super + Shift + Q` (o con il tasto calcolatrice, se la tua tastiera ne ha uno).
 
@@ -85,11 +85,11 @@ Avvii Omacalc con `Super + Shift + Q` (o con il tasto calcolatrice, se la tua ta
 
 [Signal](https://signal.org/) è il pioniere della messaggistica con crittografia E2E, e un'ottima opzione di comunicazione per chiunque preferisca non passare da uno dei grandi conglomerati tecnologici.
 
-Avvii Signal con `Super + Shift + G`. Non fa parte dell'installazione di base, quindi la prima volta che premi quella combinazione, Omarchy ti proporrà di installarlo per te (si trova anche in _Install > Service_ nel menu di Omarchy).
+Avvii Signal con `Super + Shift + G`. Non fa parte dell'installazione di base, quindi la prima volta che premi quella combinazione, Spherie ti proporrà di installarlo per te (si trova anche in _Install > Service_ nel menu di Spherie).
 
 ## Omaview
 
-[Omaview](https://github.com/omacom/omaview) è il visualizzatore di immagini e lettore multimediale semplicissimo di Omarchy: una sola finestra per le tue foto, i tuoi video e la tua musica. Apri una foto e i tasti freccia scorrono il resto della sua cartella, `N` e `P` lo fanno per qualsiasi cosa, e `Ctrl + M` mostra l'intera cartella come una griglia. Mostra anche foto HEIC, AVIF e JPEG XL, e riprende dal punto in cui eri rimasto in qualsiasi contenuto lungo.
+[Omaview](https://github.com/omacom/omaview) è il visualizzatore di immagini e lettore multimediale semplicissimo di Spherie: una sola finestra per le tue foto, i tuoi video e la tua musica. Apri una foto e i tasti freccia scorrono il resto della sua cartella, `N` e `P` lo fanno per qualsiasi cosa, e `Ctrl + M` mostra l'intera cartella come una griglia. Mostra anche foto HEIC, AVIF e JPEG XL, e riprende dal punto in cui eri rimasto in qualsiasi contenuto lungo.
 
 Premi `F` per lo schermo intero, `E` per modificare un'immagine in Omasnap o tagliare un video in Omacut, `Ctrl + P` per stampare un'immagine e `Delete` per spostare un file nel Cestino (`Ctrl + Z` lo riporta indietro). Premi `?` al suo interno per vedere tutte le scorciatoie.
 
@@ -97,13 +97,13 @@ Avvii Omaview come _Media Viewer_ tramite il launcher delle applicazioni (`Super
 
 ## Omacut
 
-[Omacut](https://github.com/omacom-io/omacut) è lo strumento semplicissimo di Omarchy per tagliare i video. Quando tutto ciò che ti serve è tagliare l'inizio e la fine di una clip, batte l'avvio di un editor video completo.
+[Omacut](https://github.com/omacom-io/omacut) è lo strumento semplicissimo di Spherie per tagliare i video. Quando tutto ciò che ti serve è tagliare l'inizio e la fine di una clip, batte l'avvio di un editor video completo.
 
 Avvii Omacut tramite il launcher delle applicazioni (`Super + Space`).
 
 ## Monologue
 
-[Monologue](https://github.com/omacom/monologue) è il registratore da webcam semplicissimo di Omarchy. Scegli una volta la fotocamera e il microfono, poi premi `Space` per registrare, e di nuovo per mettere in pausa e riprendere la stessa ripresa. Registra sempre alla risoluzione più alta della tua fotocamera, con un indicatore del microfono in tempo reale così puoi controllare i livelli prima di iniziare.
+[Monologue](https://github.com/omacom/monologue) è il registratore da webcam semplicissimo di Spherie. Scegli una volta la fotocamera e il microfono, poi premi `Space` per registrare, e di nuovo per mettere in pausa e riprendere la stessa ripresa. Registra sempre alla risoluzione più alta della tua fotocamera, con un indicatore del microfono in tempo reale così puoi controllare i livelli prima di iniziare.
 
 Interrompi la ripresa e si apre subito in un editor integrato. Fai doppio clic su una clip per dividerla, trascina le maniglie per tagliare ogni pezzo e rimuovi le parti che non vuoi. Poi salvala come MP4. La registrazione originale viene conservata finché non la elimini, quindi puoi sempre tornare indietro e tagliarla in modo diverso.
 

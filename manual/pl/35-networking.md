@@ -1,6 +1,6 @@
 # Sieć
 
-Za sieć w Omarchy odpowiada NetworkManager, a sterujesz nią z ikony sieci na [górnym pasku](05-the-top-bar.md) albo za pomocą `Super + Ctrl + N`.
+Za sieć w Spherie odpowiada NetworkManager, a sterujesz nią z ikony sieci na [górnym pasku](05-the-top-bar.md) albo za pomocą `Super + Ctrl + N`.
 
 Ten panel skanuje sieci Wi-Fi, pokazuje siłę sygnału i łączy. Ethernet nie potrzebuje zupełnie niczego — podłączasz kabel i działa. Jeśli wolisz zostać w terminalu, `nmtui` daje Ci te same opcje, a do tego jest jeszcze grupa poleceń `omarchy network`.
 
@@ -12,7 +12,7 @@ Jeśli faktycznie potrzebujesz samego hasła, wypisze je polecenie `omarchy netw
 
 ## DNS
 
-Omarchy używa takiego DNS, jaki Twoja sieć przekazuje przez DHCP. Możesz to nadpisać dla całej maszyny w _Setup > Network > DNS_, gdzie Cloudflare i Google są o jedno kliknięcie stąd. Wybierz _Custom_, aby wpisać własne serwery.
+Spherie używa takiego DNS, jaki Twoja sieć przekazuje przez DHCP. Możesz to nadpisać dla całej maszyny w _Setup > Network > DNS_, gdzie Cloudflare i Google są o jedno kliknięcie stąd. Wybierz _Custom_, aby wpisać własne serwery.
 
 Z terminala polecenie `omarchy dns` wypisuje bieżącego dostawcę, a `omarchy dns Cloudflare` ustawia wybranego.
 
@@ -24,7 +24,7 @@ Przypina to pasmo, a nie konkretny punkt dostępowy, więc nadal normalnie prze�
 
 ## Jak szybkie jest połączenie?
 
-_Trigger > Speed Test > Network Speed Test_ mierzy Twoją rzeczywistą prędkość pobierania i wysyłania za pomocą pary wskaźników. Z terminala służy do tego `omarchy network speedtest down` albo `up`. Pomiar odbywa się wobec własnej usługi Omarchy i liczy tylko jej transfery testowe. Inne pobierania mogą konkurować o przepustowość, ale nie są doliczane do wyniku testu prędkości. (W tym samym menu obok znajduje się test prędkości dysku, gdybyś testował drugie wąskie gardło.)
+_Trigger > Speed Test > Network Speed Test_ mierzy Twoją rzeczywistą prędkość pobierania i wysyłania za pomocą pary wskaźników. Z terminala służy do tego `omarchy network speedtest down` albo `up`. Pomiar odbywa się wobec własnej usługi Spherie i liczy tylko jej transfery testowe. Inne pobierania mogą konkurować o przepustowość, ale nie są doliczane do wyniku testu prędkości. (W tym samym menu obok znajduje się test prędkości dysku, gdybyś testował drugie wąskie gardło.)
 
 ## Zapora sieciowa
 

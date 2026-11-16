@@ -2,7 +2,7 @@
 
 ### Authentifizierung per Fingerabdruck
 
-Viele Laptops verfügen über einen Fingerabdrucksensor zur Authentifizierung. Du kannst ihn mit Omarchy nutzen, indem du im Omarchy-Menü (`Super + Space`) _Setup > Sicherheit > Fingerabdruck_ ausführst.
+Viele Laptops verfügen über einen Fingerabdrucksensor zur Authentifizierung. Du kannst ihn mit Spherie nutzen, indem du im Omarchy-Menü (`Super + Space`) _Setup > Sicherheit > Fingerabdruck_ ausführst.
 
 Daraufhin wird das Fingerabdruck-Paket installiert, dein Abdruck erfasst und verifiziert, und schon kannst du deinen Fingerabdruck verwenden, um vom Sperrbildschirm aus zu entsperren (den du mit `Super + Ctrl + L` auslösen kannst), in den sudo-Modus zu wechseln und Systemanfragen zu autorisieren.
 

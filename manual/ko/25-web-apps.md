@@ -1,10 +1,10 @@
 # 웹 앱
 
-Omarchy 메뉴(`Super + Space`)에서 _Install > Web App_을 이용해 나만의 웹 앱을 추가할 수 있다. 앱 이름, 앱 URL, 그리고 favicon으로 가져올 수 없는 경우 아이콘 URL을 물어본다. 인기 있는 많은 웹 앱을 위한 훌륭한 PNG 아이콘은 [Dashboard Icons](https://dashboardicons.com)에서 구할 수 있다.
+Spherie 메뉴(`Super + Space`)에서 _Install > Web App_을 이용해 나만의 웹 앱을 추가할 수 있다. 앱 이름, 앱 URL, 그리고 favicon으로 가져올 수 없는 경우 아이콘 URL을 물어본다. 인기 있는 많은 웹 앱을 위한 훌륭한 PNG 아이콘은 [Dashboard Icons](https://dashboardicons.com)에서 구할 수 있다.
 
 이렇게 추가한 앱은 앱 런처(`Super + Space`)를 통해 사용할 수 있으며, 아름다운 프레임 없는 웹 앱 창으로 열린다.
 
-웹 앱을 제거하려면 Omarchy 메뉴에서 _Remove > Web App_으로 가면 된다.
+웹 앱을 제거하려면 Spherie 메뉴에서 _Remove > Web App_으로 가면 된다.
 
 웹 앱 바로가기를 사용하기 전에 일반 브라우저를 이용해 모든 계정에 로그인해 두는 것이 가장 좋다. 얇은 래퍼 프레임은 1password와 잘 맞지 않으니, 처음부터 직접 로그인해 두는 편이 그냥 더 쉽다.
 
@@ -70,7 +70,7 @@ X는 뉴스가 터지는 곳이다.
 
 ## Discord
 
-[Discord](https://discord.com/)는 [Omarchy 자체 커뮤니티](https://discord.gg/tXFUdasqhY)를 포함해 대부분의 게임 및 오픈 소스 커뮤니티가 모이는 곳이다.
+[Discord](https://discord.com/)는 [Spherie 자체 커뮤니티](https://discord.gg/tXFUdasqhY)를 포함해 대부분의 게임 및 오픈 소스 커뮤니티가 모이는 곳이다.
 
 애플리케이션 런처(`Super + Space`)를 이용해 Discord를 시작한다.
 

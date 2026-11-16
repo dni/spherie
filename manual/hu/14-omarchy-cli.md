@@ -1,6 +1,6 @@
-# Omarchy CLI
+# Spherie CLI
 
-Az Omarchyt általában a gyorsbillentyűkkel és az Omarchy menüvel (`Super + Space`) vezérled. De az `omarchy` CLI-n keresztül is vezérelheted. Ez különösen hasznos, amikor egy AI-ügynök dolgozik veled a testreszabáson vagy a konfiguráláson.
+Az Omarchyt általában a gyorsbillentyűkkel és az Spherie menüvel (`Super + Space`) vezérled. De az `omarchy` CLI-n keresztül is vezérelheted. Ez különösen hasznos, amikor egy AI-ügynök dolgozik veled a testreszabáson vagy a konfiguráláson.
 
 A CLI hozzáfér minden belső eszközhöz, amelyet a menün keresztül és más módokon is használ a rendszer. Minden elérhető lehetőséget megnézhetsz, ha futtatod az `omarchy` parancsot a terminálban.
 
@@ -8,7 +8,7 @@ Valahogy így néz ki:
 
 ```
 ~ ❯ omarchy
-Omarchy command center
+Spherie command center
 
 Usage:
   omarchy <command> [args...]
@@ -17,7 +17,7 @@ Usage:
   omarchy <group> <command> --help
 
 Common commands:
-  omarchy update              Update Omarchy and system packages
+  omarchy update              Update Spherie and system packages
   omarchy theme list          List available themes
   omarchy theme set <name>    Apply a theme
   omarchy font list           List available fonts
@@ -27,14 +27,14 @@ Common commands:
 Groups:
   agent          AI coding agents, their usage, and subscription accounts
   audio          Audio input and output controls
-  bar            Omarchy shell bar layout and settings
+  bar            Spherie shell bar layout and settings
   battery        Battery status helpers
   bluetooth      Bluetooth device controls
-  branch         Omarchy git branch management
+  branch         Spherie git branch management
   branding       About and screensaver branding
   brightness     Display and keyboard brightness
   capture        Screenshots and screen recording
-  channel        Omarchy release channel management
+  channel        Spherie release channel management
   clipboard      Clipboard helpers
   cmd            Command and shortcut helpers
   config         System configuration helpers
@@ -59,4 +59,4 @@ Minden parancs elfogadja a `--help` kapcsolót is, akár egy egész csoportról 
 
 ### A menü megnyitása a terminálból
 
-Az Omarchy menü is szkriptelhető, ami jól jön a saját billentyűparancsaidhoz. Az `omarchy menu` a gyökérnél nyitja meg, és a fa bármely pontjára közvetlenül odaugorhatsz, ha megnevezed: az `omarchy menu summon appearance.theme` egyenesen a témaválasztóhoz visz, az `omarchy menu toggle system` megnyitja a rendszermenüt, és újra bezárja, ha már nyitva van, az `omarchy menu close` pedig eltünteti.
+Az Spherie menü is szkriptelhető, ami jól jön a saját billentyűparancsaidhoz. Az `omarchy menu` a gyökérnél nyitja meg, és a fa bármely pontjára közvetlenül odaugorhatsz, ha megnevezed: az `omarchy menu summon appearance.theme` egyenesen a témaválasztóhoz visz, az `omarchy menu toggle system` megnyitja a rendszermenüt, és újra bezárja, ha már nyitva van, az `omarchy menu close` pedig eltünteti.

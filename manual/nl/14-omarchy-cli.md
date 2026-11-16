@@ -1,6 +1,6 @@
-# Omarchy CLI
+# Spherie CLI
 
-Omarchy wordt meestal bediend via de sneltoetsen en het Omarchy-menu (`Super + Space`). Maar je kunt het ook bedienen via de `omarchy` CLI. Dit is vooral handig wanneer je een AI-agent met je laat meewerken aan aanpassingen of configuratie.
+Spherie wordt meestal bediend via de sneltoetsen en het Omarchy-menu (`Super + Space`). Maar je kunt het ook bedienen via de `omarchy` CLI. Dit is vooral handig wanneer je een AI-agent met je laat meewerken aan aanpassingen of configuratie.
 
 De CLI heeft toegang tot alle interne tooling die zowel via het menu als anderszins wordt gebruikt. Je kunt alles zien wat beschikbaar is door `omarchy` in de terminal uit te voeren.
 
@@ -8,7 +8,7 @@ Het ziet er ongeveer zo uit:
 
 ```
 ~ ❯ omarchy
-Omarchy command center
+Spherie command center
 
 Usage:
   omarchy <command> [args...]
@@ -17,7 +17,7 @@ Usage:
   omarchy <group> <command> --help
 
 Common commands:
-  omarchy update              Update Omarchy and system packages
+  omarchy update              Update Spherie and system packages
   omarchy theme list          List available themes
   omarchy theme set <name>    Apply a theme
   omarchy font list           List available fonts
@@ -27,14 +27,14 @@ Common commands:
 Groups:
   agent          AI coding agents, their usage, and subscription accounts
   audio          Audio input and output controls
-  bar            Omarchy shell bar layout and settings
+  bar            Spherie shell bar layout and settings
   battery        Battery status helpers
   bluetooth      Bluetooth device controls
-  branch         Omarchy git branch management
+  branch         Spherie git branch management
   branding       About and screensaver branding
   brightness     Display and keyboard brightness
   capture        Screenshots and screen recording
-  channel        Omarchy release channel management
+  channel        Spherie release channel management
   clipboard      Clipboard helpers
   cmd            Command and shortcut helpers
   config         System configuration helpers

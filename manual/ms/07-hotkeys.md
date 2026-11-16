@@ -8,7 +8,7 @@ Setiap kekunci pintas berada pada satu satah, ditetapkan oleh pengubahsuainya, d
 
 | Satah | Apa yang berada di sana | Contoh |
 | --- | --- | --- |
-| `Super + key` | Sistem: tetingkap, ruang kerja, susun atur, dan menu teras | `Super + Space` menu Omarchy, `Super + W` tutup tetingkap, `Super + F` skrin penuh |
+| `Super + key` | Sistem: tetingkap, ruang kerja, susun atur, dan menu teras | `Super + Space` menu Spherie, `Super + W` tutup tetingkap, `Super + F` skrin penuh |
 | `Super + Shift + key` | Aplikasi | `Super + Shift + B` pelayar, `Super + Shift + E` e-mel, `Super + Shift + N` editor |
 | `Super + Ctrl + key` | Panel dan menu sistem | `Super + Ctrl + A` audio, `Super + Ctrl + N` rangkaian, `Super + Ctrl + C` menu tangkapan |
 | `Super + Ctrl + Alt + key` | Tindakan pantas dan notis | `Super + Ctrl + Alt + T` tunjuk masa, `Super + Ctrl + Alt + B` bateri, `Super + Ctrl + Alt + C` tangkapan skrin |
@@ -34,7 +34,7 @@ Jika tetapan lalai tidak sesuai dengan anda (contohnya anda mahukan `Super + Shi
 
 | Kekunci Pintas                  | Fungsi              |
 | ----------------------- | --------------------- |
-| `Super + Space`           | Menu Omarchy (aplikasi dan segala-galanya)    |
+| `Super + Space`           | Menu Spherie (aplikasi dan segala-galanya)    |
 | `Super + Alt + Space` | Grid aplikasi |
 | `Super + Escape` | Menu sistem (gantung, mulakan semula, dsb.)  |
 | `Super + Ctrl + L` | Kunci komputer |
@@ -172,7 +172,7 @@ Tukar/tambah ikatan dalam `~/.config/hypr/bindings.lua`.
 | `Super + V`           | Tampal    |
 | `Super + Ctrl + V`           | Pengurus papan keratan    |
 
-Biasanya di Linux, anda memerlukan `Ctrl + Shift + C/V` untuk salin dan tampal dalam terminal dan `Ctrl + C/V` untuk melakukannya di tempat lain. Kekunci pintas papan keratan bersepadu Omarchy ini berfungsi di mana-mana.
+Biasanya di Linux, anda memerlukan `Ctrl + Shift + C/V` untuk salin dan tampal dalam terminal dan `Ctrl + C/V` untuk melakukannya di tempat lain. Kekunci pintas papan keratan bersepadu Spherie ini berfungsi di mana-mana.
 
 ## Tangkapan
 
@@ -193,7 +193,7 @@ Biasanya di Linux, anda memerlukan `Ctrl + Shift + C/V` untuk salin dan tampal d
 
 Dengan rakaman skrin, kekunci pintas mula-mula bertanya audio mana yang anda mahukan, kemudian mula merakam. Tekannya lagi untuk berhenti. Lihat [tangkapan skrin dan rakaman](12-screenshots-recording.md) untuk butirannya.
 
-Semua pilihan tangkapan juga boleh diakses di bawah _Trigger > Capture_ dalam menu Omarchy (`Super + Space`).
+Semua pilihan tangkapan juga boleh diakses di bawah _Trigger > Capture_ dalam menu Spherie (`Super + Space`).
 
 ## Pemberitahuan
 
@@ -215,9 +215,9 @@ Semua pilihan tangkapan juga boleh diakses di bawah _Trigger > Capture_ dalam me
 | `Super + Backspace` | Togol ketelusan pada tetingkap |
 | `Super + Ctrl + Backspace` | Togol aspek segi empat sama tetingkap tunggal |
 
-Imej latar belakang tambahan berada dalam `~/.config/omarchy/backgrounds/<theme name>`. Juga tersedia melalui _Install > Style > Background_ dalam menu Omarchy.
+Imej latar belakang tambahan berada dalam `~/.config/omarchy/backgrounds/<theme name>`. Juga tersedia melalui _Install > Style > Background_ dalam menu Spherie.
 
-Semua pilihan gaya juga boleh diakses di bawah _Style_ dalam menu Omarchy (`Super + Space`).
+Semua pilihan gaya juga boleh diakses di bawah _Style_ dalam menu Spherie (`Super + Space`).
 
 ## Togol
 
@@ -318,7 +318,7 @@ Fungsi ini mesti dijalankan di dalam sesi Tmux.
 
 ## Terminal Ghostty
 
-Terminal Ghostty dipasang menggunakan _Install > Terminal_ melalui menu Omarchy.
+Terminal Ghostty dipasang menggunakan _Install > Terminal_ melalui menu Spherie.
 
 | Kekunci Pintas                  | Fungsi              |
 | ----------------------- | --------------------- |

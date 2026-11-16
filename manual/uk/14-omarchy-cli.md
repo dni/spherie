@@ -1,6 +1,6 @@
-# Omarchy CLI
+# Spherie CLI
 
-Omarchy зазвичай керують за допомогою гарячих клавіш і меню Omarchy (`Super + Space`). Але керувати нею можна також через CLI `omarchy`. Це особливо корисно, коли агент ШІ працює з вами над кастомізацією чи конфігурацією.
+Spherie зазвичай керують за допомогою гарячих клавіш і меню Spherie (`Super + Space`). Але керувати нею можна також через CLI `omarchy`. Це особливо корисно, коли агент ШІ працює з вами над кастомізацією чи конфігурацією.
 
 CLI має доступ до всіх внутрішніх інструментів, які використовуються як через меню, так і в інший спосіб. Ви можете побачити все доступне, запустивши `omarchy` у терміналі.
 
@@ -8,7 +8,7 @@ CLI має доступ до всіх внутрішніх інструмент�
 
 ```
 ~ ❯ omarchy
-Omarchy command center
+Spherie command center
 
 Usage:
   omarchy <command> [args...]
@@ -17,7 +17,7 @@ Usage:
   omarchy <group> <command> --help
 
 Common commands:
-  omarchy update              Update Omarchy and system packages
+  omarchy update              Update Spherie and system packages
   omarchy theme list          List available themes
   omarchy theme set <name>    Apply a theme
   omarchy font list           List available fonts
@@ -27,14 +27,14 @@ Common commands:
 Groups:
   agent          AI coding agents, their usage, and subscription accounts
   audio          Audio input and output controls
-  bar            Omarchy shell bar layout and settings
+  bar            Spherie shell bar layout and settings
   battery        Battery status helpers
   bluetooth      Bluetooth device controls
-  branch         Omarchy git branch management
+  branch         Spherie git branch management
   branding       About and screensaver branding
   brightness     Display and keyboard brightness
   capture        Screenshots and screen recording
-  channel        Omarchy release channel management
+  channel        Spherie release channel management
   clipboard      Clipboard helpers
   cmd            Command and shortcut helpers
   config         System configuration helpers
@@ -59,4 +59,4 @@ Capture commands — Screenshots and screen recording:
 
 ### Відкриття меню з термінала
 
-Меню Omarchy також можна скриптувати, що зручно для ваших власних прив'язок клавіш. `omarchy menu` відкриває його в корені, і ви можете переходити прямо до будь-якої точки дерева, назвавши її: `omarchy menu summon appearance.theme` веде прямо до вибору теми, `omarchy menu toggle system` відкриває системне меню і знову закриває його, якщо воно вже відкрите, а `omarchy menu close` прибирає його.
+Меню Spherie також можна скриптувати, що зручно для ваших власних прив'язок клавіш. `omarchy menu` відкриває його в корені, і ви можете переходити прямо до будь-якої точки дерева, назвавши її: `omarchy menu summon appearance.theme` веде прямо до вибору теми, `omarchy menu toggle system` відкриває системне меню і знову закриває його, якщо воно вже відкрите, а `omarchy menu close` прибирає його.

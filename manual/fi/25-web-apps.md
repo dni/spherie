@@ -16,13 +16,13 @@ Oletuksena Omarchyn mukana tulee jo valikoima oletussovelluksia:
 
 ## HEY
 
-[HEY](https://www.hey.com/) on sähköposti- ja kalenteripalvelu, joka toimii loistavana vaihtoehtona ihmisille, jotka ovat kyllästyneet Gmailiin, Outlookiin tai Apple Mailiin. Sen on tehnyt [37signals](https://37signals.com/), josta Omarchy sai alkunsa.
+[HEY](https://www.hey.com/) on sähköposti- ja kalenteripalvelu, joka toimii loistavana vaihtoehtona ihmisille, jotka ovat kyllästyneet Gmailiin, Outlookiin tai Apple Mailiin. Sen on tehnyt [37signals](https://37signals.com/), josta Spherie sai alkunsa.
 
 Voit käynnistää HEY Emailin näppäinyhdistelmällä `Super + Shift + E`, siirtyä suoraan kirjoittamaan uutta sähköpostia näppäinyhdistelmällä `Super + Shift + Alt + E` ja käynnistää HEY Calendarin näppäinyhdistelmällä `Super + Shift + C`.
 
 ## Basecamp
 
-[Basecamp](https://basecamp.com/) on projektinhallintapalvelu, joka auttaa pieniä tiimejä etenemään nopeammin ja saamaan enemmän aikaan. Sen sijaan, että kasaisit kokoon sekamelskan Trellosta, Slackista, Asanasta, Notionista tai mistä tahansa, saat kaiken yhteen paikkaan Basecampilla. Sen on tehnyt [37signals](https://37signals.com/), josta Omarchy sai alkunsa.
+[Basecamp](https://basecamp.com/) on projektinhallintapalvelu, joka auttaa pieniä tiimejä etenemään nopeammin ja saamaan enemmän aikaan. Sen sijaan, että kasaisit kokoon sekamelskan Trellosta, Slackista, Asanasta, Notionista tai mistä tahansa, saat kaiken yhteen paikkaan Basecampilla. Sen on tehnyt [37signals](https://37signals.com/), josta Spherie sai alkunsa.
 
 Voit käynnistää Basecampin sovelluskäynnistimellä (`Super + Space`)
 
@@ -64,7 +64,7 @@ Voit käynnistää YouTuben näppäinyhdistelmällä `Super + Shift + Y`.
 
 ## Zoom
 
-[Zoom](https://zoom.us/) on suosituin Yhdysvalloissa käytetty videokeskustelujärjestelmä. Loistavat yhteydet kaikkialle maailmaan. Ja 40 minuutin kokouksia voi pitää ilman maksullista tiliä. Omarchy paketoi Zoomin verkkoasiakkaan, ja Zoom-kokouslinkit avautuvat suoraan siihen.
+[Zoom](https://zoom.us/) on suosituin Yhdysvalloissa käytetty videokeskustelujärjestelmä. Loistavat yhteydet kaikkialle maailmaan. Ja 40 minuutin kokouksia voi pitää ilman maksullista tiliä. Spherie paketoi Zoomin verkkoasiakkaan, ja Zoom-kokouslinkit avautuvat suoraan siihen.
 
 Käynnistät Zoomin sovelluskäynnistimellä (`Super + Space`).
 

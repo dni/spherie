@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# omarchy:summary=List spheres and whether they're running
+# omarchy:args=[--all]
+
+set -euo pipefail
+source "$OMARCHY_PATH/default/spherie/lib.sh"
+
+all=0
+[[ ${1:-} == "--all" ]] && all=1
+
+for name in $(sphere_names); do
+  sphere_load "$name"
+  (( HIDDEN && ! all )) && continue
+  if sphere_running "$name"; then
+    state="running"
+  else
+    state="stopped"
+  fi
+  printf '%-10s %-8s net=%-8s %s\n' "$name" "$state" "$NET" "$APPS"
+done

@@ -8,7 +8,7 @@ Cada atalho de teclado fica num plano, definido pelos seus modificadores, e cada
 
 | Plano | O que está lá | Exemplos |
 | --- | --- | --- |
-| `Super + key` | O sistema: janelas, espaços de trabalho, disposições e menus principais | `Super + Space` menu Omarchy, `Super + W` fechar janela, `Super + F` ecrã inteiro |
+| `Super + key` | O sistema: janelas, espaços de trabalho, disposições e menus principais | `Super + Space` menu Spherie, `Super + W` fechar janela, `Super + F` ecrã inteiro |
 | `Super + Shift + key` | Aplicações | `Super + Shift + B` navegador, `Super + Shift + E` e-mail, `Super + Shift + N` editor |
 | `Super + Ctrl + key` | Painéis e menus do sistema | `Super + Ctrl + A` áudio, `Super + Ctrl + N` rede, `Super + Ctrl + C` menu de captura |
 | `Super + Ctrl + Alt + key` | Ações rápidas e avisos | `Super + Ctrl + Alt + T` mostrar a hora, `Super + Ctrl + Alt + B` bateria, `Super + Ctrl + Alt + C` captura de ecrã |
@@ -34,7 +34,7 @@ Se uma predefinição não lhe servir (por exemplo, se quiser `Super + Shift + S
 
 | Atalho                  | Função              |
 | ----------------------- | --------------------- |
-| `Super + Space`           | Menu Omarchy (aplicações e tudo o resto)    |
+| `Super + Space`           | Menu Spherie (aplicações e tudo o resto)    |
 | `Super + Alt + Space` | Grelha de aplicações |
 | `Super + Escape` | Menu do sistema (suspender, reiniciar, etc.)  |
 | `Super + Ctrl + L` | Bloquear o computador |
@@ -172,7 +172,7 @@ Altere/adicione associações em `~/.config/hypr/bindings.lua`.
 | `Super + V`           | Colar    |
 | `Super + Ctrl + V`           | Gestor da área de transferência    |
 
-Normalmente no Linux, precisa de `Ctrl + Shift + C/V` para copiar e colar no terminal e de `Ctrl + C/V` para o fazer em qualquer outro lado. Estes atalhos unificados de área de transferência do Omarchy funcionam em todo o lado.
+Normalmente no Linux, precisa de `Ctrl + Shift + C/V` para copiar e colar no terminal e de `Ctrl + C/V` para o fazer em qualquer outro lado. Estes atalhos unificados de área de transferência do Spherie funcionam em todo o lado.
 
 ## Captura
 
@@ -193,7 +193,7 @@ Normalmente no Linux, precisa de `Ctrl + Shift + C/V` para copiar e colar no ter
 
 Com as gravações de ecrã, o atalho pergunta primeiro que áudio quer, depois começa a gravar. Prima-o outra vez para parar. Consulte [capturas de ecrã e gravação](12-screenshots-recording.md) para ver os detalhes.
 
-Todas as opções de captura também estão acessíveis em _Acionador > Captura_ no menu Omarchy (`Super + Space`).
+Todas as opções de captura também estão acessíveis em _Acionador > Captura_ no menu Spherie (`Super + Space`).
 
 ## Notificações
 
@@ -215,9 +215,9 @@ Todas as opções de captura também estão acessíveis em _Acionador > Captura_
 | `Super + Backspace` | Ativar/desativar a transparência numa janela |
 | `Super + Ctrl + Backspace` | Ativar/desativar o formato quadrado de janela única |
 
-As imagens de fundo extra estão em `~/.config/omarchy/backgrounds/<theme name>`. Também disponíveis através de _Instalar > Estilo > Fundo_ no menu Omarchy.
+As imagens de fundo extra estão em `~/.config/omarchy/backgrounds/<theme name>`. Também disponíveis através de _Instalar > Estilo > Fundo_ no menu Spherie.
 
-Todas as opções de estilo também estão acessíveis em _Estilo_ no menu Omarchy (`Super + Space`).
+Todas as opções de estilo também estão acessíveis em _Estilo_ no menu Spherie (`Super + Space`).
 
 ## Alternar
 
@@ -318,7 +318,7 @@ Estas funções têm de ser executadas dentro de uma sessão Tmux.
 
 ## Terminal Ghostty
 
-O terminal Ghostty é instalado através de _Instalar > Terminal_ no menu Omarchy.
+O terminal Ghostty é instalado através de _Instalar > Terminal_ no menu Spherie.
 
 | Atalho                  | Função              |
 | ----------------------- | --------------------- |

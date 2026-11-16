@@ -1,6 +1,6 @@
 # Dotfiles
 
-Omarchy määritetään ensisijaisesti niin sanotuilla dotfile-tiedostoilla, jotka sijaitsevat kansiossa `~/.config`. Niitä pidetään sinun tiedostoinasi sinun muutoksiasi varten. Tiedostot, jotka sijaitsevat kansiossa `/usr/share/omarchy`, kuuluvat Omarchylle itselleen, eikä sinun pitäisi sorkkia niitä. Jos sinun täytyy muuttaa jotain kansiossa `/usr/share/omarchy`, sinun pitäisi sen sijaan ohittaa arvo kansiossa `~/.config`.
+Spherie määritetään ensisijaisesti niin sanotuilla dotfile-tiedostoilla, jotka sijaitsevat kansiossa `~/.config`. Niitä pidetään sinun tiedostoinasi sinun muutoksiasi varten. Tiedostot, jotka sijaitsevat kansiossa `/usr/share/omarchy`, kuuluvat Omarchylle itselleen, eikä sinun pitäisi sorkkia niitä. Jos sinun täytyy muuttaa jotain kansiossa `/usr/share/omarchy`, sinun pitäisi sen sijaan ohittaa arvo kansiossa `~/.config`.
 
 Tärkeimpiä asetuksia voi muokata suoraan Omarchy-valikosta (`Super + Space`), kuten _Setup > Keyboard > Keybindings_, _Setup > Input_ ja _Setup > Config > [file]_. Kun teet sen näin, kaikki prosessit, jotka täytyy käynnistää uudelleen asetusten muokkauksen jälkeen, käynnistetään automaattisesti uudelleen, kun suljet editorin (oletuksena Neovim — `:wq`, muistathan! — mutta voit vaihtaa sen kohdasta _Setup > Defaults > Editor_).
 
@@ -32,7 +32,7 @@ Se käynnistää komennon osana istuntoa, joten se siivotaan kunnolla pois, kun 
 
 ### Skriptien ajaminen järjestelmätapahtumissa
 
-Omarchy laukaisee hookeja muutamissa hetkissä, ja voit ripustaa omat skriptisi niihin. Ne sijaitsevat kansiossa `~/.config/omarchy/hooks/<event>.d/`, yksi kansio tapahtumaa kohden, ja jokainen siellä oleva suoritettava tiedosto ajetaan, kun tapahtuma sattuu:
+Spherie laukaisee hookeja muutamissa hetkissä, ja voit ripustaa omat skriptisi niihin. Ne sijaitsevat kansiossa `~/.config/omarchy/hooks/<event>.d/`, yksi kansio tapahtumaa kohden, ja jokainen siellä oleva suoritettava tiedosto ajetaan, kun tapahtuma sattuu:
 
 | Tapahtuma | Milloin se ajetaan |
 | ----- | ------------ |
@@ -43,7 +43,7 @@ Omarchy laukaisee hookeja muutamissa hetkissä, ja voit ripustaa omat skriptisi 
 | `font-set` | Fontin vaihdon jälkeen (fontin nimi kohdassa `$1`) |
 | `battery-low` | Kun akku on vähissä (prosenttiosuus kohdassa `$1`) |
 
-`pre-refresh-pacman`-hook on paikka, johon mukautetut pakettivarastot tai `IgnorePkg`-rivit kuuluvat, koska se ajetaan ennen pakettitransaktiota. Molemmat päivitykseen liittyvät hookit ajetaan sinun käyttäjänäsi sen jälkeen, kun Omarchy tyhjentää välimuistiin tallennetun sudo-valtuutuksensa, joten `sudo`-komentoa käyttävä hook tarvitsee oman valtuutuksensa ja saattaa kysyä salasanaasi.
+`pre-refresh-pacman`-hook on paikka, johon mukautetut pakettivarastot tai `IgnorePkg`-rivit kuuluvat, koska se ajetaan ennen pakettitransaktiota. Molemmat päivitykseen liittyvät hookit ajetaan sinun käyttäjänäsi sen jälkeen, kun Spherie tyhjentää välimuistiin tallennetun sudo-valtuutuksensa, joten `sudo`-komentoa käyttävä hook tarvitsee oman valtuutuksensa ja saattaa kysyä salasanaasi.
 
 Jokaisessa näistä kansioista on jo `.sample`-tiedosto, joka näyttää hookin muodon — poista nimestä `.sample`, niin se ryhtyy töihin. Asentaaksesi muualle kirjoittamasi skriptin käytä komentoa `omarchy hook install post-boot ~/my-hook`, joka kopioi sen paikalleen ja tekee siitä suoritettavan.
 

@@ -1,6 +1,6 @@
 # Dodaci ljuske
 
-Radna površina Omarchy radi kao jedan dugovječni Quickshell proces koji se zove `omarchy-shell`, a gotovo sve što vidiš na zaslonu dodatak je unutar njega. Traka je dodatak. Isto vrijedi i za panele koji se spuštaju s nje, preklapanja preko cijelog zaslona poput birača emojija i upravitelja međuspremnika, sam izbornik Omarchy, zaslon za zaključavanje, dijaloški okvir polkit i headless usluge koje prate tvoju bateriju i zagrijavaju ti zaslon noću.
+Radna površina Spherie radi kao jedan dugovječni Quickshell proces koji se zove `omarchy-shell`, a gotovo sve što vidiš na zaslonu dodatak je unutar njega. Traka je dodatak. Isto vrijedi i za panele koji se spuštaju s nje, preklapanja preko cijelog zaslona poput birača emojija i upravitelja međuspremnika, sam izbornik Spherie, zaslon za zaključavanje, dijaloški okvir polkit i headless usluge koje prate tvoju bateriju i zagrijavaju ti zaslon noću.
 
 To nije samo detalj implementacije. To znači da dijelove radne površine možeš isključiti, zamijeniti ili napisati vlastite bez diranja retka Omarchyjeva izvornog koda.
 
@@ -101,4 +101,4 @@ Za razvoj dodataka pogledaj [referencu ljuske](https://github.com/omacom/omarchy
 
 Nakon što napraviš nešto što ti se sviđa, stavi to u javni git repozitorij. To je cijeli mehanizam distribucije — svatko tada može pokrenuti `omarchy plugin add` protiv tvog URL-a i imati ga pokrenutog u sekundama.
 
-Da pomogneš ljudima da ga zapravo pronađu, navedi ga na [plugins.omarchy.org](https://plugins.omarchy.org). To je tržište za Omarchy dodatke ljuske i prvo je mjesto za pogledati kad se pitaš je li netko već izgradio widget koji se spremaš napisati. Pregledaj ga prije početka!
+Da pomogneš ljudima da ga zapravo pronađu, navedi ga na [plugins.omarchy.org](https://plugins.omarchy.org). To je tržište za Spherie dodatke ljuske i prvo je mjesto za pogledati kad se pitaš je li netko već izgradio widget koji se spremaš napisati. Pregledaj ga prije početka!

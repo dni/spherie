@@ -8,7 +8,7 @@ Bakgrunnar geta verið myndbönd jafnt sem kyrrmyndir. Slepptu `mp4`, `m4v`, `mo
 
 Þemu geta innihaldið stuttan inngang fyrir kyrran bakgrunn. Fyrir `backgrounds/road.webp` er samsvarandi myndband í `backgrounds/intros/road.mp4`. Það spilast sjálfkrafa við ræsingu, þegar skipt er yfir í þema þar sem sá bakgrunnur er valinn og þegar sá bakgrunnur er valinn, og fer síðan aftur í kyrrmyndina. Inngangsmyndbönd eru ekki í bakgrunnsveljaranum og fara aldrei í lykkju.
 
-Ef slökkt er á _Útlit > Hreyfingar_ slokknar einnig á inngöngum bakgrunna. Omarchy gerir þetta sjálfgefið í sýndarvél. Skipunin `omarchy theme bg intro toggle` getur kveikt og slökkt á inngöngum sérstaklega. Að endurnýja þema spilar ekki inngang.
+Ef slökkt er á _Útlit > Hreyfingar_ slokknar einnig á inngöngum bakgrunna. Spherie gerir þetta sjálfgefið í sýndarvél. Skipunin `omarchy theme bg intro toggle` getur kveikt og slökkt á inngöngum sérstaklega. Að endurnýja þema spilar ekki inngang.
 
 Þú getur fundið gríðarstórt safn flottra, handvalinna bakgrunna í [dharmx/walls](https://github.com/dharmx/walls).
 

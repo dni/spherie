@@ -1,6 +1,6 @@
 # Skiftekontakter, inaktivitet og pauseskærmen
 
-En stor del af det, du ændrer til daglig, er egentlig ikke en indstilling. Det er en tilstand, du slår til i en time og fra igen: nattelys, mens du arbejder sent, forstyr ikke, mens du holder præsentation, hold dig vågen, mens du ser noget. Omarchy kalder dem skiftekontakter, og de fungerer alle på samme måde — en genvejstast, et menupunkt og en kommando, der alle rammer den samme kontakt.
+En stor del af det, du ændrer til daglig, er egentlig ikke en indstilling. Det er en tilstand, du slår til i en time og fra igen: nattelys, mens du arbejder sent, forstyr ikke, mens du holder præsentation, hold dig vågen, mens du ser noget. Spherie kalder dem skiftekontakter, og de fungerer alle på samme måde — en genvejstast, et menupunkt og en kommando, der alle rammer den samme kontakt.
 
 ### Menuen med skiftekontakter
 
@@ -26,7 +26,7 @@ Touchpad-, berøringsskærm- og hybrid GPU-kontakterne bor under _Trigger > Hard
 
 _Appearance_ rummer menulinjen og animationer samt nogle få ting, der ikke er `omarchy toggle`-kommandoer, men opfører sig på samme måde: batteriprocent i linjen, standardlayoutet for arbejdsområder og under _Windows_ vinduesmellemrum (`Super + Shift + Backspace`) og det kvadratiske format til 1 vindue (`Super + Ctrl + Backspace`).
 
-Når Hyprland ikke har en GPU at tegne med og i stedet renderer på CPU'en (llvmpipe), som på Macs, hvis GPU endnu ikke er understøttet, i de fleste virtuelle maskiner, eller når en grafikdriver ikke kan indlæses, slår Omarchy animationer, sløring og skygger fra for den session og fortæller dig det én gang med en notifikation. _Appearance > Animations On_ bringer dem tilbage, og Omarchy husker det også til senere sessioner.
+Når Hyprland ikke har en GPU at tegne med og i stedet renderer på CPU'en (llvmpipe), som på Macs, hvis GPU endnu ikke er understøttet, i de fleste virtuelle maskiner, eller når en grafikdriver ikke kan indlæses, slår Spherie animationer, sløring og skygger fra for den session og fortæller dig det én gang med en notifikation. _Appearance > Animations On_ bringer dem tilbage, og Spherie husker det også til senere sessioner.
 
 De fleste af disse er bare en flagfil under `~/.local/state/omarchy/toggles/`. Hvis du vil forgrene på en af dem i et script, giver `omarchy-toggle-enabled` dig en exit-kode i stedet for at sende dig ud at lede:
 
@@ -95,7 +95,7 @@ Du kan starte den efter behov fra _System > Screensaver_ (`Super + Esc`), som tv
 
 `omarchy toggle screensaver` er det, der slår den ved inaktivitet fra, hvis du hellere vil gå direkte fra arbejde til låst. Enhver tast, klik, rulning eller musebevægelse lukker den.
 
-Det logo, den tegner, kan du selv ændre under _Appearance > Branding > Screensaver_. Upload en png eller svg, og Omarchy konverterer den til ASCII. Se [branding](41-branding.md).
+Det logo, den tegner, kan du selv ændre under _Appearance > Branding > Screensaver_. Upload en png eller svg, og Spherie konverterer den til ASCII. Se [branding](41-branding.md).
 
 ### Låseskærmen
 

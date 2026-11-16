@@ -20,11 +20,11 @@ Obsidian barcha maqsadlar uchun bepul, jumladan shaxsiy, tijorat va notijorat fo
 
 Obsidian shuningdek iOS va Android dagi mobil ilovalar bilan [sinxronlash uchun tijorat qo'shimchasini](https://obsidian.md/sync) taklif qiladi. (https://obsidian.md/pricing).
 
-Obsidian ni `Super + Shift + O` bilan ishga tushirasiz. Mavzularni sinxronlashdan foydalanish uchun sozlamalarda `Omarchy` mavzusini tanlashingiz kerak.
+Obsidian ni `Super + Shift + O` bilan ishga tushirasiz. Mavzularni sinxronlashdan foydalanish uchun sozlamalarda `Spherie` mavzusini tanlashingiz kerak.
 
 ## Omawrite
 
-[Omawrite](https://github.com/omacom-io/omawrite) — Omarchy ning o'zining o'ta oddiy Markdown yozish ilovasi. Vaultlar yo'q, plaginlar yo'q, faqat siz va so'zlar.
+[Omawrite](https://github.com/omacom-io/omawrite) — Spherie ning o'zining o'ta oddiy Markdown yozish ilovasi. Vaultlar yo'q, plaginlar yo'q, faqat siz va so'zlar.
 
 Omawrite ni `Super + Shift + W` bilan ishga tushirasiz.
 
@@ -44,7 +44,7 @@ Aether ni ilovalarni ishga tushirgich orqali ishga tushirasiz (`Super + Space`).
 
 [LocalSend](https://localsend.org/) Apple ning AirDrop i kabi, ilova ishlayotgan shu tarmoqdagi boshqa qurilmalarga fayllar yuborish imkonini beradi. Biroq u platformalararo, shuning uchun Windows, macOS, Android, iOS va albatta Linux ga va ulardan fayllar yuborishingiz mumkin.
 
-Ulashish menyusini `Super + Ctrl + S` bilan yoki Omarchy menyusida _Trigger > Share_ ostida ochishingiz mumkin. U sizga to'rtta variant beradi:
+Ulashish menyusini `Super + Ctrl + S` bilan yoki Spherie menyusida _Trigger > Share_ ostida ochishingiz mumkin. U sizga to'rtta variant beradi:
 
 - **Clipboard** nusxa olgan narsangizni matn fayli sifatida yuboradi. Havola yoki parchani o'zingizga email yubormasdan telefoningizga o'tkazish uchun ajoyib.
 - **File** bir vaqtning o'zida bir nechtasini tanlashingiz mumkin bo'lgan fayl tanlagichni ochadi.
@@ -55,7 +55,7 @@ Xuddi shu narsa terminaldan `omarchy share clipboard`, `omarchy share file [path
 
 Shuningdek, to'g'ridan-to'g'ri fayl menejeridan yuborishingiz mumkin: Nautilus da istalgan tanlovni o'ng tugma bilan bosing va _Send via LocalSend_ ni tanlang.
 
-Omarchy ning firewall i standart bo'yicha LocalSend portidan tashqari yopiq, shuning uchun bu yangi o'rnatishda qutidan chiqqan holda ishlaydi. Qarang: [xavfsizlik](48-security.md).
+Spherie ning firewall i standart bo'yicha LocalSend portidan tashqari yopiq, shuning uchun bu yangi o'rnatishda qutidan chiqqan holda ishlaydi. Qarang: [xavfsizlik](48-security.md).
 
 ## LibreOffice
 
@@ -65,19 +65,19 @@ LibreOffice ni ilovalarni ishga tushirgich orqali ishga tushirasiz (`Super + Spa
 
 ## Hype
 
-[Hype](https://github.com/omacom/hype) — Omarchy ning o'zining o'ta oddiy taqdimot ilovasi. Sizning taqdimotingiz — rasmlari va videolari yonida turgan bitta Markdown fayli: har bir slaydni jonli ko'rib chiqish ostida yozing, slaydlarni tartibga tortib olib boring, keyin to'liq ekranda taqdim eting yoki PDF va PowerPoint ga eksport qiling. U hatto Omarchy mavzuingizni ham oladi.
+[Hype](https://github.com/omacom/hype) — Spherie ning o'zining o'ta oddiy taqdimot ilovasi. Sizning taqdimotingiz — rasmlari va videolari yonida turgan bitta Markdown fayli: har bir slaydni jonli ko'rib chiqish ostida yozing, slaydlarni tartibga tortib olib boring, keyin to'liq ekranda taqdim eting yoki PDF va PowerPoint ga eksport qiling. U hatto Spherie mavzuingizni ham oladi.
 
 Hype ni ilovalarni ishga tushirgich orqali ishga tushirasiz (`Super + Space`). Har bir yorliqni ko'rish uchun uning ichida `?` ni bosing.
 
 ## Signed
 
-[Signed](https://github.com/omacom/signed) — Omarchy ning PDFlarni imzolash va to'ldirishning o'ta oddiy o'z usuli. Saqlangan imzoyingizni, matnni va bugungi sanani sahifaning istalgan joyiga qo'ying, keyin asl nusxa yonida imzolangan nusxani saqlang. Qanday qilishni [PDFlarni to'ldirish](27-filling-out-pdfs.md) bo'limida ko'ring.
+[Signed](https://github.com/omacom/signed) — Spherie ning PDFlarni imzolash va to'ldirishning o'ta oddiy o'z usuli. Saqlangan imzoyingizni, matnni va bugungi sanani sahifaning istalgan joyiga qo'ying, keyin asl nusxa yonida imzolangan nusxani saqlang. Qanday qilishni [PDFlarni to'ldirish](27-filling-out-pdfs.md) bo'limida ko'ring.
 
 Signed ni ilovalarni ishga tushirgich orqali ishga tushirasiz (`Super + Space`), yoki fayl menejeridan u bilan PDF oching.
 
 ## Omacalc
 
-[Omacalc](https://github.com/omacom-io/omacalc) — suzuvchi oynada ochiladigan Omarchy ning o'zining o'ta oddiy kalkulyatori.
+[Omacalc](https://github.com/omacom-io/omacalc) — suzuvchi oynada ochiladigan Spherie ning o'zining o'ta oddiy kalkulyatori.
 
 Omacalc ni `Super + Shift + Q` bilan ishga tushirasiz (yoki klaviaturangizda bo'lsa, kalkulyator tugmasi bilan).
 
@@ -85,11 +85,11 @@ Omacalc ni `Super + Shift + Q` bilan ishga tushirasiz (yoki klaviaturangizda bo'
 
 [Signal](https://signal.org/) — E2E shifrlangan xabar almashishning kashshofi va yirik texnologik konglomeratlardan biri orqali o'tishni istamaydigan har kim uchun ajoyib aloqa varianti.
 
-Signal ni `Super + Shift + G` bilan ishga tushirasiz. U asosiy o'rnatishning bir qismi emas, shuning uchun uni birinchi marta bossangiz, Omarchy uni siz uchun o'rnatishni taklif qiladi (u Omarchy menyusida _Install > Service_ ostida ham bor).
+Signal ni `Super + Shift + G` bilan ishga tushirasiz. U asosiy o'rnatishning bir qismi emas, shuning uchun uni birinchi marta bossangiz, Spherie uni siz uchun o'rnatishni taklif qiladi (u Spherie menyusida _Install > Service_ ostida ham bor).
 
 ## Omaview
 
-[Omaview](https://github.com/omacom/omaview) — Omarchy ning o'zining o'ta oddiy rasm ko'ruvchisi va media pleyeri: fotosuratlaringiz, videolaringiz va musiqangiz uchun bitta oyna. Fotosuratni oching va strelka tugmalari uning papkasidagi qolganlarini ketma-ket ko'rsatadi, `N` va `P` buni har qanday narsa uchun qiladi, `Ctrl + M` esa butun papkani panjara sifatida ko'rsatadi. U HEIC, AVIF va JPEG XL fotosuratlarini ham ko'rsatadi va uzun narsalarda to'xtagan joyingizdan davom etadi.
+[Omaview](https://github.com/omacom/omaview) — Spherie ning o'zining o'ta oddiy rasm ko'ruvchisi va media pleyeri: fotosuratlaringiz, videolaringiz va musiqangiz uchun bitta oyna. Fotosuratni oching va strelka tugmalari uning papkasidagi qolganlarini ketma-ket ko'rsatadi, `N` va `P` buni har qanday narsa uchun qiladi, `Ctrl + M` esa butun papkani panjara sifatida ko'rsatadi. U HEIC, AVIF va JPEG XL fotosuratlarini ham ko'rsatadi va uzun narsalarda to'xtagan joyingizdan davom etadi.
 
 To'liq ekran uchun `F` ni, rasmni Omasnap da tahrirlash yoki videoni Omacut da kesish uchun `E` ni, rasmni chop etish uchun `Ctrl + P` ni va faylni Trash ga ko'chirish uchun `Delete` ni bosing (`Ctrl + Z` uni qaytaradi). Har bir yorliqni ko'rish uchun uning ichida `?` ni bosing.
 
@@ -97,13 +97,13 @@ Omaview ni ilovalarni ishga tushirgich orqali _Media Viewer_ sifatida ishga tush
 
 ## Omacut
 
-[Omacut](https://github.com/omacom-io/omacut) — Omarchy ning o'zining o'ta oddiy video kesuvchisi. Sizga kerak bo'lgan narsa faqat klipning boshi va oxirini kesish bo'lsa, u to'liq video tahrirlovchini ishga tushirishdan ustun.
+[Omacut](https://github.com/omacom-io/omacut) — Spherie ning o'zining o'ta oddiy video kesuvchisi. Sizga kerak bo'lgan narsa faqat klipning boshi va oxirini kesish bo'lsa, u to'liq video tahrirlovchini ishga tushirishdan ustun.
 
 Omacut ni ilovalarni ishga tushirgich orqali ishga tushirasiz (`Super + Space`).
 
 ## Monologue
 
-[Monologue](https://github.com/omacom/monologue) — Omarchy ning o'zining o'ta oddiy veb-kamera yozuvchisi. Kamera va mikrofoningizni bir marta tanlang, keyin yozish uchun `Space` ni bosing, yana o'sha yozuvni pauza qilish va davom ettirish uchun yana bosing. U har doim kamerangizning eng yuqori aniqligida yozadi, boshlashdan oldin darajangizni tekshirishingiz uchun jonli mikrofon o'lchagichi bilan.
+[Monologue](https://github.com/omacom/monologue) — Spherie ning o'zining o'ta oddiy veb-kamera yozuvchisi. Kamera va mikrofoningizni bir marta tanlang, keyin yozish uchun `Space` ni bosing, yana o'sha yozuvni pauza qilish va davom ettirish uchun yana bosing. U har doim kamerangizning eng yuqori aniqligida yozadi, boshlashdan oldin darajangizni tekshirishingiz uchun jonli mikrofon o'lchagichi bilan.
 
 Yozuvni to'xtating va u darhol o'rnatilgan tahrirlovchida ochiladi. Klipni bo'lish uchun uni ikki marta bosing, har bir bo'lakni kesish uchun tutqichlarni torting va kerak bo'lmagan qismlarni olib tashlang. Keyin uni MP4 sifatida saqlang. Asl yozuvingiz uni tashlab yubormaguningizcha saqlanadi, shuning uchun har doim qaytib, uni boshqacha kesishingiz mumkin.
 

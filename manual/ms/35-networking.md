@@ -1,6 +1,6 @@
 # Rangkaian
 
-Rangkaian dalam Omarchy dikendalikan oleh NetworkManager, dan anda mengawalnya daripada ikon rangkaian di [bar atas](05-the-top-bar.md) atau dengan `Super + Ctrl + N`.
+Rangkaian dalam Spherie dikendalikan oleh NetworkManager, dan anda mengawalnya daripada ikon rangkaian di [bar atas](05-the-top-bar.md) atau dengan `Super + Ctrl + N`.
 
 Panel itu mengimbas rangkaian Wi-Fi, menunjukkan kekuatan isyarat, dan menyambung. Ethernet tidak memerlukan apa-apa langsung — cucuk sahaja dan ia terus berfungsi. Jika anda lebih suka kekal di terminal, `nmtui` memberikan kawalan yang sama kepada anda, dan terdapat juga kumpulan arahan `omarchy network`.
 
@@ -12,7 +12,7 @@ Jika anda benar-benar memerlukan kata laluannya sendiri, `omarchy network passwo
 
 ## DNS
 
-Omarchy menggunakan apa sahaja DNS yang diberikan oleh rangkaian anda melalui DHCP. Anda boleh menggantikannya untuk keseluruhan mesin di bawah _Setup > Network > DNS_, di mana Cloudflare dan Google hanya satu klik sahaja. Pilih _Custom_ untuk menaip pelayan anda sendiri.
+Spherie menggunakan apa sahaja DNS yang diberikan oleh rangkaian anda melalui DHCP. Anda boleh menggantikannya untuk keseluruhan mesin di bawah _Setup > Network > DNS_, di mana Cloudflare dan Google hanya satu klik sahaja. Pilih _Custom_ untuk menaip pelayan anda sendiri.
 
 Dari terminal, `omarchy dns` mencetak pembekal semasa dan `omarchy dns Cloudflare` menetapkan satu.
 
@@ -24,7 +24,7 @@ Ini menetapkan jalur dan bukannya titik akses tertentu, jadi anda terus merayau 
 
 ## Seberapa pantaskah ia?
 
-_Trigger > Speed Test > Network Speed Test_ mengukur kelajuan naik dan turun sebenar anda dengan sepasang dail. Dari terminal, ia ialah `omarchy network speedtest down` atau `up`. Ia mengukur terhadap perkhidmatan Omarchy sendiri dan hanya mengira pemindahan ujiannya. Muat turun lain boleh bersaing untuk lebar jalur, tetapi ia tidak ditambahkan pada keputusan ujian kelajuan. (Ada ujian kelajuan cakera bersebelahan dengannya dalam menu itu, jika anda menanda aras kesesakan yang satu lagi.)
+_Trigger > Speed Test > Network Speed Test_ mengukur kelajuan naik dan turun sebenar anda dengan sepasang dail. Dari terminal, ia ialah `omarchy network speedtest down` atau `up`. Ia mengukur terhadap perkhidmatan Spherie sendiri dan hanya mengira pemindahan ujiannya. Muat turun lain boleh bersaing untuk lebar jalur, tetapi ia tidak ditambahkan pada keputusan ujian kelajuan. (Ada ujian kelajuan cakera bersebelahan dengannya dalam menu itu, jika anda menanda aras kesesakan yang satu lagi.)
 
 ## Firewall
 

@@ -1,16 +1,16 @@
 # Mac atbalsts
 
-Omarchy ir iebūvēts atbalsts **Intel Mac** datoriem. Pašlaik ir pāris zināmi ierobežojumi, bet, kamēr tu tos apzinies un ar tiem samierinies; tu vari iedvest jaunu dzīvību savos vecajos Mac datoros, uzstādot Omarchy.
+Spherie ir iebūvēts atbalsts **Intel Mac** datoriem. Pašlaik ir pāris zināmi ierobežojumi, bet, kamēr tu tos apzinies un ar tiem samierinies; tu vari iedvest jaunu dzīvību savos vecajos Mac datoros, uzstādot Spherie.
 
 Lūdzu, ņem vērā, ka uzstādīšana M sērijas Mac datoros pašlaik netiek tieši atbalstīta. Vairāk par šī jautājuma stāvokli vari uzzināt kanālā #omarchy-on-other mūsu [Discord](https://discord.gg/tXFUdasqhY).
 
-Vienkāršā testā mums izdevās panākt 36% veiktspējas pieaugumu 2019. gada MacBook Pro, tikai vien uzstādot Omarchy.
+Vienkāršā testā mums izdevās panākt 36% veiktspējas pieaugumu 2019. gada MacBook Pro, tikai vien uzstādot Spherie.
 
  ![macbook-omarchy](images/macbook-omarchy.webp)
 
-### Omarchy uzstādīšana Mac datorā
+### Spherie uzstādīšana Mac datorā
 
-Omarchy pašlaik atbalsta tikai situāciju, kad tā ir **vienīgā** uzstādītā OS. Uzstādīšanas laikā disks tiks izdzēsts, un MacOS vairs nebūs palaižams.
+Spherie pašlaik atbalsta tikai situāciju, kad tā ir **vienīgā** uzstādītā OS. Uzstādīšanas laikā disks tiks izdzēsts, un MacOS vairs nebūs palaižams.
 
 Vēlāk to joprojām varēsi atjaunot, izmantojot Internet Recovery, ja vēlēsies.
 

@@ -18,7 +18,7 @@ Tämä tarkoittaa myös sitä, että `~/.config`-hakemistosi säilyy sellaisenaa
 
 Sama koskee Omarchyn omaa tietoa siitä, mitkä migraatiot on jo suoritettu: se sijaitsee kotihakemistossasi, joten se säilyy palautuksen yli. Tilannevedoksen ottamisen jälkeen suoritetut migraatiot pysyvät merkittyinä suoritetuiksi, vaikka niiden juuritiedostojärjestelmään tekemät muutokset on kumottu, eikä seuraava `omarchy update` suorita niitä uudelleen. Jos siis päivität uudelleen palautuksen jälkeen ja jokin aiemman päivityksen tekemä asetus puuttuu edelleen, tämä on todennäköinen syy.
 
-_Huomautus: Tämä ominaisuus on käytettävissä vain asennuksissa, jotka käyttävät Limine-käynnistyslataajaa, joka on ollut oletuksena Omarchy 2.0:sta lähtien. Se ei ole käytettävissä, jos käytössäsi on GRUB tai systemd-boot._
+_Huomautus: Tämä ominaisuus on käytettävissä vain asennuksissa, jotka käyttävät Limine-käynnistyslataajaa, joka on ollut oletuksena Spherie 2.0:sta lähtien. Se ei ole käytettävissä, jos käytössäsi on GRUB tai systemd-boot._
 
 ### Käynnistysvalikon ohittaminen
 

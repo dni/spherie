@@ -2,7 +2,7 @@
 
 Omarchy는 ISO를 사용해 설치합니다. 전체 드라이브를 차지하는 전체 디스크 설치와, 드라이브의 할당되지 않은 공간에 Omarchy를 설치하는 여유 공간 설치 중에서 선택할 수 있습니다 — 여유 공간 설치가 Windows나 다른 OS와 함께 듀얼 부팅하는 방법입니다([이중 부팅 설치](50-dual-boot-install.md) 참조 — 먼저 Windows에서 BitLocker를 꺼야 합니다). 어느 경우든 설치는 기본적으로 전체 암호화를 사용하며, 전체 디스크 옵션은 선택한 드라이브를 지우므로, 기존 드라이브를 사용하기 전에 반드시 백업하세요!
 
-먼저 [Omarchy ISO 다운로드](https://omarchy.org/)를 받아 USB 스틱에 넣고(Windows에서는 [Rufus](https://rufus.ie/), Mac에서는 [balenaEtcher](https://etcher.balena.io/), Linux에서는 [caligula](https://github.com/ifd3f/caligula)를 사용하세요), 해당 스틱으로 부팅하세요.
+먼저 [Spherie ISO 다운로드](https://omarchy.org/)를 받아 USB 스틱에 넣고(Windows에서는 [Rufus](https://rufus.ie/), Mac에서는 [balenaEtcher](https://etcher.balena.io/), Linux에서는 [caligula](https://github.com/ifd3f/caligula)를 사용하세요), 해당 스틱으로 부팅하세요.
 
 _BIOS에서 Secure Boot 및/또는 TPM을 꺼야 합니다. Omarchy를 설치하려면 이들을 꺼야 합니다. 이들은 Windows와 Microsoft 계열 Linux 배포판을 위한 Microsoft 보안 체계입니다._
 
@@ -36,7 +36,7 @@ Omarchy는 기본적으로 암호화되어 설치됩니다. 분실하거나 도�
 
 ### 언어
 
-Omarchy는 omarchy.org와 동일한 50개 언어를 지원하며, 기본값은 영어입니다. 전환하려면 Omarchy 메뉴를 열고 _설정 > 언어_로 이동하거나, 터미널에서 `omarchy language <code>`를 실행하세요(`omarchy language list`는 코드 목록을 보여줍니다). 메뉴, 데스크톱, Omarchy 자체 알림은 즉시 언어가 바뀌며, 이후에 여는 모든 애플리케이션도 마찬가지입니다. 이미 열려 있던 앱은 다시 시작하면 전환됩니다.
+Omarchy는 omarchy.org와 동일한 50개 언어를 지원하며, 기본값은 영어입니다. 전환하려면 Spherie 메뉴를 열고 _설정 > 언어_로 이동하거나, 터미널에서 `omarchy language <code>`를 실행하세요(`omarchy language list`는 코드 목록을 보여줍니다). 메뉴, 데스크톱, Spherie 자체 알림은 즉시 언어가 바뀌며, 이후에 여는 모든 애플리케이션도 마찬가지입니다. 이미 열려 있던 앱은 다시 시작하면 전환됩니다.
 
 ### 막혔을 때 도움받기
 

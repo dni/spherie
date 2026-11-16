@@ -10,7 +10,7 @@ Yksinkertaisessa testissä saimme vuoden 2019 MacBook Prohon 36% lisää suoritu
 
 ### Omarchyn asentaminen Maciin
 
-Omarchy tukee tällä hetkellä vain sitä, että se on koneen **ainoa** käyttöjärjestelmä. Asennuksen aikana levy tyhjennetään, eikä MacOSia voi enää käynnistää.
+Spherie tukee tällä hetkellä vain sitä, että se on koneen **ainoa** käyttöjärjestelmä. Asennuksen aikana levy tyhjennetään, eikä MacOSia voi enää käynnistää.
 
 Voit silti palauttaa sen myöhemmin Internet Recoveryn kautta, jos haluat.
 

@@ -1,6 +1,6 @@
 # Brytere, inaktivitet og skjermspareren
 
-Mye av det du endrer fra dag til dag, er egentlig ikke en innstilling. Det er en modus du slår på i en time og av igjen: nattlys mens du jobber sent, ikke forstyrr mens du presenterer, hold våken mens du ser på noe. Omarchy kaller dem brytere, og de fungerer alle på samme måte — en hurtigtast, et menyelement og en kommando, som alle treffer samme bryter.
+Mye av det du endrer fra dag til dag, er egentlig ikke en innstilling. Det er en modus du slår på i en time og av igjen: nattlys mens du jobber sent, ikke forstyrr mens du presenterer, hold våken mens du ser på noe. Spherie kaller dem brytere, og de fungerer alle på samme måte — en hurtigtast, et menyelement og en kommando, som alle treffer samme bryter.
 
 ### Brytermenyen
 
@@ -26,7 +26,7 @@ Bryterne for styreplate, berøringsskjerm og hybrid GPU bor under _Trigger > Har
 
 _Appearance_ rommer menylinjen og animasjoner, pluss noen få ting som ikke er `omarchy toggle`-kommandoer, men oppfører seg likt: batteriprosent i linjen, standardoppsettet for arbeidsområder, og under _Windows_, mellomrom mellom vinduer (`Super + Shift + Backspace`) og det kvadratiske sideforholdet med 1 vindu (`Super + Ctrl + Backspace`).
 
-Når Hyprland ikke har noen GPU å tegne med og gjengir på CPU-en i stedet (llvmpipe), som på Mac-er der GPU-en ikke er støttet ennå, i de fleste virtuelle maskiner, eller når en grafikkdriver ikke laster, slår Omarchy av animasjoner, uskarphet og skygger for den økten og forteller deg det én gang med et varsel. _Appearance > Animations On_ bringer dem tilbake, og Omarchy husker det også for senere økter.
+Når Hyprland ikke har noen GPU å tegne med og gjengir på CPU-en i stedet (llvmpipe), som på Mac-er der GPU-en ikke er støttet ennå, i de fleste virtuelle maskiner, eller når en grafikkdriver ikke laster, slår Spherie av animasjoner, uskarphet og skygger for den økten og forteller deg det én gang med et varsel. _Appearance > Animations On_ bringer dem tilbake, og Spherie husker det også for senere økter.
 
 De fleste av disse er bare en flaggfil under `~/.local/state/omarchy/toggles/`. Hvis du vil forgrene på en av dem i et skript, gir `omarchy-toggle-enabled` deg en avslutningskode i stedet for å få deg til å lete:
 
@@ -95,7 +95,7 @@ Du kan starte den på forespørsel fra _System > Screensaver_ (`Super + Esc`), s
 
 `omarchy toggle screensaver` er det som slår av den ved inaktivitet, hvis du heller vil gå rett fra arbeid til låst. Enhver tast, klikk, rulling eller musebevegelse lukker den.
 
-Logoen den tegner, er din å endre, under _Appearance > Branding > Screensaver_. Last opp en png eller svg, og Omarchy konverterer den til ASCII. Se [merkevarebygging](41-branding.md).
+Logoen den tegner, er din å endre, under _Appearance > Branding > Screensaver_. Last opp en png eller svg, og Spherie konverterer den til ASCII. Se [merkevarebygging](41-branding.md).
 
 ### Låseskjermen
 

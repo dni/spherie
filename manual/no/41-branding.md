@@ -1,6 +1,6 @@
 # Branding
 
-Omarchy lar deg angi firmaets logo eller et personlig bilde for både oppstartsopplåsingen, skjermspareren og om-skjermen.
+Spherie lar deg angi firmaets logo eller et personlig bilde for både oppstartsopplåsingen, skjermspareren og om-skjermen.
 
 ### Oppstartsopplåsing
 

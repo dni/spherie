@@ -6,7 +6,7 @@ Először próbáld meg [visszaállítani a rendszeredet](47-system-snapshots.md
 
 ### Miért olyan nagyok egyes alkalmazások a kijelzőmön?
 
-Az Omarchy 2x-es nagy felbontású kijelzőt feltételez, ezért a `GDK_SCALE` értékét 2-re állítja, amíg ki nem választasz egy méretezést a monitorpanelen. Ha 1x-es kijelződ van, és a GTK vagy X11 alkalmazások túlméretezve jelennek meg, válaszd az 1x-et neki a monitorpanelen, vagy add hozzá a `hl.env("GDK_SCALE", "1")` sort a `~/.config/hypr/monitors.lua` fájlhoz (majd indítsd újra minden túlméretezett alkalmazást). Lásd [a monitorokról szóló kézikönyvet](33-monitors.md).
+Az Spherie 2x-es nagy felbontású kijelzőt feltételez, ezért a `GDK_SCALE` értékét 2-re állítja, amíg ki nem választasz egy méretezést a monitorpanelen. Ha 1x-es kijelződ van, és a GTK vagy X11 alkalmazások túlméretezve jelennek meg, válaszd az 1x-et neki a monitorpanelen, vagy add hozzá a `hl.env("GDK_SCALE", "1")` sort a `~/.config/hypr/monitors.lua` fájlhoz (majd indítsd újra minden túlméretezett alkalmazást). Lásd [a monitorokról szóló kézikönyvet](33-monitors.md).
 
 A Spotify esetében a `Ctrl + Minus` billentyűkombinációval kicsinyítheted a felületet (a `Ctrl + Plus` kombinációval pedig nagyobbra állíthatod).
 
@@ -18,7 +18,7 @@ Nyomd meg egyszer az `Fn + Super` kombinációt, mielőtt elkezdenél kutakodni 
 
 ### A Wi-Fi, a Bluetooth, a hang vagy az érintőpad egyszerűen leállt
 
-Mielőtt újraindítanád a gépet, próbáld meg önmagában újraindítani a problémás alrendszert. Az Omarchy menüben az _Update > Hardware_ alatt megtalálod a Wi-Fi, Bluetooth, Audio és Trackpad lehetőségeket, és ezek egyikének újratöltése megoldja az „öt perce még működött” helyzetek többségét — egy Bluetooth-headsetet, amely nem akar újracsatlakozni, egy érintőpadot, amely felfüggesztés után meghalt, vagy a hangot, amely eltűnt, amikor kihúztál egy monitort.
+Mielőtt újraindítanád a gépet, próbáld meg önmagában újraindítani a problémás alrendszert. Az Spherie menüben az _Update > Hardware_ alatt megtalálod a Wi-Fi, Bluetooth, Audio és Trackpad lehetőségeket, és ezek egyikének újratöltése megoldja az „öt perce még működött” helyzetek többségét — egy Bluetooth-headsetet, amely nem akar újracsatlakozni, egy érintőpadot, amely felfüggesztés után meghalt, vagy a hangot, amely eltűnt, amikor kihúztál egy monitort.
 
 ### Miért nem szólnak a külső hangszóróim?
 
@@ -26,7 +26,7 @@ Valószínűleg azért, mert nincsenek beállítva elsődleges kimenetként. Kat
 
 ### Furcsán szólnak a laptopom hangszórói
 
-Néhány laptopon az Omarchy automatikusan alkalmaz egy hangszóró-hangolást, amely korrigálja a beépített hangszórók frekvenciaválaszát. Az `omarchy audio tuning status` megmondja, aktív-e ilyen a gépeden, az `omarchy audio tuning off` pedig kikapcsolja, ha inkább nyersen szeretnéd hallani a hangszórókat.
+Néhány laptopon az Spherie automatikusan alkalmaz egy hangszóró-hangolást, amely korrigálja a beépített hangszórók frekvenciaválaszát. Az `omarchy audio tuning status` megmondja, aktív-e ilyen a gépeden, az `omarchy audio tuning off` pedig kikapcsolja, ha inkább nyersen szeretnéd hallani a hangszórókat.
 
 ### Miért nem tudok bejelentkezni vagy sudo parancsot használni a jelszavammal?
 

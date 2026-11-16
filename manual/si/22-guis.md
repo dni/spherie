@@ -20,11 +20,11 @@ Obsidian පුද්ගලික, වාණිජ, සහ ලාභ නොල�
 
 Obsidian විසින් iOS සහ Android මත mobile apps සමඟ sync කිරීම සඳහා [වාණිජ add-on එකක්](https://obsidian.md/sync) ද ලබා දෙයි. (https://obsidian.md/pricing).
 
-ඔබ `Super + Shift + O` සමඟ Obsidian ආරම්භ කරයි. Theme syncing භාවිතා කිරීමට, ඔබ settings යටතේ `Omarchy` theme එක select කළ යුතුය.
+ඔබ `Super + Shift + O` සමඟ Obsidian ආරම්භ කරයි. Theme syncing භාවිතා කිරීමට, ඔබ settings යටතේ `Spherie` theme එක select කළ යුතුය.
 
 ## Omawrite
 
-[Omawrite](https://github.com/omacom-io/omawrite) යනු Omarchy හිම අතිශය සරල Markdown writing app එකයි. Vaults නැත, plugins නැත, ඇත්තේ ඔබ සහ වචන පමණි.
+[Omawrite](https://github.com/omacom-io/omawrite) යනු Spherie හිම අතිශය සරල Markdown writing app එකයි. Vaults නැත, plugins නැත, ඇත්තේ ඔබ සහ වචන පමණි.
 
 ඔබ `Super + Shift + W` සමඟ Omawrite ආරම්භ කරයි.
 
@@ -44,7 +44,7 @@ Obsidian විසින් iOS සහ Android මත mobile apps සමඟ sync
 
 [LocalSend](https://localsend.org/) මඟින්, Apple's AirDrop වැනිව, එම app එක ධාවනය වන එකම network එකේ ඇති වෙනත් devices වෙත ගොනු යැවීමට ඔබට ඉඩ දෙයි. නමුත් එය cross-platform බැවින්, ඔබට Windows, macOS, Android, iOS, සහ ඇත්තෙන්ම Linux වෙත සහ ඉන් පිටතට ගොනු යැවිය හැකිය.
 
-ඔබට `Super + Ctrl + S` මත හෝ Omarchy menu එකේ _Trigger > Share_ යටතේ Share menu එක විවෘත කළ හැකිය. එය ඔබට විකල්ප හතරක් දෙයි:
+ඔබට `Super + Ctrl + S` මත හෝ Spherie menu එකේ _Trigger > Share_ යටතේ Share menu එක විවෘත කළ හැකිය. එය ඔබට විකල්ප හතරක් දෙයි:
 
 - **Clipboard** ඔබ copy කළ ඕනෑම දෙයක් text file එකක් ලෙස යවයි. ඔබටම email නොකර link එකක් හෝ snippet එකක් ඔබේ phone එකට ගැනීමට නියමයි.
 - **File** එකවර කිහිපයක් select කළ හැකි file picker එකක් විවෘත කරයි.
@@ -55,7 +55,7 @@ Obsidian විසින් iOS සහ Android මත mobile apps සමඟ sync
 
 ඔබට file manager එකෙන් කෙලින්ම ද යැවිය හැකිය: Nautilus හි ඕනෑම selection එකක් right-click කර _Send via LocalSend_ තෝරන්න.
 
-Omarchy හි firewall එක LocalSend හි port එක හැර default ලෙස වසා ඇති බැවින්, මෙය fresh install එකක කිසිදු සැකසුමකින් තොරවම ක්‍රියා කරයි. [ආරක්ෂාව](48-security.md) බලන්න.
+Spherie හි firewall එක LocalSend හි port එක හැර default ලෙස වසා ඇති බැවින්, මෙය fresh install එකක කිසිදු සැකසුමකින් තොරවම ක්‍රියා කරයි. [ආරක්ෂාව](48-security.md) බලන්න.
 
 ## LibreOffice
 
@@ -65,19 +65,19 @@ Omarchy හි firewall එක LocalSend හි port එක හැර default �
 
 ## Hype
 
-[Hype](https://github.com/omacom/hype) යනු Omarchy හිම අතිශය සරල presentation app එකයි. ඔබේ deck එක එහි images සහ videos ඊට යාබදව ඇති තනි Markdown file එකකි: live preview එකක් යටින් එක් එක් slide එක ලියන්න, slides පිළිවෙළට drag කරන්න, ඉන්පසු fullscreen present කරන්න හෝ PDF සහ PowerPoint වෙත export කරන්න. එය ඔබේ Omarchy theme එක පවා ලබා ගනී.
+[Hype](https://github.com/omacom/hype) යනු Spherie හිම අතිශය සරල presentation app එකයි. ඔබේ deck එක එහි images සහ videos ඊට යාබදව ඇති තනි Markdown file එකකි: live preview එකක් යටින් එක් එක් slide එක ලියන්න, slides පිළිවෙළට drag කරන්න, ඉන්පසු fullscreen present කරන්න හෝ PDF සහ PowerPoint වෙත export කරන්න. එය ඔබේ Spherie theme එක පවා ලබා ගනී.
 
 ඔබ application launcher එක (`Super + Space`) හරහා Hype ආරම්භ කරයි. සියලු shortcuts බැලීමට එහි ඇතුළත `?` ඔබන්න.
 
 ## Signed
 
-[Signed](https://github.com/omacom/signed) යනු PDFs අත්සන් කිරීමට සහ ඒවා පිරවීමට Omarchy හිම අතිශය සරල ක්‍රමයයි. ඔබ save කළ signature එක, text එක, සහ අද දිනය page එකේ ඕනෑම තැනක තබන්න, ඉන්පසු original එක අසල signed copy එකක් save කරන්න. ආකාරය සඳහා [PDFs පුරවීම](27-filling-out-pdfs.md) බලන්න.
+[Signed](https://github.com/omacom/signed) යනු PDFs අත්සන් කිරීමට සහ ඒවා පිරවීමට Spherie හිම අතිශය සරල ක්‍රමයයි. ඔබ save කළ signature එක, text එක, සහ අද දිනය page එකේ ඕනෑම තැනක තබන්න, ඉන්පසු original එක අසල signed copy එකක් save කරන්න. ආකාරය සඳහා [PDFs පුරවීම](27-filling-out-pdfs.md) බලන්න.
 
 ඔබ application launcher එක (`Super + Space`) හරහා Signed ආරම්භ කරයි, නැතහොත් file manager එකෙන් PDF එකක් එය සමඟ විවෘත කරයි.
 
 ## Omacalc
 
-[Omacalc](https://github.com/omacom-io/omacalc) යනු floating window එකක විවෘත වන Omarchy හිම අතිශය සරල calculator එකයි.
+[Omacalc](https://github.com/omacom-io/omacalc) යනු floating window එකක විවෘත වන Spherie හිම අතිශය සරල calculator එකයි.
 
 ඔබ `Super + Shift + Q` සමඟ (හෝ ඔබේ keyboard එකේ එකක් තිබේ නම් calculator key එක සමඟ) Omacalc ආරම්භ කරයි.
 
@@ -85,11 +85,11 @@ Omarchy හි firewall එක LocalSend හි port එක හැර default �
 
 [Signal](https://signal.org/) යනු E2E encrypted messaging හි පුරෝගාමියා වන අතර, විශාල tech conglomerates එකක් හරහා යාමට අකමැති ඕනෑම අයෙකුට නියම communication option එකකි.
 
-ඔබ `Super + Shift + G` සමඟ Signal ආරම්භ කරයි. එය base install එකේ කොටසක් නොවන බැවින්, ඔබ පළමු වරට එය එබූ විට, Omarchy එය ඔබ වෙනුවෙන් install කිරීමට ඉදිරිපත් වනු ඇත (එය Omarchy menu එකේ _Install > Service_ යටතේ ද ඇත).
+ඔබ `Super + Shift + G` සමඟ Signal ආරම්භ කරයි. එය base install එකේ කොටසක් නොවන බැවින්, ඔබ පළමු වරට එය එබූ විට, Spherie එය ඔබ වෙනුවෙන් install කිරීමට ඉදිරිපත් වනු ඇත (එය Spherie menu එකේ _Install > Service_ යටතේ ද ඇත).
 
 ## Omaview
 
-[Omaview](https://github.com/omacom/omaview) යනු Omarchy හිම අතිශය සරල picture viewer සහ media player එකයි: ඔබේ photos, videos, සහ music සඳහා එක window එකකි. Photo එකක් විවෘත කළ විට arrow keys මඟින් එහි folder එකේ ඉතිරි ඒවා අතරින් යා හැකි අතර, `N` සහ `P` ඕනෑම දෙයක් සඳහා එය කරයි, සහ `Ctrl + M` මුළු folder එකම grid එකක් ලෙස පෙන්වයි. එය HEIC, AVIF, සහ JPEG XL photos ද පෙන්වන අතර, දිගු ඕනෑම දෙයක ඔබ නැවැත්වූ තැනින් නැවත ආරම්භ කරයි.
+[Omaview](https://github.com/omacom/omaview) යනු Spherie හිම අතිශය සරල picture viewer සහ media player එකයි: ඔබේ photos, videos, සහ music සඳහා එක window එකකි. Photo එකක් විවෘත කළ විට arrow keys මඟින් එහි folder එකේ ඉතිරි ඒවා අතරින් යා හැකි අතර, `N` සහ `P` ඕනෑම දෙයක් සඳහා එය කරයි, සහ `Ctrl + M` මුළු folder එකම grid එකක් ලෙස පෙන්වයි. එය HEIC, AVIF, සහ JPEG XL photos ද පෙන්වන අතර, දිගු ඕනෑම දෙයක ඔබ නැවැත්වූ තැනින් නැවත ආරම්භ කරයි.
 
 Fullscreen සඳහා `F` ඔබන්න, picture එකක් Omasnap හි edit කිරීමට හෝ video එකක් Omacut හි trim කිරීමට `E` ඔබන්න, picture එකක් print කිරීමට `Ctrl + P` ඔබන්න, සහ file එකක් Trash එකට ගෙන යාමට `Delete` ඔබන්න (`Ctrl + Z` එය ආපසු ගෙන එයි). සියලු shortcuts බැලීමට එහි ඇතුළත `?` ඔබන්න.
 
@@ -97,13 +97,13 @@ Fullscreen සඳහා `F` ඔබන්න, picture එකක් Omasnap හි
 
 ## Omacut
 
-[Omacut](https://github.com/omacom-io/omacut) යනු Omarchy හිම අතිශය සරල video trimmer එකයි. ඔබට අවශ්‍ය වන්නේ clip එකක ආරම්භය සහ අවසානය කපා හැරීම පමණක් නම්, සම්පූර්ණ video editor එකක් දියත් කිරීමට වඩා මෙය හොඳය.
+[Omacut](https://github.com/omacom-io/omacut) යනු Spherie හිම අතිශය සරල video trimmer එකයි. ඔබට අවශ්‍ය වන්නේ clip එකක ආරම්භය සහ අවසානය කපා හැරීම පමණක් නම්, සම්පූර්ණ video editor එකක් දියත් කිරීමට වඩා මෙය හොඳය.
 
 ඔබ application launcher එක (`Super + Space`) හරහා Omacut ආරම්භ කරයි.
 
 ## Monologue
 
-[Monologue](https://github.com/omacom/monologue) යනු Omarchy හිම අතිශය සරල webcam recorder එකයි. ඔබේ camera එක සහ microphone එක එක් වරක් තෝරන්න, ඉන්පසු record කිරීමට `Space` ඔබන්න, සහ එම take එකම pause කර නැවත ආරම්භ කිරීමට නැවත ඔබන්න. එය සැමවිටම ඔබේ camera එකේ ඉහළම resolution එකෙන් record කරන අතර, ඔබ ආරම්භ කිරීමට පෙර ඔබේ levels පරීක්ෂා කළ හැකි වන පරිදි live microphone meter එකක් ඇත.
+[Monologue](https://github.com/omacom/monologue) යනු Spherie හිම අතිශය සරල webcam recorder එකයි. ඔබේ camera එක සහ microphone එක එක් වරක් තෝරන්න, ඉන්පසු record කිරීමට `Space` ඔබන්න, සහ එම take එකම pause කර නැවත ආරම්භ කිරීමට නැවත ඔබන්න. එය සැමවිටම ඔබේ camera එකේ ඉහළම resolution එකෙන් record කරන අතර, ඔබ ආරම්භ කිරීමට පෙර ඔබේ levels පරීක්ෂා කළ හැකි වන පරිදි live microphone meter එකක් ඇත.
 
 Take එක නැවැත්වූ විට එය built-in editor එකක වහාම විවෘත වේ. Clip එකක් split කිරීමට එය double-click කරන්න, එක් එක් කොටස trim කිරීමට handles drag කරන්න, සහ ඔබට අවශ්‍ය නැති කොටස් ඉවත් කරන්න. ඉන්පසු එය MP4 එකක් ලෙස save කරන්න. ඔබ එය අත්හරින තුරු ඔබේ original recording එක රඳවා ගනු ලබන බැවින්, ඔබට සැමවිටම ආපසු පැමිණ එය වෙනස් ලෙස කපා ගත හැකිය.
 

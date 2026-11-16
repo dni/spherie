@@ -2,9 +2,9 @@
 
 Omarchy-skjáborðið keyrir sem eitt langlíft Quickshell-ferli sem kallast `omarchy-shell`, og næstum allt sem þú sérð á skjánum er viðbót inni í því. Stikan er viðbót. Það eru líka spjöldin sem falla niður úr henni, heilskjáa-yfirborðin eins og emoji-valið og klippiborðsstjórinn, Omarchy-valmyndin sjálf, læsingarskjárinn, polkit-glugginn og höfuðlausu þjónusturnar sem fylgjast með rafhlöðunni þinni og hlýja skjáinn þinn á nóttunni.
 
-Það er ekki bara útfærsluupplýsing. Það þýðir að þú getur slökkt á hlutum af skjáborðinu, skipt þeim út eða skrifað þína eigin án þess að snerta línu af frumkóða Omarchy.
+Það er ekki bara útfærsluupplýsing. Það þýðir að þú getur slökkt á hlutum af skjáborðinu, skipt þeim út eða skrifað þína eigin án þess að snerta línu af frumkóða Spherie.
 
-Fyrstu-flokks viðbæturnar koma með Omarchy og búa í `$OMARCHY_PATH/shell/plugins/`. Allt sem þú bætir við sjálfur — þínar eigin tilraunir, eða eitthvað sem þú fannst á GitHub — býr í `~/.config/omarchy/plugins/`. Bæði eru uppgötvuð á sama hátt við ræsingu, en innbyggðar fá traust shell-viðmót á meðan viðbætur frá þriðja aðila fá takmarkað viðmót sem afmarkast við þeirra eigin þjónustu og lífsferil. Klónar af innbyggðum halda aðeins stillingum og UI-köllum sem eru sértæk fyrir upprunann og þarf fyrir upprunalega hegðun.
+Fyrstu-flokks viðbæturnar koma með Spherie og búa í `$OMARCHY_PATH/shell/plugins/`. Allt sem þú bætir við sjálfur — þínar eigin tilraunir, eða eitthvað sem þú fannst á GitHub — býr í `~/.config/omarchy/plugins/`. Bæði eru uppgötvuð á sama hátt við ræsingu, en innbyggðar fá traust shell-viðmót á meðan viðbætur frá þriðja aðila fá takmarkað viðmót sem afmarkast við þeirra eigin þjónustu og lífsferil. Klónar af innbyggðum halda aðeins stillingum og UI-köllum sem eru sértæk fyrir upprunann og þarf fyrir upprunalega hegðun.
 
 ## Að sjá hvað þú hefur
 
@@ -101,4 +101,4 @@ Fyrir viðbótarþróun, sjá [shell-tilvísunina](https://github.com/omacom/oma
 
 Þegar þú hefur gert eitthvað sem þér líkar skaltu setja það í opinbert git-repo. Það er allt dreififyrirkomulagið — hver sem er getur þá keyrt `omarchy plugin add` gegn vefslóðinni þinni og fengið það keyrandi á nokkrum sekúndum.
 
-Til að hjálpa fólki raunverulega að finna það skaltu skrá það á [plugins.omarchy.org](https://plugins.omarchy.org). Það er markaðstorgið fyrir Omarchy shell-viðbætur, og það er fyrsti staðurinn til að leita þegar þú veltir fyrir þér hvort einhver hafi þegar byggt græjuna sem þú ert að fara að skrifa. Skoðaðu það áður en þú byrjar!
+Til að hjálpa fólki raunverulega að finna það skaltu skrá það á [plugins.omarchy.org](https://plugins.omarchy.org). Það er markaðstorgið fyrir Spherie shell-viðbætur, og það er fyrsti staðurinn til að leita þegar þú veltir fyrir þér hvort einhver hafi þegar byggt græjuna sem þú ert að fara að skrifa. Skoðaðu það áður en þú byrjar!

@@ -27,6 +27,7 @@ require("default.hypr.looknfeel")
 require("default.hypr.qconsole")
 require("default.hypr.input")
 require("default.hypr.windows")
+require("default.hypr.spheres")
 require("default.hypr.pop")
 require("default.hypr.dictation-backend")
 

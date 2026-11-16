@@ -1,6 +1,6 @@
-# Omarchy CLI
+# Spherie CLI
 
-Omarchy को आमतौर पर हॉटकीज़ और Omarchy मेनू (`Super + Space`) के ज़रिए नियंत्रित किया जाता है। लेकिन आप इसे `omarchy` CLI के ज़रिए भी नियंत्रित कर सकते हैं। यह खास तौर पर तब उपयोगी होता है जब आप किसी AI agent से अपने साथ कस्टमाइज़ेशन या कॉन्फ़िगरेशन पर काम करवा रहे हों।
+Spherie को आमतौर पर हॉटकीज़ और Spherie मेनू (`Super + Space`) के ज़रिए नियंत्रित किया जाता है। लेकिन आप इसे `omarchy` CLI के ज़रिए भी नियंत्रित कर सकते हैं। यह खास तौर पर तब उपयोगी होता है जब आप किसी AI agent से अपने साथ कस्टमाइज़ेशन या कॉन्फ़िगरेशन पर काम करवा रहे हों।
 
 CLI के पास उस सारी आंतरिक टूलिंग तक पहुँच है जिसका इस्तेमाल मेनू के ज़रिए और अन्य तरीकों से भी किया जाता है। टर्मिनल में `omarchy` चलाकर आप देख सकते हैं कि क्या-क्या उपलब्ध है।
 
@@ -8,7 +8,7 @@ CLI के पास उस सारी आंतरिक टूलिंग �
 
 ```
 ~ ❯ omarchy
-Omarchy command center
+Spherie command center
 
 Usage:
   omarchy <command> [args...]
@@ -17,7 +17,7 @@ Usage:
   omarchy <group> <command> --help
 
 Common commands:
-  omarchy update              Update Omarchy and system packages
+  omarchy update              Update Spherie and system packages
   omarchy theme list          List available themes
   omarchy theme set <name>    Apply a theme
   omarchy font list           List available fonts
@@ -27,14 +27,14 @@ Common commands:
 Groups:
   agent          AI coding agents, their usage, and subscription accounts
   audio          Audio input and output controls
-  bar            Omarchy shell bar layout and settings
+  bar            Spherie shell bar layout and settings
   battery        Battery status helpers
   bluetooth      Bluetooth device controls
-  branch         Omarchy git branch management
+  branch         Spherie git branch management
   branding       About and screensaver branding
   brightness     Display and keyboard brightness
   capture        Screenshots and screen recording
-  channel        Omarchy release channel management
+  channel        Spherie release channel management
   clipboard      Clipboard helpers
   cmd            Command and shortcut helpers
   config         System configuration helpers
@@ -59,4 +59,4 @@ Capture commands — Screenshots and screen recording:
 
 ### टर्मिनल से मेनू खोलना
 
-Omarchy मेनू भी स्क्रिप्टेबल है, जो आपकी अपनी कीबाइंडिंग के लिए उपयोगी है। `omarchy menu` इसे रूट पर खोलता है, और आप इसका नाम बताकर ट्री के किसी भी बिंदु पर सीधे जा सकते हैं: `omarchy menu summon appearance.theme` सीधे थीम पिकर पर जाता है, `omarchy menu toggle system` सिस्टम मेनू खोलता है और अगर यह पहले से खुला हो तो इसे फिर से बंद कर देता है, और `omarchy menu close` इसे हटा देता है।
+Spherie मेनू भी स्क्रिप्टेबल है, जो आपकी अपनी कीबाइंडिंग के लिए उपयोगी है। `omarchy menu` इसे रूट पर खोलता है, और आप इसका नाम बताकर ट्री के किसी भी बिंदु पर सीधे जा सकते हैं: `omarchy menu summon appearance.theme` सीधे थीम पिकर पर जाता है, `omarchy menu toggle system` सिस्टम मेनू खोलता है और अगर यह पहले से खुला हो तो इसे फिर से बंद कर देता है, और `omarchy menu close` इसे हटा देता है।

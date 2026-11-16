@@ -1,6 +1,6 @@
 # Dotfiles
 
-Omarchy konfigureras främst genom de så kallade dotfiles som finns i `~/.config`. De betraktas som dina filer för dina ändringar. Filerna som finns i `/usr/share/omarchy` tillhör Omarchy självt, och du bör inte hålla på och ändra i dem. Om du behöver ändra något i `/usr/share/omarchy` bör du i stället skriva över värdet i `~/.config`.
+Spherie konfigureras främst genom de så kallade dotfiles som finns i `~/.config`. De betraktas som dina filer för dina ändringar. Filerna som finns i `/usr/share/omarchy` tillhör Spherie självt, och du bör inte hålla på och ändra i dem. Om du behöver ändra något i `/usr/share/omarchy` bör du i stället skriva över värdet i `~/.config`.
 
 De viktigaste konfigurationerna kan redigeras direkt från Omarchy-menyn (`Super + Space`), som _Inställningar > Tangentbord > Tangentbindningar_, _Inställningar > Inmatning_ och _Inställningar > Konfiguration > [fil]_. När du gör det på det här sättet kommer alla processer som behöver startas om efter konfigurationsändringar att automatiskt göra det när du stänger redigeraren (Neovim som standard — `:wq`, kom ihåg det! — men du kan ändra det via _Inställningar > Standardvärden > Redigerare_).
 
@@ -32,7 +32,7 @@ Det startar kommandot som en del av sessionen, så att det städas upp ordentlig
 
 ### Köra skript vid systemhändelser
 
-Omarchy utlöser hooks vid en handfull tillfällen, och du kan hänga på dina egna skript på dem. De finns i `~/.config/omarchy/hooks/<event>.d/`, en katalog per händelse, och varje körbar fil där inne körs när händelsen inträffar:
+Spherie utlöser hooks vid en handfull tillfällen, och du kan hänga på dina egna skript på dem. De finns i `~/.config/omarchy/hooks/<event>.d/`, en katalog per händelse, och varje körbar fil där inne körs när händelsen inträffar:
 
 | Händelse | När den körs |
 | ----- | ------------ |
@@ -43,7 +43,7 @@ Omarchy utlöser hooks vid en handfull tillfällen, och du kan hänga på dina e
 | `font-set` | Efter ett typsnittsbyte (typsnittsnamn i `$1`) |
 | `battery-low` | När batteriet blir lågt (procent i `$1`) |
 
-`pre-refresh-pacman`-hooken är där anpassade förråd eller `IgnorePkg`-rader hör hemma, eftersom den körs före pakettransaktionen. Båda de uppdateringsrelaterade hookarna körs som din användare efter att Omarchy har rensat sin cachade sudo-auktorisering, så en hook som använder `sudo` behöver sin egen auktorisering och kan komma att fråga efter ditt lösenord.
+`pre-refresh-pacman`-hooken är där anpassade förråd eller `IgnorePkg`-rader hör hemma, eftersom den körs före pakettransaktionen. Båda de uppdateringsrelaterade hookarna körs som din användare efter att Spherie har rensat sin cachade sudo-auktorisering, så en hook som använder `sudo` behöver sin egen auktorisering och kan komma att fråga efter ditt lösenord.
 
 Var och en av dessa kataloger innehåller redan en `.sample`-fil som visar hur en hook ska se ut — ta bort `.sample` från namnet för att börja använda den. För att installera ett skript som du har skrivit någon annanstans använder du `omarchy hook install post-boot ~/my-hook`, som kopierar in det och gör det körbart.
 
@@ -60,7 +60,7 @@ Använder du ett befintligt id igen skriver du över den raden i stället för a
 
 ### Lägga till egna exporter, funktioner och alias i skalet
 
-Omarchy levereras med en mängd ergonomiska alias och hjälpsamma funktioner, men det är mycket vanligt att vilja lägga till sina egna. Du bör lägga till både alias, funktioner och exporter i `~/.bashrc`. Den här filen kommer inte att skrivas över vid uppdateringar. Om du vill ändra några av Omarchys standardinställningar kan du också tryggt lägga till dem här.
+Spherie levereras med en mängd ergonomiska alias och hjälpsamma funktioner, men det är mycket vanligt att vilja lägga till sina egna. Du bör lägga till både alias, funktioner och exporter i `~/.bashrc`. Den här filen kommer inte att skrivas över vid uppdateringar. Om du vill ändra några av Omarchys standardinställningar kan du också tryggt lägga till dem här.
 
 ### Ställa in miljövariabler för skrivbordet
 
@@ -78,7 +78,7 @@ o.rebind("SUPER + SHIFT + O", "Joplin", "joplin-desktop")
 
 `o.rebind` tar bort den befintliga bindningen innan den lägger till ersättningen. Den tar samma argument som `o.bind`, inklusive starthjälpare och bindningsalternativ. Använd `o.bind` för att lägga till en bindning, eller `hl.unbind` för att ta bort en utan att ersätta den.
 
-Om du insisterar på att hacka på de interna Omarchy-filerna byter du till dev-kanalen via _Uppdatering > Kanal > Dev_. Det länkar Omarchy till en git-checkout av källkoden i `~/omarchy`, som du fritt kan ändra precis så mycket du vill. Ingen här ska tala om för dig vad du ska göra!
+Om du insisterar på att hacka på de interna Omarchy-filerna byter du till dev-kanalen via _Uppdatering > Kanal > Dev_. Det länkar Spherie till en git-checkout av källkoden i `~/omarchy`, som du fritt kan ändra precis så mycket du vill. Ingen här ska tala om för dig vad du ska göra!
 
 ### Återställa alla ändringar
 

@@ -1,8 +1,8 @@
 # 테마
 
-Omarchy에는 아름다운 테마 스물두 가지가 함께 제공됩니다. Omarchy 메뉴(`Super + Space`)의 _모양 > 테마_에서 선택하거나, `Super + Ctrl + T`를 눌러 테마 선택 화면으로 바로 이동할 수 있습니다.
+Omarchy에는 아름다운 테마 스물두 가지가 함께 제공됩니다. Spherie 메뉴(`Super + Space`)의 _모양 > 테마_에서 선택하거나, `Super + Ctrl + T`를 눌러 테마 선택 화면으로 바로 이동할 수 있습니다.
 
-각 테마는 데스크톱, 터미널, neovim, 활동 화면(btop), Chromium과 상단 바, 메뉴, 알림, OSD, 잠금 화면을 아우르는 전체 Omarchy 셸의 스타일을 결정합니다. (Obsidian에서는 앱 안에서 _Appearance > Themes_를 통해 Omarchy 테마를 직접 선택해야 합니다).
+각 테마는 데스크톱, 터미널, neovim, 활동 화면(btop), Chromium과 상단 바, 메뉴, 알림, OSD, 잠금 화면을 아우르는 전체 Spherie 셸의 스타일을 결정합니다. (Obsidian에서는 앱 안에서 _Appearance > Themes_를 통해 Spherie 테마를 직접 선택해야 합니다).
 
 테마마다 배경 이미지 세트가 있어 `Super + Ctrl + W`로 그중에서 고를 수 있습니다.
 

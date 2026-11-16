@@ -8,7 +8,7 @@ Katrs karstais taustiņš atrodas savā plaknē, ko nosaka tā modifikatori, un 
 
 | Plakne | Kas tur dzīvo | Piemēri |
 | --- | --- | --- |
-| `Super + key` | Sistēma: logi, darbvietas, izkārtojumi un galvenās izvēlnes | `Super + Space` Omarchy izvēlne, `Super + W` aizvērt logu, `Super + F` pilnekrāns |
+| `Super + key` | Sistēma: logi, darbvietas, izkārtojumi un galvenās izvēlnes | `Super + Space` Spherie izvēlne, `Super + W` aizvērt logu, `Super + F` pilnekrāns |
 | `Super + Shift + key` | Lietotnes | `Super + Shift + B` pārlūks, `Super + Shift + E` e-pasts, `Super + Shift + N` redaktors |
 | `Super + Ctrl + key` | Paneļi un sistēmas izvēlnes | `Super + Ctrl + A` audio, `Super + Ctrl + N` tīkls, `Super + Ctrl + C` uzņemšanas izvēlne |
 | `Super + Ctrl + Alt + key` | Ātrās darbības un paziņojumi | `Super + Ctrl + Alt + T` rādīt laiku, `Super + Ctrl + Alt + B` akumulators, `Super + Ctrl + Alt + C` ekrānuzņēmums |
@@ -34,7 +34,7 @@ Ja noklusējums tev neder (teiksim, vēlies `Super + Shift + S` ekrānuzņēmumi
 
 | Karstais taustiņš                  | Funkcija              |
 | ----------------------- | --------------------- |
-| `Super + Space`           | Omarchy izvēlne (lietotnes un viss pārējais)    |
+| `Super + Space`           | Spherie izvēlne (lietotnes un viss pārējais)    |
 | `Super + Alt + Space` | Lietotņu režģis |
 | `Super + Escape` | Sistēmas izvēlne (miega režīms, restartēšana u. c.)  |
 | `Super + Ctrl + L` | Bloķēt datoru |
@@ -172,7 +172,7 @@ Maini/pievieno kombinācijas failā `~/.config/hypr/bindings.lua`.
 | `Super + V`           | Ielīmēt    |
 | `Super + Ctrl + V`           | Starpliktuves pārvaldnieks    |
 
-Parasti Linux vidē terminālī kopēšanai un ielīmēšanai vajag `Ctrl + Shift + C/V`, bet visur citur — `Ctrl + C/V`. Šie Omarchy vienotie starpliktuves karstie taustiņi darbojas visur.
+Parasti Linux vidē terminālī kopēšanai un ielīmēšanai vajag `Ctrl + Shift + C/V`, bet visur citur — `Ctrl + C/V`. Šie Spherie vienotie starpliktuves karstie taustiņi darbojas visur.
 
 ## Uzņemšana
 
@@ -193,7 +193,7 @@ Parasti Linux vidē terminālī kopēšanai un ielīmēšanai vajag `Ctrl + Shif
 
 Ekrāna ierakstiem karstais taustiņš vispirms pajautā, kuru audio vēlies, un tad sāk ierakstu. Nospied to vēlreiz, lai apturētu. Sīkāk skati [ekrānuzņēmumi un ieraksts](12-screenshots-recording.md).
 
-Visas uzņemšanas iespējas ir pieejamas arī Omarchy izvēlnē (`Super + Space`) sadaļā _Trigger > Capture_.
+Visas uzņemšanas iespējas ir pieejamas arī Spherie izvēlnē (`Super + Space`) sadaļā _Trigger > Capture_.
 
 ## Paziņojumi
 
@@ -215,9 +215,9 @@ Visas uzņemšanas iespējas ir pieejamas arī Omarchy izvēlnē (`Super + Space
 | `Super + Backspace` | Pārslēgt loga caurspīdīgumu |
 | `Super + Ctrl + Backspace` | Pārslēgt viena loga kvadrātveida proporcijas |
 
-Papildu fona attēli dzīvo mapē `~/.config/omarchy/backgrounds/<theme name>`. Pieejami arī Omarchy izvēlnē sadaļā _Install > Style > Background_.
+Papildu fona attēli dzīvo mapē `~/.config/omarchy/backgrounds/<theme name>`. Pieejami arī Spherie izvēlnē sadaļā _Install > Style > Background_.
 
-Visas stila iespējas ir pieejamas arī Omarchy izvēlnē (`Super + Space`) sadaļā _Style_.
+Visas stila iespējas ir pieejamas arī Spherie izvēlnē (`Super + Space`) sadaļā _Style_.
 
 ## Pārslēgi
 
@@ -318,7 +318,7 @@ Prefiksa taustiņš ir `Ctrl + Space` (der arī `Ctrl + B`). Šīs kombinācijas
 
 ## Ghostty terminālis
 
-Ghostty termināli instalē Omarchy izvēlnē caur _Install > Terminal_.
+Ghostty termināli instalē Spherie izvēlnē caur _Install > Terminal_.
 
 | Karstais taustiņš                  | Funkcija              |
 | ----------------------- | --------------------- |

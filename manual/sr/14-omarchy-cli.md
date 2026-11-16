@@ -1,6 +1,6 @@
-# Omarchy CLI
+# Spherie CLI
 
-Omarchy се обично контролише преко пречица на тастатури и Omarchy менија (`Super + Space`). Али њиме можете да управљате и преко `omarchy` CLI-ја. Ово је нарочито корисно када са вама на прилагођавању или конфигурисању ради AI агент.
+Spherie се обично контролише преко пречица на тастатури и Spherie менија (`Super + Space`). Али њиме можете да управљате и преко `omarchy` CLI-ја. Ово је нарочито корисно када са вама на прилагођавању или конфигурисању ради AI агент.
 
 CLI има приступ свим интерним алатима који се користе и преко менија и иначе. Све што је доступно можете да видите покретањем команде `omarchy` у терминалу.
 
@@ -8,7 +8,7 @@ CLI има приступ свим интерним алатима који се
 
 ```
 ~ ❯ omarchy
-Omarchy command center
+Spherie command center
 
 Usage:
   omarchy <command> [args...]
@@ -17,7 +17,7 @@ Usage:
   omarchy <group> <command> --help
 
 Common commands:
-  omarchy update              Update Omarchy and system packages
+  omarchy update              Update Spherie and system packages
   omarchy theme list          List available themes
   omarchy theme set <name>    Apply a theme
   omarchy font list           List available fonts
@@ -27,14 +27,14 @@ Common commands:
 Groups:
   agent          AI coding agents, their usage, and subscription accounts
   audio          Audio input and output controls
-  bar            Omarchy shell bar layout and settings
+  bar            Spherie shell bar layout and settings
   battery        Battery status helpers
   bluetooth      Bluetooth device controls
-  branch         Omarchy git branch management
+  branch         Spherie git branch management
   branding       About and screensaver branding
   brightness     Display and keyboard brightness
   capture        Screenshots and screen recording
-  channel        Omarchy release channel management
+  channel        Spherie release channel management
   clipboard      Clipboard helpers
   cmd            Command and shortcut helpers
   config         System configuration helpers
@@ -59,4 +59,4 @@ Capture commands — Screenshots and screen recording:
 
 ### Отварање менија из терминала
 
-Omarchy мени такође може да се контролише из скрипти, што је згодно за ваше сопствене пречице на тастатури. `omarchy menu` га отвара у корену, а можете да скочите право на било коју тачку у стаблу тако што ћете је навести по имену: `omarchy menu summon appearance.theme` иде право на бирач тема, `omarchy menu toggle system` отвара системски мени и поново га затвара ако је већ отворен, а `omarchy menu close` га склања.
+Spherie мени такође може да се контролише из скрипти, што је згодно за ваше сопствене пречице на тастатури. `omarchy menu` га отвара у корену, а можете да скочите право на било коју тачку у стаблу тако што ћете је навести по имену: `omarchy menu summon appearance.theme` иде право на бирач тема, `omarchy menu toggle system` отвара системски мени и поново га затвара ако је већ отворен, а `omarchy menu close` га склања.

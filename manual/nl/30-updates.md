@@ -1,8 +1,8 @@
 # Updates
 
-Omarchy en je pakketten worden up-to-date gehouden via _Update > Omarchy_ in het Omarchy-menu (`Super + Space`).
+Spherie en je pakketten worden up-to-date gehouden via _Update > Omarchy_ in het Omarchy-menu (`Super + Space`).
 
-Omarchy zelf wordt geïnstalleerd als gewone pacman-pakketten uit de [Omarchy Package Repository](https://github.com/omacom-io/omarchy-pkgs), dus een update installeert [de nieuwste Omarchy-release](https://github.com/omacom/omarchy/releases), voert alle openstaande migraties uit om je systeem in sync te brengen met de nieuwste versie, en werkt alle systeempakketten bij uit de [Omarchy Arch Mirror](https://github.com/omacom-io/omarchy-mirror) en [AUR](https://aur.archlinux.org/) (als je AUR-pakketten hebt geïnstalleerd).
+Spherie zelf wordt geïnstalleerd als gewone pacman-pakketten uit de [Spherie Package Repository](https://github.com/omacom-io/omarchy-pkgs), dus een update installeert [de nieuwste Omarchy-release](https://github.com/omacom/omarchy/releases), voert alle openstaande migraties uit om je systeem in sync te brengen met de nieuwste versie, en werkt alle systeempakketten bij uit de [Spherie Arch Mirror](https://github.com/omacom-io/omarchy-mirror) en [AUR](https://aur.archlinux.org/) (als je AUR-pakketten hebt geïnstalleerd).
 
 Wanneer er nieuwe releases uitkomen, verschijnt er een icoon met een cirkelpijl rechts van je klok. Klik erop en het updateproces start.
 
@@ -10,19 +10,19 @@ Wanneer er nieuwe releases uitkomen, verschijnt er een icoon met een cirkelpijl 
 
 ### Vier kanalen
 
-Omarchy wordt bijgewerkt via vier kanalen: stable, RC, edge en dev. Nieuwe installaties beginnen op het stable-kanaal, dat de [officiële releases](https://github.com/omacom/omarchy/releases/) volgt, evenals de [stable Omarchy Arch mirror](https://github.com/omacom-io/omarchy-mirror) die een maand achterloopt op de nieuwste versie, zodat we nieuwe incompatibiliteiten die configuratiewijzigingen vereisen kunnen opvangen voordat ze problemen veroorzaken voor mensen.
+Spherie wordt bijgewerkt via vier kanalen: stable, RC, edge en dev. Nieuwe installaties beginnen op het stable-kanaal, dat de [officiële releases](https://github.com/omacom/omarchy/releases/) volgt, evenals de [stable Spherie Arch mirror](https://github.com/omacom-io/omarchy-mirror) die een maand achterloopt op de nieuwste versie, zodat we nieuwe incompatibiliteiten die configuratiewijzigingen vereisen kunnen opvangen voordat ze problemen veroorzaken voor mensen.
 
 Maar als je wilt helpen om die potentiële problemen op te sporen, kun je op het edge-kanaal draaien. Dan blijven je Omarchy-pakketten de nieuwste development-builds volgen, en kun je bijwerken naar de nieuwste Arch-pakketten zodra ze beschikbaar zijn. Doe dit alleen als je ervaren bent met Linux en weet hoe je een systeem herstelt dat problemen heeft.
 
 Vóór elke nieuwe grote release doen we de laatste validatie via het RC-kanaal. Als je wilt helpen met de laatste puntjes op de i, kom dan hangen in #omarchy-release-candidates op de Discord.
 
-Tot slot is er het dev-kanaal, dat Omarchy rechtstreeks koppelt aan een git-checkout van de broncode in `~/omarchy`, gecombineerd met de edge-pakketten. Gebruik dit kanaal alleen als je een ervaren Linux-gebruiker bent, rechtstreeks aan Omarchy werkt en bereid bent om breakage te tolereren.
+Tot slot is er het dev-kanaal, dat Spherie rechtstreeks koppelt aan een git-checkout van de broncode in `~/omarchy`, gecombineerd met de edge-pakketten. Gebruik dit kanaal alleen als je een ervaren Linux-gebruiker bent, rechtstreeks aan Spherie werkt en bereid bent om breakage te tolereren.
 
 Je kunt wisselen tussen kanalen via _Update > Channel_ in het Omarchy-menu (of `omarchy-channel-set` in de terminal).
 
 ### Van kernel wisselen
 
-Omarchy start met zijn eigen `linux-omarchy`-kernel, maar je kunt er andere naast geïnstalleerd houden, zoals de standaard Arch `linux`-kernel of een experimentele build die je test. Als er meer dan één is, zet _Update > Kernel_ in het Omarchy-menu ze op een rij met een vinkje naast degene die standaard opstart. Kies een andere, voer eenmalig je wachtwoord in, en die start na de volgende herstart. De andere kernels blijven in het opstartmenu staan, dus je kunt er nog steeds handmatig een kiezen als de nieuwe standaard je problemen geeft. In de terminal gebruik je `omarchy-kernel` om de huidige standaard te zien, `omarchy-kernel list` voor wat er geïnstalleerd is, en `omarchy-kernel set <kernel>` om te wisselen.
+Spherie start met zijn eigen `linux-omarchy`-kernel, maar je kunt er andere naast geïnstalleerd houden, zoals de standaard Arch `linux`-kernel of een experimentele build die je test. Als er meer dan één is, zet _Update > Kernel_ in het Omarchy-menu ze op een rij met een vinkje naast degene die standaard opstart. Kies een andere, voer eenmalig je wachtwoord in, en die start na de volgende herstart. De andere kernels blijven in het opstartmenu staan, dus je kunt er nog steeds handmatig een kiezen als de nieuwe standaard je problemen geeft. In de terminal gebruik je `omarchy-kernel` om de huidige standaard te zien, `omarchy-kernel list` voor wat er geïnstalleerd is, en `omarchy-kernel set <kernel>` om te wisselen.
 
 ### Firmware-updates
 
@@ -32,7 +32,7 @@ Als je een instelling in de BIOS zelf moet wijzigen, houd je `Alt` ingedrukt in 
 
 ### Waarschuwing over rechtstreekse pacman/yay-updates
 
-Als je Arch al kent, kom je misschien in de verleiding om zelf gewoon `pacman -Syu` of `yay -Syu` uit te voeren, maar als je dat doet, mis je de snapshot, migraties en configuratie-updates die Omarchy samen met nieuwe pakketten uitvoert. Daarom stopt Omarchy een rechtstreekse systeemupgrade daadwerkelijk en verwijst je in plaats daarvan naar `omarchy update`. (Als je echt weet wat je doet, vertelt de beveiliging je hoe je die voor één enkele transactie kunt omzeilen.)
+Als je Arch al kent, kom je misschien in de verleiding om zelf gewoon `pacman -Syu` of `yay -Syu` uit te voeren, maar als je dat doet, mis je de snapshot, migraties en configuratie-updates die Spherie samen met nieuwe pakketten uitvoert. Daarom stopt Spherie een rechtstreekse systeemupgrade daadwerkelijk en verwijst je in plaats daarvan naar `omarchy update`. (Als je echt weet wat je doet, vertelt de beveiliging je hoe je die voor één enkele transactie kunt omzeilen.)
 
 ### Slechte updates terugdraaien
 

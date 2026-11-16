@@ -1,8 +1,8 @@
 # Katılımsız Kurulumlar
 
-Omarchy ISO'su, klavye başında kimse olmadan kendini kurabilir. Kurulum programı, yapılandırma dosyalarını taşıyan `cidata` etiketli ikinci bir sürücü bulursa dosyaları kopyalar, kurulum sihirbazını tamamen atlar ve kendi kendine bitmiş sisteme yeniden başlar. Özel bir ISO derlemesi yok, fazladan bir önyükleme menüsü girişi yok — böyle bir sürücü takılı değilse hiçbir şey değişmez ve normal sihirbazı alırsınız.
+Spherie ISO'su, klavye başında kimse olmadan kendini kurabilir. Kurulum programı, yapılandırma dosyalarını taşıyan `cidata` etiketli ikinci bir sürücü bulursa dosyaları kopyalar, kurulum sihirbazını tamamen atlar ve kendi kendine bitmiş sisteme yeniden başlar. Özel bir ISO derlemesi yok, fazladan bir önyükleme menüsü girişi yok — böyle bir sürücü takılı değilse hiçbir şey değişmez ve normal sihirbazı alırsınız.
 
-Bu, Omarchy'yi tek kullanımlık geliştirme ortamları için harika bir temel imaj yapar: Proxmox'ta veya Packer ile bir VM oluşturun, önyükleyin, uzaklaşın, SSH ile bağlanın. `cidata`, cloud-init `NoCloud` etiketidir, bu yüzden yaygın sanallaştırma araçlarının hepsi böyle bir sürücüyü nasıl takacağını zaten bilir.
+Bu, Spherie'yi tek kullanımlık geliştirme ortamları için harika bir temel imaj yapar: Proxmox'ta veya Packer ile bir VM oluşturun, önyükleyin, uzaklaşın, SSH ile bağlanın. `cidata`, cloud-init `NoCloud` etiketidir, bu yüzden yaygın sanallaştırma araçlarının hepsi böyle bir sürücüyü nasıl takacağını zaten bilir.
 
 ## Yapılandırma dosyaları
 
@@ -24,7 +24,7 @@ Git commit'leri için ad ve e-posta kurulumun parçası değildir. Bunları maki
 
 ## SSH erişimi
 
-`authorized_keys` mevcut olduğunda, kurulum anahtarları kullanıcının `~/.ssh/authorized_keys` dosyası olarak ayarlar, `sshd`'yi etkinleştirir ve güvenlik duvarını ona açar. (Standart bir Omarchy kurulumu openssh ile birlikte gelir ancak hizmet devre dışıdır ve port kapalıdır, bu yüzden katılımsız bir makineye aksi halde ulaşılamazdı.) Kurulum yalnızca anahtarlarınızı ekler — SSH arka plan programının diğer kimlik doğrulama ayarlarının hiçbirini gevşetmez.
+`authorized_keys` mevcut olduğunda, kurulum anahtarları kullanıcının `~/.ssh/authorized_keys` dosyası olarak ayarlar, `sshd`'yi etkinleştirir ve güvenlik duvarını ona açar. (Standart bir Spherie kurulumu openssh ile birlikte gelir ancak hizmet devre dışıdır ve port kapalıdır, bu yüzden katılımsız bir makineye aksi halde ulaşılamazdı.) Kurulum yalnızca anahtarlarınızı ekler — SSH arka plan programının diğer kimlik doğrulama ayarlarının hiçbirini gevşetmez.
 
 `tailscale_authkey` mevcut olduğunda, makine bunun yerine ilk önyüklemede tailnet'inize katılır: Tailscale, ISO'nun birlikte gelen paketlerinden kurulur, güvenlik duvarı tailnet arayüzüne izin verir ve bir arka plan işi, makine gerçekten ağa bağlanır bağlanmaz katılımı çalıştırır ve başarana kadar yeniden dener. Tek bir sürücü imajının birçok makineye hizmet verebilmesi için yeniden kullanılabilir, önceden yetkilendirilmiş bir anahtar kullanın.
 
@@ -38,7 +38,7 @@ cp user_configuration.json user_credentials.json authorized_keys cidata/
 genisoimage -output cidata.iso -volid cidata -joliet -rock cidata/
 ```
 
-Ardından onu Omarchy ISO'sunun yanında VM'ye takın. İşte eksiksiz bir Proxmox örneği:
+Ardından onu Spherie ISO'sunun yanında VM'ye takın. İşte eksiksiz bir Proxmox örneği:
 
 ```bash
 qm create 101 --name my-omarchy \

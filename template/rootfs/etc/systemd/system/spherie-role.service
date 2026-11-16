@@ -1,0 +1,14 @@
+[Unit]
+Description=Spherie role setup (hostname, network role)
+DefaultDependencies=no
+After=local-fs.target
+Before=network-pre.target NetworkManager.service
+Wants=network-pre.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/local/bin/spherie-role
+
+[Install]
+WantedBy=multi-user.target

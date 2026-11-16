@@ -1,6 +1,6 @@
 # 品牌定制
 
-Omarchy 允许你为启动解锁、屏幕保护程序和关于界面设置你的公司标志或个人图像。
+Spherie 允许你为启动解锁、屏幕保护程序和关于界面设置你的公司标志或个人图像。
 
 ### 启动解锁
 
@@ -24,11 +24,11 @@ omarchy plymouth preview '#1d2021' '#ebdbb2' logo.png preview.png
 
 - **编辑文本** 会在你的编辑器中打开 `~/.config/omarchy/branding/screensaver.txt`。输入或粘贴任何你喜欢的内容——ASCII 艺术、你的名字、一句粗话。保存并退出，屏幕保护程序会立即启动，让你看到效果。
 - **从图像设置** 会打开一个文件选择器，用于选择 png 或 svg，将其转换为 ASCII，并向你展示结果。轮廓清晰的标志效果远比照片好。
-- **恢复默认** 会将 Omarchy 标志恢复回来。
+- **恢复默认** 会将 Spherie 标志恢复回来。
 
 ### 关于界面
 
-在 _外观 > 品牌定制 > 关于_ 下有相同的三个选项，用于从 Omarchy 菜单打开的 _关于_ 界面，它们的工作方式完全相同——文件是 `~/.config/omarchy/branding/about.txt`，并且每次更改后关于窗口都会弹出。关于界面的图案会转换为比屏幕保护程序更小的尺寸，因为它必须适合窗口，而不是填满你的显示器。
+在 _外观 > 品牌定制 > 关于_ 下有相同的三个选项，用于从 Spherie 菜单打开的 _关于_ 界面，它们的工作方式完全相同——文件是 `~/.config/omarchy/branding/about.txt`，并且每次更改后关于窗口都会弹出。关于界面的图案会转换为比屏幕保护程序更小的尺寸，因为它必须适合窗口，而不是填满你的显示器。
 
 窗口打开时，每隔几秒钟会有一道绿色的微光斜掠过图案，然后让它再次静止。只要你的图案中每个字符都是一列宽，你自己的图案也会有这个效果——_从图像设置_ 生成的任何内容都是如此。用 emoji 或双宽字符构建的图案则会保持静止，如果你保留自己的 fastfetch 配置，界面也会保持静止：在这些情况下，静态标志是动画主动避让而不是失败，因为让一道微光滑过它们会使该行其余部分落在错误的位置。
 
@@ -46,7 +46,7 @@ omarchy transcode ascii ~/logo.svg ~/.config/omarchy/branding/screensaver.txt --
 
 ### 用文字代替标志
 
-`omarchy ascii` 使用 Delta Corps Priest 1 绘制文本，这是 Omarchy 文字标志本身所使用的 FIGlet 字体，所以屏幕保护程序可以显示文字，而不是展示图片：
+`omarchy ascii` 使用 Delta Corps Priest 1 绘制文本，这是 Spherie 文字标志本身所使用的 FIGlet 字体，所以屏幕保护程序可以显示文字，而不是展示图片：
 
 ```
 omarchy ascii "Back in five" > ~/.config/omarchy/branding/screensaver.txt

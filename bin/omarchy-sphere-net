@@ -1,0 +1,67 @@
+#!/bin/bash
+
+# omarchy:summary=Create or remove a sphere's tap devices on the isolated bridges
+# omarchy:args=<up|down|bridges> [sphere]
+# omarchy:requires-sudo=true
+# omarchy:hidden=true
+
+set -euo pipefail
+source "$OMARCHY_PATH/default/spherie/lib.sh"
+
+# Bridges carry sphere traffic only: no host address, no IPv6, and every
+# sphere port is isolated so spheres only reach their gateway's port.
+bridges() {
+  local br
+  for br in br-net br-anon; do
+    ip link show "$br" &>/dev/null || ip link add "$br" type bridge
+    sysctl -q -w "net.ipv6.conf.$br.disable_ipv6=1"
+    ip addr flush dev "$br"
+    ip link set "$br" up
+  done
+}
+
+tap_up() {
+  local tap="$1" bridge="$2" isolated="$3"
+  ip link show "$tap" &>/dev/null || ip tuntap add dev "$tap" mode tap user spherie
+  sysctl -q -w "net.ipv6.conf.$tap.disable_ipv6=1"
+  if [[ -n $bridge ]]; then
+    ip link set "$tap" master "$bridge"
+    bridge link set dev "$tap" isolated "$isolated"
+  fi
+  ip link set "$tap" up
+}
+
+tap_down() {
+  ip link show "$1" &>/dev/null && ip link del "$1"
+  return 0
+}
+
+action="$1"
+[[ $action == "bridges" ]] && { bridges; exit 0; }
+
+sphere_load "$2"
+uplink=$(sphere_tap "$NAME" 0)
+lan=$(sphere_tap "$NAME" 1)
+
+if [[ $action == "up" ]]; then
+  bridges
+  case "$NET" in
+    none) ;;
+    uplink)
+      # Dev fallback without VFIO: a host-side tap NATed by the host.
+      if [[ -z $VFIO ]]; then
+        tap_up "$uplink" "" off
+        ip addr replace 10.136.0.1/30 dev "$uplink"
+        sysctl -q -w net.ipv4.ip_forward=1
+        nft -f "$OMARCHY_PATH/default/spherie/host-nat.nft"
+      fi
+      ;;
+    br-net | br-anon) tap_up "$uplink" "$NET" on ;;
+    *) echo "Unknown NET=$NET" >&2; exit 1 ;;
+  esac
+  [[ -n $SERVES ]] && tap_up "$lan" "$SERVES" off
+  exit 0
+fi
+
+tap_down "$uplink"
+tap_down "$lan"

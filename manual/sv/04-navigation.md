@@ -1,6 +1,6 @@
 # Navigering
 
-Allt i Omarchy sker via tangentbordet — _ALLT!_ När systemet startar för första gången kan du bokstavligen inte göra ett dugg med bara musen. Men du kan trycka på `Super + Space` för att få fram Omarchy Menu, och härifrån kan du göra i stort sett allt.
+Allt i Spherie sker via tangentbordet — _ALLT!_ När systemet startar för första gången kan du bokstavligen inte göra ett dugg med bara musen. Men du kan trycka på `Super + Space` för att få fram Spherie Menu, och härifrån kan du göra i stort sett allt.
 
 Men Omarchy-menyn är inte ens avsedd att vara det huvudsakliga sättet att styra systemet för det mesta. Vi kan bli snabbare än så! Alla de viktigaste programmen är knutna direkt till egna snabbtangenter. Du startar terminalen med `Super + Return` och en webbläsare med `Super + Shift + Return`. Prova att göra det ena efter det andra, så får du se magin med Hyprlands tiling i praktiken:
 

@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# omarchy:summary=Ask a sphere to shut down through QMP and wait for it
+# omarchy:args=<sphere> <qemu-pid>
+# omarchy:hidden=true
+
+set -euo pipefail
+source "$OMARCHY_PATH/default/spherie/lib.sh"
+
+name="$1"
+pid="$2"
+[[ $name =~ ^[a-z0-9-]+$ ]] || exit 1
+
+printf '%s\n' '{"execute":"qmp_capabilities"}' '{"execute":"system_powerdown"}' |
+  socat -t 2 - "UNIX-CONNECT:$SPHERIE_RUN/$name.qmp" >/dev/null || true
+
+# systemd kills what's left after this returns, so give the guest time.
+for ((i = 0; i < 100; i++)); do
+  kill -0 "$pid" 2>/dev/null || exit 0
+  sleep 0.5
+done

@@ -22,6 +22,6 @@ _Napomena: Ova je značajka dostupna samo na instalacijama koje koriste Limine b
 
 ### Preskakanje izbornika za pokretanje
 
-Ako nikad ne dirate izbornik za pokretanje i samo želite da se računalo pokrene izravno na zaslon za dešifriranje, pokrenite _Setup > Direct Boot_ u izborniku Omarchyja. Time se dodaje EFI unos koji upućuje izravno na Omarchy, pa ga firmware pokreće bez zaustavljanja na Limineu.
+Ako nikad ne dirate izbornik za pokretanje i samo želite da se računalo pokrene izravno na zaslon za dešifriranje, pokrenite _Setup > Direct Boot_ u izborniku Omarchyja. Time se dodaje EFI unos koji upućuje izravno na Spherie, pa ga firmware pokreće bez zaustavljanja na Limineu.
 
 Kompromis je onaj spomenut na početku: s uključenim izravnim pokretanjem, dolazak do snimke znači da prvo morate odabrati Limine iz izbornika za pokretanje u BIOS-u. Ponovno pokrenite _Setup > Direct Boot_ da biste uklonili unos i vratili se na pokretanje putem Liminea. Neki firmware ne podnosi dobro prilagođene EFI unose, pa se postavljanje odbija pokrenuti na firmwareu American Megatrends i Apple.

@@ -20,7 +20,7 @@ Obsidian je besplatan za sve svrhe, uključujući osobnu, komercijalnu i neprofi
 
 Obsidian nudi i [komercijalni dodatak za sinkronizaciju](https://obsidian.md/sync) s mobilnim aplikacijama na iOS-u i Androidu. (https://obsidian.md/pricing).
 
-Obsidian pokrećete s `Super + Shift + O`. Da biste koristili sinkronizaciju teme, morate odabrati temu `Omarchy` u postavkama.
+Obsidian pokrećete s `Super + Shift + O`. Da biste koristili sinkronizaciju teme, morate odabrati temu `Spherie` u postavkama.
 
 ## Omawrite
 
@@ -44,7 +44,7 @@ Aether pokrećete putem pokretača aplikacija (`Super + Space`).
 
 [LocalSend](https://localsend.org/) omogućuje vam slanje datoteka na druge uređaje na istoj mreži koji pokreću aplikaciju, poput Appleova AirDropa. Međutim, radi na više platformi, pa datoteke možete slati na Windows, macOS, Android, iOS i, naravno, Linux te ih primati s njih.
 
-Izbornik Share otvarate s `Super + Ctrl + S` ili pod _Trigger > Share_ u Omarchy izborniku. Nudi vam četiri mogućnosti:
+Izbornik Share otvarate s `Super + Ctrl + S` ili pod _Trigger > Share_ u Spherie izborniku. Nudi vam četiri mogućnosti:
 
 - **Clipboard** šalje sve što ste kopirali kao tekstualnu datoteku. Odlično za prebacivanje poveznice ili isječka na vaš telefon bez slanja e-pošte samome sebi.
 - **File** otvara birač datoteka u kojem možete odabrati nekoliko odjednom.
@@ -65,7 +65,7 @@ LibreOffice pokrećete putem pokretača aplikacija (`Super + Space`).
 
 ## Hype
 
-[Hype](https://github.com/omacom/hype) je Omarchyjeva vlastita krajnje jednostavna aplikacija za prezentacije. Vaša prezentacija je jedna Markdown datoteka sa slikama i videozapisima pokraj nje: napišite svaki slajd ispod pregleda uživo, povucite slajdove u redoslijed, zatim prezentirajte preko cijelog zaslona ili izvezite u PDF i PowerPoint. Čak preuzima vašu Omarchy temu.
+[Hype](https://github.com/omacom/hype) je Omarchyjeva vlastita krajnje jednostavna aplikacija za prezentacije. Vaša prezentacija je jedna Markdown datoteka sa slikama i videozapisima pokraj nje: napišite svaki slajd ispod pregleda uživo, povucite slajdove u redoslijed, zatim prezentirajte preko cijelog zaslona ili izvezite u PDF i PowerPoint. Čak preuzima vašu Spherie temu.
 
 Hype pokrećete putem pokretača aplikacija (`Super + Space`). Pritisnite `?` unutar njega da biste vidjeli sve prečace.
 
@@ -85,7 +85,7 @@ Omacalc pokrećete s `Super + Shift + Q` (ili tipkom kalkulatora, ako je vaša t
 
 [Signal](https://signal.org/) je pionir E2E šifrirane razmjene poruka i odlična komunikacijska opcija za svakoga tko radije ne bi išao preko jednog od velikih tehnoloških konglomerata.
 
-Signal pokrećete s `Super + Shift + G`. Nije dio osnovne instalacije, pa će vam Omarchy prvi put kada to pritisnete ponuditi da ga instalira za vas (nalazi se i pod _Install > Service_ u Omarchy izborniku).
+Signal pokrećete s `Super + Shift + G`. Nije dio osnovne instalacije, pa će vam Spherie prvi put kada to pritisnete ponuditi da ga instalira za vas (nalazi se i pod _Install > Service_ u Spherie izborniku).
 
 ## Omaview
 

@@ -8,7 +8,7 @@ M 시리즈 Mac에 대한 설치는 현재 직접 지원되지 않습니다. 이
 
  ![macbook-omarchy](images/macbook-omarchy.webp)
 
-### Mac에 Omarchy 설치하기
+### Mac에 Spherie 설치하기
 
 Omarchy는 현재 **유일한** OS로 설치되는 경우만 지원합니다. 설치 과정에서 드라이브가 지워지고 MacOS는 더 이상 부팅할 수 없게 됩니다.
 

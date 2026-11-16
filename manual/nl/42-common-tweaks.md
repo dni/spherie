@@ -10,7 +10,7 @@ Standaard zijn tray-pictogrammen, zoals Dropbox, 1password of Steam, verborgen a
 
 ### Afgeronde vensterhoeken
 
-Het standaardontwerp van Omarchy is er een van vierkante hoeken, maar als je dat wat wilt verzachten, kun je `~/.config/hypr/looknfeel.lua` zo wijzigen dat rounding niet langer is uitgecommentarieerd:
+Het standaardontwerp van Spherie is er een van vierkante hoeken, maar als je dat wat wilt verzachten, kun je `~/.config/hypr/looknfeel.lua` zo wijzigen dat rounding niet langer is uitgecommentarieerd:
 
 ```
 hl.config({

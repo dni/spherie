@@ -2,7 +2,7 @@
 
 Die Omarchy-ISO kann sich selbst installieren, ohne dass jemand an der Tastatur sitzt. Findet das Installationsprogramm ein zweites Laufwerk mit der Bezeichnung `cidata`, das seine Konfigurationsdateien enthält, kopiert es sie herunter, überspringt den Einrichtungsassistenten vollständig und startet von selbst neu in das fertige System. Kein spezieller ISO-Build, kein zusätzlicher Eintrag im Boot-Menü — ist kein solches Laufwerk angeschlossen, ändert sich nichts und du bekommst den normalen Assistenten.
 
-Damit eignet sich Omarchy hervorragend als Basis-Image für wegwerfbare Entwicklungsumgebungen: Erstelle eine VM in Proxmox oder mit Packer, starte sie, geh weg, verbinde dich per SSH. `cidata` ist die `NoCloud`-Bezeichnung von cloud-init, sodass alle gängigen Virtualisierungswerkzeuge bereits wissen, wie sie ein solches Laufwerk anhängen.
+Damit eignet sich Spherie hervorragend als Basis-Image für wegwerfbare Entwicklungsumgebungen: Erstelle eine VM in Proxmox oder mit Packer, starte sie, geh weg, verbinde dich per SSH. `cidata` ist die `NoCloud`-Bezeichnung von cloud-init, sodass alle gängigen Virtualisierungswerkzeuge bereits wissen, wie sie ein solches Laufwerk anhängen.
 
 ## Die Konfigurationsdateien
 
@@ -24,7 +24,7 @@ Du kannst auch eine leere Datei namens `defer-provisioning` anstelle von `user_c
 
 ## SSH-Zugriff
 
-Ist `authorized_keys` vorhanden, richtet die Installation die Schlüssel als `~/.ssh/authorized_keys` des Benutzers ein, aktiviert `sshd` und öffnet die Firewall dafür. (Eine Standardinstallation von Omarchy liefert openssh mit deaktiviertem Dienst und geschlossenem Port aus, sodass eine unbeaufsichtigte Maschine sonst unerreichbar wäre.) Die Installation fügt nur deine Schlüssel hinzu — sie lockert keine der anderen Authentifizierungseinstellungen des SSH-Daemons.
+Ist `authorized_keys` vorhanden, richtet die Installation die Schlüssel als `~/.ssh/authorized_keys` des Benutzers ein, aktiviert `sshd` und öffnet die Firewall dafür. (Eine Standardinstallation von Spherie liefert openssh mit deaktiviertem Dienst und geschlossenem Port aus, sodass eine unbeaufsichtigte Maschine sonst unerreichbar wäre.) Die Installation fügt nur deine Schlüssel hinzu — sie lockert keine der anderen Authentifizierungseinstellungen des SSH-Daemons.
 
 Ist `tailscale_authkey` vorhanden, tritt die Maschine stattdessen beim ersten Start deinem Tailnet bei: Tailscale wird aus den mitgelieferten Paketen der ISO installiert, die Firewall lässt die Tailnet-Schnittstelle zu, und ein Hintergrundjob führt den Beitritt aus, sobald die Maschine tatsächlich Netzwerk hat, und versucht es so lange weiter, bis es klappt. Verwende einen wiederverwendbaren, vorab autorisierten Schlüssel, damit ein einziges Laufwerks-Image für viele Maschinen dienen kann.
 

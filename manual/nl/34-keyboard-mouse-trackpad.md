@@ -1,6 +1,6 @@
 # Toetsenbord, muis, trackpad
 
-Met Hyprland configureer je al je invoerapparaten tot in detail. Je kunt de herhaling van het toetsenbord supersonisch snel maken of het trackpad natuurlijk laten scrollen. Je wijzigt dit allemaal in `~/.config/hypr/input.lua`, dat je ook kunt bereiken via _Setup > Input_ in het Omarchy-menu (`Super + Space`). Alles wat je daar instelt, vervangt de standaardinstellingen van Omarchy.
+Met Hyprland configureer je al je invoerapparaten tot in detail. Je kunt de herhaling van het toetsenbord supersonisch snel maken of het trackpad natuurlijk laten scrollen. Je wijzigt dit allemaal in `~/.config/hypr/input.lua`, dat je ook kunt bereiken via _Setup > Input_ in het Omarchy-menu (`Super + Space`). Alles wat je daar instelt, vervangt de standaardinstellingen van Spherie.
 
 Hier is een voorbeeld:
 
@@ -70,13 +70,13 @@ hl.gesture({ fingers = 3, direction = "up", action = "unset" })
 hl.gesture({ fingers = 3, direction = "up", action = "fullscreen" })
 ```
 
-Om alle gebaren van Omarchy uit te schakelen, stel je `omarchy_default_gestures = false` in bovenaan `~/.config/hypr/hyprland.lua`, voordat de standaardinstellingen van Omarchy worden geladen.
+Om alle gebaren van Spherie uit te schakelen, stel je `omarchy_default_gestures = false` in bovenaan `~/.config/hypr/hyprland.lua`, voordat de standaardinstellingen van Spherie worden geladen.
 
 Op Dell XPS-laptops met een haptisch touchpad kun je ook de kliksterkte instellen op low, mid of high onder _Trigger > Hardware > Touchpad Haptics_.
 
 ### Typen in het Chinees, Japans en andere talen
 
-Selecteer Japans, Koreaans, Chinees (Vereenvoudigd, Pinyin), Taiwan (Zhuyin) of Hong Kong (Cangjie) wanneer het installatieprogramma naar je toetsenbord vraagt. Omarchy configureert het toetsenbord en de bijbehorende invoerengine automatisch, ook tijdens de offline installatie bij de eerste start. Japans gebruikt Mozc, Koreaans gebruikt de standaard tweedelige Hangul, Vereenvoudigd Chinees gebruikt Pinyin, Taiwan gebruikt de standaard Zhuyin-indeling van Chewing en Hong Kong gebruikt Cangjie met Hongkongse tekenvormen. Japans (US keyboard) biedt Mozc met een Amerikaanse toetsenbordindeling. Hangul-, Zhuyin- en Cangjie-toetsen blijven op hun standaardposities, zelfs wanneer je Latijnse letters typt met Dvorak, Colemak of AZERTY. Als je Hangul of Chewing hiervóór hebt toegevoegd, deselecteer en selecteer het dan opnieuw onder _Setup > Keyboard > Input Methods_ om de toetsen daarheen te verplaatsen; Omarchy laat een engine waarmee je al typt met rust.
+Selecteer Japans, Koreaans, Chinees (Vereenvoudigd, Pinyin), Taiwan (Zhuyin) of Hong Kong (Cangjie) wanneer het installatieprogramma naar je toetsenbord vraagt. Spherie configureert het toetsenbord en de bijbehorende invoerengine automatisch, ook tijdens de offline installatie bij de eerste start. Japans gebruikt Mozc, Koreaans gebruikt de standaard tweedelige Hangul, Vereenvoudigd Chinees gebruikt Pinyin, Taiwan gebruikt de standaard Zhuyin-indeling van Chewing en Hong Kong gebruikt Cangjie met Hongkongse tekenvormen. Japans (US keyboard) biedt Mozc met een Amerikaanse toetsenbordindeling. Hangul-, Zhuyin- en Cangjie-toetsen blijven op hun standaardposities, zelfs wanneer je Latijnse letters typt met Dvorak, Colemak of AZERTY. Als je Hangul of Chewing hiervóór hebt toegevoegd, deselecteer en selecteer het dan opnieuw onder _Setup > Keyboard > Input Methods_ om de toetsen daarheen te verplaatsen; Spherie laat een engine waarmee je al typt met rust.
 
 Typen begint in de Latijnse modus. Druk op `Super + I` om door de geconfigureerde invoermethoden te bladeren, en op `Super + Shift + I` om terug te bladeren. Tik op `Shift` op zichzelf om uit een invoermethode zoals Pinyin te stappen naar Latijnse letters, en tik er opnieuw op om terug te gaan, zoals Sogou, Microsoft Pinyin en macOS werken; `Shift` plus een letter typt nog steeds een hoofdletter. Op Japanse toetsenborden schakelt 全角/半角 de invoer, zet 変換 hem aan en zet 無変換 hem uit. Bij Koreaans schakelt 한/영 Hangul en converteert 한자 naar Hanja, of je toetsenbord nu speciale toetsen heeft of daarvoor Right Alt en Right Ctrl stuurt, zoals veel laptops doen, dus Right Alt en Right Ctrl zijn daar geen gewone modificatietoetsen; dicteren schakelt in plaats daarvan met Alt + Space. `Ctrl + Space` blijft beschikbaar voor Tmux en Herdr; `Shift + CapsLock` blijft de compose-toets.
 

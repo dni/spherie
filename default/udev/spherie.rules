@@ -1,0 +1,3 @@
+# Spherie: only the spherie service user may drive vsock and VFIO devices.
+KERNEL=="vhost-vsock", OWNER="spherie", GROUP="kvm", MODE="0660"
+SUBSYSTEM=="vfio", OWNER="spherie", MODE="0600"

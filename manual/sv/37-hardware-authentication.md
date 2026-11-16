@@ -2,7 +2,7 @@
 
 ### Autentisering med fingeravtryck
 
-Många bärbara datorer har en fingeravtryckssensor för autentisering. Du kan använda den med Omarchy genom att köra _Konfigurera > Säkerhet > Fingeravtryck_ i Omarchy-menyn (`Super + Space`).
+Många bärbara datorer har en fingeravtryckssensor för autentisering. Du kan använda den med Spherie genom att köra _Konfigurera > Säkerhet > Fingeravtryck_ i Omarchy-menyn (`Super + Space`).
 
 Det installerar fingeravtryckspaketet, samlar in ditt avtryck, verifierar det, och sedan kan du använda ditt fingeravtryck för att låsa upp från låsskärmen (som du kan aktivera med `Super + Ctrl + L`), gå in i sudo-läge och godkänna systemuppmaningar.
 

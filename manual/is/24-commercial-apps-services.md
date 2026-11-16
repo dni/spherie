@@ -1,6 +1,6 @@
 # Viðskiptaforrit/þjónustur
 
-Omarchy leggur að mestu áherslu á að bjóða upp á ókeypis, opinn hugbúnað, en það er ekki trúarbrögð. Stundum er besta lausnin greidd þjónusta, og það er alveg í lagi. Hér eru nokkrir af þeim valkostum sem við bjóðum upp á einfalda uppsetningu fyrir.
+Spherie leggur að mestu áherslu á að bjóða upp á ókeypis, opinn hugbúnað, en það er ekki trúarbrögð. Stundum er besta lausnin greidd þjónusta, og það er alveg í lagi. Hér eru nokkrir af þeim valkostum sem við bjóðum upp á einfalda uppsetningu fyrir.
 
 ## 1Password
 
@@ -14,7 +14,7 @@ Að geyma lykilorðin þín í lykilorðastjóra er góð venja. Tvöfalt svo ef
 
 ## Spotify
 
-[Spotify](https://spotify.com/) er vinsælasta tónlistarstreymisþjónusta heims. Omarchy fylgir með henni sem vefforriti, sem gefur þér fullan spilara, miðlunarlykla og Spotify Connect, en ekki niðurhal án nettengingar. Ræstu hana með `Super + Shift + M`.
+[Spotify](https://spotify.com/) er vinsælasta tónlistarstreymisþjónusta heims. Spherie fylgir með henni sem vefforriti, sem gefur þér fullan spilara, miðlunarlykla og Spotify Connect, en ekki niðurhal án nettengingar. Ræstu hana með `Super + Shift + M`.
 
 ## Slack
 

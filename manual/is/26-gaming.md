@@ -1,6 +1,6 @@
 # Leikir
 
-Omarchy er ekki bara fyrir _fRaMlEiÐnI_, það er líka til að skemmta sér, og hvað er skemmtilegra en að spila leiki? Með Omarchy fylgir heill pakki leikjavalkosta — Steam og RetroArch fyrir innfædda og retro-leiki, Battle.net, Lutris og Heroic fyrir verslanir utan Steam, Moonlight fyrir PC-streymi, Xbox Cloud Gaming + NVIDIA GeForce NOW fyrir skýið, auk hins sígræna Minecraft.
+Spherie er ekki bara fyrir _fRaMlEiÐnI_, það er líka til að skemmta sér, og hvað er skemmtilegra en að spila leiki? Með Spherie fylgir heill pakki leikjavalkosta — Steam og RetroArch fyrir innfædda og retro-leiki, Battle.net, Lutris og Heroic fyrir verslanir utan Steam, Moonlight fyrir PC-streymi, Xbox Cloud Gaming + NVIDIA GeForce NOW fyrir skýið, auk hins sígræna Minecraft.
 
 Þökk sé ótrúlegu starfi Valve við [Proton-samhæfingarlagið](https://en.wikipedia.org/wiki/Proton_(software)) eru nú tugþúsundir nútímaleikja spilanlegir á Linux. Ó, og vissir þú að [Steam Deck](https://store.steampowered.com/steamdeck/) keyrir í raun og veru Arch!
 

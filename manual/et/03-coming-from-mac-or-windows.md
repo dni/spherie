@@ -4,9 +4,9 @@ Kui oled aastaid macOS-i või Windowsi kasutanud, teavad su sõrmed sadat asja, 
 
 ### Super on kõige keskmes
 
-Kogu lihasmälu, mille oled Cmd või Windowsi klahvi ümber ehitanud, kandub üle ühele klahvile: Super. See on PC klaviatuuril Windowsi klahv ja see on peaaegu iga Omarchy kiirklahvi ankur.
+Kogu lihasmälu, mille oled Cmd või Windowsi klahvi ümber ehitanud, kandub üle ühele klahvile: Super. See on PC klaviatuuril Windowsi klahv ja see on peaaegu iga Spherie kiirklahvi ankur.
 
-Sinu Spotlighti, Raycasti või Start-menüü refleksist saab `Super + Space`. See avab Omarchy menüü, mis käivitab rakendusi, muudab sätteid, paigaldab tarkvara, jäädvustab ekraani — peaaegu kõike. Alusta tippimist, et filtreerida. `Super + Alt + Space` näitab kõiki rakendusi ühel ruudustikul, nagu Launchpad teeb. Vaata [navigatsioon](04-navigation.md).
+Sinu Spotlighti, Raycasti või Start-menüü refleksist saab `Super + Space`. See avab Spherie menüü, mis käivitab rakendusi, muudab sätteid, paigaldab tarkvara, jäädvustab ekraani — peaaegu kõike. Alusta tippimist, et filtreerida. `Super + Alt + Space` näitab kõiki rakendusi ühel ruudustikul, nagu Launchpad teeb. Vaata [navigatsioon](04-navigation.md).
 
 ### Dokki ega töölauaikoone ei ole
 
@@ -22,7 +22,7 @@ Tööruumid tunduvad tuttavad: need on macOS-i Spaces või Windowsi virtuaalsed 
 
 ### Kopeerimine ja kleepimine lihtsalt töötavad
 
-Macis oli sul kõikjal Cmd + C. Windowsis oli sul kõikjal Ctrl + C — välja arvatud terminalis, kus see tapab su programmi. Omarchy annab sulle `Super + C`, `Super + X` ja `Super + V` ning need töötavad kõikjal, ka terminalis. Kesta jaoks pole vaja eraldi refleksi õppida.
+Macis oli sul kõikjal Cmd + C. Windowsis oli sul kõikjal Ctrl + C — välja arvatud terminalis, kus see tapab su programmi. Spherie annab sulle `Super + C`, `Super + X` ja `Super + V` ning need töötavad kõikjal, ka terminalis. Kesta jaoks pole vaja eraldi refleksi õppida.
 
 Windowsi rahvas: sinu Win + V lõikelaua ajalugu elab `Super + Ctrl + V` all ja see hoiab lisaks tekstile ka pilte. Vaata [ühendatud lõikelaud ja ajalugu](08-unified-clipboard-history.md).
 
@@ -30,7 +30,7 @@ Windowsi rahvas: sinu Win + V lõikelaua ajalugu elab `Super + Ctrl + V` all ja 
 
 | Mille järele haarad | Omarchys |
 | ------------- | ---------- |
-| Spotlight / Raycast / Start-menüü | `Super + Space` — Omarchy menüü |
+| Spotlight / Raycast / Start-menüü | `Super + Space` — Spherie menüü |
 | AirDrop | LocalSend, `Super + Ctrl + S` kaudu — vaata [GUIs](22-guis.md) |
 | Cmd + Shift + 4 / Win + Shift + S | `Super + Ctrl + Alt + C` või `Print Screen` — vaata [ekraanipildid ja salvestamine](12-screenshots-recording.md) |
 | Notification Center | Teavituste ajalugu `Super + Shift + Alt + ,` all |
@@ -50,7 +50,7 @@ Ja kui akna sulged, sulgub rakendus ka päriselt. Pole mingit macOS-i vahepealse
 
 ### Maci riistvaral
 
-Omarchy töötab Intel Macidel hästi — vaata [Maci tugi](44-mac-support.md). Ja klaviatuur on sinu vastu lahke: Omarchy ei kaardista midagi ümber ja Linux käsitleb Command klahvi Superina, nii et Super istub täpselt seal, kus Cmd alati oli. Su pöial ei märkagi kolimist.
+Spherie töötab Intel Macidel hästi — vaata [Maci tugi](44-mac-support.md). Ja klaviatuur on sinu vastu lahke: Spherie ei kaardista midagi ümber ja Linux käsitleb Command klahvi Superina, nii et Super istub täpselt seal, kus Cmd alati oli. Su pöial ei märkagi kolimist.
 
 ### Anna sellele kaks nädalat
 

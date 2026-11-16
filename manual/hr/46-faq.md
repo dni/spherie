@@ -28,7 +28,7 @@ To će prikazati Nedjelja 10:55 AM.
 
 ### Kako promijeniti vremensku zonu?
 
-Pokrenite _Update > Timezone_ u izborniku Omarchy i odaberite s popisa. Ako je vremenska zona točna, ali je sam sat odlutao, _Update > Time_ ponovno pokreće sinkronizaciju vremena umjesto vas.
+Pokrenite _Update > Timezone_ u izborniku Spherie i odaberite s popisa. Ako je vremenska zona točna, ali je sam sat odlutao, _Update > Time_ ponovno pokreće sinkronizaciju vremena umjesto vas.
 
 ### Kako promijeniti DNS, dijeliti Wi-Fi ili provjeriti brzinu veze?
 
@@ -58,7 +58,7 @@ export OMASNAP_SCREENSHOT_DIR="$HOME/Pictures/Captures"
 
 Isto možete učiniti za snimanja zaslona koristeći `OMARCHY_SCREENRECORD_DIR`.
 
-Omasnap automatski stvara svoj direktorij za snimke zaslona. Direktorij za snimanja zaslona stvorite sami, zatim ponovno pokrenite Omarchy kako bi bilo koja od promjena okruženja stupila na snagu.
+Omasnap automatski stvara svoj direktorij za snimke zaslona. Direktorij za snimanja zaslona stvorite sami, zatim ponovno pokrenite Spherie kako bi bilo koja od promjena okruženja stupila na snagu.
 
 ### Kako natjerati zvučnike + web-kameru da rade na mom Apple Studio Displayu?
 
@@ -72,7 +72,7 @@ Ako ne želite programe poput Obsidiana ili LibreOfficea ili bilo koji drugi pre
 
 Pokrenite _Remove > Package_ kako biste vidjeli svaki instalirani paket. Zatim tipkom tab možete odabrati bilo koji paket koji želite ukloniti, a tipkom return započeti uklanjanje svega što ste odabrali.
 
-A iz izbornika Omarchy možete koristiti _Remove > Web App_ za uklanjanje bilo koje predinstalirane web-aplikacije koju ne želite.
+A iz izbornika Spherie možete koristiti _Remove > Web App_ za uklanjanje bilo koje predinstalirane web-aplikacije koju ne želite.
 
 Ili pokrenite _Remove > Preinstalls_ kako biste odjednom počistili sve predinstalirane dodatke — web-aplikacije, TUI-je i opcionalne aplikacije. Prečaci koji su ih pokretali nestaju zajedno s njima, pa vam ostaje čista ploča poveznica koje možete ispuniti vlastitima u `~/.config/hypr/bindings.lua`.
 

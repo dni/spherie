@@ -172,7 +172,7 @@ Bindings in `~/.config/hypr/bindings.lua` ändern/hinzufügen.
 | `Super + V` | Einfügen |
 | `Super + Ctrl + V` | Zwischenablage-Manager |
 
-Normalerweise brauchst du unter Linux `Ctrl + Shift + C/V`, um im Terminal zu kopieren und einzufügen, und `Ctrl + C/V`, um es überall sonst zu tun. Diese vereinheitlichten Zwischenablage-Tastenkombinationen von Omarchy funktionieren überall.
+Normalerweise brauchst du unter Linux `Ctrl + Shift + C/V`, um im Terminal zu kopieren und einzufügen, und `Ctrl + C/V`, um es überall sonst zu tun. Diese vereinheitlichten Zwischenablage-Tastenkombinationen von Spherie funktionieren überall.
 
 ## Aufnahme
 

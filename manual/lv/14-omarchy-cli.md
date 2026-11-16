@@ -1,6 +1,6 @@
-# Omarchy CLI
+# Spherie CLI
 
-Omarchy parasti kontrolē ar karstajiem taustiņiem un Omarchy izvēlni (`Super + Space`). Bet to var kontrolēt arī ar `omarchy` CLI. Tas ir īpaši noderīgi, kad kopā ar tevi pie pielāgošanas vai konfigurēšanas strādā AI aģents.
+Spherie parasti kontrolē ar karstajiem taustiņiem un Spherie izvēlni (`Super + Space`). Bet to var kontrolēt arī ar `omarchy` CLI. Tas ir īpaši noderīgi, kad kopā ar tevi pie pielāgošanas vai konfigurēšanas strādā AI aģents.
 
 CLI ir piekļuve visiem iekšējiem rīkiem, kas tiek izmantoti gan caur izvēlni, gan citādi. Visu pieejamo vari apskatīt, terminālī palaižot `omarchy`.
 
@@ -8,7 +8,7 @@ Tas izskatās apmēram šādi:
 
 ```
 ~ ❯ omarchy
-Omarchy command center
+Spherie command center
 
 Usage:
   omarchy <command> [args...]
@@ -17,7 +17,7 @@ Usage:
   omarchy <group> <command> --help
 
 Common commands:
-  omarchy update              Update Omarchy and system packages
+  omarchy update              Update Spherie and system packages
   omarchy theme list          List available themes
   omarchy theme set <name>    Apply a theme
   omarchy font list           List available fonts
@@ -27,14 +27,14 @@ Common commands:
 Groups:
   agent          AI coding agents, their usage, and subscription accounts
   audio          Audio input and output controls
-  bar            Omarchy shell bar layout and settings
+  bar            Spherie shell bar layout and settings
   battery        Battery status helpers
   bluetooth      Bluetooth device controls
-  branch         Omarchy git branch management
+  branch         Spherie git branch management
   branding       About and screensaver branding
   brightness     Display and keyboard brightness
   capture        Screenshots and screen recording
-  channel        Omarchy release channel management
+  channel        Spherie release channel management
   clipboard      Clipboard helpers
   cmd            Command and shortcut helpers
   config         System configuration helpers
@@ -59,4 +59,4 @@ Katrai komandai ir arī `--help`, neatkarīgi no tā, vai jautā veselai grupai 
 
 ### Izvēlnes atvēršana no termināļa
 
-Omarchy izvēlne ir arī skriptējama, kas noder tavām paša taustiņu kombinācijām. `omarchy menu` to atver saknē, un vari pāriet tieši uz jebkuru vietu kokā, to nosaucot: `omarchy menu summon appearance.theme` aizved tieši uz motīvu izvēli, `omarchy menu toggle system` atver sistēmas izvēlni un aizver to atkal, ja tā jau ir atvērta, un `omarchy menu close` to aizver.
+Spherie izvēlne ir arī skriptējama, kas noder tavām paša taustiņu kombinācijām. `omarchy menu` to atver saknē, un vari pāriet tieši uz jebkuru vietu kokā, to nosaucot: `omarchy menu summon appearance.theme` aizved tieši uz motīvu izvēli, `omarchy menu toggle system` atver sistēmas izvēlni un aizver to atkal, ja tā jau ir atvērta, un `omarchy menu close` to aizver.

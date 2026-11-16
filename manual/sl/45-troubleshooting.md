@@ -6,7 +6,7 @@ Najprej poskusite [povrniti sistem](47-system-snapshots.md) na različico pred n
 
 ### Zakaj so nekatere aplikacije na mojem zaslonu tako velike?
 
-Omarchy predvideva zaslon visoke ločljivosti 2x, zato nastavi `GDK_SCALE` na 2, dokler ne izberete merila v plošči monitorja. Če ste na zaslonu 1x in so aplikacije GTK ali X11 prevelike, zanj v plošči monitorja izberite 1x ali dodajte `hl.env("GDK_SCALE", "1")` v `~/.config/hypr/monitors.lua` (nato pa znova zaženite vsako preveliko aplikacijo). Oglejte si [priročnik o monitorjih](33-monitors.md).
+Spherie predvideva zaslon visoke ločljivosti 2x, zato nastavi `GDK_SCALE` na 2, dokler ne izberete merila v plošči monitorja. Če ste na zaslonu 1x in so aplikacije GTK ali X11 prevelike, zanj v plošči monitorja izberite 1x ali dodajte `hl.env("GDK_SCALE", "1")` v `~/.config/hypr/monitors.lua` (nato pa znova zaženite vsako preveliko aplikacijo). Oglejte si [priročnik o monitorjih](33-monitors.md).
 
 Za Spotify lahko uporabite `Ctrl + Minus`, da pomanjšate vmesnik (in `Ctrl + Plus`, da ga povečate).
 
@@ -18,7 +18,7 @@ Enkrat pritisnite `Fn + Super`, preden začnete kopati po `~/.config/hypr/`, in 
 
 ### Moj Wi-Fi, Bluetooth, zvok ali sledilna ploščica je pravkar prenehala delovati
 
-Preden znova zaženete sistem, poskusite znova zagnati samo okvarjeni podsistem. _Posodobitev > Strojna oprema_ v meniju Omarchy ima Wi-Fi, Bluetooth, Audio in Trackpad, ponovno nalaganje enega od njih pa odpravi večino položajev »pred petimi minutami je še delovalo« — slušalke Bluetooth, ki se nočejo znova povezati, sledilna ploščica, ki je prenehala delovati po stanju pripravljenosti, zvok, ki je izginil, ko ste izklopili monitor.
+Preden znova zaženete sistem, poskusite znova zagnati samo okvarjeni podsistem. _Posodobitev > Strojna oprema_ v meniju Spherie ima Wi-Fi, Bluetooth, Audio in Trackpad, ponovno nalaganje enega od njih pa odpravi večino položajev »pred petimi minutami je še delovalo« — slušalke Bluetooth, ki se nočejo znova povezati, sledilna ploščica, ki je prenehala delovati po stanju pripravljenosti, zvok, ki je izginil, ko ste izklopili monitor.
 
 ### Zakaj moji zunanji zvočniki ne predvajajo zvoka?
 
@@ -26,7 +26,7 @@ Verjetno zato, ker niso nastavljeni kot primarni izhod. Kliknite ikono zvočnika
 
 ### Zvočniki na mojem prenosniku zvenijo čudno
 
-Pri nekaterih prenosnikih Omarchy samodejno uporabi uglasitev zvočnikov, ki popravi frekvenčni odziv vgrajenih zvočnikov. `omarchy audio tuning status` vam pove, ali je na vašem računalniku aktivna kakšna uglasitev, `omarchy audio tuning off` pa jo izklopi, če bi raje slišali zvočnike brez obdelave.
+Pri nekaterih prenosnikih Spherie samodejno uporabi uglasitev zvočnikov, ki popravi frekvenčni odziv vgrajenih zvočnikov. `omarchy audio tuning status` vam pove, ali je na vašem računalniku aktivna kakšna uglasitev, `omarchy audio tuning off` pa jo izklopi, če bi raje slišali zvočnike brez obdelave.
 
 ### Zakaj se s svojim geslom ne morem prijaviti ali uporabiti sudo?
 

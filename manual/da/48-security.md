@@ -1,11 +1,11 @@
 # Sikkerhed
 
-Omarchy tager sikkerhed ekstremt alvorligt. Det her skal være et operativsystem, du kan bruge til at udføre _Virkeligt Arbejde_ i _Den Virkelige Verden_. Hvor det at miste en bærbar ikke kan føre til en sikkerhedsnødsituation. Så her er, hvad vi gør:
+Spherie tager sikkerhed ekstremt alvorligt. Det her skal være et operativsystem, du kan bruge til at udføre _Virkeligt Arbejde_ i _Den Virkelige Verden_. Hvor det at miste en bærbar ikke kan føre til en sikkerhedsnødsituation. Så her er, hvad vi gør:
 
 1. *Fulddiskkryptering er slået til som standard*: Dette er det vigtigste skridt til at sikre den fysiske beskyttelse af dine data. Hvis din computer bliver væk eller stjålet, er dataene fuldt krypteret med standard LUKS (Linux Unified Key Setup). Installationsprogrammet lader dig fravælge det til engangsmaskiner (se [Kom godt i gang](02-getting-started.md)); en installation uden kryptering har intet af denne beskyttelse, og enhver, der har drevet i hånden, kan læse det.
 2. *Firewall er aktiveret som standard*: Al indgående trafik blokeres som standard, med få undtagelser: port 53317 til [LocalSend](https://localsend.org/); DNS-forespørgsler til computerens egen resolver på Docker bridge-adressen (172.17.0.1), accepteret fra de private adresseområder, Docker giver sine containere; og multicast DNS (port 5353), som lader printere og andre enheder på dit netværk finde hinanden og også annoncerer din computers navn der. Oven i det beholder firewallen UFW's standardtilladelser til ping, til at få en adresse fra din router (DHCP) og til UPnP-discovery. Selv ssh er slået fra, indtil du slår det til via _Setup > Security > SSHD_, som åbner port 22 (hastighedsbegrænset mod brute force) som en del af opsætningen. Vi låser endda Docker-adgang ned ved hjælp af [ufw-docker](https://github.com/chaifeng/ufw-docker)-opsætningen for at forhindre, at dine containere ved et uheld bliver eksponeret for verden.
-3. *Arch har altid de nyeste opdateringer*: Arch, den underliggende distro, som Omarchy er bygget på, er en rolling distribution. Det betyder, at enhver sikkerhedssårbarhed, der opdages og rettes i en pakke, hurtigt er tilgængelig til installation ved hjælp af `omarchy-update`. På den måde kører du altid de nyeste, mest sikre versioner af alt.
-4. *Omarchy vedligeholder sine egne pakker og mirror*: Omarchy er som standard kun afhængig af pakker fra Archs egne core/extra/multilib-repositories og sit eget Omarchy Package Repository. Du kan installere software direkte fra AUR, men basisinstallationen gør det ikke — kun få valgfrie installationer, som tredjepartsbrowserne, henter fra AUR.
+3. *Arch har altid de nyeste opdateringer*: Arch, den underliggende distro, som Spherie er bygget på, er en rolling distribution. Det betyder, at enhver sikkerhedssårbarhed, der opdages og rettes i en pakke, hurtigt er tilgængelig til installation ved hjælp af `omarchy-update`. På den måde kører du altid de nyeste, mest sikre versioner af alt.
+4. *Spherie vedligeholder sine egne pakker og mirror*: Spherie er som standard kun afhængig af pakker fra Archs egne core/extra/multilib-repositories og sit eget Spherie Package Repository. Du kan installere software direkte fra AUR, men basisinstallationen gør det ikke — kun få valgfrie installationer, som tredjepartsbrowserne, henter fra AUR.
 5. *Cloudflare beskytter os mod DDoS*: Omarchys distributionsinfrastruktur — ISO'erne, Omarchy-pakkerne, Arch mirror — er beskyttet bag Cloudflares formidable DDoS-skjold og hostet på deres CDN. Det giver fremragende tilgængelighed.
 
 ## Ændring af dine adgangskoder
@@ -16,7 +16,7 @@ Du har to adgangskoder på en krypteret installation: den, der låser drevet op 
 
 Hvis du giver din maskine videre til en anden, behøver du ikke geninstallere den. Kør _Setup > Reset Computer_ i Omarchy-menuen, skriv `reset` for at bekræfte, og genstart. Det sletter hver eneste brugerkonto og alt i `/home`, smider alle de pakker og systemændringer væk, du har lavet siden installationen, og rydder maskinens identitet — netværksforbindelser, host keys og det hele. Det, der kommer op igen, er setup wizard fra første boot, klar til, at dens nye ejer kan indtaste sit eget navn, sin egen adgangskode og sin egen krypteringsadgangskode.
 
-Det fungerer ved at gendanne det baseline snapshot, som installationsprogrammet tager, så det er kun tilgængeligt på maskiner installeret fra Omarchy ISO. Og på et drev uden kryptering er en nulstilling sletning snarere end en sikker sletning, så hvis dataene var følsomme, skal du i stedet lave en frisk installation.
+Det fungerer ved at gendanne det baseline snapshot, som installationsprogrammet tager, så det er kun tilgængeligt på maskiner installeret fra Spherie ISO. Og på et drev uden kryptering er en nulstilling sletning snarere end en sikker sletning, så hvis dataene var følsomme, skal du i stedet lave en frisk installation.
 
 ## Sudo uden adgangskode
 
@@ -30,6 +30,6 @@ Vær klarøjet omkring denne: mens den er slået til, kan alt, der kører som di
 
 ## Signeringsnøgler
 
-Den offentlige nøgle til alle ISO-signaturer og Omarchy repo package er `40DFB630FF42BCFFB047046CF0134EE680CAC571` ([bekræft på openpgp.org](https://keys.openpgp.org/search?q=pkgs%40omarchy.org)). Pakken `omarchy/omarchy-keyring` indeholder også denne og vil blive brugt til problemfrit at udrulle eventuelle potentielle opdateringer.
+Den offentlige nøgle til alle ISO-signaturer og Spherie repo package er `40DFB630FF42BCFFB047046CF0134EE680CAC571` ([bekræft på openpgp.org](https://keys.openpgp.org/search?q=pkgs%40omarchy.org)). Pakken `omarchy/omarchy-keyring` indeholder også denne og vil blive brugt til problemfrit at udrulle eventuelle potentielle opdateringer.
 
 Du kan finde signaturen for enhver ISO-udgivelse ved at tilføje `.sig` til dens URL, som `https://iso.omarchy.org/omarchy-x.x.x.iso.sig`.

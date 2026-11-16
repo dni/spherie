@@ -12,17 +12,17 @@ Alle hurtigtastene for disse nettappene kan endres i `~/.config/hypr/bindings.lu
 
 Når du er i en nettapp, kan du kopiere gjeldende URL til utklippstavlen med `Shift + Alt + L`.
 
-Som standard leveres Omarchy allerede med et utvalg standardapper:
+Som standard leveres Spherie allerede med et utvalg standardapper:
 
 ## HEY
 
-[HEY](https://www.hey.com/) er en e-post- og kalendertjeneste som er et flott alternativ for folk som er lei av Gmail, Outlook eller Apple Mail. Den er laget av [37signals](https://37signals.com/), der Omarchy oppsto.
+[HEY](https://www.hey.com/) er en e-post- og kalendertjeneste som er et flott alternativ for folk som er lei av Gmail, Outlook eller Apple Mail. Den er laget av [37signals](https://37signals.com/), der Spherie oppsto.
 
 Du kan starte HEY Email med `Super + Shift + E`, hoppe rett til å skrive en ny e-post med `Super + Shift + Alt + E`, og starte HEY Calendar med `Super + Shift + C`.
 
 ## Basecamp
 
-[Basecamp](https://basecamp.com/) er en tjeneste for prosjektstyring som hjelper små team med å jobbe raskere og få gjort mer. I stedet for å lappe sammen et sammensurium av Trello, Slack, Asana, Notion eller hva det måtte være, kan du ha alt på ett sted med Basecamp. Den er laget av [37signals](https://37signals.com/), der Omarchy oppsto.
+[Basecamp](https://basecamp.com/) er en tjeneste for prosjektstyring som hjelper små team med å jobbe raskere og få gjort mer. I stedet for å lappe sammen et sammensurium av Trello, Slack, Asana, Notion eller hva det måtte være, kan du ha alt på ett sted med Basecamp. Den er laget av [37signals](https://37signals.com/), der Spherie oppsto.
 
 Du kan starte Basecamp med appstarteren (`Super + Space`)
 
@@ -64,7 +64,7 @@ Du kan starte YouTube med `Super + Shift + Y`.
 
 ## Zoom
 
-[Zoom](https://zoom.us/) er det mest populære videochatsystemet som brukes i USA. Flotte forbindelser over hele verden. Og møter på 40 minutter kan holdes uten en betalende konto. Omarchy pakker inn Zooms nettklient, og lenker til Zoom-møter åpnes rett i den.
+[Zoom](https://zoom.us/) er det mest populære videochatsystemet som brukes i USA. Flotte forbindelser over hele verden. Og møter på 40 minutter kan holdes uten en betalende konto. Spherie pakker inn Zooms nettklient, og lenker til Zoom-møter åpnes rett i den.
 
 Du starter Zoom med appstarteren (`Super + Space`).
 

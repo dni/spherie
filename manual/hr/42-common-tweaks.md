@@ -1,8 +1,8 @@
 # Uobičajene prilagodbe
 
-Ovo je zbirka uobičajenih prilagodbi Omarchy postave. Znajte da će ponekad možda biti potrebno da ažuriranja sustava vrate određene konfiguracije u izvorno stanje. Ako se to dogodi, vaše promjene neće biti izgubljene, nego spremljene u `.bak` datoteku u istom direktoriju.
+Ovo je zbirka uobičajenih prilagodbi Spherie postave. Znajte da će ponekad možda biti potrebno da ažuriranja sustava vrate određene konfiguracije u izvorno stanje. Ako se to dogodi, vaše promjene neće biti izgubljene, nego spremljene u `.bak` datoteku u istom direktoriju.
 
-Ako nešto pokvarite, pojedinačne konfiguracije možete vratiti u izvornu postavu putem _Ažuriraj > Config_ u Omarchy izborniku. Ako _stvarno_ sve pokvarite, sve konfiguracije možete resetirati putem `omarchy-reinstall`.
+Ako nešto pokvarite, pojedinačne konfiguracije možete vratiti u izvornu postavu putem _Ažuriraj > Config_ u Spherie izborniku. Ako _stvarno_ sve pokvarite, sve konfiguracije možete resetirati putem `omarchy-reinstall`.
 
 ### Uvijek otkrivanje svih ikona ladice
 

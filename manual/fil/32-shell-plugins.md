@@ -1,10 +1,10 @@
 # Mga Plugin ng Shell
 
-Ang Omarchy desktop ay tumatakbo bilang isang solong matagalang proseso ng Quickshell na tinatawag na `omarchy-shell`, at halos lahat ng nakikita mo sa screen ay isang plugin sa loob nito. Ang bar ay isang plugin. Gayundin ang mga panel na bumababa mula dito, ang mga fullscreen overlay tulad ng emoji picker at clipboard manager, ang Omarchy menu mismo, ang lock screen, ang polkit dialog, at ang mga headless service na nagbabantay sa iyong baterya at nagpapainit sa screen mo sa gabi.
+Ang Spherie desktop ay tumatakbo bilang isang solong matagalang proseso ng Quickshell na tinatawag na `omarchy-shell`, at halos lahat ng nakikita mo sa screen ay isang plugin sa loob nito. Ang bar ay isang plugin. Gayundin ang mga panel na bumababa mula dito, ang mga fullscreen overlay tulad ng emoji picker at clipboard manager, ang Spherie menu mismo, ang lock screen, ang polkit dialog, at ang mga headless service na nagbabantay sa iyong baterya at nagpapainit sa screen mo sa gabi.
 
-Hindi lang iyon isang detalye ng implementasyon. Ibig sabihin niyon ay maaari mong i-off ang mga piraso ng desktop, palitan ang mga ito, o isulat ang sarili mo nang hindi humahawak ng kahit isang linya ng source ng Omarchy.
+Hindi lang iyon isang detalye ng implementasyon. Ibig sabihin niyon ay maaari mong i-off ang mga piraso ng desktop, palitan ang mga ito, o isulat ang sarili mo nang hindi humahawak ng kahit isang linya ng source ng Spherie.
 
-Ang mga first-party plugin ay kasama ng Omarchy at nakatira sa `$OMARCHY_PATH/shell/plugins/`. Anumang idaragdag mo mismo — ang sarili mong mga eksperimento, o isang bagay na nakita mo sa GitHub — ay nakatira sa `~/.config/omarchy/plugins/`. Parehong natutuklasan sa parehong paraan sa pagsisimula, pero tumatanggap ang mga built-in ng mga pinagkakatiwalaang shell interface habang tumatanggap ang mga third-party plugin ng limitadong interface na nakatuon sa sarili nilang serbisyo at lifecycle. Pinapanatili lang ng mga clone ng mga built-in ang source-specific na configuration at mga UI call na kailangan para sa orihinal na pag-uugali.
+Ang mga first-party plugin ay kasama ng Spherie at nakatira sa `$OMARCHY_PATH/shell/plugins/`. Anumang idaragdag mo mismo — ang sarili mong mga eksperimento, o isang bagay na nakita mo sa GitHub — ay nakatira sa `~/.config/omarchy/plugins/`. Parehong natutuklasan sa parehong paraan sa pagsisimula, pero tumatanggap ang mga built-in ng mga pinagkakatiwalaang shell interface habang tumatanggap ang mga third-party plugin ng limitadong interface na nakatuon sa sarili nilang serbisyo at lifecycle. Pinapanatili lang ng mga clone ng mga built-in ang source-specific na configuration at mga UI call na kailangan para sa orihinal na pag-uugali.
 
 ## Pagtingin sa kung ano ang mayroon ka
 
@@ -101,4 +101,4 @@ Para sa plugin development, tingnan ang [shell reference](https://github.com/oma
 
 Kapag nakagawa ka na ng isang bagay na gusto mo, ilagay ito sa isang pampublikong git repo. Iyon ang buong mekanismo ng pamamahagi — maaaring patakbuhin ng kahit sino ang `omarchy plugin add` laban sa URL mo at patakbuhin ito sa loob ng ilang segundo.
 
-Para matulungan ang mga tao na talagang mahanap ito, ilista ito sa [plugins.omarchy.org](https://plugins.omarchy.org). Iyon ang marketplace para sa mga Omarchy shell plugin, at ito ang unang lugar na titingnan kapag nagtataka ka kung may nakagawa na ng widget na isusulat mo pa lang. I-browse ito bago ka magsimula!
+Para matulungan ang mga tao na talagang mahanap ito, ilista ito sa [plugins.omarchy.org](https://plugins.omarchy.org). Iyon ang marketplace para sa mga Spherie shell plugin, at ito ang unang lugar na titingnan kapag nagtataka ka kung may nakagawa na ng widget na isusulat mo pa lang. I-browse ito bago ka magsimula!

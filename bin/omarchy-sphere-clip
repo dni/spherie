@@ -1,0 +1,78 @@
+#!/bin/bash
+
+# omarchy:summary=Move the clipboard between spheres, explicitly and once
+# omarchy:args=<copy|paste>
+# omarchy:examples=omarchy sphere clip copy | omarchy sphere clip paste
+
+# Spheres only ever see clipboard data they offered themselves (waypipe's
+# --clipboard-owner gate). Crossing spheres takes two hotkeys:
+#   copy:  Super + Alt + C in the source sphere stores its text selection on the host
+#   paste: Super + Alt + V in the target sphere offers that text to it, once
+
+set -euo pipefail
+
+runtime="$XDG_RUNTIME_DIR/spherie"
+buffer="$runtime/clipboard"
+source_file="$runtime/clipboard-from"
+arm="$runtime/clipboard-arm"
+mkdir -p -m 700 "$runtime"
+
+# The focused window belongs to a sphere iff its process is that sphere's
+# waypipe client, which carries --clipboard-owner <sphere>. Titles are not
+# trusted here.
+focused_sphere() {
+  local pid arg next=0
+  pid=$(hyprctl activewindow -j | jq -r '.pid // empty')
+  [[ -n $pid && -r /proc/$pid/cmdline ]] || return 1
+
+  while IFS= read -r -d '' arg; do
+    if (( next )); then
+      [[ $arg =~ ^[a-z0-9-]+$ ]] && echo "$arg" && return 0
+      return 1
+    fi
+    [[ $arg == "--clipboard-owner" ]] && next=1
+  done <"/proc/$pid/cmdline"
+  return 1
+}
+
+case "${1:-}" in
+  copy)
+    from=$(focused_sphere) || { omarchy-notification-send "$(omarchy-i18n sphere.title)" "$(omarchy-i18n sphere.clipFocusCopy)"; exit 1; }
+    # The host sees waypipe's owner marker, so only take a selection that the
+    # focused sphere really offered.
+    if ! wl-paste --list-types 2>/dev/null | grep -qx "application/x-waypipe-owner-$from"; then
+      omarchy-notification-send "$(omarchy-i18n sphere.title)" "$(omarchy-i18n sphere.clipNotFromSphere "$from")"
+      exit 1
+    fi
+
+    # Read the selection as the host; spheres can't see this buffer.
+    if ! wl-paste --no-newline --type text >"$buffer.part" 2>/dev/null; then
+      rm -f "$buffer.part"
+      omarchy-notification-send "$(omarchy-i18n sphere.title)" "$(omarchy-i18n sphere.clipNoText "$from")"
+      exit 1
+    fi
+    chmod 600 "$buffer.part"
+    mv -f "$buffer.part" "$buffer"
+    echo "$from" >"$source_file"
+    omarchy-notification-send "$(omarchy-i18n sphere.title)" "$(omarchy-i18n sphere.clipCopied "$from")"
+    ;;
+  paste)
+    to=$(focused_sphere) || { omarchy-notification-send "$(omarchy-i18n sphere.title)" "$(omarchy-i18n sphere.clipFocusPaste)"; exit 1; }
+    [[ -s $buffer ]] || { omarchy-notification-send "$(omarchy-i18n sphere.title)" "$(omarchy-i18n sphere.clipEmpty)"; exit 1; }
+    from=$(<"$source_file")
+
+    # Arm only the target, then make the host the selection owner. Unmarked
+    # selections reach a sphere only while it is armed.
+    echo "$to" >"$arm.part"
+    mv -f "$arm.part" "$arm"
+    wl-copy --type text/plain <"$buffer"
+
+    # Single use, like Qubes: the buffer is gone after one paste.
+    rm -f "$buffer" "$source_file"
+    omarchy-notification-send "$(omarchy-i18n sphere.title)" "$(omarchy-i18n sphere.clipPasted "$from" "$to")"
+    ;;
+  *)
+    echo "Usage: omarchy-sphere-clip <copy|paste>" >&2
+    exit 1
+    ;;
+esac

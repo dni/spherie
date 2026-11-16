@@ -20,7 +20,7 @@ Obsidian er gratis til alle formål, inkludert personlig, kommersiell og ideell 
 
 Obsidian tilbyr også et [kommersielt tillegg for synkronisering](https://obsidian.md/sync) med mobilapper på iOS og Android. (https://obsidian.md/pricing).
 
-Du starter Obsidian med `Super + Shift + O`. For å bruke temasynkronisering må du velge `Omarchy`-temaet under innstillinger.
+Du starter Obsidian med `Super + Shift + O`. For å bruke temasynkronisering må du velge `Spherie`-temaet under innstillinger.
 
 ## Omawrite
 
@@ -85,7 +85,7 @@ Du starter Omacalc med `Super + Shift + Q` (eller kalkulatortasten, hvis tastatu
 
 [Signal](https://signal.org/) er pioneren innen E2E-kryptert meldingsutveksling, og et flott kommunikasjonsalternativ for alle som heller vil slippe å gå gjennom et av de store teknologikonglomeratene.
 
-Du starter Signal med `Super + Shift + G`. Den er ikke en del av grunninstallasjonen, så første gang du trykker på den, vil Omarchy tilby å installere den for deg (den ligger også under _Install > Service_ i Omarchy-menyen).
+Du starter Signal med `Super + Shift + G`. Den er ikke en del av grunninstallasjonen, så første gang du trykker på den, vil Spherie tilby å installere den for deg (den ligger også under _Install > Service_ i Omarchy-menyen).
 
 ## Omaview
 

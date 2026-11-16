@@ -1,6 +1,6 @@
 # Flakk
 
-Allt í Omarchy gerist með lyklaborðinu — _ALLT!_ Þegar kerfið ræsist í fyrsta sinn geturðu bókstaflega ekki gert neitt með músinni einni saman. En þú getur ýtt á `Super + Space` til að opna Omarchy-valmyndina og þaðan geturðu gert nánast allt.
+Allt í Spherie gerist með lyklaborðinu — _ALLT!_ Þegar kerfið ræsist í fyrsta sinn geturðu bókstaflega ekki gert neitt með músinni einni saman. En þú getur ýtt á `Super + Space` til að opna Omarchy-valmyndina og þaðan geturðu gert nánast allt.
 
 En Omarchy-valmyndin á ekki einu sinni að vera helsta leiðin til að stjórna kerfinu mestan tímann. Við getum gert þetta hraðar en það! Öll mikilvægustu forritin eru bundin beint við einstaka flýtilykla. Þú ræsir flugstöðina með `Super + Return` og vafra með `Super + Shift + Return`. Prófaðu að gera annað á eftir hinu og þú munt sjá töfra flísalags Hyprland í verki:
 
@@ -30,7 +30,7 @@ Ef þú heldur `Super` inni og notar músina til að smella á glugga geturðu e
 
 ### Dwindle á móti skrunuppsetningu
 
-Sjálfgefna uppsetningin í Omarchy heitir dwindle. Hún heldur öllum gluggunum sem þú opnar á einu vinnusvæði sýnilegum á öllum tímum, jafnvel þótt hún þurfi að minnka þá.
+Sjálfgefna uppsetningin í Spherie heitir dwindle. Hún heldur öllum gluggunum sem þú opnar á einu vinnusvæði sýnilegum á öllum tímum, jafnvel þótt hún þurfi að minnka þá.
 
  ![navigation-dwindle-layout](images/navigation-dwindle-layout.webp)
 

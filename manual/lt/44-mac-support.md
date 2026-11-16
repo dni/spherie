@@ -1,16 +1,16 @@
 # Mac palaikymas
 
-Omarchy turi integruotą **Intel Macs** palaikymą. Šiuo metu yra keletas žinomų apribojimų, bet jei juos žinote ir jie jums tinka, įdiegę Omarchy galite įpūsti naujos gyvybės savo seniems Mac kompiuteriams.
+Spherie turi integruotą **Intel Macs** palaikymą. Šiuo metu yra keletas žinomų apribojimų, bet jei juos žinote ir jie jums tinka, įdiegę Spherie galite įpūsti naujos gyvybės savo seniems Mac kompiuteriams.
 
 Atkreipkite dėmesį, kad diegimas M serijos Mac kompiuteriuose šiuo metu tiesiogiai nepalaikomas. Daugiau apie tai galite sužinoti #omarchy-on-other kanale mūsų [Discord](https://discord.gg/tXFUdasqhY).
 
-Atlikdami paprastą testą, vien įdiegę Omarchy 2019 m. MacBook Pro sugebėjome pasiekti 36% našumo padidėjimą.
+Atlikdami paprastą testą, vien įdiegę Spherie 2019 m. MacBook Pro sugebėjome pasiekti 36% našumo padidėjimą.
 
  ![macbook-omarchy](images/macbook-omarchy.webp)
 
-### Omarchy diegimas Mac kompiuteryje
+### Spherie diegimas Mac kompiuteryje
 
-Omarchy šiuo metu palaiko tik buvimą **vienintele** įdiegta OS. Diegimo metu diskas bus išvalytas, ir MacOS nebebus galima paleisti.
+Spherie šiuo metu palaiko tik buvimą **vienintele** įdiegta OS. Diegimo metu diskas bus išvalytas, ir MacOS nebebus galima paleisti.
 
 Vėliau, jei norėsite, vis tiek galėsite ją atkurti naudodami Internet Recovery.
 

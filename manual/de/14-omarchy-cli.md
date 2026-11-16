@@ -1,6 +1,6 @@
-# Omarchy CLI
+# Spherie CLI
 
-Omarchy wird in der Regel über die Hotkeys und das Omarchy-Menü (`Super + Space`) gesteuert. Du kannst es aber auch über die `omarchy`-CLI steuern. Das ist besonders hilfreich, wenn ein KI-Agent mit dir an Anpassungen oder Konfiguration arbeitet.
+Spherie wird in der Regel über die Hotkeys und das Omarchy-Menü (`Super + Space`) gesteuert. Du kannst es aber auch über die `omarchy`-CLI steuern. Das ist besonders hilfreich, wenn ein KI-Agent mit dir an Anpassungen oder Konfiguration arbeitet.
 
 Die CLI hat Zugriff auf alle internen Werkzeuge, die sowohl über das Menü als auch anderweitig verwendet werden. Du kannst alles Verfügbare sehen, indem du `omarchy` im Terminal ausführst.
 
@@ -8,7 +8,7 @@ Das sieht ungefähr so aus:
 
 ```
 ~ ❯ omarchy
-Omarchy command center
+Spherie command center
 
 Usage:
   omarchy <command> [args...]
@@ -17,7 +17,7 @@ Usage:
   omarchy <group> <command> --help
 
 Common commands:
-  omarchy update              Update Omarchy and system packages
+  omarchy update              Update Spherie and system packages
   omarchy theme list          List available themes
   omarchy theme set <name>    Apply a theme
   omarchy font list           List available fonts
@@ -27,14 +27,14 @@ Common commands:
 Groups:
   agent          AI coding agents, their usage, and subscription accounts
   audio          Audio input and output controls
-  bar            Omarchy shell bar layout and settings
+  bar            Spherie shell bar layout and settings
   battery        Battery status helpers
   bluetooth      Bluetooth device controls
-  branch         Omarchy git branch management
+  branch         Spherie git branch management
   branding       About and screensaver branding
   brightness     Display and keyboard brightness
   capture        Screenshots and screen recording
-  channel        Omarchy release channel management
+  channel        Spherie release channel management
   clipboard      Clipboard helpers
   cmd            Command and shortcut helpers
   config         System configuration helpers

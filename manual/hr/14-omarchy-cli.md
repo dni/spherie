@@ -1,6 +1,6 @@
-# Omarchy CLI
+# Spherie CLI
 
-Omarchyjem se obično upravlja putem tipkovničkih prečaca i Omarchy izbornika (`Super + Space`). Ali njime možete upravljati i putem `omarchy` CLI-ja. To je osobito korisno kada AI agent radi s vama na prilagodbi ili konfiguraciji.
+Omarchyjem se obično upravlja putem tipkovničkih prečaca i Spherie izbornika (`Super + Space`). Ali njime možete upravljati i putem `omarchy` CLI-ja. To je osobito korisno kada AI agent radi s vama na prilagodbi ili konfiguraciji.
 
 CLI ima pristup svim internim alatima koji se koriste i putem izbornika i na druge načine. Sve što je dostupno možete vidjeti pokretanjem naredbe `omarchy` u terminalu.
 
@@ -8,7 +8,7 @@ Izgleda otprilike ovako:
 
 ```
 ~ ❯ omarchy
-Omarchy command center
+Spherie command center
 
 Usage:
   omarchy <command> [args...]
@@ -17,7 +17,7 @@ Usage:
   omarchy <group> <command> --help
 
 Common commands:
-  omarchy update              Update Omarchy and system packages
+  omarchy update              Update Spherie and system packages
   omarchy theme list          List available themes
   omarchy theme set <name>    Apply a theme
   omarchy font list           List available fonts
@@ -27,14 +27,14 @@ Common commands:
 Groups:
   agent          AI coding agents, their usage, and subscription accounts
   audio          Audio input and output controls
-  bar            Omarchy shell bar layout and settings
+  bar            Spherie shell bar layout and settings
   battery        Battery status helpers
   bluetooth      Bluetooth device controls
-  branch         Omarchy git branch management
+  branch         Spherie git branch management
   branding       About and screensaver branding
   brightness     Display and keyboard brightness
   capture        Screenshots and screen recording
-  channel        Omarchy release channel management
+  channel        Spherie release channel management
   clipboard      Clipboard helpers
   cmd            Command and shortcut helpers
   config         System configuration helpers
@@ -59,4 +59,4 @@ Svaka naredba također prihvaća `--help`, bilo da pitate cijelu skupinu (`omarc
 
 ### Otvaranje izbornika iz terminala
 
-Omarchy izbornik također se može skriptirati, što je zgodno za vlastite tipkovničke prečace. `omarchy menu` otvara ga na korijenu, a možete skočiti izravno na bilo koju točku u stablu navodeći je: `omarchy menu summon appearance.theme` vodi ravno na birač tema, `omarchy menu toggle system` otvara izbornik sustava i ponovno ga zatvara ako je već otvoren, a `omarchy menu close` ga uklanja.
+Spherie izbornik također se može skriptirati, što je zgodno za vlastite tipkovničke prečace. `omarchy menu` otvara ga na korijenu, a možete skočiti izravno na bilo koju točku u stablu navodeći je: `omarchy menu summon appearance.theme` vodi ravno na birač tema, `omarchy menu toggle system` otvara izbornik sustava i ponovno ga zatvara ako je već otvoren, a `omarchy menu close` ga uklanja.

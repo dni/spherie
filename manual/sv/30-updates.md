@@ -1,8 +1,8 @@
 # Uppdateringar
 
-Omarchy och dina paket hålls uppdaterade via _Uppdatera > Omarchy_ i Omarchy-menyn (`Super + Space`).
+Spherie och dina paket hålls uppdaterade via _Uppdatera > Omarchy_ i Omarchy-menyn (`Super + Space`).
 
-Omarchy installeras självt som vanliga pacman-paket från [Omarchy Package Repository](https://github.com/omacom-io/omarchy-pkgs), så en uppdatering installerar [den senaste Omarchy-versionen](https://github.com/omacom/omarchy/releases), kör eventuella väntande migreringar för att få ditt system i synk med det senaste, och uppdaterar alla systempaket från [Omarchy Arch Mirror](https://github.com/omacom-io/omarchy-mirror) och [AUR](https://aur.archlinux.org/) (om du har installerat några AUR-paket).
+Spherie installeras självt som vanliga pacman-paket från [Spherie Package Repository](https://github.com/omacom-io/omarchy-pkgs), så en uppdatering installerar [den senaste Omarchy-versionen](https://github.com/omacom/omarchy/releases), kör eventuella väntande migreringar för att få ditt system i synk med det senaste, och uppdaterar alla systempaket från [Spherie Arch Mirror](https://github.com/omacom-io/omarchy-mirror) och [AUR](https://aur.archlinux.org/) (om du har installerat några AUR-paket).
 
 När nya versioner släpps visas en ikon med en cirkelpil till höger om din klocka. Klicka på den så startar uppdateringsprocessen.
 
@@ -10,19 +10,19 @@ När nya versioner släpps visas en ikon med en cirkelpil till höger om din klo
 
 ### Fyra kanaler
 
-Omarchy uppdateras längs fyra kanaler: stable, RC, edge och dev. Nya installationer börjar på stable-kanalen, som följer de [officiella versionerna](https://github.com/omacom/omarchy/releases/), samt den [stabila Omarchy Arch Mirror](https://github.com/omacom-io/omarchy-mirror) som ligger en månad efter den senaste, så att vi kan fånga upp eventuella nya inkompatibiliteter som kräver konfigurationsändringar innan de ställer till problem för folk.
+Spherie uppdateras längs fyra kanaler: stable, RC, edge och dev. Nya installationer börjar på stable-kanalen, som följer de [officiella versionerna](https://github.com/omacom/omarchy/releases/), samt den [stabila Spherie Arch Mirror](https://github.com/omacom-io/omarchy-mirror) som ligger en månad efter den senaste, så att vi kan fånga upp eventuella nya inkompatibiliteter som kräver konfigurationsändringar innan de ställer till problem för folk.
 
 Men om du vill hjälpa till att upptäcka de där potentiella problemen kan du köra på edge-kanalen. Då fortsätter dina Omarchy-paket att följa de senaste utvecklingsbyggena, och du kan uppdatera till de senaste Arch-paketen så fort de blir tillgängliga. Du ska bara göra det om du är erfaren med Linux och vet hur man återställer ett system som har problem.
 
 Inför varje ny större version gör vi den sista valideringen via RC-kanalen. Om du är intresserad av att hjälpa till med den sista finputsningen, kom och häng i #omarchy-release-candidates på Discord.
 
-Till sist finns dev-kanalen, som länkar Omarchy direkt till en git-checkout av källkoden i `~/omarchy`, i kombination med edge-paketen. Du ska bara använda den här kanalen om du är en erfaren Linux-användare, arbetar direkt med Omarchy och är beredd att stå ut med att saker går sönder.
+Till sist finns dev-kanalen, som länkar Spherie direkt till en git-checkout av källkoden i `~/omarchy`, i kombination med edge-paketen. Du ska bara använda den här kanalen om du är en erfaren Linux-användare, arbetar direkt med Spherie och är beredd att stå ut med att saker går sönder.
 
 Du kan växla mellan kanaler via _Uppdatera > Kanal_ i Omarchy-menyn (eller `omarchy-channel-set` i terminalen).
 
 ### Byta kärna
 
-Omarchy startar med sin egen `linux-omarchy`-kärna, men du kan ha andra installerade bredvid den, som Archs standardkärna `linux` eller ett experimentellt bygge du testar. När det finns fler än en listar _Uppdatera > Kärna_ i Omarchy-menyn dem med en bock bredvid den som startar som standard. Välj en annan, ange ditt lösenord en gång, så startar den efter nästa omstart. De andra kärnorna finns kvar i startmenyn, så du kan fortfarande välja en för hand om den nya standardkärnan ställer till problem för dig. I terminalen använder du `omarchy-kernel` för att se den aktuella standardkärnan, `omarchy-kernel list` för att se vad som är installerat och `omarchy-kernel set <kernel>` för att byta.
+Spherie startar med sin egen `linux-omarchy`-kärna, men du kan ha andra installerade bredvid den, som Archs standardkärna `linux` eller ett experimentellt bygge du testar. När det finns fler än en listar _Uppdatera > Kärna_ i Omarchy-menyn dem med en bock bredvid den som startar som standard. Välj en annan, ange ditt lösenord en gång, så startar den efter nästa omstart. De andra kärnorna finns kvar i startmenyn, så du kan fortfarande välja en för hand om den nya standardkärnan ställer till problem för dig. I terminalen använder du `omarchy-kernel` för att se den aktuella standardkärnan, `omarchy-kernel list` för att se vad som är installerat och `omarchy-kernel set <kernel>` för att byta.
 
 ### Firmware-uppdateringar
 
@@ -32,7 +32,7 @@ När du behöver ändra en inställning i själva BIOS, håll `Alt` i systemmeny
 
 ### Varning om direkta pacman/yay-uppdateringar
 
-Om du redan känner till Arch kanske du frestas att bara köra `pacman -Syu` eller `yay -Syu` själv, men om du gör det missar du ögonblicksbilden, migreringarna och konfigurationsuppdateringarna som Omarchy kör tillsammans med nya paket. Därför stoppar Omarchy faktiskt en direkt systemuppgradering och pekar dig i stället mot `omarchy update`. (Om du verkligen vet vad du gör talar skyddet om hur du kringgår det för en enda transaktion.)
+Om du redan känner till Arch kanske du frestas att bara köra `pacman -Syu` eller `yay -Syu` själv, men om du gör det missar du ögonblicksbilden, migreringarna och konfigurationsuppdateringarna som Spherie kör tillsammans med nya paket. Därför stoppar Spherie faktiskt en direkt systemuppgradering och pekar dig i stället mot `omarchy update`. (Om du verkligen vet vad du gör talar skyddet om hur du kringgår det för en enda transaktion.)
 
 ### Rulla tillbaka dåliga uppdateringar
 
@@ -40,4 +40,4 @@ Om du någonsin får problem efter att ha gjort en uppdatering kan du rulla till
 
 ![bootloader](images/bootloader.webp)
 
-Om dina konfigurationsfiler på något sätt har blivit korrupta kan du också göra en ominstallation av Omarchy med `omarchy reinstall` i terminalen. Det installerar om alla Omarchys standardpaket, sätter dig på stable och nedgraderar eventuella paket som är för nya, och återställer alla konfigurationsfiler. Observera att alla dina egna konfigurationsändringar av Omarchys standardvärden skrivs över när du gör det här!
+Om dina konfigurationsfiler på något sätt har blivit korrupta kan du också göra en ominstallation av Spherie med `omarchy reinstall` i terminalen. Det installerar om alla Omarchys standardpaket, sätter dig på stable och nedgraderar eventuella paket som är för nya, och återställer alla konfigurationsfiler. Observera att alla dina egna konfigurationsändringar av Omarchys standardvärden skrivs över när du gör det här!

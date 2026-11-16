@@ -1,0 +1,97 @@
+#!/usr/bin/python3 -I
+
+# omarchy:summary=Route sphere windows to the matching waypipe client by vsock CID
+# omarchy:hidden=true
+#
+# This is the GUI trust boundary. Every sphere connects to host vsock port
+# 7000. The kernel reports the peer CID, which the host assigned when it
+# started that sphere's VM, so a sphere can't pose as another. Each connection
+# is spliced into that sphere's own waypipe client, which prefixes every window
+# title with "[<sphere>] " for the Hyprland rules.
+
+import os
+import socket
+import subprocess
+import threading
+import time
+
+PORT = 7000
+CONF_DIR = os.environ.get("SPHERIE_CONF", "/etc/spherie/spheres")
+RUNTIME = os.path.join(os.environ["XDG_RUNTIME_DIR"], "spherie")
+
+
+def load_spheres():
+    """Map CID -> name for spheres allowed to show windows."""
+    spheres = {}
+    for entry in sorted(os.listdir(CONF_DIR)):
+        if not entry.endswith(".conf"):
+            continue
+        values = {}
+        with open(os.path.join(CONF_DIR, entry)) as conf:
+            for line in conf:
+                line = line.strip()
+                if "=" in line and not line.startswith("#"):
+                    key, value = line.split("=", 1)
+                    values[key] = value.strip("\"'")
+        if values.get("HIDDEN") == "1":
+            continue
+        spheres[int(values["CID"])] = values["NAME"]
+    return spheres
+
+
+def waypipe_socket(name):
+    path = os.path.join(RUNTIME, f"{name}.sock")
+    if not os.path.exists(path):
+        subprocess.run(["systemctl", "--user", "start", f"spherie-gui@{name}.service"], check=False)
+        for _ in range(50):
+            if os.path.exists(path):
+                break
+            time.sleep(0.1)
+    client = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
+    client.connect(path)
+    return client
+
+
+def pump(src, dst):
+    try:
+        while data := src.recv(65536):
+            dst.sendall(data)
+    except OSError:
+        pass
+    finally:
+        for sock in (src, dst):
+            try:
+                sock.shutdown(socket.SHUT_RDWR)
+            except OSError:
+                pass
+
+
+def handle(conn, cid, spheres):
+    name = spheres.get(cid)
+    if name is None:
+        conn.close()
+        return
+    try:
+        upstream = waypipe_socket(name)
+    except OSError:
+        conn.close()
+        return
+    threading.Thread(target=pump, args=(conn, upstream), daemon=True).start()
+    pump(upstream, conn)
+    conn.close()
+    upstream.close()
+
+
+def main():
+    os.makedirs(RUNTIME, mode=0o700, exist_ok=True)
+    listener = socket.socket(socket.AF_VSOCK, socket.SOCK_STREAM)
+    listener.bind((socket.VMADDR_CID_ANY, PORT))
+    listener.listen(16)
+    while True:
+        conn, (cid, _port) = listener.accept()
+        # Re-read on every connection so edited sphere configs apply at once.
+        threading.Thread(target=handle, args=(conn, cid, load_spheres()), daemon=True).start()
+
+
+if __name__ == "__main__":
+    main()

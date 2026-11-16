@@ -1,0 +1,34 @@
+#!/bin/bash
+
+# omarchy:summary=Update the shared sphere template; spheres pick it up on restart
+# omarchy:requires-sudo=true
+
+set -euo pipefail
+source "$OMARCHY_PATH/default/spherie/lib.sh"
+
+data="$SPHERIE_DATA"
+
+omarchy-sphere-start net
+sudo -u spherie cp --reflink=auto "$data/template.qcow2" "$data/template.next.qcow2"
+sudo systemctl start spherie@template.service
+
+sphere_load template
+for ((i = 0; i < 120; i++)); do
+  [[ $(sphere_agent "$CID" ping </dev/null 2>/dev/null) == "pong" ]] && break
+  sleep 1
+done
+
+sphere_agent "$CID" update </dev/null
+
+# Spheres boot the kernel directly, so take the new one out of the template.
+sphere_agent "$CID" file-send /boot/vmlinuz-linux </dev/null | sudo -u spherie tee "$data/vmlinuz.next" >/dev/null
+sphere_agent "$CID" file-send /boot/initramfs-linux.img </dev/null | sudo -u spherie tee "$data/initramfs.next" >/dev/null
+
+sudo systemctl stop spherie@template.service
+
+# Rename into place: running spheres keep the template they opened.
+sudo -u spherie mv -f "$data/template.next.qcow2" "$data/template.qcow2"
+sudo -u spherie mv -f "$data/vmlinuz.next" "$data/vmlinuz"
+sudo -u spherie mv -f "$data/initramfs.next" "$data/initramfs.img"
+
+echo "Template updated. Restart spheres to use it."

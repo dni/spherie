@@ -20,11 +20,11 @@ Tá Obsidian saor in aisce chun gach críche, lena n-áirítear úsáid phearsan
 
 Cuireann Obsidian [breiseán tráchtála le haghaidh sioncronaithe](https://obsidian.md/sync) ar fáil freisin le haghaidh aipeanna móibíleacha ar iOS agus Android. (https://obsidian.md/pricing).
 
-Tosaíonn tú Obsidian le `Super + Shift + O`. Chun sioncronú téamaí a úsáid, ní mór duit an téama `Omarchy` a roghnú faoi na socruithe.
+Tosaíonn tú Obsidian le `Super + Shift + O`. Chun sioncronú téamaí a úsáid, ní mór duit an téama `Spherie` a roghnú faoi na socruithe.
 
 ## Omawrite
 
-Is é [Omawrite](https://github.com/omacom-io/omawrite) aip scríbhneoireachta Markdown féin Omarchy atá marbhshimplí. Gan cruinneacháin, gan forlíontáin, tusa agus na focail amháin.
+Is é [Omawrite](https://github.com/omacom-io/omawrite) aip scríbhneoireachta Markdown féin Spherie atá marbhshimplí. Gan cruinneacháin, gan forlíontáin, tusa agus na focail amháin.
 
 Tosaíonn tú Omawrite le `Super + Shift + W`.
 
@@ -44,7 +44,7 @@ Tosaíonn tú Aether tríd an seoladóir feidhmchlár (`Super + Space`).
 
 Ligeann [LocalSend](https://localsend.org/) duit comhaid a sheoladh chuig gléasanna eile ar an líonra céanna a bhfuil an aip á rith acu, cosúil le AirDrop de chuid Apple. Tá sé tras-ardáin, áfach, mar sin is féidir leat comhaid a sheoladh chuig Windows, macOS, Android, iOS, agus Linux ar ndóigh, agus uathu.
 
-Is féidir leat an roghchlár Share a oscailt ar `Super + Ctrl + S` nó faoi _Trigger > Share_ i roghchlár Omarchy. Tugann sé ceithre rogha duit:
+Is féidir leat an roghchlár Share a oscailt ar `Super + Ctrl + S` nó faoi _Trigger > Share_ i roghchlár Spherie. Tugann sé ceithre rogha duit:
 
 - **Clipboard** seolann sé cibé rud atá cóipeáilte agat mar chomhad téacs. Iontach chun nasc nó blúire a chur ar do ghuthán gan ríomhphost a sheoladh chugat féin.
 - **File** osclaíonn sé roghnóir comhad inar féidir leat roinnt a roghnú ag an am céanna.
@@ -55,7 +55,7 @@ Oibríonn an rud céanna ón teirminéal le `omarchy share clipboard`, `omarchy 
 
 Is féidir leat seoladh go díreach ón mbainisteoir comhad freisin: deaschliceáil aon rogha in Nautilus agus roghnaigh _Send via LocalSend_.
 
-Tá balla dóiteáin Omarchy dúnta de réir réamhshocraithe seachas port LocalSend, mar sin oibríonn sé seo díreach as an mbosca ar shuiteáil úr. Féach [slándáil](48-security.md).
+Tá balla dóiteáin Spherie dúnta de réir réamhshocraithe seachas port LocalSend, mar sin oibríonn sé seo díreach as an mbosca ar shuiteáil úr. Féach [slándáil](48-security.md).
 
 ## LibreOffice
 
@@ -65,19 +65,19 @@ Tosaíonn tú LibreOffice tríd an seoladóir feidhmchlár (`Super + Space`).
 
 ## Hype
 
-Is é [Hype](https://github.com/omacom/hype) aip cur i láthair féin Omarchy atá marbhshimplí. Is comhad aonair Markdown é do dheic agus a chuid íomhánna agus físeán in aice leis: scríobh gach sleamhnán faoi bhun réamhamhairc bheo, tarraing sleamhnáin in ord, ansin cuir i láthair ar lánscáileán nó easpórtáil chuig PDF agus PowerPoint. Tógann sé suas do théama Omarchy fiú.
+Is é [Hype](https://github.com/omacom/hype) aip cur i láthair féin Spherie atá marbhshimplí. Is comhad aonair Markdown é do dheic agus a chuid íomhánna agus físeán in aice leis: scríobh gach sleamhnán faoi bhun réamhamhairc bheo, tarraing sleamhnáin in ord, ansin cuir i láthair ar lánscáileán nó easpórtáil chuig PDF agus PowerPoint. Tógann sé suas do théama Spherie fiú.
 
 Tosaíonn tú Hype tríd an seoladóir feidhmchlár (`Super + Space`). Brúigh `?` istigh ann chun gach aicearra a fheiceáil.
 
 ## Signed
 
-Is é [Signed](https://github.com/omacom/signed) bealach féin Omarchy atá marbhshimplí chun PDFanna a shíniú agus a líonadh isteach. Cuir do shíniú sábháilte, téacs, agus dáta an lae inniu in áit ar bith ar leathanach, ansin sábháil cóip shínithe in aice leis an mbunchóip. Féach [PDFanna a líonadh isteach](27-filling-out-pdfs.md) chun a fháil amach conas.
+Is é [Signed](https://github.com/omacom/signed) bealach féin Spherie atá marbhshimplí chun PDFanna a shíniú agus a líonadh isteach. Cuir do shíniú sábháilte, téacs, agus dáta an lae inniu in áit ar bith ar leathanach, ansin sábháil cóip shínithe in aice leis an mbunchóip. Féach [PDFanna a líonadh isteach](27-filling-out-pdfs.md) chun a fháil amach conas.
 
 Tosaíonn tú Signed tríd an seoladóir feidhmchlár (`Super + Space`), nó osclaíonn tú PDF leis ón mbainisteoir comhad.
 
 ## Omacalc
 
-Is é [Omacalc](https://github.com/omacom-io/omacalc) áireamhán féin Omarchy atá marbhshimplí, a osclaíonn i bhfuinneog ar foluain.
+Is é [Omacalc](https://github.com/omacom-io/omacalc) áireamhán féin Spherie atá marbhshimplí, a osclaíonn i bhfuinneog ar foluain.
 
 Tosaíonn tú Omacalc le `Super + Shift + Q` (nó an eochair áireamháin, más ann di ar do mhéarchlár).
 
@@ -85,11 +85,11 @@ Tosaíonn tú Omacalc le `Super + Shift + Q` (nó an eochair áireamháin, más 
 
 Is é [Signal](https://signal.org/) ceannródaí na teachtaireachtaí criptithe E2E, agus is rogha cumarsáide iontach é d'aon duine ar fearr leis gan dul trí cheann de na comhlachtaí móra teicneolaíochta.
 
-Tosaíonn tú Signal le `Super + Shift + G`. Níl sé mar chuid den tsuiteáil bhunaidh, mar sin an chéad uair a bhrúnn tú é sin, tairgfidh Omarchy é a shuiteáil duit (tá sé faoi _Install > Service_ i roghchlár Omarchy freisin).
+Tosaíonn tú Signal le `Super + Shift + G`. Níl sé mar chuid den tsuiteáil bhunaidh, mar sin an chéad uair a bhrúnn tú é sin, tairgfidh Spherie é a shuiteáil duit (tá sé faoi _Install > Service_ i roghchlár Spherie freisin).
 
 ## Omaview
 
-Is é [Omaview](https://github.com/omacom/omaview) amharcóir pictiúr agus seinnteoir meán féin Omarchy atá marbhshimplí: fuinneog amháin do do ghrianghraif, físeáin agus ceol. Oscail grianghraf agus céimníonn na heochracha saighde tríd an gcuid eile dá fhillteán, déanann `N` agus `P` é sin le haghaidh aon rud, agus taispeánann `Ctrl + M` an fillteán ar fad mar ghreille. Taispeánann sé grianghraif HEIC, AVIF agus JPEG XL freisin, agus leanann sé ar aghaidh ón áit ar fhág tú aon rud fada.
+Is é [Omaview](https://github.com/omacom/omaview) amharcóir pictiúr agus seinnteoir meán féin Spherie atá marbhshimplí: fuinneog amháin do do ghrianghraif, físeáin agus ceol. Oscail grianghraf agus céimníonn na heochracha saighde tríd an gcuid eile dá fhillteán, déanann `N` agus `P` é sin le haghaidh aon rud, agus taispeánann `Ctrl + M` an fillteán ar fad mar ghreille. Taispeánann sé grianghraif HEIC, AVIF agus JPEG XL freisin, agus leanann sé ar aghaidh ón áit ar fhág tú aon rud fada.
 
 Brúigh `F` le haghaidh lánscáileáin, `E` chun pictiúr a chur in eagar in Omasnap nó físeán a bhearradh in Omacut, `Ctrl + P` chun pictiúr a phriontáil, agus `Delete` chun comhad a bhogadh chuig an mBruscar (`Ctrl + Z` a thugann ar ais é). Brúigh `?` istigh ann chun gach aicearra a fheiceáil.
 
@@ -97,13 +97,13 @@ Tosaíonn tú Omaview mar _Media Viewer_ tríd an seoladóir feidhmchlár (`Supe
 
 ## Omacut
 
-Is é [Omacut](https://github.com/omacom-io/omacut) bearrthóir físeán féin Omarchy atá marbhshimplí. Nuair nach gá duit ach tús agus deireadh gearrthóige a ghearradh de, is fearr é ná eagarthóir físeán iomlán a chur ar siúl.
+Is é [Omacut](https://github.com/omacom-io/omacut) bearrthóir físeán féin Spherie atá marbhshimplí. Nuair nach gá duit ach tús agus deireadh gearrthóige a ghearradh de, is fearr é ná eagarthóir físeán iomlán a chur ar siúl.
 
 Tosaíonn tú Omacut tríd an seoladóir feidhmchlár (`Super + Space`).
 
 ## Monologue
 
-Is é [Monologue](https://github.com/omacom/monologue) taifeadán ceamara gréasáin féin Omarchy atá marbhshimplí. Roghnaigh do cheamara agus do mhicreafón uair amháin, ansin brúigh `Space` chun taifeadadh, agus arís chun an taifeadadh céanna a chur ar sos agus a atosú. Taifeadann sé i gcónaí ag taifeach is airde do cheamara, le méadar micreafóin beo ionas gur féidir leat do leibhéil a sheiceáil sula dtosaíonn tú.
+Is é [Monologue](https://github.com/omacom/monologue) taifeadán ceamara gréasáin féin Spherie atá marbhshimplí. Roghnaigh do cheamara agus do mhicreafón uair amháin, ansin brúigh `Space` chun taifeadadh, agus arís chun an taifeadadh céanna a chur ar sos agus a atosú. Taifeadann sé i gcónaí ag taifeach is airde do cheamara, le méadar micreafóin beo ionas gur féidir leat do leibhéil a sheiceáil sula dtosaíonn tú.
 
 Stop an taifeadadh agus osclaíonn sé ar an bpointe in eagarthóir ionsuite. Déchliceáil gearrthóg chun í a scoilt, tarraing na hanlaí chun gach píosa a bhearradh, agus bain na codanna nach dteastaíonn uait. Ansin sábháil é mar MP4. Coinnítear do thaifeadadh bunaidh go dtí go gcaitheann tú uait é, mar sin is féidir leat teacht ar ais i gcónaí agus é a ghearradh ar bhealach eile.
 

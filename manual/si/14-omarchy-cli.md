@@ -1,6 +1,6 @@
-# Omarchy CLI
+# Spherie CLI
 
-Omarchy සාමාන්‍යයෙන් පාලනය කරනු ලබන්නේ hotkeys සහ Omarchy menu එක (`Super + Space`) හරහාය. නමුත් ඔබට එය `omarchy` CLI එක හරහා ද පාලනය කළ හැකිය. ඔබ අභිරුචිකරණය හෝ වින්‍යාසය පිළිබඳව AI agent කෙනෙකු සමඟ වැඩ කරන විට මෙය විශේෂයෙන්ම ප්‍රයෝජනවත් වේ.
+Spherie සාමාන්‍යයෙන් පාලනය කරනු ලබන්නේ hotkeys සහ Spherie menu එක (`Super + Space`) හරහාය. නමුත් ඔබට එය `omarchy` CLI එක හරහා ද පාලනය කළ හැකිය. ඔබ අභිරුචිකරණය හෝ වින්‍යාසය පිළිබඳව AI agent කෙනෙකු සමඟ වැඩ කරන විට මෙය විශේෂයෙන්ම ප්‍රයෝජනවත් වේ.
 
 CLI එකට menu එක හරහා සහ වෙනත් ආකාරවලින් භාවිතා වන සියලුම අභ්‍යන්තර මෙවලම් වෙත ප්‍රවේශය ඇත. terminal එක තුළ `omarchy` ධාවනය කිරීමෙන් ලබා ගත හැකි සියල්ල ඔබට දැක ගත හැකිය.
 
@@ -8,7 +8,7 @@ CLI එකට menu එක හරහා සහ වෙනත් ආකාරවල
 
 ```
 ~ ❯ omarchy
-Omarchy command center
+Spherie command center
 
 Usage:
   omarchy <command> [args...]
@@ -17,7 +17,7 @@ Usage:
   omarchy <group> <command> --help
 
 Common commands:
-  omarchy update              Update Omarchy and system packages
+  omarchy update              Update Spherie and system packages
   omarchy theme list          List available themes
   omarchy theme set <name>    Apply a theme
   omarchy font list           List available fonts
@@ -27,14 +27,14 @@ Common commands:
 Groups:
   agent          AI coding agents, their usage, and subscription accounts
   audio          Audio input and output controls
-  bar            Omarchy shell bar layout and settings
+  bar            Spherie shell bar layout and settings
   battery        Battery status helpers
   bluetooth      Bluetooth device controls
-  branch         Omarchy git branch management
+  branch         Spherie git branch management
   branding       About and screensaver branding
   brightness     Display and keyboard brightness
   capture        Screenshots and screen recording
-  channel        Omarchy release channel management
+  channel        Spherie release channel management
   clipboard      Clipboard helpers
   cmd            Command and shortcut helpers
   config         System configuration helpers
@@ -59,4 +59,4 @@ Capture commands — Screenshots and screen recording:
 
 ### terminal එකෙන් menu එක විවෘත කිරීම
 
-Omarchy menu එක script කළ හැකි අතර, එය ඔබේම keybindings සඳහා ප්‍රයෝජනවත් වේ. `omarchy menu` මඟින් එය root එකේ විවෘත වන අතර, ඔබට එහි නම සඳහන් කිරීමෙන් ගසේ ඕනෑම ස්ථානයකට කෙලින්ම යා හැකිය: `omarchy menu summon appearance.theme` මඟින් කෙලින්ම theme picker එක වෙත යයි, `omarchy menu toggle system` මඟින් system menu එක විවෘත වන අතර එය දැනටමත් විවෘතව තිබේ නම් නැවත එය වසා දමයි, තවද `omarchy menu close` මඟින් එය ඉවත් කරයි.
+Spherie menu එක script කළ හැකි අතර, එය ඔබේම keybindings සඳහා ප්‍රයෝජනවත් වේ. `omarchy menu` මඟින් එය root එකේ විවෘත වන අතර, ඔබට එහි නම සඳහන් කිරීමෙන් ගසේ ඕනෑම ස්ථානයකට කෙලින්ම යා හැකිය: `omarchy menu summon appearance.theme` මඟින් කෙලින්ම theme picker එක වෙත යයි, `omarchy menu toggle system` මඟින් system menu එක විවෘත වන අතර එය දැනටමත් විවෘතව තිබේ නම් නැවත එය වසා දමයි, තවද `omarchy menu close` මඟින් එය ඉවත් කරයි.

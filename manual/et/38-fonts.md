@@ -1,12 +1,12 @@
 # Fondid
 
-Omarchy kasutab vaikimisi nii terminali- kui ka süsteemifondina fonti JetBrainsMono Nerd Font.
+Spherie kasutab vaikimisi nii terminali- kui ka süsteemifondina fonti JetBrainsMono Nerd Font.
 
  ![fonts-jetbrainsmono](images/fonts-jetbrainsmono.webp)
 
-Seda saad muuta Omarchy menüüs (`Super + Space`) menüü _Välimus > Font_ kaudu. See määrab monospace-fondi kõikjal: terminalis, ribal ja kõiges muus, mis seda küsib.
+Seda saad muuta Spherie menüüs (`Super + Space`) menüü _Välimus > Font_ kaudu. See määrab monospace-fondi kõikjal: terminalis, ribal ja kõiges muus, mis seda küsib.
 
-Teisi populaarseid programmeerimisfonte saad installida Omarchy menüüs menüü _Installi > Stiil > Font_ kaudu: Cascadia Mono, Meslo LG Mono, Fira Code, Victor Code, Bitstream Vera Mono ja Iosevka on kõik ühe klõpsu kaugusel, oma Nerd Font versioonides, nii et riba ja terminali glüüfid töötavad edasi. Pärast ühe installimist vali see menüüst _Välimus > Font_.
+Teisi populaarseid programmeerimisfonte saad installida Spherie menüüs menüü _Installi > Stiil > Font_ kaudu: Cascadia Mono, Meslo LG Mono, Fira Code, Victor Code, Bitstream Vera Mono ja Iosevka on kõik ühe klõpsu kaugusel, oma Nerd Font versioonides, nii et riba ja terminali glüüfid töötavad edasi. Pärast ühe installimist vali see menüüst _Välimus > Font_.
 
 ## Hiina, jaapani ja korea keel
 

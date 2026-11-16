@@ -8,7 +8,7 @@ Tá gach eochair the ar phlána, socraithe ag a modhnóirí, agus tá post amhá
 
 | Plána | Cad atá ann | Samplaí |
 | --- | --- | --- |
-| `Super + key` | An córas: fuinneoga, spásanna oibre, leaganacha amach, agus croí-roghchláir | `Super + Space` roghchlár Omarchy, `Super + W` dún fuinneog, `Super + F` scáileán iomlán |
+| `Super + key` | An córas: fuinneoga, spásanna oibre, leaganacha amach, agus croí-roghchláir | `Super + Space` roghchlár Spherie, `Super + W` dún fuinneog, `Super + F` scáileán iomlán |
 | `Super + Shift + key` | Aipeanna | `Super + Shift + B` brabhsálaí, `Super + Shift + E` ríomhphost, `Super + Shift + N` eagarthóir |
 | `Super + Ctrl + key` | Painéil agus roghchláir chórais | `Super + Ctrl + A` fuaim, `Super + Ctrl + N` líonra, `Super + Ctrl + C` roghchlár gabhála |
 | `Super + Ctrl + Alt + key` | Gníomhartha tapa agus fógraí eolais | `Super + Ctrl + Alt + T` taispeáin an t-am, `Super + Ctrl + Alt + B` cadhnra, `Super + Ctrl + Alt + C` gabháil scáileáin |
@@ -34,7 +34,7 @@ Mura n-oireann réamhshocrú duit (abair go dteastaíonn `Super + Shift + S` uai
 
 | Eochair The                  | Feidhm              |
 | ----------------------- | --------------------- |
-| `Super + Space`           | Roghchlár Omarchy (aipeanna agus gach rud eile)    |
+| `Super + Space`           | Roghchlár Spherie (aipeanna agus gach rud eile)    |
 | `Super + Alt + Space` | Eangach aip |
 | `Super + Escape` | Roghchlár córais (cuir ar fionraí, atosaigh, srl)  |
 | `Super + Ctrl + L` | Glasáil an ríomhaire |
@@ -172,7 +172,7 @@ Athraigh/cuir ceangail leis in `~/.config/hypr/bindings.lua`.
 | `Super + V`           | Greamaigh    |
 | `Super + Ctrl + V`           | Bainisteoir gearrthaisce    |
 
-De ghnáth ar Linux, teastaíonn `Ctrl + Shift + C/V` uait chun cóipeáil is greamú a dhéanamh sa teirminéal agus `Ctrl + C/V` chun é a dhéanamh i ngach áit eile. Oibríonn na heochracha te gearrthaisce aontaithe Omarchy seo i ngach áit.
+De ghnáth ar Linux, teastaíonn `Ctrl + Shift + C/V` uait chun cóipeáil is greamú a dhéanamh sa teirminéal agus `Ctrl + C/V` chun é a dhéanamh i ngach áit eile. Oibríonn na heochracha te gearrthaisce aontaithe Spherie seo i ngach áit.
 
 ## Gabháil
 
@@ -193,7 +193,7 @@ De ghnáth ar Linux, teastaíonn `Ctrl + Shift + C/V` uait chun cóipeáil is gr
 
 Le taifeadtaí scáileáin, fiafraíonn an eochair the ar dtús cén fhuaim atá uait, ansin tosaíonn sí ag taifeadadh. Brúigh arís í chun stopadh. Féach [gabhálacha scáileáin agus taifeadadh](12-screenshots-recording.md) le haghaidh na sonraí.
 
-Tá gach rogha gabhála ar fáil freisin faoi _Truicear > Gabháil_ i roghchlár Omarchy (`Super + Space`).
+Tá gach rogha gabhála ar fáil freisin faoi _Truicear > Gabháil_ i roghchlár Spherie (`Super + Space`).
 
 ## Fógraí
 
@@ -215,9 +215,9 @@ Tá gach rogha gabhála ar fáil freisin faoi _Truicear > Gabháil_ i roghchlár
 | `Super + Backspace` | Scoránaigh trédhearcacht ar fhuinneog |
 | `Super + Ctrl + Backspace` | Scoránaigh gné chearnach aonfhuinneoige |
 
-Tá íomhánna cúlra breise in `~/.config/omarchy/backgrounds/<theme name>`. Ar fáil freisin trí _Suiteáil > Stíl > Cúlra_ i roghchlár Omarchy.
+Tá íomhánna cúlra breise in `~/.config/omarchy/backgrounds/<theme name>`. Ar fáil freisin trí _Suiteáil > Stíl > Cúlra_ i roghchlár Spherie.
 
-Tá gach rogha stíle ar fáil freisin faoi _Stíl_ i roghchlár Omarchy (`Super + Space`).
+Tá gach rogha stíle ar fáil freisin faoi _Stíl_ i roghchlár Spherie (`Super + Space`).
 
 ## Scoránaigh
 
@@ -318,7 +318,7 @@ Ní mór na feidhmeanna seo a rith taobh istigh de sheisiún Tmux.
 
 ## Teirminéal Ghostty
 
-Suiteáiltear teirminéal Ghostty ag úsáid _Suiteáil > Teirminéal_ trí roghchlár Omarchy.
+Suiteáiltear teirminéal Ghostty ag úsáid _Suiteáil > Teirminéal_ trí roghchlár Spherie.
 
 | Eochair The                  | Feidhm              |
 | ----------------------- | --------------------- |

@@ -1,6 +1,6 @@
-# Omarchy CLI
+# Spherie CLI
 
-عادةً ما يتم التحكّم في Omarchy عبر مفاتيح الاختصار وقائمة Omarchy ‏(`Super + Space`). لكن يمكنك أيضًا التحكّم فيه عبر واجهة سطر الأوامر `omarchy` CLI. وهذا مفيد بشكل خاص عندما تجعل وكيل ذكاء اصطناعي يعمل معك على التخصيص أو الإعداد.
+عادةً ما يتم التحكّم في Spherie عبر مفاتيح الاختصار وقائمة Spherie ‏(`Super + Space`). لكن يمكنك أيضًا التحكّم فيه عبر واجهة سطر الأوامر `omarchy` CLI. وهذا مفيد بشكل خاص عندما تجعل وكيل ذكاء اصطناعي يعمل معك على التخصيص أو الإعداد.
 
 تتمتّع واجهة سطر الأوامر بإمكانية الوصول إلى جميع الأدوات الداخلية المستخدمة سواء عبر القائمة أو بغير ذلك. يمكنك رؤية كل ما هو متاح بتشغيل `omarchy` في الطرفية.
 
@@ -8,7 +8,7 @@
 
 ```
 ~ ❯ omarchy
-Omarchy command center
+Spherie command center
 
 Usage:
   omarchy <command> [args...]
@@ -17,7 +17,7 @@ Usage:
   omarchy <group> <command> --help
 
 Common commands:
-  omarchy update              Update Omarchy and system packages
+  omarchy update              Update Spherie and system packages
   omarchy theme list          List available themes
   omarchy theme set <name>    Apply a theme
   omarchy font list           List available fonts
@@ -27,14 +27,14 @@ Common commands:
 Groups:
   agent          AI coding agents, their usage, and subscription accounts
   audio          Audio input and output controls
-  bar            Omarchy shell bar layout and settings
+  bar            Spherie shell bar layout and settings
   battery        Battery status helpers
   bluetooth      Bluetooth device controls
-  branch         Omarchy git branch management
+  branch         Spherie git branch management
   branding       About and screensaver branding
   brightness     Display and keyboard brightness
   capture        Screenshots and screen recording
-  channel        Omarchy release channel management
+  channel        Spherie release channel management
   clipboard      Clipboard helpers
   cmd            Command and shortcut helpers
   config         System configuration helpers
@@ -59,4 +59,4 @@ Capture commands — Screenshots and screen recording:
 
 ### فتح القائمة من الطرفية
 
-قائمة Omarchy قابلة للبرمجة النصية أيضًا، وهو أمر مفيد لاختصارات لوحة المفاتيح الخاصة بك. يفتح `omarchy menu` القائمة من الجذر، ويمكنك الانتقال مباشرة إلى أي نقطة في الشجرة بتسميتها: ينقلك `omarchy menu summon appearance.theme` مباشرة إلى منتقي السمات، ويفتح `omarchy menu toggle system` قائمة النظام ويغلقها مجددًا إذا كانت مفتوحة بالفعل، ويغلق `omarchy menu close` القائمة ويخفيها.
+قائمة Spherie قابلة للبرمجة النصية أيضًا، وهو أمر مفيد لاختصارات لوحة المفاتيح الخاصة بك. يفتح `omarchy menu` القائمة من الجذر، ويمكنك الانتقال مباشرة إلى أي نقطة في الشجرة بتسميتها: ينقلك `omarchy menu summon appearance.theme` مباشرة إلى منتقي السمات، ويفتح `omarchy menu toggle system` قائمة النظام ويغلقها مجددًا إذا كانت مفتوحة بالفعل، ويغلق `omarchy menu close` القائمة ويخفيها.

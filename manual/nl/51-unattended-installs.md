@@ -1,8 +1,8 @@
 # Installaties zonder toezicht
 
-De Omarchy ISO kan zichzelf installeren zonder dat er iemand achter het toetsenbord zit. Als het installatieprogramma een tweede schijf vindt met het label `cidata` waarop de configuratiebestanden staan, kopieert het die eraf, slaat het de installatiewizard volledig over en start het zelf opnieuw op in het voltooide systeem. Geen speciale ISO-build, geen extra opstartmenu-item — zonder zo'n schijf verandert er niets en krijg je de normale wizard.
+De Spherie ISO kan zichzelf installeren zonder dat er iemand achter het toetsenbord zit. Als het installatieprogramma een tweede schijf vindt met het label `cidata` waarop de configuratiebestanden staan, kopieert het die eraf, slaat het de installatiewizard volledig over en start het zelf opnieuw op in het voltooide systeem. Geen speciale ISO-build, geen extra opstartmenu-item — zonder zo'n schijf verandert er niets en krijg je de normale wizard.
 
-Hierdoor is Omarchy uitstekend als basisimage voor wegwerp-ontwikkelomgevingen: maak een VM in Proxmox of met Packer, start hem op, loop weg, log in via SSH. `cidata` is het cloud-init `NoCloud`-label, dus alle gangbare virtualisatietools weten al hoe ze zo'n schijf moeten koppelen.
+Hierdoor is Spherie uitstekend als basisimage voor wegwerp-ontwikkelomgevingen: maak een VM in Proxmox of met Packer, start hem op, loop weg, log in via SSH. `cidata` is het cloud-init `NoCloud`-label, dus alle gangbare virtualisatietools weten al hoe ze zo'n schijf moeten koppelen.
 
 ## De configuratiebestanden
 
@@ -38,7 +38,7 @@ cp user_configuration.json user_credentials.json authorized_keys cidata/
 genisoimage -output cidata.iso -volid cidata -joliet -rock cidata/
 ```
 
-Koppel hem vervolgens naast de Omarchy ISO aan de VM. Hier is een volledig Proxmox-voorbeeld:
+Koppel hem vervolgens naast de Spherie ISO aan de VM. Hier is een volledig Proxmox-voorbeeld:
 
 ```bash
 qm create 101 --name my-omarchy \

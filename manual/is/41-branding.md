@@ -1,6 +1,6 @@
 # Vörumerking
 
-Omarchy gerir þér kleift að setja merki fyrirtækis þíns eða persónulega mynd bæði fyrir opnun við ræsingu, skjáhvíluna og Um-skjáinn.
+Spherie gerir þér kleift að setja merki fyrirtækis þíns eða persónulega mynd bæði fyrir opnun við ræsingu, skjáhvíluna og Um-skjáinn.
 
 ### Opnun við ræsingu
 

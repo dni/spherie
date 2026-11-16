@@ -1,6 +1,6 @@
 # Schakelaars, inactiviteit & de schermbeveiliging
 
-Veel van wat je dagelijks verandert, is eigenlijk geen instelling. Het is een modus die je voor een uur aanzet en daarna weer uitzet: nachtlicht terwijl je laat doorwerkt, niet storen terwijl je presenteert, wakker blijven terwijl je ergens naar kijkt. Omarchy noemt die dingen schakelaars, en ze werken allemaal op dezelfde manier — een sneltoets, een menu-item en een commando, die allemaal dezelfde schakelaar bedienen.
+Veel van wat je dagelijks verandert, is eigenlijk geen instelling. Het is een modus die je voor een uur aanzet en daarna weer uitzet: nachtlicht terwijl je laat doorwerkt, niet storen terwijl je presenteert, wakker blijven terwijl je ergens naar kijkt. Spherie noemt die dingen schakelaars, en ze werken allemaal op dezelfde manier — een sneltoets, een menu-item en een commando, die allemaal dezelfde schakelaar bedienen.
 
 ### Het schakelaarmenu
 
@@ -26,7 +26,7 @@ De schakelaars voor touchpad, touchscreen en hybride GPU staan onder _Trigger > 
 
 _Appearance_ bevat de menubalk en animaties, plus een paar dingen die geen `omarchy toggle`-commando's zijn maar zich hetzelfde gedragen: het batterijpercentage in de balk, de standaardindeling van werkruimtes, en onder _Windows_, vensterafstanden (`Super + Shift + Backspace`) en de vierkante beeldverhouding met 1 venster (`Super + Ctrl + Backspace`).
 
-Wanneer Hyprland geen GPU heeft om mee te tekenen en in plaats daarvan op de CPU rendert (llvmpipe), zoals op Macs waarvan de GPU nog niet wordt ondersteund, in de meeste virtuele machines, of wanneer een grafisch stuurprogramma niet laadt, schakelt Omarchy animaties, vervaging en schaduwen uit voor die sessie en laat je dat eenmalig weten met een melding. _Appearance > Animations On_ brengt ze terug, en Omarchy onthoudt dat ook voor latere sessies.
+Wanneer Hyprland geen GPU heeft om mee te tekenen en in plaats daarvan op de CPU rendert (llvmpipe), zoals op Macs waarvan de GPU nog niet wordt ondersteund, in de meeste virtuele machines, of wanneer een grafisch stuurprogramma niet laadt, schakelt Spherie animaties, vervaging en schaduwen uit voor die sessie en laat je dat eenmalig weten met een melding. _Appearance > Animations On_ brengt ze terug, en Spherie onthoudt dat ook voor latere sessies.
 
 De meeste hiervan zijn gewoon een vlagbestand onder `~/.local/state/omarchy/toggles/`. Als je er in een script op wilt vertakken, geeft `omarchy-toggle-enabled` je een exitcode in plaats van dat je zelf moet gaan zoeken:
 
@@ -63,7 +63,7 @@ Start hyprsunset vervolgens bij het inloggen door `o.launch_on_start("hyprsunset
 
 Er gaat echter niets verloren. Gedempte meldingen worden achtergehouden: zet de laatste paar terug op het scherm met `Super + Shift + Alt + ,`. Zie [meldingen](10-notices.md) voor de rest.
 
-Twee soorten berichten komen er nog wel door: Omarchy's eigen bevestigingsmeldingen voor iets wat je net hebt gedaan ("Theme changed", "Screenshot saved"), en kritieke waarschuwingen die vanaf de commandoregel worden verzonden. Chat-apps die alles als kritiek markeren om zich aan je op te dringen, komen daar niet voor in aanmerking.
+Twee soorten berichten komen er nog wel door: Spherie's eigen bevestigingsmeldingen voor iets wat je net hebt gedaan ("Theme changed", "Screenshot saved"), en kritieke waarschuwingen die vanaf de commandoregel worden verzonden. Chat-apps die alles als kritiek markeren om zich aan je op te dringen, komen daar niet voor in aanmerking.
 
 ### Inactiviteit
 
@@ -89,13 +89,13 @@ Dit gaat over vergrendelen en de schermbeveiliging, niet over stroom. Slaapstand
 
 ### De schermbeveiliging
 
-De schermbeveiliging van Omarchy is ASCII-kunst die door willekeurige teksteffecten loopt, één instantie per monitor. Elke toets of muisbeweging beëindigt hem.
+De schermbeveiliging van Spherie is ASCII-kunst die door willekeurige teksteffecten loopt, één instantie per monitor. Elke toets of muisbeweging beëindigt hem.
 
 Je kunt hem op verzoek starten vanuit _System > Screensaver_ (`Super + Esc`), wat hem geforceerd tevoorschijn brengt, zelfs als je de schermbeveiliging bij inactiviteit hebt uitgezet. Er is standaard geen sneltoets aan gekoppeld.
 
 `omarchy toggle screensaver` is wat de inactieve variant uitzet, als je liever rechtstreeks van werken naar vergrendeld gaat. Elke toets, klik, scroll of muisbeweging sluit hem.
 
-Het logo dat hij tekent kun je zelf veranderen, onder _Appearance > Branding > Screensaver_. Upload een png of svg en Omarchy zet hem om naar ASCII. Zie [huisstijl](41-branding.md).
+Het logo dat hij tekent kun je zelf veranderen, onder _Appearance > Branding > Screensaver_. Upload een png of svg en Spherie zet hem om naar ASCII. Zie [huisstijl](41-branding.md).
 
 ### Het vergrendelscherm
 

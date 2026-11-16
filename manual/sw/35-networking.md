@@ -1,6 +1,6 @@
 # Mtandao
 
-Mtandao katika Omarchy unashughulikiwa na NetworkManager, na unaudhibiti kutoka kwenye aikoni ya mtandao iliyo kwenye [upau wa juu](05-the-top-bar.md) au kwa kutumia `Super + Ctrl + N`.
+Mtandao katika Spherie unashughulikiwa na NetworkManager, na unaudhibiti kutoka kwenye aikoni ya mtandao iliyo kwenye [upau wa juu](05-the-top-bar.md) au kwa kutumia `Super + Ctrl + N`.
 
 Paneli hiyo hutafuta mitandao ya Wi-Fi, huonyesha nguvu ya mawimbi, na huunganisha. Ethernet haihitaji chochote kabisa — ichomeke tu na inafanya kazi. Ikiwa unapendelea kubaki kwenye terminal, `nmtui` inakupa vidhibiti hivyo hivyo, na pia kuna kikundi cha amri cha `omarchy network`.
 
@@ -12,7 +12,7 @@ Ikiwa unahitaji nenosiri lenyewe hasa, `omarchy network password <interface>` hu
 
 ## DNS
 
-Omarchy hutumia DNS yoyote ambayo mtandao wako unaitoa kupitia DHCP. Unaweza kubatilisha hiyo kwa mashine nzima chini ya _Setup > Network > DNS_, ambapo Cloudflare na Google ziko umbali wa mbofyo mmoja tu. Chagua _Custom_ ili kuandika seva zako mwenyewe.
+Spherie hutumia DNS yoyote ambayo mtandao wako unaitoa kupitia DHCP. Unaweza kubatilisha hiyo kwa mashine nzima chini ya _Setup > Network > DNS_, ambapo Cloudflare na Google ziko umbali wa mbofyo mmoja tu. Chagua _Custom_ ili kuandika seva zako mwenyewe.
 
 Kutoka kwenye terminal, `omarchy dns` huchapisha mtoa huduma wa sasa na `omarchy dns Cloudflare` huweka mmoja.
 
@@ -24,7 +24,7 @@ Hii hupini bendi badala ya sehemu maalum ya kufikia mtandao, kwa hivyo unaendele
 
 ## Ina kasi kiasi gani?
 
-_Trigger > Speed Test > Network Speed Test_ hupima kasi yako halisi ya kupakia juu na kupakua kwa kutumia jozi ya diali. Kutoka kwenye terminal ni `omarchy network speedtest down` au `up`. Hupima dhidi ya huduma ya Omarchy yenyewe na huhesabu tu uhamishaji wake wa majaribio. Upakuaji mwingine unaweza kushindania kipimo data, lakini hauongezwi kwenye matokeo ya jaribio la kasi. (Kuna jaribio la kasi ya diski lililo karibu nayo kwenye menyu hiyo, ikiwa unapima kizuizi kingine.)
+_Trigger > Speed Test > Network Speed Test_ hupima kasi yako halisi ya kupakia juu na kupakua kwa kutumia jozi ya diali. Kutoka kwenye terminal ni `omarchy network speedtest down` au `up`. Hupima dhidi ya huduma ya Spherie yenyewe na huhesabu tu uhamishaji wake wa majaribio. Upakuaji mwingine unaweza kushindania kipimo data, lakini hauongezwi kwenye matokeo ya jaribio la kasi. (Kuna jaribio la kasi ya diski lililo karibu nayo kwenye menyu hiyo, ikiwa unapima kizuizi kingine.)
 
 ## Ngome
 

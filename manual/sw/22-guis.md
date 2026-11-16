@@ -20,11 +20,11 @@ Obsidian ni bure kwa madhumuni yote, ikiwemo matumizi ya kibinafsi, ya kibiashar
 
 Obsidian pia hutoa [nyongeza ya kibiashara ya kusawazisha](https://obsidian.md/sync) na programu za simu kwenye iOS na Android. (https://obsidian.md/pricing).
 
-Unaanzisha Obsidian kwa `Super + Shift + O`. Ili kutumia usawazishaji wa mandhari, lazima uchague mandhari ya `Omarchy` chini ya mipangilio.
+Unaanzisha Obsidian kwa `Super + Shift + O`. Ili kutumia usawazishaji wa mandhari, lazima uchague mandhari ya `Spherie` chini ya mipangilio.
 
 ## Omawrite
 
-[Omawrite](https://github.com/omacom-io/omawrite) ni programu ya Omarchy yenyewe rahisi mno ya kuandika Markdown. Hakuna vault, hakuna programu-jalizi, ni wewe na maneno tu.
+[Omawrite](https://github.com/omacom-io/omawrite) ni programu ya Spherie yenyewe rahisi mno ya kuandika Markdown. Hakuna vault, hakuna programu-jalizi, ni wewe na maneno tu.
 
 Unaanzisha Omawrite kwa `Super + Shift + W`.
 
@@ -44,7 +44,7 @@ Unaanzisha Aether kupitia kianzishi cha programu (`Super + Space`).
 
 [LocalSend](https://localsend.org/) hukuwezesha kutuma faili kwa vifaa vingine vilivyo kwenye mtandao mmoja vinavyoendesha programu hiyo, kama AirDrop ya Apple. Hata hivyo, inafanya kazi kwenye mifumo mbalimbali, kwa hiyo unaweza kutuma faili kwenda na kutoka Windows, macOS, Android, iOS, na bila shaka Linux.
 
-Unaweza kufungua menyu ya Share kwenye `Super + Ctrl + S` au chini ya _Trigger > Share_ katika menyu ya Omarchy. Hukupa chaguo nne:
+Unaweza kufungua menyu ya Share kwenye `Super + Ctrl + S` au chini ya _Trigger > Share_ katika menyu ya Spherie. Hukupa chaguo nne:
 
 - **Clipboard** hutuma chochote ulichonakili kama faili ya maandishi. Nzuri kwa kupeleka kiungo au kijisehemu kwenye simu yako bila kujitumia barua pepe.
 - **File** hufungua kichaguzi cha faili ambapo unaweza kuchagua kadhaa kwa mara moja.
@@ -55,7 +55,7 @@ Jambo lilo hilo hufanya kazi kutoka kwenye terminali kwa `omarchy share clipboar
 
 Unaweza pia kutuma moja kwa moja kutoka kwenye kidhibiti cha faili: bofya kulia chaguo lolote katika Nautilus na uchague _Send via LocalSend_.
 
-Ngome ya Omarchy imefungwa kwa chaguomsingi isipokuwa mlango wa LocalSend, kwa hiyo hii hufanya kazi moja kwa moja kwenye usakinishaji mpya. Tazama [usalama](48-security.md).
+Ngome ya Spherie imefungwa kwa chaguomsingi isipokuwa mlango wa LocalSend, kwa hiyo hii hufanya kazi moja kwa moja kwenye usakinishaji mpya. Tazama [usalama](48-security.md).
 
 ## LibreOffice
 
@@ -65,19 +65,19 @@ Unaanzisha LibreOffice kupitia kianzishi cha programu (`Super + Space`).
 
 ## Hype
 
-[Hype](https://github.com/omacom/hype) ni programu ya Omarchy yenyewe rahisi mno ya mawasilisho. Wasilisho lako ni faili moja ya Markdown yenye picha na video zake kando yake: andika kila slaidi chini ya hakiki ya moja kwa moja, buruta slaidi katika mpangilio, kisha wasilisha kwenye skrini nzima au hamisha hadi PDF na PowerPoint. Hata huchukua mandhari yako ya Omarchy.
+[Hype](https://github.com/omacom/hype) ni programu ya Spherie yenyewe rahisi mno ya mawasilisho. Wasilisho lako ni faili moja ya Markdown yenye picha na video zake kando yake: andika kila slaidi chini ya hakiki ya moja kwa moja, buruta slaidi katika mpangilio, kisha wasilisha kwenye skrini nzima au hamisha hadi PDF na PowerPoint. Hata huchukua mandhari yako ya Spherie.
 
 Unaanzisha Hype kupitia kianzishi cha programu (`Super + Space`). Bonyeza `?` ndani yake kuona kila njia ya mkato.
 
 ## Signed
 
-[Signed](https://github.com/omacom/signed) ni njia ya Omarchy yenyewe rahisi mno ya kutia saini PDF na kuzijaza. Weka saini yako uliyohifadhi, maandishi, na tarehe ya leo popote kwenye ukurasa, kisha hifadhi nakala iliyotiwa saini kando ya asili. Tazama [Kujaza PDF](27-filling-out-pdfs.md) kwa jinsi ya kufanya.
+[Signed](https://github.com/omacom/signed) ni njia ya Spherie yenyewe rahisi mno ya kutia saini PDF na kuzijaza. Weka saini yako uliyohifadhi, maandishi, na tarehe ya leo popote kwenye ukurasa, kisha hifadhi nakala iliyotiwa saini kando ya asili. Tazama [Kujaza PDF](27-filling-out-pdfs.md) kwa jinsi ya kufanya.
 
 Unaanzisha Signed kupitia kianzishi cha programu (`Super + Space`), au fungua PDF nayo kutoka kwenye kidhibiti cha faili.
 
 ## Omacalc
 
-[Omacalc](https://github.com/omacom-io/omacalc) ni kikokotoo cha Omarchy chenyewe rahisi mno, ambacho hufunguka katika dirisha linaloelea.
+[Omacalc](https://github.com/omacom-io/omacalc) ni kikokotoo cha Spherie chenyewe rahisi mno, ambacho hufunguka katika dirisha linaloelea.
 
 Unaanzisha Omacalc kwa `Super + Shift + Q` (au kitufe cha kikokotoo, ikiwa kibodi yako ina kimoja).
 
@@ -85,11 +85,11 @@ Unaanzisha Omacalc kwa `Super + Shift + Q` (au kitufe cha kikokotoo, ikiwa kibod
 
 [Signal](https://signal.org/) ni mwanzilishi wa ujumbe uliosimbwa kwa E2E, na chaguo zuri la mawasiliano kwa yeyote ambaye angalipenda kutoipitia moja ya makampuni makubwa ya teknolojia.
 
-Unaanzisha Signal kwa `Super + Shift + G`. Si sehemu ya usakinishaji wa msingi, kwa hiyo mara ya kwanza unapobonyeza hiyo, Omarchy itakupa kusakinisha kwa ajili yako (pia iko chini ya _Install > Service_ katika menyu ya Omarchy).
+Unaanzisha Signal kwa `Super + Shift + G`. Si sehemu ya usakinishaji wa msingi, kwa hiyo mara ya kwanza unapobonyeza hiyo, Spherie itakupa kusakinisha kwa ajili yako (pia iko chini ya _Install > Service_ katika menyu ya Spherie).
 
 ## Omaview
 
-[Omaview](https://github.com/omacom/omaview) ni kitazamaji cha picha na kicheza media cha Omarchy chenyewe rahisi mno: dirisha moja kwa picha, video, na muziki wako. Fungua picha na vitufe vya mishale hupitia zilizobaki kwenye folda yake, `N` na `P` hufanya hivyo kwa chochote, na `Ctrl + M` huonyesha folda nzima kama gridi. Huonyesha picha za HEIC, AVIF, na JPEG XL pia, na huendelea pale ulipoachia katika kitu chochote kirefu.
+[Omaview](https://github.com/omacom/omaview) ni kitazamaji cha picha na kicheza media cha Spherie chenyewe rahisi mno: dirisha moja kwa picha, video, na muziki wako. Fungua picha na vitufe vya mishale hupitia zilizobaki kwenye folda yake, `N` na `P` hufanya hivyo kwa chochote, na `Ctrl + M` huonyesha folda nzima kama gridi. Huonyesha picha za HEIC, AVIF, na JPEG XL pia, na huendelea pale ulipoachia katika kitu chochote kirefu.
 
 Bonyeza `F` kwa skrini nzima, `E` kuhariri picha katika Omasnap au kupunguza video katika Omacut, `Ctrl + P` kuchapisha picha, na `Delete` kuhamisha faili hadi kwenye Trash (`Ctrl + Z` huirudisha). Bonyeza `?` ndani yake kuona kila njia ya mkato.
 
@@ -97,13 +97,13 @@ Unaanzisha Omaview kama _Media Viewer_ kupitia kianzishi cha programu (`Super + 
 
 ## Omacut
 
-[Omacut](https://github.com/omacom-io/omacut) ni kipunguza video cha Omarchy chenyewe rahisi mno. Wakati unachohitaji ni kukata mwanzo na mwisho wa klipu, hushinda kuwasha kihariri kamili cha video.
+[Omacut](https://github.com/omacom-io/omacut) ni kipunguza video cha Spherie chenyewe rahisi mno. Wakati unachohitaji ni kukata mwanzo na mwisho wa klipu, hushinda kuwasha kihariri kamili cha video.
 
 Unaanzisha Omacut kupitia kianzishi cha programu (`Super + Space`).
 
 ## Monologue
 
-[Monologue](https://github.com/omacom/monologue) ni kinasa kamera ya wavuti cha Omarchy chenyewe rahisi mno. Chagua kamera na maikrofoni yako mara moja, kisha bonyeza `Space` kurekodi, na tena kusitisha na kuendelea na rekodi hiyo hiyo. Daima hurekodi kwa ubora wa juu zaidi wa kamera yako, ikiwa na mita ya maikrofoni ya moja kwa moja ili uweze kuangalia viwango vyako kabla ya kuanza.
+[Monologue](https://github.com/omacom/monologue) ni kinasa kamera ya wavuti cha Spherie chenyewe rahisi mno. Chagua kamera na maikrofoni yako mara moja, kisha bonyeza `Space` kurekodi, na tena kusitisha na kuendelea na rekodi hiyo hiyo. Daima hurekodi kwa ubora wa juu zaidi wa kamera yako, ikiwa na mita ya maikrofoni ya moja kwa moja ili uweze kuangalia viwango vyako kabla ya kuanza.
 
 Sitisha rekodi na hufunguka mara moja katika kihariri kilichojengwa ndani. Bofya mara mbili klipu kuigawa, buruta vishikio kupunguza kila kipande, na ondoa sehemu usizozitaka. Kisha ihifadhi kama MP4. Rekodi yako asili huhifadhiwa hadi uitupe, kwa hiyo unaweza kurudi daima na kuikata tofauti.
 

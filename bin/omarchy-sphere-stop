@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# omarchy:summary=Shut a sphere down
+# omarchy:args=<sphere|--all>
+
+set -euo pipefail
+source "$OMARCHY_PATH/default/spherie/lib.sh"
+
+if [[ $1 == "--all" ]]; then
+  sudo systemctl stop 'spherie@*.service'
+else
+  sphere_load "$1"
+  sudo systemctl stop "spherie@$NAME.service"
+fi

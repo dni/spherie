@@ -1,6 +1,6 @@
 # Dotfiles
 
-Omarchy er primært konfigureret gennem de såkaldte dotfiles, der bor i `~/.config`. De betragtes som dine filer til dine ændringer. Filerne, der bor i `/usr/share/omarchy`, tilhører Omarchy selv, og dem skal du ikke rode med. Hvis du har brug for at ændre noget i `/usr/share/omarchy`, skal du i stedet overskrive værdien i `~/.config`.
+Spherie er primært konfigureret gennem de såkaldte dotfiles, der bor i `~/.config`. De betragtes som dine filer til dine ændringer. Filerne, der bor i `/usr/share/omarchy`, tilhører Spherie selv, og dem skal du ikke rode med. Hvis du har brug for at ændre noget i `/usr/share/omarchy`, skal du i stedet overskrive værdien i `~/.config`.
 
 De vigtigste konfigurationer kan redigeres direkte fra Omarchy-menuen (`Super + Space`), som _Setup > Keyboard > Keybindings_, _Setup > Input_ og _Setup > Config > [file]_. Når du gør det på denne måde, vil enhver proces, der skal genstartes efter konfigurationsændringer, automatisk blive det, når du afslutter editoren (Neovim som standard — `:wq`, husk det! — men du kan ændre det via _Setup > Defaults > Editor_).
 
@@ -32,7 +32,7 @@ Det starter kommandoen som en del af sessionen, så den bliver ryddet ordentligt
 
 ### Kør scripts ved systemhændelser
 
-Omarchy affyrer hooks på en håndfuld tidspunkter, og du kan hænge dine egne scripts på dem. De bor i `~/.config/omarchy/hooks/<event>.d/`, én mappe pr. hændelse, og hver eksekverbar fil derinde kører, når hændelsen sker:
+Spherie affyrer hooks på en håndfuld tidspunkter, og du kan hænge dine egne scripts på dem. De bor i `~/.config/omarchy/hooks/<event>.d/`, én mappe pr. hændelse, og hver eksekverbar fil derinde kører, når hændelsen sker:
 
 | Event | When it runs |
 | ----- | ------------ |
@@ -43,7 +43,7 @@ Omarchy affyrer hooks på en håndfuld tidspunkter, og du kan hænge dine egne s
 | `font-set` | Efter et skrifttypeskift (skrifttypenavn i `$1`) |
 | `battery-low` | Når batteriet bliver lavt (procent i `$1`) |
 
-`pre-refresh-pacman`-hooket er der, hvor brugerdefinerede repositories eller `IgnorePkg`-linjer hører hjemme, eftersom den kører før pakketransaktionen. Begge opdateringsrelaterede hooks kører som din bruger, efter Omarchy rydder sin cachede sudo-autorisation, så et hook, der bruger `sudo`, har brug for sin egen autorisation og kan bede om din adgangskode.
+`pre-refresh-pacman`-hooket er der, hvor brugerdefinerede repositories eller `IgnorePkg`-linjer hører hjemme, eftersom den kører før pakketransaktionen. Begge opdateringsrelaterede hooks kører som din bruger, efter Spherie rydder sin cachede sudo-autorisation, så et hook, der bruger `sudo`, har brug for sin egen autorisation og kan bede om din adgangskode.
 
 Hver af disse mapper indeholder allerede en `.sample`-fil, der viser formen på et hook — fjern `.sample` fra navnet for at tage det i brug. For at installere et script, du har skrevet et andet sted, skal du bruge `omarchy hook install post-boot ~/my-hook`, som kopierer det ind og gør det eksekverbart.
 
@@ -60,7 +60,7 @@ Genbruger du et eksisterende id, tilsidesætter du den række i stedet for at ti
 
 ### Tilføj dine egne shell exports, funktioner og aliaser
 
-Omarchy leveres med en masse ergonomiske aliaser og nyttige funktioner, men det er meget almindeligt at ville tilføje sine egne. Du skal tilføje både aliaser, funktioner og exports i `~/.bashrc`. Denne fil vil ikke blive overskrevet ved opdateringer. Hvis du vil ændre nogen af Omarchy-standarderne, kan du også trygt tilføje dem her.
+Spherie leveres med en masse ergonomiske aliaser og nyttige funktioner, men det er meget almindeligt at ville tilføje sine egne. Du skal tilføje både aliaser, funktioner og exports i `~/.bashrc`. Denne fil vil ikke blive overskrevet ved opdateringer. Hvis du vil ændre nogen af Omarchy-standarderne, kan du også trygt tilføje dem her.
 
 ### Indstil miljøvariabler til skrivebordet
 
@@ -68,7 +68,7 @@ Eksporter til skrivebordssessioner hører hjemme i `~/.config/uwsm/env.d/`. Diss
 
 ### Ændr interne Omarchy-filer
 
-Hør her, det er din computer. Du kan gøre lige, hvad du vil med den, men jeg vil råde dig til ikke at lave ændringer direkte i filerne i `/usr/share/omarchy`. De tilhører Omarchy pacman-pakken, så dine ændringer vil simpelthen blive overskrevet ved næste opdatering. Du har det bedre med bare at overskrive de standardværdier, du ikke kan lide, i mappen `~/.config/*` i stedet.
+Hør her, det er din computer. Du kan gøre lige, hvad du vil med den, men jeg vil råde dig til ikke at lave ændringer direkte i filerne i `/usr/share/omarchy`. De tilhører Spherie pacman-pakken, så dine ændringer vil simpelthen blive overskrevet ved næste opdatering. Du har det bedre med bare at overskrive de standardværdier, du ikke kan lide, i mappen `~/.config/*` i stedet.
 
 Du kan ændre stort set alt på den måde, som standardtastebindingerne. Bare rediger `~/.config/hypr/bindings.lua` for f.eks. at erstatte [Obsidian](https://obsidian.md/) med [Joplin](https://joplinapp.org/) (installer med `omarchy-pkg-add joplin-bin`):
 
@@ -78,7 +78,7 @@ o.rebind("SUPER + SHIFT + O", "Joplin", "joplin-desktop")
 
 `o.rebind` fjerner den eksisterende binding, før den tilføjer sin erstatning. Den tager de samme argumenter som `o.bind`, inklusive launch-hjælpere og bindingsindstillinger. Brug `o.bind` til at tilføje en binding, eller `hl.unbind` til at fjerne en uden at erstatte den.
 
-Hvis du insisterer på at hacke på de interne Omarchy-filer, så skift til dev-kanalen via _Update > Channel > Dev_. Det linker Omarchy til et git-checkout af kildekoden i `~/omarchy`, som du frit kan ændre, alt det hjertet begærer. Der er ingen her, der skal fortælle dig, hvad du skal gøre!
+Hvis du insisterer på at hacke på de interne Omarchy-filer, så skift til dev-kanalen via _Update > Channel > Dev_. Det linker Spherie til et git-checkout af kildekoden i `~/omarchy`, som du frit kan ændre, alt det hjertet begærer. Der er ingen her, der skal fortælle dig, hvad du skal gøre!
 
 ### Nulstil eventuelle ændringer
 

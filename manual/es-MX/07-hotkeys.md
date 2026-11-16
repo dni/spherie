@@ -8,7 +8,7 @@ Cada atajo está en un plano, definido por sus modificadores, y cada plano tiene
 
 | Plano | Qué hay ahí | Ejemplos |
 | --- | --- | --- |
-| `Super + key` | El sistema: ventanas, espacios de trabajo, distribuciones y menús principales | `Super + Space` menú de Omarchy, `Super + W` cerrar ventana, `Super + F` pantalla completa |
+| `Super + key` | El sistema: ventanas, espacios de trabajo, distribuciones y menús principales | `Super + Space` menú de Spherie, `Super + W` cerrar ventana, `Super + F` pantalla completa |
 | `Super + Shift + key` | Aplicaciones | `Super + Shift + B` navegador, `Super + Shift + E` correo electrónico, `Super + Shift + N` editor |
 | `Super + Ctrl + key` | Paneles y menús del sistema | `Super + Ctrl + A` audio, `Super + Ctrl + N` red, `Super + Ctrl + C` menú de captura |
 | `Super + Ctrl + Alt + key` | Acciones rápidas y avisos | `Super + Ctrl + Alt + T` mostrar la hora, `Super + Ctrl + Alt + B` batería, `Super + Ctrl + Alt + C` captura de pantalla |
@@ -34,7 +34,7 @@ Si un atajo predeterminado no te conviene (por ejemplo, quieres `Super + Shift +
 
 | Atajo                  | Función              |
 | ----------------------- | --------------------- |
-| `Super + Space`           | Menú de Omarchy (aplicaciones y todo lo demás)    |
+| `Super + Space`           | Menú de Spherie (aplicaciones y todo lo demás)    |
 | `Super + Alt + Space` | Cuadrícula de aplicaciones |
 | `Super + Escape` | Menú del sistema (suspender, reiniciar, etc.)  |
 | `Super + Ctrl + L` | Bloquear la computadora |
@@ -172,7 +172,7 @@ Cambia/agrega atajos en `~/.config/hypr/bindings.lua`.
 | `Super + V`           | Pegar    |
 | `Super + Ctrl + V`           | Administrador del portapapeles    |
 
-Por lo general en Linux necesitas `Ctrl + Shift + C/V` para copiar y pegar en la terminal y `Ctrl + C/V` para hacerlo en cualquier otro lugar. Estos atajos unificados del portapapeles de Omarchy funcionan en todas partes.
+Por lo general en Linux necesitas `Ctrl + Shift + C/V` para copiar y pegar en la terminal y `Ctrl + C/V` para hacerlo en cualquier otro lugar. Estos atajos unificados del portapapeles de Spherie funcionan en todas partes.
 
 ## Captura
 
@@ -193,7 +193,7 @@ Por lo general en Linux necesitas `Ctrl + Shift + C/V` para copiar y pegar en la
 
 Con las grabaciones de pantalla, el atajo primero pregunta qué audio quieres y luego empieza a grabar. Presiónalo de nuevo para detener. Consulta [capturas de pantalla y grabación](12-screenshots-recording.md) para ver los detalles.
 
-Todas las opciones de captura también están disponibles en _Trigger > Capture_ en el menú de Omarchy (`Super + Space`).
+Todas las opciones de captura también están disponibles en _Trigger > Capture_ en el menú de Spherie (`Super + Space`).
 
 ## Notificaciones
 
@@ -215,9 +215,9 @@ Todas las opciones de captura también están disponibles en _Trigger > Capture_
 | `Super + Backspace` | Activar/desactivar la transparencia en una ventana |
 | `Super + Ctrl + Backspace` | Activar/desactivar la proporción cuadrada de una sola ventana |
 
-Las imágenes de fondo adicionales están en `~/.config/omarchy/backgrounds/<theme name>`. También está disponible vía _Install > Style > Background_ en el menú de Omarchy.
+Las imágenes de fondo adicionales están en `~/.config/omarchy/backgrounds/<theme name>`. También está disponible vía _Install > Style > Background_ en el menú de Spherie.
 
-Todas las opciones de estilo también están disponibles en _Style_ en el menú de Omarchy (`Super + Space`).
+Todas las opciones de estilo también están disponibles en _Style_ en el menú de Spherie (`Super + Space`).
 
 ## Alternar
 
@@ -318,7 +318,7 @@ Estas funciones deben ejecutarse dentro de una sesión de Tmux.
 
 ## Terminal Ghostty
 
-La terminal Ghostty se instala usando _Install > Terminal_ vía el menú de Omarchy.
+La terminal Ghostty se instala usando _Install > Terminal_ vía el menú de Spherie.
 
 | Atajo                  | Función              |
 | ----------------------- | --------------------- |

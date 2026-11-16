@@ -20,11 +20,11 @@ Obsidian miễn phí cho mọi mục đích, bao gồm sử dụng cá nhân, th
 
 Obsidian cũng cung cấp một [tiện ích bổ sung thương mại để đồng bộ](https://obsidian.md/sync) với các ứng dụng di động trên iOS và Android. (https://obsidian.md/pricing).
 
-Bạn khởi chạy Obsidian bằng `Super + Shift + O`. Để sử dụng đồng bộ chủ đề, bạn phải chọn chủ đề `Omarchy` trong phần cài đặt.
+Bạn khởi chạy Obsidian bằng `Super + Shift + O`. Để sử dụng đồng bộ chủ đề, bạn phải chọn chủ đề `Spherie` trong phần cài đặt.
 
 ## Omawrite
 
-[Omawrite](https://github.com/omacom-io/omawrite) là ứng dụng viết Markdown cực kỳ đơn giản của riêng Omarchy. Không vault, không plugin, chỉ có bạn và những con chữ.
+[Omawrite](https://github.com/omacom-io/omawrite) là ứng dụng viết Markdown cực kỳ đơn giản của riêng Spherie. Không vault, không plugin, chỉ có bạn và những con chữ.
 
 Bạn khởi chạy Omawrite bằng `Super + Shift + W`.
 
@@ -44,7 +44,7 @@ Bạn khởi chạy Aether qua trình khởi chạy ứng dụng (`Super + Space
 
 [LocalSend](https://localsend.org/) cho phép bạn gửi tệp tới các thiết bị khác trên cùng mạng đang chạy ứng dụng, giống như AirDrop của Apple. Tuy nhiên, nó đa nền tảng, nên bạn có thể gửi tệp tới và từ Windows, macOS, Android, iOS và tất nhiên là Linux.
 
-Bạn có thể mở menu Share bằng `Super + Ctrl + S` hoặc trong _Trigger > Share_ trong menu của Omarchy. Nó cho bạn bốn tùy chọn:
+Bạn có thể mở menu Share bằng `Super + Ctrl + S` hoặc trong _Trigger > Share_ trong menu của Spherie. Nó cho bạn bốn tùy chọn:
 
 - **Clipboard** gửi bất cứ thứ gì bạn đã sao chép dưới dạng một tệp văn bản. Tuyệt vời để đưa một liên kết hoặc một đoạn mã lên điện thoại của bạn mà không cần tự gửi email cho mình.
 - **File** mở một bộ chọn tệp nơi bạn có thể chọn nhiều tệp cùng lúc.
@@ -55,7 +55,7 @@ Bạn có thể mở menu Share bằng `Super + Ctrl + S` hoặc trong _Trigger 
 
 Bạn cũng có thể gửi thẳng từ trình quản lý tệp: nhấp chuột phải vào bất kỳ lựa chọn nào trong Nautilus và chọn _Send via LocalSend_.
 
-Tường lửa của Omarchy đóng theo mặc định ngoại trừ cổng của LocalSend, nên tính năng này hoạt động ngay từ đầu trên một bản cài đặt mới. Xem [bảo mật](48-security.md).
+Tường lửa của Spherie đóng theo mặc định ngoại trừ cổng của LocalSend, nên tính năng này hoạt động ngay từ đầu trên một bản cài đặt mới. Xem [bảo mật](48-security.md).
 
 ## LibreOffice
 
@@ -65,19 +65,19 @@ Bạn khởi chạy LibreOffice qua trình khởi chạy ứng dụng (`Super + 
 
 ## Hype
 
-[Hype](https://github.com/omacom/hype) là ứng dụng trình chiếu cực kỳ đơn giản của riêng Omarchy. Bài thuyết trình của bạn là một tệp Markdown duy nhất với hình ảnh và video nằm bên cạnh: viết mỗi slide bên dưới một bản xem trước trực tiếp, kéo các slide vào đúng thứ tự, rồi trình chiếu toàn màn hình hoặc xuất ra PDF và PowerPoint. Nó thậm chí còn nhận chủ đề Omarchy của bạn.
+[Hype](https://github.com/omacom/hype) là ứng dụng trình chiếu cực kỳ đơn giản của riêng Spherie. Bài thuyết trình của bạn là một tệp Markdown duy nhất với hình ảnh và video nằm bên cạnh: viết mỗi slide bên dưới một bản xem trước trực tiếp, kéo các slide vào đúng thứ tự, rồi trình chiếu toàn màn hình hoặc xuất ra PDF và PowerPoint. Nó thậm chí còn nhận chủ đề Spherie của bạn.
 
 Bạn khởi chạy Hype qua trình khởi chạy ứng dụng (`Super + Space`). Nhấn `?` bên trong nó để xem mọi phím tắt.
 
 ## Signed
 
-[Signed](https://github.com/omacom/signed) là cách cực kỳ đơn giản của riêng Omarchy để ký PDF và điền vào chúng. Đặt chữ ký đã lưu, văn bản và ngày hôm nay của bạn ở bất cứ đâu trên một trang, rồi lưu một bản sao đã ký bên cạnh bản gốc. Xem [Điền vào PDF](27-filling-out-pdfs.md) để biết cách làm.
+[Signed](https://github.com/omacom/signed) là cách cực kỳ đơn giản của riêng Spherie để ký PDF và điền vào chúng. Đặt chữ ký đã lưu, văn bản và ngày hôm nay của bạn ở bất cứ đâu trên một trang, rồi lưu một bản sao đã ký bên cạnh bản gốc. Xem [Điền vào PDF](27-filling-out-pdfs.md) để biết cách làm.
 
 Bạn khởi chạy Signed qua trình khởi chạy ứng dụng (`Super + Space`), hoặc mở một PDF bằng nó từ trình quản lý tệp.
 
 ## Omacalc
 
-[Omacalc](https://github.com/omacom-io/omacalc) là máy tính cực kỳ đơn giản của riêng Omarchy, mở trong một cửa sổ nổi.
+[Omacalc](https://github.com/omacom-io/omacalc) là máy tính cực kỳ đơn giản của riêng Spherie, mở trong một cửa sổ nổi.
 
 Bạn khởi chạy Omacalc bằng `Super + Shift + Q` (hoặc phím máy tính, nếu bàn phím của bạn có phím đó).
 
@@ -85,11 +85,11 @@ Bạn khởi chạy Omacalc bằng `Super + Shift + Q` (hoặc phím máy tính,
 
 [Signal](https://signal.org/) là đơn vị tiên phong về nhắn tin mã hóa E2E, và là một lựa chọn liên lạc tuyệt vời cho bất kỳ ai không muốn đi qua một trong những tập đoàn công nghệ lớn.
 
-Bạn khởi chạy Signal bằng `Super + Shift + G`. Nó không phải là một phần của bản cài đặt cơ bản, nên lần đầu tiên bạn nhấn phím đó, Omarchy sẽ đề nghị cài đặt nó cho bạn (nó cũng nằm trong _Install > Service_ trong menu của Omarchy).
+Bạn khởi chạy Signal bằng `Super + Shift + G`. Nó không phải là một phần của bản cài đặt cơ bản, nên lần đầu tiên bạn nhấn phím đó, Spherie sẽ đề nghị cài đặt nó cho bạn (nó cũng nằm trong _Install > Service_ trong menu của Spherie).
 
 ## Omaview
 
-[Omaview](https://github.com/omacom/omaview) là trình xem hình ảnh và trình phát đa phương tiện cực kỳ đơn giản của riêng Omarchy: một cửa sổ cho ảnh, video và nhạc của bạn. Mở một bức ảnh và các phím mũi tên sẽ bước qua phần còn lại của thư mục của nó, `N` và `P` làm điều đó cho bất cứ thứ gì, và `Ctrl + M` hiển thị toàn bộ thư mục dưới dạng lưới. Nó cũng hiển thị ảnh HEIC, AVIF và JPEG XL, và tiếp tục từ nơi bạn đã dừng lại trong bất cứ thứ gì dài.
+[Omaview](https://github.com/omacom/omaview) là trình xem hình ảnh và trình phát đa phương tiện cực kỳ đơn giản của riêng Spherie: một cửa sổ cho ảnh, video và nhạc của bạn. Mở một bức ảnh và các phím mũi tên sẽ bước qua phần còn lại của thư mục của nó, `N` và `P` làm điều đó cho bất cứ thứ gì, và `Ctrl + M` hiển thị toàn bộ thư mục dưới dạng lưới. Nó cũng hiển thị ảnh HEIC, AVIF và JPEG XL, và tiếp tục từ nơi bạn đã dừng lại trong bất cứ thứ gì dài.
 
 Nhấn `F` để toàn màn hình, `E` để chỉnh sửa một bức ảnh trong Omasnap hoặc cắt một video trong Omacut, `Ctrl + P` để in một bức ảnh, và `Delete` để di chuyển một tệp vào Trash (`Ctrl + Z` đưa nó trở lại). Nhấn `?` bên trong nó để xem mọi phím tắt.
 
@@ -97,13 +97,13 @@ Bạn khởi chạy Omaview dưới tên _Media Viewer_ qua trình khởi chạy
 
 ## Omacut
 
-[Omacut](https://github.com/omacom-io/omacut) là trình cắt video cực kỳ đơn giản của riêng Omarchy. Khi tất cả những gì bạn cần là cắt phần đầu và phần cuối của một clip, nó hơn hẳn việc khởi động một trình chỉnh sửa video đầy đủ.
+[Omacut](https://github.com/omacom-io/omacut) là trình cắt video cực kỳ đơn giản của riêng Spherie. Khi tất cả những gì bạn cần là cắt phần đầu và phần cuối của một clip, nó hơn hẳn việc khởi động một trình chỉnh sửa video đầy đủ.
 
 Bạn khởi chạy Omacut qua trình khởi chạy ứng dụng (`Super + Space`).
 
 ## Monologue
 
-[Monologue](https://github.com/omacom/monologue) là trình ghi webcam cực kỳ đơn giản của riêng Omarchy. Chọn camera và microphone của bạn một lần, rồi nhấn `Space` để ghi, và nhấn lại để tạm dừng và tiếp tục cùng một bản ghi. Nó luôn ghi ở độ phân giải cao nhất của camera của bạn, với một đồng hồ đo microphone trực tiếp để bạn có thể kiểm tra mức âm lượng trước khi bắt đầu.
+[Monologue](https://github.com/omacom/monologue) là trình ghi webcam cực kỳ đơn giản của riêng Spherie. Chọn camera và microphone của bạn một lần, rồi nhấn `Space` để ghi, và nhấn lại để tạm dừng và tiếp tục cùng một bản ghi. Nó luôn ghi ở độ phân giải cao nhất của camera của bạn, với một đồng hồ đo microphone trực tiếp để bạn có thể kiểm tra mức âm lượng trước khi bắt đầu.
 
 Dừng bản ghi và nó sẽ mở ngay trong một trình chỉnh sửa tích hợp sẵn. Nhấp đúp vào một clip để chia nó, kéo các tay cầm để cắt mỗi đoạn, và loại bỏ những phần bạn không muốn. Sau đó lưu nó dưới dạng MP4. Bản ghi gốc của bạn được giữ cho đến khi bạn loại bỏ nó, nên bạn luôn có thể quay lại và cắt nó theo cách khác.
 

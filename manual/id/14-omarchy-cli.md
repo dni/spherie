@@ -1,6 +1,6 @@
-# Omarchy CLI
+# Spherie CLI
 
-Omarchy biasanya dikendalikan melalui hotkey dan menu Omarchy (`Super + Space`). Tapi kamu juga bisa mengendalikannya melalui CLI `omarchy`. Ini sangat membantu saat kamu meminta agen AI bekerja bersamamu dalam kustomisasi atau konfigurasi.
+Spherie biasanya dikendalikan melalui hotkey dan menu Spherie (`Super + Space`). Tapi kamu juga bisa mengendalikannya melalui CLI `omarchy`. Ini sangat membantu saat kamu meminta agen AI bekerja bersamamu dalam kustomisasi atau konfigurasi.
 
 CLI ini punya akses ke semua perkakas internal yang digunakan baik melalui menu maupun cara lain. Kamu bisa melihat semua yang tersedia dengan menjalankan `omarchy` di terminal.
 
@@ -8,7 +8,7 @@ Tampilannya kurang lebih seperti ini:
 
 ```
 ~ ❯ omarchy
-Omarchy command center
+Spherie command center
 
 Usage:
   omarchy <command> [args...]
@@ -17,7 +17,7 @@ Usage:
   omarchy <group> <command> --help
 
 Common commands:
-  omarchy update              Update Omarchy and system packages
+  omarchy update              Update Spherie and system packages
   omarchy theme list          List available themes
   omarchy theme set <name>    Apply a theme
   omarchy font list           List available fonts
@@ -27,14 +27,14 @@ Common commands:
 Groups:
   agent          AI coding agents, their usage, and subscription accounts
   audio          Audio input and output controls
-  bar            Omarchy shell bar layout and settings
+  bar            Spherie shell bar layout and settings
   battery        Battery status helpers
   bluetooth      Bluetooth device controls
-  branch         Omarchy git branch management
+  branch         Spherie git branch management
   branding       About and screensaver branding
   brightness     Display and keyboard brightness
   capture        Screenshots and screen recording
-  channel        Omarchy release channel management
+  channel        Spherie release channel management
   clipboard      Clipboard helpers
   cmd            Command and shortcut helpers
   config         System configuration helpers
@@ -59,4 +59,4 @@ Setiap perintah juga menerima `--help`, baik saat kamu menanyakan seluruh grup (
 
 ### Membuka menu dari terminal
 
-Menu Omarchy juga bisa diskrip, yang berguna untuk keybinding kamu sendiri. `omarchy menu` membukanya di root, dan kamu bisa langsung lompat ke titik mana pun di pohonnya dengan menyebut namanya: `omarchy menu summon appearance.theme` langsung menuju pemilih tema, `omarchy menu toggle system` membuka menu sistem dan menutupnya lagi jika sudah terbuka, dan `omarchy menu close` menyingkirkannya.
+Menu Spherie juga bisa diskrip, yang berguna untuk keybinding kamu sendiri. `omarchy menu` membukanya di root, dan kamu bisa langsung lompat ke titik mana pun di pohonnya dengan menyebut namanya: `omarchy menu summon appearance.theme` langsung menuju pemilih tema, `omarchy menu toggle system` membuka menu sistem dan menutupnya lagi jika sudah terbuka, dan `omarchy menu close` menyingkirkannya.

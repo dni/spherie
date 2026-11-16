@@ -8,7 +8,7 @@
 
 | מישור | מה נמצא שם | דוגמאות |
 | --- | --- | --- |
-| `Super + key` | המערכת: חלונות, סביבות עבודה, פריסות ותפריטי ליבה | `Super + Space` תפריט Omarchy, `Super + W` סגירת חלון, `Super + F` מסך מלא |
+| `Super + key` | המערכת: חלונות, סביבות עבודה, פריסות ותפריטי ליבה | `Super + Space` תפריט Spherie, `Super + W` סגירת חלון, `Super + F` מסך מלא |
 | `Super + Shift + key` | אפליקציות | `Super + Shift + B` דפדפן, `Super + Shift + E` אימייל, `Super + Shift + N` עורך |
 | `Super + Ctrl + key` | לוחות ותפריטי מערכת | `Super + Ctrl + A` שמע, `Super + Ctrl + N` רשת, `Super + Ctrl + C` תפריט לכידה |
 | `Super + Ctrl + Alt + key` | פעולות מהירות והודעות | `Super + Ctrl + Alt + T` הצגת שעה, `Super + Ctrl + Alt + B` סוללה, `Super + Ctrl + Alt + C` צילום מסך |
@@ -34,7 +34,7 @@
 
 | קיצור מקלדת | פעולה |
 | ----------------------- | --------------------- |
-| `Super + Space` | תפריט Omarchy (אפליקציות וכל השאר) |
+| `Super + Space` | תפריט Spherie (אפליקציות וכל השאר) |
 | `Super + Alt + Space` | רשת אפליקציות |
 | `Super + Escape` | תפריט מערכת (השהיה, הפעלה מחדש וכו') |
 | `Super + Ctrl + L` | נעילת המחשב |
@@ -172,7 +172,7 @@
 | `Super + V` | הדבקה |
 | `Super + Ctrl + V` | מנהל לוח העתקה |
 
-בדרך כלל ב-Linux, אתה צריך `Ctrl + Shift + C/V` כדי להעתיק ולהדביק במסוף ו-`Ctrl + C/V` כדי לעשות זאת בכל מקום אחר. קיצורי לוח ההעתקה המאוחדים האלה של Omarchy עובדים בכל מקום.
+בדרך כלל ב-Linux, אתה צריך `Ctrl + Shift + C/V` כדי להעתיק ולהדביק במסוף ו-`Ctrl + C/V` כדי לעשות זאת בכל מקום אחר. קיצורי לוח ההעתקה המאוחדים האלה של Spherie עובדים בכל מקום.
 
 ## לכידה
 
@@ -193,7 +193,7 @@
 
 עם הקלטות מסך, קיצור המקלדת שואל קודם איזה שמע אתה רוצה, ואז מתחיל להקליט. לחץ עליו שוב כדי לעצור. ראה [צילומי מסך והקלטה](12-screenshots-recording.md) לפרטים.
 
-כל אפשרויות הלכידה נגישות גם תחת _Trigger > Capture_ בתפריט Omarchy (`Super + Space`).
+כל אפשרויות הלכידה נגישות גם תחת _Trigger > Capture_ בתפריט Spherie (`Super + Space`).
 
 ## התראות
 
@@ -215,9 +215,9 @@
 | `Super + Backspace` | החלפת שקיפות בחלון |
 | `Super + Ctrl + Backspace` | החלפת יחס ריבועי לחלון בודד |
 
-תמונות רקע נוספות נמצאות ב-`~/.config/omarchy/backgrounds/<theme name>`. זמין גם דרך _Install > Style > Background_ בתפריט Omarchy.
+תמונות רקע נוספות נמצאות ב-`~/.config/omarchy/backgrounds/<theme name>`. זמין גם דרך _Install > Style > Background_ בתפריט Spherie.
 
-כל אפשרויות הסגנון נגישות גם תחת _Style_ בתפריט Omarchy (`Super + Space`).
+כל אפשרויות הסגנון נגישות גם תחת _Style_ בתפריט Spherie (`Super + Space`).
 
 ## מתגים
 
@@ -318,7 +318,7 @@
 
 ## מסוף Ghostty
 
-מסוף Ghostty מותקן באמצעות _Install > Terminal_ דרך תפריט Omarchy.
+מסוף Ghostty מותקן באמצעות _Install > Terminal_ דרך תפריט Spherie.
 
 | קיצור מקלדת | פעולה |
 | ----------------------- | --------------------- |

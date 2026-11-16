@@ -1,0 +1,11 @@
+[Unit]
+Description=Spherie GUI bridge (waypipe socket -> host over vsock)
+
+[Service]
+RuntimeDirectory=spherie
+RuntimeDirectoryMode=0755
+ExecStart=/usr/bin/socat UNIX-LISTEN:/run/spherie/gui.sock,fork,unlink-early,user=user,mode=600 VSOCK-CONNECT:2:7000
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

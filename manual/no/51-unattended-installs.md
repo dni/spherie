@@ -2,7 +2,7 @@
 
 Omarchy-ISO-en kan installere seg selv uten noen ved tastaturet. Hvis installasjonsprogrammet finner en ekstra disk merket `cidata` som bærer konfigurasjonsfilene sine, kopierer det dem av, hopper over oppsettsveiviseren helt og starter på nytt inn i det ferdige systemet på egen hånd. Ingen spesiell ISO-bygg, ingen ekstra oppføring i oppstartsmenyen — uten en slik disk tilkoblet endres ingenting, og du får den vanlige veiviseren.
 
-Dette gjør Omarchy ypperlig som grunnimage for disponible utviklingsmiljøer: opprett en VM i Proxmox eller med Packer, start den, gå din vei, SSH inn. `cidata` er cloud-init `NoCloud`-etiketten, så alle de vanlige virtualiseringsverktøyene vet allerede hvordan de fester en slik disk.
+Dette gjør Spherie ypperlig som grunnimage for disponible utviklingsmiljøer: opprett en VM i Proxmox eller med Packer, start den, gå din vei, SSH inn. `cidata` er cloud-init `NoCloud`-etiketten, så alle de vanlige virtualiseringsverktøyene vet allerede hvordan de fester en slik disk.
 
 ## Konfigurasjonsfilene
 

@@ -1,8 +1,8 @@
 # Instalace bez obsluhy
 
-ISO Omarchy se dokáže nainstalovat samo, aniž by někdo seděl u klávesnice. Pokud instalační program najde druhý disk s označením `cidata`, který obsahuje jeho konfigurační soubory, zkopíruje je z něj, úplně přeskočí průvodce nastavením a sám se restartuje do hotového systému. Žádný speciální build ISO, žádná další položka ve spouštěcí nabídce — pokud takový disk není připojený, nic se nezmění a dostanete běžného průvodce.
+ISO Spherie se dokáže nainstalovat samo, aniž by někdo seděl u klávesnice. Pokud instalační program najde druhý disk s označením `cidata`, který obsahuje jeho konfigurační soubory, zkopíruje je z něj, úplně přeskočí průvodce nastavením a sám se restartuje do hotového systému. Žádný speciální build ISO, žádná další položka ve spouštěcí nabídce — pokud takový disk není připojený, nic se nezmění a dostanete běžného průvodce.
 
-Omarchy je tak skvělé jako základní image pro jednorázová vývojová prostředí: vytvořte VM v Proxmox nebo pomocí Packer, spusťte ji, odejděte a připojte se přes SSH. `cidata` je označení cloud-init `NoCloud`, takže všechny běžné nástroje pro virtualizaci už vědí, jak takový disk připojit.
+Spherie je tak skvělé jako základní image pro jednorázová vývojová prostředí: vytvořte VM v Proxmox nebo pomocí Packer, spusťte ji, odejděte a připojte se přes SSH. `cidata` je označení cloud-init `NoCloud`, takže všechny běžné nástroje pro virtualizaci už vědí, jak takový disk připojit.
 
 ## Konfigurační soubory
 
@@ -24,7 +24,7 @@ Místo `user_credentials.json` můžete také vložit prázdný soubor s názvem
 
 ## Přístup přes SSH
 
-Když je přítomen soubor `authorized_keys`, instalace nastaví klíče jako `~/.ssh/authorized_keys` uživatele, povolí `sshd` a otevře pro něj firewall. (Běžná instalace Omarchy obsahuje openssh s vypnutou službou a zavřeným portem, takže stroj bez obsluhy by jinak byl nedostupný.) Instalace pouze přidá vaše klíče — nezměkčuje žádná další nastavení ověřování démona SSH.
+Když je přítomen soubor `authorized_keys`, instalace nastaví klíče jako `~/.ssh/authorized_keys` uživatele, povolí `sshd` a otevře pro něj firewall. (Běžná instalace Spherie obsahuje openssh s vypnutou službou a zavřeným portem, takže stroj bez obsluhy by jinak byl nedostupný.) Instalace pouze přidá vaše klíče — nezměkčuje žádná další nastavení ověřování démona SSH.
 
 Když je naopak přítomen soubor `tailscale_authkey`, stroj se při prvním spuštění připojí k vaší síti tailnet: Tailscale se nainstaluje z balíčků přibalených na ISO, firewall povolí rozhraní tailnetu a úloha na pozadí provede připojení, jakmile bude mít stroj skutečně síť, a opakuje pokusy, dokud se jí to nepodaří. Použijte opakovaně použitelný, předem autorizovaný klíč, aby jedna image disku mohla sloužit mnoha strojům.
 
@@ -38,7 +38,7 @@ cp user_configuration.json user_credentials.json authorized_keys cidata/
 genisoimage -output cidata.iso -volid cidata -joliet -rock cidata/
 ```
 
-Poté ho připojte k VM spolu s ISO Omarchy. Tady je kompletní příklad pro Proxmox:
+Poté ho připojte k VM spolu s ISO Spherie. Tady je kompletní příklad pro Proxmox:
 
 ```bash
 qm create 101 --name my-omarchy \

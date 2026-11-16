@@ -1,0 +1,39 @@
+# waypipe with Spherie's isolation patch: a global allowlist, a title prefix
+# on every toplevel from creation, and an owner-gated clipboard.
+# Upstreaming target: https://gitlab.freedesktop.org/mstoeckl/waypipe
+
+pkgname=waypipe-spherie
+pkgver=0.11.3.r0.2dd232c
+pkgrel=1
+pkgdesc="Network proxy for Wayland clients, with Spherie's sphere isolation patch"
+arch=(x86_64 aarch64)
+url="https://gitlab.freedesktop.org/mstoeckl/waypipe"
+license=(GPL-3.0-or-later)
+depends=(lz4 zstd)
+makedepends=(git meson cargo scdoc)
+provides=(waypipe)
+conflicts=(waypipe)
+_commit=2dd232c0b6e3c0f3d4c5f16e3feb137463bf2aaa
+source=("git+$url.git#commit=$_commit"
+        0001-spherie-isolation.patch)
+sha256sums=('SKIP'
+            'SKIP')
+
+prepare() {
+  cd waypipe
+  patch -Np1 <../0001-spherie-isolation.patch
+}
+
+build() {
+  # Spheres have no GPU passthrough yet, so build without dmabuf/video.
+  arch-meson waypipe build -Dwith_dmabuf=disabled -Dwith_video=disabled -Dwith_gbm=disabled
+  meson compile -C build
+}
+
+check() {
+  meson test -C build --print-errorlogs
+}
+
+package() {
+  meson install -C build --destdir "$pkgdir"
+}

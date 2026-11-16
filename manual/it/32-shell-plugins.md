@@ -1,10 +1,10 @@
 # Plugin della shell
 
-Il desktop Omarchy gira come un singolo processo Quickshell a lunga durata chiamato `omarchy-shell`, e quasi tutto ciò che vedi sullo schermo è un plugin al suo interno. La barra è un plugin. Lo sono anche i pannelli che scendono da essa, gli overlay a schermo intero come il selettore di emoji e il gestore degli appunti, il menu Omarchy stesso, la schermata di blocco, la finestra di dialogo polkit e i servizi headless che monitorano la batteria e riscaldano lo schermo di notte.
+Il desktop Spherie gira come un singolo processo Quickshell a lunga durata chiamato `omarchy-shell`, e quasi tutto ciò che vedi sullo schermo è un plugin al suo interno. La barra è un plugin. Lo sono anche i pannelli che scendono da essa, gli overlay a schermo intero come il selettore di emoji e il gestore degli appunti, il menu Spherie stesso, la schermata di blocco, la finestra di dialogo polkit e i servizi headless che monitorano la batteria e riscaldano lo schermo di notte.
 
-Non è solo un dettaglio di implementazione. Significa che puoi disattivare pezzi del desktop, sostituirli o scriverne di tuoi senza toccare una riga del sorgente di Omarchy.
+Non è solo un dettaglio di implementazione. Significa che puoi disattivare pezzi del desktop, sostituirli o scriverne di tuoi senza toccare una riga del sorgente di Spherie.
 
-I plugin di prima parte sono inclusi con Omarchy e vivono in `$OMARCHY_PATH/shell/plugins/`. Tutto ciò che aggiungi tu — i tuoi esperimenti o qualcosa che hai trovato su GitHub — vive in `~/.config/omarchy/plugins/`. Entrambi vengono scoperti allo stesso modo all'avvio, ma quelli integrati ricevono interfacce shell fidate mentre i plugin di terze parti ricevono un'interfaccia limitata circoscritta al proprio servizio e ciclo di vita. I cloni di quelli integrati conservano solo la configurazione specifica della sorgente e le chiamate UI necessarie per il comportamento originale.
+I plugin di prima parte sono inclusi con Spherie e vivono in `$OMARCHY_PATH/shell/plugins/`. Tutto ciò che aggiungi tu — i tuoi esperimenti o qualcosa che hai trovato su GitHub — vive in `~/.config/omarchy/plugins/`. Entrambi vengono scoperti allo stesso modo all'avvio, ma quelli integrati ricevono interfacce shell fidate mentre i plugin di terze parti ricevono un'interfaccia limitata circoscritta al proprio servizio e ciclo di vita. I cloni di quelli integrati conservano solo la configurazione specifica della sorgente e le chiamate UI necessarie per il comportamento originale.
 
 ## Vedere cosa hai
 
@@ -101,4 +101,4 @@ Per lo sviluppo di plugin, vedi il [riferimento della shell](https://github.com/
 
 Una volta che hai creato qualcosa che ti piace, mettilo in un repo git pubblico. Questo è l'intero meccanismo di distribuzione — chiunque può poi eseguire `omarchy plugin add` contro il tuo URL e averlo in funzione in pochi secondi.
 
-Per aiutare le persone a trovarlo davvero, elencalo su [plugins.omarchy.org](https://plugins.omarchy.org). È il marketplace per i plugin della shell Omarchy, ed è il primo posto dove guardare quando ti chiedi se qualcuno ha già costruito il widget che stai per scrivere. Dagli un'occhiata prima di iniziare!
+Per aiutare le persone a trovarlo davvero, elencalo su [plugins.omarchy.org](https://plugins.omarchy.org). È il marketplace per i plugin della shell Spherie, ed è il primo posto dove guardare quando ti chiedi se qualcuno ha già costruito il widget che stai per scrivere. Dagli un'occhiata prima di iniziare!

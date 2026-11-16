@@ -1,10 +1,10 @@
 # Pluginuri de shell
 
-Desktopul Omarchy rulează ca un singur proces Quickshell cu viață lungă, numit `omarchy-shell`, și aproape tot ce vezi pe ecran este un plugin în interiorul lui. Bara este un plugin. La fel sunt panourile care coboară din ea, suprapunerile pe tot ecranul precum selectorul de emoji și managerul de clipboard, meniul Omarchy însuși, ecranul de blocare, dialogul polkit și serviciile fără cap care îți urmăresc bateria și îți încălzesc ecranul noaptea.
+Desktopul Spherie rulează ca un singur proces Quickshell cu viață lungă, numit `omarchy-shell`, și aproape tot ce vezi pe ecran este un plugin în interiorul lui. Bara este un plugin. La fel sunt panourile care coboară din ea, suprapunerile pe tot ecranul precum selectorul de emoji și managerul de clipboard, meniul Spherie însuși, ecranul de blocare, dialogul polkit și serviciile fără cap care îți urmăresc bateria și îți încălzesc ecranul noaptea.
 
-Acesta nu este doar un detaliu de implementare. Înseamnă că poți opri părți ale desktopului, le poți înlocui sau îți poți scrie propriile tale fără să atingi o linie din sursa Omarchy.
+Acesta nu este doar un detaliu de implementare. Înseamnă că poți opri părți ale desktopului, le poți înlocui sau îți poți scrie propriile tale fără să atingi o linie din sursa Spherie.
 
-Pluginurile primare vin cu Omarchy și trăiesc în `$OMARCHY_PATH/shell/plugins/`. Orice adaugi tu însuți — experimentele tale proprii sau ceva găsit pe GitHub — trăiește în `~/.config/omarchy/plugins/`. Ambele sunt descoperite în același mod la pornire, dar cele încorporate primesc interfețe de shell de încredere, în timp ce pluginurile terțe primesc o interfață limitată, restrânsă la propriul lor serviciu și ciclu de viață. Clonele celor încorporate păstrează numai configurația specifică sursei și apelurile UI necesare pentru comportamentul original.
+Pluginurile primare vin cu Spherie și trăiesc în `$OMARCHY_PATH/shell/plugins/`. Orice adaugi tu însuți — experimentele tale proprii sau ceva găsit pe GitHub — trăiește în `~/.config/omarchy/plugins/`. Ambele sunt descoperite în același mod la pornire, dar cele încorporate primesc interfețe de shell de încredere, în timp ce pluginurile terțe primesc o interfață limitată, restrânsă la propriul lor serviciu și ciclu de viață. Clonele celor încorporate păstrează numai configurația specifică sursei și apelurile UI necesare pentru comportamentul original.
 
 ## Cum vezi ce ai
 
@@ -101,4 +101,4 @@ Pentru dezvoltarea de pluginuri, vezi [referința de shell](https://github.com/o
 
 Odată ce ai făcut ceva ce-ți place, pune-l într-un depozit git public. Acesta este întregul mecanism de distribuție — oricine poate apoi rula `omarchy plugin add` pentru URL-ul tău și îl poate avea rulând în câteva secunde.
 
-Ca să ajuți oamenii să-l găsească de fapt, listează-l la [plugins.omarchy.org](https://plugins.omarchy.org). Aceea este piața pentru pluginurile de shell Omarchy și este primul loc în care să te uiți când te întrebi dacă cineva a construit deja widgetul pe care ești pe cale să-l scrii. Răsfoiește-o înainte să începi!
+Ca să ajuți oamenii să-l găsească de fapt, listează-l la [plugins.omarchy.org](https://plugins.omarchy.org). Aceea este piața pentru pluginurile de shell Spherie și este primul loc în care să te uiți când te întrebi dacă cineva a construit deja widgetul pe care ești pe cale să-l scrii. Răsfoiește-o înainte să începi!

@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# omarchy:summary=Run the host-side waypipe client for one sphere
+# omarchy:args=<sphere>
+# omarchy:hidden=true
+
+set -euo pipefail
+source "$OMARCHY_PATH/default/spherie/lib.sh"
+
+sphere_load "$1"
+
+# Fail closed: without the isolation patch every sphere could read the
+# clipboard and capture the screen.
+if ! waypipe --help 2>&1 | grep -q -- '--clipboard-owner'; then
+  omarchy-notification-send "$(omarchy-i18n sphere.title)" "$(omarchy-i18n sphere.guiUnpatched "$NAME")"
+  echo "waypipe without --clipboard-owner support; install waypipe-spherie" >&2
+  exit 1
+fi
+
+allowed=$(grep -v '^#' "$OMARCHY_PATH/default/spherie/allowed-globals" | grep -v '^$' | paste -sd,)
+runtime="$XDG_RUNTIME_DIR/spherie"
+mkdir -p -m 700 "$runtime"
+
+exec waypipe --no-gpu \
+  --title-prefix "[$NAME] " \
+  --allow-globals "$allowed" \
+  --clipboard-owner "$NAME" \
+  --clipboard-arm "$runtime/clipboard-arm" \
+  -s "$runtime/$NAME.sock" client
